@@ -1,17 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default () => (
   <div>
     <header>
-      <img
-        css="height: 5rem"
-        src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/bg-communs.svg"
-      />
-      <h1>Révolutionner la mobilité via les communs</h1>
+      <h1>FabMob France</h1>
       <p>
-        L'association pour construire les nouvelles mobilités en réunissant tous
-        les acteurs autour de <mark>communs open source</mark>
+        Une association loi 1901 basée à Paris, présente dans toute le pays pour
+        construire les nouvelles mobilités en réunissant tous les acteurs autour
+        de <mark>communs open source</mark>
       </p>
       <br />
       <p>
@@ -51,9 +47,9 @@ let Présentation = () => (
           en association, soutenue notamment par l'ADEME.
         </p>
         <p>
-          <Link to="france">
+          <a href="#">
             <em>Découvrir↗</em>
-          </Link>
+          </a>
         </p>
       </aside>
       <aside>

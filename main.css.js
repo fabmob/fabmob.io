@@ -115,6 +115,11 @@ header a strong {
   margin-right: 1rem;
 }
 
+header p {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
 header nav img {
   margin: 1rem 0;
 }
@@ -438,4 +443,4 @@ blockquote footer {
 }
 
 /* Custom styles */
-`;
+`
