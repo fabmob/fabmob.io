@@ -1,4 +1,5 @@
 /* MVP.css v1.4 - https://github.com/andybrewer/mvp */
+export default `
 
 :root {
   --border-radius: 5px;
@@ -437,4 +438,4 @@ blockquote footer {
 }
 
 /* Custom styles */
-
+`;

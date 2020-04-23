@@ -1,7 +1,8 @@
 import React from "react";
+import css from "./main.css.js";
 
 export default () => (
-  <div>
+  <div css={css}>
     <div css={``}>
       <header>
         <nav
