@@ -55,7 +55,7 @@ body {
   line-height: var(--line-height);
   margin: 0;
   overflow-x: hidden;
-  padding: 1rem 0;
+  padding: 0;
 }
 
 footer,
@@ -135,7 +135,7 @@ nav {
   display: flex;
   font-weight: bold;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 nav ul {
