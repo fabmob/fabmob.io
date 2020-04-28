@@ -7,6 +7,8 @@ import Footer from './Footer'
 import Sidewalks from './Sidewalks'
 import France from './France'
 import FranceEn from './France.en'
+import Québec from './Québec'
+import QuébecEn from './Québec.en'
 import Accueil from './Accueil'
 import AccueilEn from './Accueil.en'
 
@@ -18,14 +20,17 @@ const Container = () => (
 		<Router>
 			<Header />
 			<Switch>
-				<Route path="/québec">
-					<div>A venir ! </div>
-				</Route>
 				<Route path="/france">
 					<France />
 				</Route>
 				<Route path="/en/france">
 					<FranceEn />
+				</Route>
+				<Route path="/québec">
+					<Québec />
+				</Route>
+				<Route path="/en/québec">
+					<QuébecEn />
 				</Route>
 				<Route path="/sidewalks">
 					<Sidewalks />
