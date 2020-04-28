@@ -26,6 +26,9 @@ export default () => (
 				ul > li > a {
 					color: var(--color);
 				}
+				.emoji {
+					margin: 0;
+				}
 			`}
 		>
 			<Link to="/">

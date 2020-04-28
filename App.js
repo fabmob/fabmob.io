@@ -20,29 +20,31 @@ const Container = () => (
 				</Route>
 				<Route
 					path="/france"
-					render={(props) => {
-						// look for some param in the query string...
-						const en =
-							new URLSearchParams(props.location.search).get('lang') === 'en'
-						console.log('en', props)
-						let C
-						if (en) {
-							C = require('./France.en').default
-						} else {
-							C = require('./France').default
-						}
-						return <C />
-					}}
+					render={(props) => <I18n {...{ ...props, component: 'France' }} />}
 				/>
 				<Route path="/sidewalks">
 					<Sidewalks />
 				</Route>
-				<Route path="/">
-					<Accueil />
-				</Route>
+				<Route
+					path="/"
+					render={(props) => <I18n {...{ ...props, component: 'Acueil' }} />}
+				/>
 			</Switch>
 			<Footer />
 		</Router>
 	</div>
 )
+const I18n = ({ component, ...props }) => {
+	console.log('C', component)
+	const en = new URLSearchParams(props.location.search).get('lang') === 'en'
+	let C
+	if (en) {
+		const name = `./${component}.en`
+		C = require(name).default
+	} else {
+		const name = `./${component}`
+		C = require(name).default
+	}
+	return <C {...props} />
+}
 export default Container
