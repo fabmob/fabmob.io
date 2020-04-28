@@ -34,6 +34,9 @@ export default () => (
 					<a href="#faq">FAQ</a>
 				</li>
 				<li>
+					<Link to="/sidewalks">Sidewalks</Link>
+				</li>
+				<li>
 					<LangSwitch />
 				</li>
 			</ul>
