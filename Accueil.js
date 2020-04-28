@@ -35,7 +35,10 @@ let Présentation = () => (
 		<section
 			css={`
 				img {
-					width: 12rem;
+					max-height: 12rem;
+					max-width: initial;
+					margin: 0 auto;
+					display: block;
 				}
 			`}
 		>
@@ -47,7 +50,7 @@ let Présentation = () => (
 				</p>
 			</header>
 			<aside>
-				<img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"></img>
+				<img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&q=80"></img>
 				<h3> FabMob France</h3>
 				<p>
 					Premier membre du réseau, la Fabrique des Mobilités s'est constituée
@@ -60,7 +63,7 @@ let Présentation = () => (
 				</p>
 			</aside>
 			<aside>
-				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"></img>
+				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&q=60"></img>
 				<h3> FabMob Québec</h3>
 				<p>
 					La Fabrique des Mobilités s'est ensuite implantée au Québec, notamment
