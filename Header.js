@@ -28,7 +28,7 @@ export default () => (
 					<Link to="/france">France</Link>
 				</li>
 				<li>
-					<Link to="/québec">France</Link>
+					<Link to="/québec">Québec</Link>
 				</li>
 				<li>
 					<a href="#faq">FAQ</a>

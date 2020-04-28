@@ -15,6 +15,15 @@ module.exports = {
 				type: 'json', // Required by Webpack v4
 				use: 'yaml-loader',
 			},
+			{
+				test: /\.(jpe?g|png|svg)$/,
+				use: {
+					loader: 'file-loader',
+					options: {
+						name: 'images/[name].[ext]',
+					},
+				},
+			},
 
 			{
 				test: /\.js$/,
