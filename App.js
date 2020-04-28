@@ -3,7 +3,6 @@ import css from './main.css.js'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import France from './France'
 import Header from './Header'
 import Footer from './Footer'
 import Sidewalks from './Sidewalks'
@@ -17,11 +16,24 @@ const Container = () => (
 			<Header />
 			<Switch>
 				<Route path="/québec">
-					<France />
+					<div>A venir ! </div>
 				</Route>
-				<Route path="/france">
-					<France />
-				</Route>
+				<Route
+					path="/france"
+					render={(props) => {
+						// look for some param in the query string...
+						const en =
+							new URLSearchParams(props.location.search).get('lang') === 'en'
+						console.log('en', props)
+						let C
+						if (en) {
+							C = require('./France.en').default
+						} else {
+							C = require('./France').default
+						}
+						return <C />
+					}}
+				/>
 				<Route path="/sidewalks">
 					<Sidewalks />
 				</Route>

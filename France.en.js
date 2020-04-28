@@ -1,33 +1,27 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
-export default () => {
-	return (
-		<div>
-			<header>
-				<img
-					css="height: 5rem"
-					src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/bg-communs.svg"
-				/>
-				<h1>Révolutionner la mobilité via les communs</h1>
-				<p>
-					L'association pour construire les nouvelles mobilités en réunissant
-					tous les acteurs autour de <mark>communs open source</mark>
-				</p>
-				<br />
-				<p>
-					<a href="./mvp.html" target="_blank">
-						<i>Découvrir</i>
-					</a>
-					<a href="#" target="_blank">
-						<b>Nous rejoindre</b>
-					</a>
-				</p>
-			</header>
-			<Présentation />
-		</div>
-	)
-}
+export default () => (
+	<div>
+		<header>
+			<h1>FabMob France in English yeah ! </h1>
+			<p>
+				Une association loi 1901 basée à Paris, présente dans toute le pays pour
+				construire les nouvelles mobilités en réunissant tous les acteurs autour
+				de <mark>communs open source</mark>
+			</p>
+			<br />
+			<p>
+				<a href="./mvp.html" target="_blank">
+					<i>Découvrir</i>
+				</a>
+				<a href="#" target="_blank">
+					<b>Nous rejoindre</b>
+				</a>
+			</p>
+		</header>
+		<Présentation />
+	</div>
+)
 
 let Présentation = () => (
 	<main>
@@ -53,9 +47,9 @@ let Présentation = () => (
 					en association, soutenue notamment par l'ADEME.
 				</p>
 				<p>
-					<Link to="france">
+					<a href="#">
 						<em>Découvrir↗</em>
-					</Link>
+					</a>
 				</p>
 			</aside>
 			<aside>
