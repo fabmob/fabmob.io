@@ -1,0 +1,12 @@
+- name: Paris
+  country: 🇫🇷
+  code: https://github.com/laem/trottoirs-de-paris
+  map: http://laem.github.io/trottoirs-de-paris
+- name: Torronto
+  country: 🇨🇦
+  code: https://github.com/sharedstreets/sidewalkwidths-toronto
+  map: https://sharedstreets.github.io/sidewalkwidths-toronto
+- name: New York
+  country: 🇺🇸
+  map: https://www.sidewalkwidths.nyc/
+  code: https://github.com/meliharvey/sidewalkwidths-nyc
