@@ -87,6 +87,17 @@ section aside {
   padding: 1.25rem;
   width: var(--width-card);
 }
+section aside header {
+ margin-bottom: .3rem;
+ padding: 0;
+}
+
+section aside a em {
+
+padding: .3rem 1rem
+}
+
+
 
 section aside:hover {
   box-shadow: var(--box-shadow) var(--color-bg-secondary);

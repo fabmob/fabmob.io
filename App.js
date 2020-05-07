@@ -11,6 +11,8 @@ import Québec from './Québec'
 import QuébecEn from './Québec.en'
 import Accueil from './Accueil'
 import AccueilEn from './Accueil.en'
+import Blog from './Blog'
+import Article from './Article'
 
 // is this a good idea ? Would it be quicker for the user to load as .css in index.html ?
 const GlobalStyle = createGlobalStyle`${css}`
@@ -37,6 +39,12 @@ const Container = () => (
 				</Route>
 				<Route path="/en/">
 					<AccueilEn />
+				</Route>
+				<Route path="/blog">
+					<Blog />
+				</Route>
+				<Route path="blog/:id">
+					<Article />
 				</Route>
 				<Route path="/">
 					<Accueil />

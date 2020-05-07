@@ -31,7 +31,7 @@ export default () => (
 					<Link to="/québec">Québec</Link>
 				</li>
 				<li>
-					<a href="#faq">FAQ</a>
+					<a href="/blog">Blog</a>
 				</li>
 				<li>
 					<Link to="/sidewalks">Sidewalks</Link>
