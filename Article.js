@@ -12,7 +12,7 @@ export const imageResizer = (size) => (src) =>
 
 export default ({}) => {
 	const { id } = useParams(),
-		article = articles[id],
+		article = articles.find((a) => a.id === id),
 		{
 			attributes: { image },
 			body,

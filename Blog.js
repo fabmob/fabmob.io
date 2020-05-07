@@ -65,9 +65,9 @@ export default ({}) => (
 						`}
 					>
 						<header>
-							<a href={'/' + a.id}>
+							<Link to={'/blog/' + a.id}>
 								<h2>{a.attributes.titre}</h2>
-							</a>
+							</Link>
 							<small>
 								{a.attributes.date.toLocaleString(undefined, {
 									weekday: 'long',
@@ -77,14 +77,14 @@ export default ({}) => (
 								})}
 							</small>
 						</header>
-						<Link to={'/' + a.id}>
+						<Link to={'/blog/' + a.id}>
 							<img
 								css="width: 75%; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
 								src={imageResizer('m')(a.attributes.image)}
 							></img>
 						</Link>
 						<p>{a.attributes.résumé} </p>
-						<Link to={'/' + a.id}>
+						<Link to={'/blog/' + a.id}>
 							<em>Lire</em>
 						</Link>
 					</aside>

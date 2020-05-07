@@ -40,11 +40,11 @@ const Container = () => (
 				<Route path="/en/">
 					<AccueilEn />
 				</Route>
+				<Route path="/blog/:id">
+					<Article />
+				</Route>
 				<Route path="/blog">
 					<Blog />
-				</Route>
-				<Route path="blog/:id">
-					<Article />
 				</Route>
 				<Route path="/">
 					<Accueil />
