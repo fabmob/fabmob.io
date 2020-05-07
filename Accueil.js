@@ -37,8 +37,9 @@ let Présentation = () => (
 				img {
 					max-height: 12rem;
 					max-width: initial;
-					margin: 0 auto;
+					margin: 2rem auto;
 					display: block;
+					border-radius: 0.6rem;
 				}
 			`}
 		>
@@ -63,7 +64,7 @@ let Présentation = () => (
 				</p>
 			</aside>
 			<aside>
-				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&q=60"></img>
+				<img src="https://imgur.com/HRpDml8.jpg"></img>
 				<h3> FabMob Québec</h3>
 				<p>
 					La Fabrique des Mobilités s'est ensuite implantée au Québec, notamment
