@@ -86,6 +86,9 @@ section aside {
   margin: 1rem;
   padding: 1.25rem;
   width: var(--width-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 section aside header {
  margin-bottom: .3rem;

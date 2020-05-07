@@ -76,6 +76,19 @@ let Présentation = () => (
 					</a>
 				</p>
 			</aside>
+			<aside>
+				<img src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"></img>
+				<h3>Votre FabMob</h3>
+				<p>
+					La Fabrique des mobilités est elle-même un commun bien documenté, et
+					nous vous aidons à vous en saisir.
+				</p>
+				<p>
+					<a href="#">
+						<em>Répliquer↗</em>
+					</a>
+				</p>
+			</aside>
 		</section>
 	</main>
 )
