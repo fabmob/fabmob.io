@@ -17,20 +17,44 @@ export default () => {
 				</p>
 				<br />
 				<p>
-					<a href="./mvp.html" target="_blank">
+					<a href="#découvrir">
 						<i>Découvrir</i>
 					</a>
-					<a href="#" target="_blank">
-						<b>Nous rejoindre</b>
+					<a href="/action">
+						<b>Passer à l'action</b>
 					</a>
 				</p>
 			</header>
-			<Présentation />
+			<Découvrir />
+			<Fabriques />
 		</div>
 	)
 }
 
-let Présentation = () => (
+let Découvrir = () => (
+	<main>
+		<section
+			css={`
+				img {
+					max-height: 12rem;
+					max-width: initial;
+					margin: 2rem auto;
+					display: block;
+					border-radius: 0.6rem;
+				}
+			`}
+		>
+			<header id="découvrir">
+				<h2>Que fait la fabrique ?</h2>
+				<h3>Collectivités</h3>
+				<p>Du point de vue des collectivités</p>
+				<h3>Entreprises</h3>
+				<p>Du point de vue des entreprises</p>
+			</header>
+		</section>
+	</main>
+)
+let Fabriques = () => (
 	<main>
 		<section
 			css={`
