@@ -10,10 +10,9 @@ export default () => {
 					css="height: 5rem"
 					src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/bg-communs.svg"
 				/>
-				<h1>Révolutionner la mobilité via les communs</h1>
+				<h1>Accélerons votre projet de mobilité durable</h1>
 				<p>
-					L'association pour construire les nouvelles mobilités en réunissant
-					tous les acteurs autour de <mark>communs open source</mark>
+					La radicalité des GAFA, mais partagée dans une direction collective.
 				</p>
 				<br />
 				<p>
@@ -45,11 +44,84 @@ let Découvrir = () => (
 			`}
 		>
 			<header id="découvrir">
-				<h2>Que fait la fabrique ?</h2>
-				<h3>Collectivités</h3>
-				<p>Du point de vue des collectivités</p>
-				<h3>Entreprises</h3>
-				<p>Du point de vue des entreprises</p>
+				<div
+					css={`
+						> ul {
+							display: flex;
+							list-style-type: none;
+							justify-content: space-evenly;
+						}
+						> ul > li {
+							margin: 1rem;
+						}
+					`}
+				>
+					<ul css="font-weight: bold; color: blue">
+						<li>Collectivité</li>
+						<li>Entreprise</li>
+					</ul>
+					<ul css="background: #ffa5008c">
+						<li>Des retours sur nouvelle solution de mobilité 🛴</li>
+						<li>Des retours sur l'adéquation solution-problème</li>
+					</ul>
+					<ul css="background: #0000ff59">
+						<li>Plusieurs réseaux de covoiturage 🚗👥</li>
+						<li>Inciter le covoiturage</li>
+					</ul>
+
+					<p>
+						[On peut intégrer ces éléments dans le tableau ci-dessus. A gauche,
+						le point de vue de la collectivité, à droite, de l'entreprise; au
+						centre (reste à inventer), le commun, notre périmètre d'action.]
+						Aller + vite au marché grâce à l’Open Source & Coopétition grâce à
+						notre réseau international d’acteurs hétérogènes des retours
+						d’utilisateurs d’une nouvelle solution de mobilité mieux compris mes
+						problèmes, fait un diagnostic lister et détailler mes ressources
+						(territoire open source) produire des données nouvelles (traceur,
+						open data cam) rassembler une communauté d’intérêt et identifier ses
+						besoins (covoit, autop, …) rassembler des acteurs en coopétition
+						pour identifi
+					</p>
+				</div>
+				<br />
+				<br />
+
+				<h2>Comment ?</h2>
+				<ul
+					css={`
+						display: flex;
+						justify-content: center;
+						list-style-type: none;
+						li {
+							margin: 1rem;
+							padding: 0.6rem 1rem;
+							border: 1px solid black;
+						}
+					`}
+				>
+					<li>De l'expertise métier</li>
+					<li>Des territoires d'expérimentation</li>
+					<li>Des composants utilisables</li>
+					<li>Financer un nouveau projet</li>
+				</ul>
+				<ul
+					css={`
+						color: green;
+						display: flex;
+						justify-content: center;
+						list-style-type: none;
+						li {
+							margin: 1rem;
+							padding: 0.6rem 1rem;
+							border: 1px solid green;
+						}
+					`}
+				>
+					<li>Exemple 1</li>
+					<li>Exemple 2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
 			</header>
 		</section>
 	</main>
@@ -70,8 +142,8 @@ let Fabriques = () => (
 			<header>
 				<h2>Un concept, des fabriques</h2>
 				<p>
-					Le modèle de la fabrique, initié en France, se répliquer dans d'autres
-					pays et domaines
+					Le modèle de la fabrique, initié en France, s'est répliqué dans
+					d'autres pays et domaines
 				</p>
 			</header>
 			<aside>
