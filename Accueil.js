@@ -74,7 +74,7 @@ let Découvrir = () => (
 								<li>
 									<h3>Collectivité</h3>
 								</li>
-								<li>Des retours sur nouvelle solution de mobilité 🛴</li>
+								<li>Des retours sur les nouvelles solutions 🛴</li>
 								<li>Inciter le covoiturage</li>
 							</ul>
 						</li>
