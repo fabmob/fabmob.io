@@ -64,8 +64,10 @@ let Découvrir = () => (
 							list-style-type: none;
 							height: 12rem;
 						}
-						img {
-							margin: 0 0.1rem;
+						> ul > li > ul > li {
+							display: flex;
+							align-items: center;
+							height: 2rem;
 						}
 					`}
 				>
@@ -74,8 +76,10 @@ let Découvrir = () => (
 							<ul
 								css={`
 									background: #9dcdd780;
-									text-align: right;
 									margin-right: -1rem;
+									li {
+										justify-content: end;
+									}
 								`}
 							>
 								<li>
@@ -90,7 +94,23 @@ let Découvrir = () => (
 							<ul
 								css={`
 									background: #97b83780;
-									text-align: center;
+									li {
+										display: flex;
+										justify-content: start;
+										align-items: center;
+										padding-left: 1rem;
+									}
+
+									img {
+										margin: 0 0.1rem;
+										background: white;
+										padding: 0.3rem;
+										border-radius: 1rem;
+										margin-left: -0.7rem;
+									}
+									li > span {
+										margin-right: 1rem;
+									}
 								`}
 							>
 								<li>
@@ -112,8 +132,11 @@ let Découvrir = () => (
 							<ul
 								css={`
 									background: #ffe00080;
-									text-align: left;
+
 									margin-left: -1rem;
+									li {
+										justify-content: start;
+									}
 								`}
 							>
 								<li>
