@@ -38,7 +38,7 @@ let Présentation = () => (
 		>
 			<header>
 				<p>
-					En 2 minutes, créez un compte unique qui vous donnera accès à toute la
+					En 2 minutes, accédez à la galaxie FabMob en créant un compte unique
 					galaxie FabMob
 				</p>
 

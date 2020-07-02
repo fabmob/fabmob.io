@@ -49,38 +49,79 @@ let Découvrir = () => (
 						> ul {
 							display: flex;
 							list-style-type: none;
-							justify-content: space-evenly;
+							justify-content: space-around;
 						}
 						> ul > li {
 							margin: 1rem;
 						}
+						> ul > li > ul {
+							border-radius: 1rem;
+							padding: 0.6rem 2rem;
+							list-style-type: none;
+							height: 12rem;
+						}
 					`}
 				>
-					<ul css="font-weight: bold; color: blue">
-						<li>Collectivité</li>
-						<li>Entreprise</li>
-					</ul>
-					<ul css="background: #ffa5008c">
-						<li>Des retours sur nouvelle solution de mobilité 🛴</li>
-						<li>Des retours sur l'adéquation solution-problème</li>
-					</ul>
-					<ul css="background: #0000ff59">
-						<li>Plusieurs réseaux de covoiturage 🚗👥</li>
-						<li>Inciter le covoiturage</li>
+					<ul>
+						<li>
+							<ul
+								css={`
+									background: #9dcdd780;
+
+									text-align: right;
+								`}
+							>
+								<li>
+									<h3>Collectivité</h3>
+								</li>
+								<li>Des retours sur nouvelle solution de mobilité 🛴</li>
+								<li>Inciter le covoiturage</li>
+							</ul>
+						</li>
+						<li css="width: 16rem">
+							<ul
+								css={`
+									background: #97b83780;
+									text-align: center;
+								`}
+							>
+								<li>
+									<h3>Communs</h3>
+								</li>
+								<li>Compte Mobilité</li>
+								<li>Registre de preuve de covoiturage</li>
+							</ul>
+						</li>
+						<li>
+							<ul
+								css={`
+									background: #ffe00080;
+
+									text-align: left;
+								`}
+							>
+								<li>
+									<h3>Entreprise</h3>
+								</li>
+								<li>Des retours sur l'adéquation solution-problème</li>
+								<li>Plusieurs réseaux de covoiturage 🚗👥</li>
+							</ul>
+						</li>
 					</ul>
 
 					<p>
-						[On peut intégrer ces éléments dans le tableau ci-dessus. A gauche,
-						le point de vue de la collectivité, à droite, de l'entreprise; au
-						centre (reste à inventer), le commun, notre périmètre d'action.]
-						Aller + vite au marché grâce à l’Open Source & Coopétition grâce à
-						notre réseau international d’acteurs hétérogènes des retours
-						d’utilisateurs d’une nouvelle solution de mobilité mieux compris mes
-						problèmes, fait un diagnostic lister et détailler mes ressources
-						(territoire open source) produire des données nouvelles (traceur,
-						open data cam) rassembler une communauté d’intérêt et identifier ses
-						besoins (covoit, autop, …) rassembler des acteurs en coopétition
-						pour identifi
+						{' '}
+						Notes: [On peut intégrer ces éléments dans le tableau ci-dessus. A
+						gauche, le point de vue de la collectivité, à droite, de
+						l'entreprise; au centre (reste à inventer), le commun, notre
+						périmètre d'action.] Aller + vite au marché grâce à l’Open Source &
+						Coopétition grâce à notre réseau international d’acteurs hétérogènes
+						des retours d’utilisateurs d’une nouvelle solution de mobilité mieux
+						compris mes problèmes, fait un diagnostic lister et détailler mes
+						ressources (territoire open source) produire des données nouvelles
+						(traceur, open data cam) rassembler une communauté d’intérêt et
+						identifier ses besoins (covoit, autop, …) rassembler des acteurs en
+						coopétition pour identifi
 					</p>
 				</div>
 				<br />
