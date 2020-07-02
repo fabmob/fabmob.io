@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from './Lang'
+import Emoji from './Emoji'
 
 export default () => {
 	return (
@@ -50,15 +51,21 @@ let Découvrir = () => (
 							display: flex;
 							list-style-type: none;
 							justify-content: space-around;
+							padding: 0;
+							width: 90%;
+							margin: 0 auto;
 						}
 						> ul > li {
-							margin: 1rem;
+							width: 40%; /*oversized*/
 						}
 						> ul > li > ul {
 							border-radius: 1rem;
 							padding: 0.6rem 2rem;
 							list-style-type: none;
 							height: 12rem;
+						}
+						img {
+							margin: 0 0.1rem;
 						}
 					`}
 				>
@@ -67,18 +74,19 @@ let Découvrir = () => (
 							<ul
 								css={`
 									background: #9dcdd780;
-
 									text-align: right;
+									margin-right: -1rem;
 								`}
 							>
 								<li>
 									<h3>Collectivité</h3>
 								</li>
-								<li>Des retours sur les nouvelles solutions 🛴</li>
+								<li>Moderniser</li>
 								<li>Inciter le covoiturage</li>
+								<li>Comprendre les déplacements</li>
 							</ul>
 						</li>
-						<li css="width: 16rem">
+						<li css="">
 							<ul
 								css={`
 									background: #97b83780;
@@ -88,23 +96,32 @@ let Découvrir = () => (
 								<li>
 									<h3>Communs</h3>
 								</li>
-								<li>Compte Mobilité</li>
-								<li>Registre de preuve de covoiturage</li>
+								<li>
+									<Emoji emoji="🏛️⚙️" />
+									Territoires Open Source
+								</li>
+								<li>
+									<Emoji emoji="🚗👥" /> Registre de covoiturage
+								</li>
+								<li>
+									<Emoji emoji="📱🗺" /> Compte Mobilité
+								</li>
 							</ul>
 						</li>
 						<li>
 							<ul
 								css={`
 									background: #ffe00080;
-
 									text-align: left;
+									margin-left: -1rem;
 								`}
 							>
 								<li>
 									<h3>Entreprise</h3>
 								</li>
-								<li>Des retours sur l'adéquation solution-problème</li>
-								<li>Plusieurs réseaux de covoiturage 🚗👥</li>
+								<li>Innovations</li>
+								<li>Réseaux de covoiturage en silo</li>
+								<li>Collecte des données utilisateur</li>
 							</ul>
 						</li>
 					</ul>
