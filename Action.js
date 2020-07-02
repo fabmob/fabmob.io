@@ -37,7 +37,6 @@ let Présentation = () => (
 			`}
 		>
 			<header>
-				<h2>Nos outils</h2>
 				<p>
 					En 2 minutes, créez un compte unique qui vous donnera accès à toute la
 					galaxie FabMob
