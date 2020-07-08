@@ -48,9 +48,6 @@ export default () => (
 				<Link to="/blog">Blog</Link>
 			</li>
 			<li>
-				<Link to="/sidewalks">Sidewalks</Link>
-			</li>
-			<li>
 				<LangSwitch />
 			</li>
 		</ul>

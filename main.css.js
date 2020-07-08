@@ -18,7 +18,7 @@ export default `
   --hover-brightness: 1.2;
   --justify-important: center;
   --justify-normal: left;
-  --line-height: 150%;
+  --line-height: 130%;
   --width-card: 285px;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
@@ -192,6 +192,7 @@ ul li {
 p {
   margin: 0.75rem 0;
   padding: 0;
+
 }
 
 pre {
