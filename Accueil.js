@@ -39,6 +39,10 @@ export default () => {
 						ul {
 							padding: 0;
 							list-style-type: none;
+							li {
+								display: inline-block;
+								margin: 1rem;
+							}
 						}
 					`}
 				>
@@ -46,6 +50,19 @@ export default () => {
 						<li>
 							<a href="https://twitter.com/fab_mob" title="twitter">
 								<Emoji emoji="🐦" />
+							</a>
+						</li>
+						<li>
+							<a href="https://fr-fr.facebook.com/FABM0B" title="facebook">
+								<Emoji emoji="📘" />
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.linkedin.com/company/fabmob/"
+								title="linkedin"
+							>
+								<Emoji emoji="💼" />
 							</a>
 						</li>
 					</ul>
