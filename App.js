@@ -2,7 +2,7 @@ import css from './main.css.js'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import Header from './Header'
+import Nav from './Nav'
 import Footer from './Footer'
 import Sidewalks from './Sidewalks'
 import France from './France'
@@ -20,7 +20,7 @@ const Container = () => (
 	<div>
 		<GlobalStyle />
 		<Router>
-			<Header />
+			<Nav />
 			<Switch>
 				<Route path="/france">
 					<France />
@@ -50,7 +50,6 @@ const Container = () => (
 					<Accueil />
 				</Route>
 			</Switch>
-			<Footer />
 		</Router>
 	</div>
 )

@@ -143,50 +143,8 @@ section header {
   width: 100%;
 }
 
-/* Nav */
-nav {
-  align-items: center;
-  display: flex;
-  font-weight: bold;
-  justify-content: space-between;
-  margin-bottom: 0rem;
-}
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
 
-nav ul li {
-  display: inline-block;
-  margin: 0 0.5rem;
-  position: relative;
-  text-align: left;
-}
-
-/* Nav Dropdown */
-nav ul li:hover ul {
-  display: block;
-}
-
-nav ul li ul {
-  background: var(--color-bg);
-  border: 1px solid var(--color-bg-secondary);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow) var(--color-shadow);
-  display: none;
-  height: auto;
-  padding: 0.5rem 1rem;
-  position: absolute;
-  right: 0;
-  top: 1.7rem;
-  width: auto;
-}
-
-nav ul li ul li,
-nav ul li ul li a {
-  display: block;
-}
 
 /* Typography */
 code,
