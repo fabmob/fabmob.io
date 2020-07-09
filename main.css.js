@@ -183,6 +183,7 @@ h6 {
 mark {
   padding: 0.1rem;
 }
+ul {list-style-type:none;}
 
 ol li,
 ul li {

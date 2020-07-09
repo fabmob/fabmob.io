@@ -12,6 +12,7 @@ import QuébecEn from './Québec.en'
 import Accueil from './Accueil'
 import AccueilEn from './Accueil.en'
 import Blog from './Blog'
+import Communs from './Communs'
 import Action from './Action'
 import Article from './Article'
 
@@ -46,6 +47,9 @@ const Container = () => (
 				</Route>
 				<Route path="/blog">
 					<Blog />
+				</Route>
+				<Route path="/communs">
+					<Communs />
 				</Route>
 				<Route path="/participer">
 					<Action />

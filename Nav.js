@@ -45,7 +45,7 @@ export default () => (
 				<Link to="/fabriques">Écosystème</Link>
 			</li>
 			<li>
-				<Link to="/fabriques">Communs</Link>
+				<Link to="/communs">Communs</Link>
 			</li>
 			<li>
 				<Link to="/fabriques">Événements</Link>
