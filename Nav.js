@@ -1,6 +1,7 @@
 import React from 'react'
 import Emoji from './Emoji'
 import { LangSwitch, Link } from './Lang'
+import colors from './colors'
 
 export default () => (
 	<nav
@@ -29,7 +30,7 @@ export default () => (
 				display: block;
 			}
 			ul > li > a {
-				color: var(--color);
+				color: black;
 			}
 			.emoji {
 				margin: 0;
@@ -37,8 +38,22 @@ export default () => (
 		`}
 	>
 		<ul>
-			<li>
+			<li css="position: relative">
 				<Link to="/idée">L'idée</Link>
+				<span
+					css={`
+						background: ${colors.jaune};
+						color: black;
+						border-radius: 1rem;
+						right: -0.3rem;
+						top: -0.8rem;
+						font-size: 70%;
+						padding: 0.2rem 0.6rem;
+						position: relative;
+					`}
+				>
+					1
+				</span>
 			</li>
 			<li>
 				<Link to="/fabriques">Les fabriques</Link>
