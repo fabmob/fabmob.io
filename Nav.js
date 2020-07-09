@@ -19,7 +19,7 @@ export default () => (
 			}
 			ul > li {
 				display: inline-block;
-				margin: 0.4rem 1rem;
+				margin: 0.4rem 0.6rem;
 				position: relative;
 				text-align: left;
 				text-transform: uppercase;
