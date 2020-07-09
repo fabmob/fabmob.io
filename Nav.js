@@ -19,7 +19,7 @@ export default () => (
 			}
 			ul > li {
 				display: inline-block;
-				margin: 0 1rem;
+				margin: 0.4rem 1rem;
 				position: relative;
 				text-align: left;
 				text-transform: uppercase;
@@ -39,34 +39,52 @@ export default () => (
 	>
 		<ul>
 			<li css="position: relative">
-				<Link to="/idée">L'idée</Link>
-				<span
-					css={`
-						background: ${colors.jaune};
-						color: black;
-						border-radius: 1rem;
-						right: -0.3rem;
-						top: -0.8rem;
-						font-size: 70%;
-						padding: 0.2rem 0.6rem;
-						position: relative;
-					`}
-				>
-					1
-				</span>
+				<Link to="/philosophie">Philosophie</Link>
 			</li>
 			<li>
-				<Link to="/fabriques">Les fabriques</Link>
+				<Link to="/fabriques">Écosystème</Link>
+			</li>
+			<li>
+				<Link to="/fabriques">Communs</Link>
+			</li>
+			<li>
+				<Link to="/fabriques">Événements</Link>
+				<Notifications count={2} />
 			</li>
 			<li>
 				<Link to="/blog">Blog</Link>
+				<Notifications count={2} />
 			</li>
-			<li>
-				<a href="https://wiki.lafabriquedesmobilites.fr/">Wiki ↗</a>
+			<li
+				css={`
+					padding: 0.2rem 0.3rem;
+					a {
+						color: ${colors.bleu} !important;
+					}
+				`}
+			>
+				<Link to="/participer">Participer</Link>
 			</li>
 			<li>
 				<LangSwitch />
 			</li>
 		</ul>
 	</nav>
+)
+
+const Notifications = ({ count }) => (
+	<span
+		css={`
+			background: ${colors.jaune};
+			color: black;
+			border-radius: 1rem;
+			right: -0.2rem;
+			top: -0.8rem;
+			font-size: 60%;
+			padding: 0.2rem 0.6rem;
+			position: relative;
+		`}
+	>
+		{count}
+	</span>
 )

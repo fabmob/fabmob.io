@@ -65,6 +65,14 @@ export default () => {
 								<Emoji emoji="💼" />
 							</a>
 						</li>
+						<li>
+							<a
+								href="mailto:lafabriquedesmobilites@gmail.com"
+								title="courriel"
+							>
+								<Emoji emoji="✉" />
+							</a>
+						</li>
 					</ul>
 				</footer>
 			</header>
