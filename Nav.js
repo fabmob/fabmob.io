@@ -7,7 +7,12 @@ export default () => (
 	<nav
 		css={`
 			font-weight: bold;
-			margin: 1rem;
+			margin: 0 auto;
+			max-width: 60rem;
+			padding: 1.6rem 0;
+
+			background: #079992;
+
 			ul {
 				justify-content: center;
 				flex-wrap: wrap;
@@ -30,7 +35,7 @@ export default () => (
 				display: block;
 			}
 			ul > li > a {
-				color: black;
+				color: white;
 			}
 			.emoji {
 				margin: 0;
