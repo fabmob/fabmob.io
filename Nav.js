@@ -18,9 +18,11 @@ export default () => (
 			}
 			ul > li {
 				display: inline-block;
-				margin: 0 0.5rem;
+				margin: 0 1rem;
 				position: relative;
 				text-align: left;
+				text-transform: uppercase;
+				font-size: 130%;
 			}
 			/* Nav Dropdown */
 			ul li:hover ul {
@@ -36,16 +38,16 @@ export default () => (
 	>
 		<ul>
 			<li>
-				<a href="https://wiki.lafabriquedesmobilites.fr/">Wiki ↗</a>
+				<Link to="/idée">L'idée</Link>
 			</li>
 			<li>
-				<Link to="/france">France</Link>
-			</li>
-			<li>
-				<Link to="/québec">Québec</Link>
+				<Link to="/fabriques">Les fabriques</Link>
 			</li>
 			<li>
 				<Link to="/blog">Blog</Link>
+			</li>
+			<li>
+				<a href="https://wiki.lafabriquedesmobilites.fr/">Wiki ↗</a>
 			</li>
 			<li>
 				<LangSwitch />
