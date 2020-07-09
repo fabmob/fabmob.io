@@ -23,7 +23,7 @@ export default () => (
 				position: relative;
 				text-align: left;
 				text-transform: uppercase;
-				font-size: 130%;
+				font-size: 110%;
 			}
 			/* Nav Dropdown */
 			ul li:hover ul {
@@ -39,7 +39,7 @@ export default () => (
 	>
 		<ul>
 			<li css="position: relative">
-				<Link to="/philosophie">Philosophie</Link>
+				<Link to="/à-propos">Philosophie</Link>
 			</li>
 			<li>
 				<Link to="/fabriques">Écosystème</Link>

@@ -52,47 +52,56 @@ export default ({}) => {
 		fetchData()
 	}, [])
 	return (
-		<ul
-			css={`
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: center;
-				align-items: center;
-			`}
-		>
-			{communs.map((commun) => (
-				<li
-					css={`
-						box-shadow: var(--box-shadow) var(--color-bg-secondary);
-						margin: 1rem;
-						width: 100%;
-						padding: 1rem;
-						> ul > li {
-							display: inline-block;
-							border: 1px solid ${colors.jauneVert};
-
+		<section>
+			<header>
+				<h1>Nos communs actifs</h1>
+				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
+					Explorer tous nos communs sur le wiki
+				</a>
+			</header>
+			<ul
+				css={`
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					align-items: center;
+				`}
+			>
+				{communs.map((commun) => (
+					<li
+						css={`
 							box-shadow: var(--box-shadow) var(--color-bg-secondary);
-							padding: 0rem 0.6rem;
-							margin: 0.2rem;
-							line-height: 1.2rem;
-							font-size: 90%;
-							border-radius: 0.3rem;
-						}
-					`}
-				>
-					<a href={commun.fullurl || '#'}>
-						<h2>{commun.title}</h2>
-					</a>
-					{commun.data.Tags && (
-						<ul>
-							{commun.data.Tags.split(',').map((tag) => (
-								<li>{tag}</li>
-							))}
-						</ul>
-					)}
-					<p>{commun.data.shortDescription}</p>
-				</li>
-			))}
-		</ul>
+							border: 1px solid var(--color-bg-secondary);
+							border-radius: var(--border-radius);
+							margin: 1rem;
+							width: 80%;
+							padding: 1rem;
+							> ul > li {
+								display: inline-block;
+								border: 1px solid ${colors.jauneVert};
+								box-shadow: var(--box-shadow) var(--color-bg-secondary);
+								padding: 0rem 0.6rem;
+								margin: 0.2rem;
+								line-height: 1.2rem;
+								font-size: 90%;
+								border-radius: 0.3rem;
+							}
+						`}
+					>
+						<a href={commun.fullurl || '#'}>
+							<h2>{commun.title}</h2>
+						</a>
+						{commun.data.Tags && (
+							<ul>
+								{commun.data.Tags.split(',').map((tag) => (
+									<li>{tag}</li>
+								))}
+							</ul>
+						)}
+						<p>{commun.data.shortDescription}</p>
+					</li>
+				))}
+			</ul>
+		</section>
 	)
 }
