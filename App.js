@@ -11,6 +11,7 @@ import Québec from './Québec'
 import QuébecEn from './Québec.en'
 import Accueil from './Accueil'
 import AccueilEn from './Accueil.en'
+import Action from './Action'
 import Blog from './Blog'
 import Article from './Article'
 
@@ -45,6 +46,9 @@ const Container = () => (
 				</Route>
 				<Route path="/blog">
 					<Blog />
+				</Route>
+				<Route path="/action">
+					<Action />
 				</Route>
 				<Route path="/">
 					<Accueil />
