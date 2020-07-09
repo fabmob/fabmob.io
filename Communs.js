@@ -98,7 +98,9 @@ export default ({}) => {
 								))}
 							</ul>
 						)}
-						<p>{commun.data.shortDescription}</p>
+						{commun.data.shortDescription.trim() !== commun.title && (
+							<p>{commun.data.shortDescription}</p>
+						)}
 					</li>
 				))}
 			</ul>
