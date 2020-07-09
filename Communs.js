@@ -1,6 +1,22 @@
 import React, { useState, useEffect } from 'react'
-const url =
-	'https://wiki.lafabriquedesmobilites.fr/api.php?action=ask&query=[[Category:Commun]][[Modification date::%2B]]|%3FModification date|sort%3DModification date|order%3Ddesc&format=json'
+
+var url = 'https://wiki.lafabriquedesmobilites.fr/api.php'
+
+var params = {
+	action: 'query',
+	generator: 'categorymembers',
+	gcmtitle: 'Category:Commun',
+	gcmsort: 'timestamp',
+	gcmdir: 'desc',
+	format: 'json',
+	prop: 'revisions',
+	rvprop: 'content',
+}
+
+url = url + '?origin=*'
+Object.keys(params).forEach(function (key) {
+	url += '&' + key + '=' + params[key]
+})
 
 export default ({}) => {
 	const [communs, setCommuns] = useState([])
@@ -8,7 +24,12 @@ export default ({}) => {
 		const fetchData = () =>
 			fetch(url)
 				.then((res) => res.json())
-				.then((list) => setCommuns(Object.values(list.query.results)))
+				.then(
+					(list) =>
+						console.log(list) ||
+						setCommuns(Object.values(list.query.categorymembers))
+				)
+				.catch((e) => console.log(e))
 		fetchData()
 	}, [])
 	return (
@@ -29,7 +50,7 @@ export default ({}) => {
 						padding: 1rem;
 					`}
 				>
-					<a href={commun.fullurl}>{commun.fulltext}</a>
+					<a href={commun.fullurl}>{commun.title}</a>
 				</li>
 			))}
 		</ul>
