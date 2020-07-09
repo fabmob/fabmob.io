@@ -110,6 +110,12 @@ section aside img {
   max-width: 100%;
 }
 
+article {
+max-width: 800px;
+
+margin: 0 auto;
+}
+
 /* Headers */
 article header,
 div header,
