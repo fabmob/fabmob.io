@@ -9,6 +9,7 @@
 		"compile": "NODE_ENV=production webpack -p -c webpack.config.js"
 	},
 	"dependencies": {
+		"framer-motion": "^1.11.1",
 		"front-matter": "^3.1.0",
 		"fuse.js": "5.2.3",
 		"raw-loader": "^4.0.1",

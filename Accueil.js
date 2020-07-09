@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from './Lang'
 import Emoji from './Emoji'
+import { motion } from 'framer-motion'
 
 export default () => {
 	return (
@@ -21,12 +22,15 @@ export default () => {
 				`}
 			>
 				<section>
-					<Link to="/">
+					<motion.div
+						animate={{ scale: [1.5, 1] }}
+						transition={{ duration: 0.6, ease: 'easeOut' }}
+					>
 						<img
 							css="width: 10rem; margin: 1rem;"
 							src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
-						></img>
-					</Link>
+						/>
+					</motion.div>
 					<h1>Révolutionner la mobilité via les communs</h1>
 					<p>
 						L'association pour construire les nouvelles mobilités en réunissant
@@ -79,4 +83,3 @@ export default () => {
 		</div>
 	)
 }
-
