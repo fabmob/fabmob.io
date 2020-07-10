@@ -35,12 +35,12 @@ export default () => {
 				>
 					<button
 						css={
-							filter.geo === 'france'
+							filter.géo === 'france'
 								? `background: ${colors.vert} !important`
 								: ''
 						}
 						onClick={() =>
-							setFilter({ geo: filter.geo === 'france' ? null : 'france' })
+							setFilter({ géo: filter.géo === 'france' ? null : 'france' })
 						}
 					>
 						<img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"></img>
@@ -48,12 +48,12 @@ export default () => {
 					</button>
 					<button
 						css={
-							filter.geo === 'québec'
+							filter.géo === 'québec'
 								? `background: ${colors.vert} !important`
 								: ''
 						}
 						onClick={() =>
-							setFilter({ geo: filter.geo === 'québec' ? null : 'québec' })
+							setFilter({ géo: filter.géo === 'québec' ? null : 'québec' })
 						}
 					>
 						<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"></img>
@@ -66,7 +66,7 @@ export default () => {
 	)
 }
 
-let Présentation = () => (
+let Présentation = ({ filter }) => (
 	<main>
 		<section
 			css={`
@@ -89,13 +89,15 @@ let Présentation = () => (
 			<header>
 				<h2>Nos membres</h2>
 			</header>
-			{members.map(({ nom, image, rôle }) => (
-				<aside>
-					<img src={image} title={nom} />
-					<h3>{nom}</h3>
-					<p>{rôle}</p>
-				</aside>
-			))}
+			{members
+				.filter((el) => !filter.géo || el.géo === filter.géo)
+				.map(({ nom, image, rôle }) => (
+					<aside>
+						<img src={image} title={nom} />
+						<h3>{nom}</h3>
+						<p>{rôle}</p>
+					</aside>
+				))}
 		</section>
 	</main>
 )
