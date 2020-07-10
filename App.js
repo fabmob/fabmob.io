@@ -15,6 +15,7 @@ import Blog from './Blog'
 import Communs from './Communs'
 import Action from './Action'
 import Article from './Article'
+import Ecosystem from './Ecosystem'
 import About from './About'
 
 // is this a good idea ? Would it be quicker for the user to load as .css in index.html ?
@@ -51,6 +52,9 @@ const Container = () => (
 				</Route>
 				<Route path="/communs">
 					<Communs />
+				</Route>
+				<Route path="/ecosystem">
+					<Ecosystem />
 				</Route>
 				<route path="/participer">
 					<Action />
