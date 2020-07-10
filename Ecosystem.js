@@ -70,39 +70,32 @@ let Présentation = () => (
 	<main>
 		<section
 			css={`
-				img {
-					width: 12rem;
+				aside {
+					width: 10rem;
+					text-align: center;
+					padding: 1rem;
+				}
+				aside h3 {
+					margin: 0.3rem;
+				}
+				aside img {
+					width: 10rem;
+				}
+				aside p {
+					margin: 0.3rem;
 				}
 			`}
 		>
 			<header>
 				<h2>Nos membres</h2>
 			</header>
-			<aside>
-				<h3> FabMob France</h3>
-				<p>
-					Premier membre du réseau, la Fabrique des Mobilités s'est constituée
-					en association, soutenue notamment par l'ADEME.
-				</p>
-				<p>
-					<a href="#">
-						<em>Découvrir↗</em>
-					</a>
-				</p>
-			</aside>
-			<aside>
-				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"></img>
-				<h3> FabMob Québec</h3>
-				<p>
-					La Fabrique des Mobilités s'est ensuite implantée au Québec, notamment
-					autour des associations Savoir faire linux.
-				</p>
-				<p>
-					<a href="#">
-						<em>Découvrir↗</em>
-					</a>
-				</p>
-			</aside>
+			{members.map(({ nom, image, rôle }) => (
+				<aside>
+					<img src={image} title={nom} />
+					<h3>{nom}</h3>
+					<p>{rôle}</p>
+				</aside>
+			))}
 		</section>
 	</main>
 )
