@@ -8,10 +8,10 @@ export default () => (
 		css={`
 			font-weight: bold;
 			margin: 0 auto;
-			max-width: 60rem;
-			padding: 1.6rem 0;
-
-			background: #079992;
+			width: 100%;
+			padding: 0.6rem 0;
+			box-shadow: var(--box-shadow) var(--color-bg-secondary);
+			border-bottom: 1px solid var(--color-bg-secondary);
 
 			ul {
 				justify-content: center;
@@ -35,7 +35,7 @@ export default () => (
 				display: block;
 			}
 			ul > li > a {
-				color: white;
+				color: black;
 			}
 			.emoji {
 				margin: 0;
