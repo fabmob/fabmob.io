@@ -11,6 +11,25 @@ export default ({ data }) => (
 				margin: 0 auto;
 				padding: 1rem;
 			}
+
+			@media (max-width: 800px) {
+				width: 100%;
+				ul {
+					margin: 0 auto;
+					padding: 1rem;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+				}
+				li {
+					display: inline-block;
+					margin: 0.1rem 0.6rem;
+				}
+				border-bottom: 1px solid #e9e9e9;
+				img {
+					display: none;
+				}
+			}
 		`}
 	>
 		<img

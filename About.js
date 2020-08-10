@@ -3,7 +3,14 @@ import { Link } from './Lang'
 import Page from './Page'
 
 export default () => (
-	<Page nav2={{ problème: 'Le problème', solution: 'La solution' }}>
+	<Page
+		nav2={{
+			problème: 'Le problème',
+			solution: 'La solution',
+			davantage: 'Aller plus loin',
+			encorePlus: 'Encore plus',
+		}}
+	>
 		<header>
 			<h1>A propos de la FabMob</h1>
 			<p>

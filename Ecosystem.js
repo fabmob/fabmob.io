@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import { Link } from './Lang'
 import colors from './colors'
 import members from './members.yaml'
+import Page from './Page'
 
 export default () => {
 	const [filter, setFilter] = useState({})
 	return (
-		<div>
+		<Page nav2={{ membres: 'Nos membres', experts: 'Nos experts' }}>
 			<header>
 				<h1>L'ecosystème FabMob</h1>
 				<p>
@@ -62,7 +63,7 @@ export default () => {
 				</div>
 			</header>
 			<Présentation filter={filter} />
-		</div>
+		</Page>
 	)
 }
 
@@ -88,6 +89,18 @@ let Présentation = ({ filter }) => (
 		>
 			<header>
 				<h2>Nos membres</h2>
+			</header>
+			{members
+				.filter((el) => !filter.géo || el.géo === filter.géo)
+				.map(({ nom, image, rôle }) => (
+					<aside>
+						<img src={image} title={nom} />
+						<h3>{nom}</h3>
+						<p>{rôle}</p>
+					</aside>
+				))}
+			<header>
+				<h2>Les experts</h2>
 			</header>
 			{members
 				.filter((el) => !filter.géo || el.géo === filter.géo)

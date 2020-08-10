@@ -5,9 +5,19 @@ export default ({ children, nav2 }) => (
 	<div
 		css={`
 			display: flex;
+			flex-wrap: wrap;
 		`}
 	>
 		<Nav2 data={nav2} />
-		<div>{children}</div>
+		<div
+			css={`
+				width: auto;
+				@media (max-width: 800px) {
+					width: 100%;
+				}
+			`}
+		>
+			{children}
+		</div>
 	</div>
 )
