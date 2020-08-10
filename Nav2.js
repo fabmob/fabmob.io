@@ -1,4 +1,5 @@
 import React from 'react'
+import LogoSansTexte from './images/logo fabmob sans texte.svg'
 
 export default ({ data }) => (
 	<div
@@ -11,7 +12,10 @@ export default ({ data }) => (
 				margin: 0 auto;
 				padding: 1rem;
 			}
-
+			img {
+				width: 4rem;
+				margin: 2rem;
+			}
 			@media (max-width: 800px) {
 				width: 100%;
 				ul {
@@ -32,10 +36,7 @@ export default ({ data }) => (
 			}
 		`}
 	>
-		<img
-			css="width: 8rem; margin: 2rem;"
-			src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
-		/>
+		<img css="" src={LogoSansTexte} />
 		<ul>
 			{[
 				Object.entries(data).map(([key, value]) => (
