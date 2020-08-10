@@ -25,6 +25,7 @@ const Container = () => (
 		<GlobalStyle />
 		<Router>
 			<Nav />
+
 			<Switch>
 				<Route path="/france">
 					<France />

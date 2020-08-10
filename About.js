@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from './Lang'
+import Page from './Page'
 
 export default () => (
-	<div>
+	<Page nav2={{ problème: 'Le problème', solution: 'La solution' }}>
 		<header>
 			<h1>A propos de la FabMob</h1>
 			<p>
@@ -53,5 +54,5 @@ export default () => (
 				</p>
 			</article>
 		</main>
-	</div>
+	</Page>
 )
