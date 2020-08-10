@@ -1,20 +1,19 @@
 import React from 'react'
 import LogoSansTexte from './images/logo fabmob sans texte.svg'
 
-export default ({ data }) => (
+export default ({ data, titre }) => (
 	<div
 		css={`
 			width: 25%;
 			border-right: 1px solid #e9e9e9;
 			margin-top: 0.6rem;
+			padding: 2rem;
 			ul {
 				width: 80%;
 				margin: 0 auto;
-				padding: 1rem;
 			}
 			img {
 				width: 4rem;
-				margin: 2rem;
 			}
 			@media (max-width: 800px) {
 				width: 100%;
@@ -37,6 +36,7 @@ export default ({ data }) => (
 		`}
 	>
 		<img css="" src={LogoSansTexte} />
+		<h2>{titre}</h2>
 		<ul>
 			{[
 				Object.entries(data).map(([key, value]) => (

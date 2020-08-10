@@ -4,6 +4,7 @@ import Page from './Page'
 
 export default () => (
 	<Page
+		titre="À propos"
 		nav2={{
 			problème: 'Le problème',
 			solution: 'La solution',

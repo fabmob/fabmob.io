@@ -7,7 +7,10 @@ import Page from './Page'
 export default () => {
 	const [filter, setFilter] = useState({})
 	return (
-		<Page nav2={{ membres: 'Nos membres', experts: 'Nos experts' }}>
+		<Page
+			titre="Ecosystème"
+			nav2={{ membres: 'Nos membres', experts: 'Nos experts' }}
+		>
 			<header>
 				<h1>L'ecosystème FabMob</h1>
 				<p>

@@ -1,14 +1,14 @@
 import React from 'react'
 import Nav2 from './Nav2'
 
-export default ({ children, nav2 }) => (
+export default ({ children, nav2, titre }) => (
 	<div
 		css={`
 			display: flex;
 			flex-wrap: wrap;
 		`}
 	>
-		<Nav2 data={nav2} />
+		<Nav2 data={nav2} titre={titre} />
 		<div
 			css={`
 				width: auto;
