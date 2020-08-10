@@ -1,5 +1,4 @@
 import React from 'react'
-import LogoSansTexte from './images/logo fabmob sans texte.svg'
 
 export default ({ data, titre }) => (
 	<div
@@ -11,9 +10,6 @@ export default ({ data, titre }) => (
 			ul {
 				width: 80%;
 				margin: 0 auto;
-			}
-			img {
-				width: 4rem;
 			}
 			@media (max-width: 800px) {
 				width: 100%;
@@ -29,13 +25,9 @@ export default ({ data, titre }) => (
 					margin: 0.1rem 0.6rem;
 				}
 				border-bottom: 1px solid #e9e9e9;
-				img {
-					display: none;
-				}
 			}
 		`}
 	>
-		<img css="" src={LogoSansTexte} />
 		<h2>{titre}</h2>
 		<ul>
 			{[
