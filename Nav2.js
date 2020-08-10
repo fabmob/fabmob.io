@@ -4,7 +4,7 @@ import LogoSansTexte from './images/logo fabmob sans texte.svg'
 export default ({ data, titre }) => (
 	<div
 		css={`
-			width: 25%;
+			width: 15rem;
 			border-right: 1px solid #e9e9e9;
 			margin-top: 0.6rem;
 			padding: 2rem;

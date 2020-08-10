@@ -11,7 +11,7 @@ export default ({ children, nav2, titre }) => (
 		<Nav2 data={nav2} titre={titre} />
 		<div
 			css={`
-				width: auto;
+				width: calc(100% - 20rem);
 				@media (max-width: 800px) {
 					width: 100%;
 				}
