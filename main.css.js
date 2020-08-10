@@ -234,7 +234,7 @@ sup {
 
 /* Links */
 a {
-  color: var(--color-secondary);
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
@@ -260,18 +260,23 @@ button {
 
 button {
   font-family: var(--font);
+  border: none;
+  border: 2px solid black;
+  background: none;
 }
 
 button:hover {
+background: black;
+color: white;
   cursor: pointer;
   filter: brightness(var(--hover-brightness));
 }
 
 a b,
-a strong,
-button {
+a strong
+{
   background-color: var(--color);
-  border: 2px solid var(--color);
+  border: 2px solid black;
   color: var(--color-bg);
 }
 

@@ -79,7 +79,9 @@ export default ({}) => {
 							> ul > li {
 								display: inline-block;
 								border: 1px solid ${colors.jauneVert};
-								box-shadow: var(--box-shadow) var(--color-bg-secondary);
+								border: 1px solid #ddd;
+								background: var(--color-bg-secondary);
+								/* box-shadow: var(--box-shadow) var(--color-bg-secondary); */
 								padding: 0rem 0.6rem;
 								margin: 0.2rem;
 								line-height: 1.2rem;

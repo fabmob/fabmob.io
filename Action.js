@@ -12,7 +12,7 @@ export default () => (
 				href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2019-2020"
 				target="_blank"
 			>
-				<i>Adhérer à FabMob France</i>
+				<button>Adhérer à FabMob France</button>
 			</a>
 		</div>
 		<Présentation />
@@ -36,6 +36,9 @@ let Présentation = () => (
 				aside p {
 					margin: 0.3rem;
 				}
+				aside a button {
+					padding: 0.3rem 1rem;
+				}
 			`}
 		>
 			<header>
@@ -48,7 +51,7 @@ let Présentation = () => (
 					href="https://id.indie.host/auth/realms/fabmob-io/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fwiki.lafabriquedesmobilites.fr%2Fwiki%2FSp%25C3%25A9cial%3AConnexion&client_id=wiki&scope=openid"
 					target="_blank"
 				>
-					<i>Créer un compte FabMobId</i>
+					<button>Créer un compte FabMobId</button>
 				</a>
 			</header>
 			<aside>
@@ -59,7 +62,7 @@ let Présentation = () => (
 				<img src="https://upload.wikimedia.org/wikipedia/commons/5/55/RocketChat_Logo_1024x1024.png" />
 				<p>
 					<a href="https://chat.fabmob.io">
-						<em>Discuter↗</em>
+						<button>Discuter↗</button>
 					</a>
 				</p>
 			</aside>
@@ -71,7 +74,7 @@ let Présentation = () => (
 				<img src="https://d33wubrfki0l68.cloudfront.net/5a26e2c8eafa7e50df52260b0f912f53a4c52efe/002dd/assets/images/tool-icons/codimd.png" />
 				<p>
 					<a href="#">
-						<em>Prenez des notes↗</em>
+						<button>Prenez des notes↗</button>
 					</a>
 				</p>
 			</aside>
@@ -83,7 +86,7 @@ let Présentation = () => (
 				<img src="https://www.mediawiki.org/static/images/project-logos/mediawikiwiki.png" />
 				<p>
 					<a href="#">
-						<em>Documenter↗</em>
+						<button>Documenter↗</button>
 					</a>
 				</p>
 			</aside>
@@ -94,7 +97,7 @@ let Présentation = () => (
 				<img src="https://www.discourse.org/a/img/favicon.png" />
 				<p>
 					<a href="https://forum.fabmob.io">
-						<em>Discuter posément↗</em>
+						<button>Discuter posément↗</button>
 					</a>
 				</p>
 			</aside>
@@ -106,7 +109,7 @@ let Présentation = () => (
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nextcloud_Logo.svg/2560px-Nextcloud_Logo.svg.png" />
 				<p>
 					<a href="https://cloud.fabmob.io">
-						<em>Télécharger↗</em>
+						<button>Télécharger↗</button>
 					</a>
 				</p>
 			</aside>

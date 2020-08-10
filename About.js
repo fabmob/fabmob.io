@@ -25,7 +25,7 @@ export default () => (
 					href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2019-2020"
 					target="_blank"
 				>
-					<i>Adhérer à FabMob France</i>
+					<button>Adhérer à FabMob France</button>
 				</a>
 			</p>
 		</header>
