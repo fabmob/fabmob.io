@@ -103,8 +103,10 @@ export default () => {
 					<LangSwitch />
 				</li>
 			</ul>
-			<button
+			<div
+				title={open ? 'Fermer le menu' : 'Ouvrir le menu'}
 				css={`
+					cursor: pointer;
 					border: none;
 					padding: 0;
 					margin: 0;
@@ -121,7 +123,7 @@ export default () => {
 				onClick={() => setOpen(!open)}
 			>
 				{open ? <CloseMenuIcon /> : <MenuIcon />}
-			</button>
+			</div>
 		</nav>
 	)
 }
