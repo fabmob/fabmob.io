@@ -50,6 +50,8 @@ export default () => {
 				img {
 					margin: 0rem 2rem;
 					width: 4rem;
+				}
+				> a {
 					${location.pathname === '/' ? 'display: none;' : ''}
 				}
 
