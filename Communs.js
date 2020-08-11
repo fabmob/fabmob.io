@@ -10,7 +10,7 @@ var params = {
 	gcmsort: 'timestamp',
 	gcmdir: 'desc',
 	format: 'json',
-	prop: 'info|revisions',
+	prop: 'info|revisions|image',
 	rvprop: 'content',
 	inprop: 'url',
 }
@@ -54,7 +54,7 @@ export default ({}) => {
 	return (
 		<section>
 			<header>
-				<h1>Nos communs actifs</h1>
+				<h1>Nos derniers communs </h1>
 				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
 					Explorer tous nos communs sur le wiki
 				</a>
@@ -75,7 +75,12 @@ export default ({}) => {
 							border-radius: var(--border-radius);
 							margin: 1rem;
 							width: 80%;
+							max-width: 30rem;
+							min-height: 20rem;
 							padding: 1rem;
+							> ul {
+								margin-bottom: 0.6rem;
+							}
 							> ul > li {
 								display: inline-block;
 								border: 1px solid ${colors.jauneVert};
@@ -88,6 +93,10 @@ export default ({}) => {
 								font-size: 90%;
 								border-radius: 0.3rem;
 							}
+							img {
+								width: 10rem;
+								border-radius: 0.6rem;
+							}
 						`}
 					>
 						<a href={commun.fullurl || '#'}>
@@ -99,6 +108,14 @@ export default ({}) => {
 									<li>{tag}</li>
 								))}
 							</ul>
+						)}
+						{commun.data.Main_Picture && (
+							<img
+								src={
+									'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
+									commun.data.Main_Picture
+								}
+							/>
 						)}
 						{commun.data.shortDescription.trim() !== commun.title && (
 							<p>{commun.data.shortDescription}</p>
