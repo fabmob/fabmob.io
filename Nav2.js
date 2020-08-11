@@ -12,7 +12,11 @@ export default ({ data, titre }) => (
 				margin: 0 auto;
 			}
 			@media (max-width: 800px) {
+				padding: 0.6rem;
 				width: 100%;
+				h2 {
+					margin: 0.6rem;
+				}
 				ul {
 					margin: 0 auto;
 					padding: 1rem;
