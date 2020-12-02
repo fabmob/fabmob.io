@@ -41,11 +41,12 @@ export default ({}) => (
 		<section
 			css={`
 				display: flex;
-				flex-direction: column;
+				flex-wrap: wrap;
 				align-items: center;
 				aside {
 					text-align: center;
 					width: 20rem;
+					height: 28rem;
 				}
 			`}
 		>
@@ -82,7 +83,7 @@ export default ({}) => (
 						</header>
 						<Link to={'/blog/' + a.id}>
 							<img
-								css="width: 75%; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
+								css="max-width: 20rem; max-height: 10rem; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
 								src={imageResizer('m')(a.attributes.image)}
 							></img>
 						</Link>
