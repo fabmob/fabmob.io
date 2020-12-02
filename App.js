@@ -1,7 +1,13 @@
 import css from './main.css.js'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link,
+	Redirect,
+} from 'react-router-dom'
 import Nav from './Nav'
 import Footer from './Footer'
 import Sidewalks from './Sidewalks'
@@ -17,6 +23,13 @@ import Action from './Action'
 import Article from './Article'
 import Ecosystem from './Ecosystem'
 import About from './About'
+
+const UtmFriendlyRedirect = (props) => (
+	<Redirect
+		computedMatch={props.computedMatch}
+		to={{ pathname: props.to, search: props.location.search }}
+	/>
+)
 
 // is this a good idea ? Would it be quicker for the user to load as .css in index.html ?
 const GlobalStyle = createGlobalStyle`${css}`
@@ -51,6 +64,8 @@ const Container = () => (
 				<Route path="/blog">
 					<Blog />
 				</Route>
+				{/* Pour la migration vers le nouveau site*/}
+				<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
 				<Route path="/communs">
 					<Communs />
 				</Route>
