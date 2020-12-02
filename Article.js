@@ -28,7 +28,7 @@ export default ({}) => {
 	const { id } = useParams(),
 		article = articles.find((a) => a.id === id),
 		{
-			attributes: { image, date },
+			attributes: { image, auteur, date },
 			body,
 		} = article
 
@@ -46,7 +46,19 @@ export default ({}) => {
 				`}
 			>
 				<small>
-					Publié le {dateCool(date)}, mis à jour le{' '}
+					Par{' '}
+					<span
+						css={`
+							background: var(--color-secondary);
+							padding: 0.1rem 0.3rem;
+							margin: 0 0.2rem;
+							color: white;
+							border-radius: 0.3rem;
+						`}
+					>
+						{auteur}
+					</span>
+					le {dateCool(date)}, mis à jour le{' '}
 					<a href={`https://github.com/${repo}/blob/master/articles/${id}.md`}>
 						{lastEditDate}
 					</a>
