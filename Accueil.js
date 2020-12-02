@@ -3,6 +3,9 @@ import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from './Lang'
 import Emoji from './Emoji'
 import { motion } from 'framer-motion'
+import TwitterLogo from './images/Twitter_Logo_Blue.png'
+import FacebookLogo from './images/FacebookLogo.png'
+import LinkedinLogo from './images/LinkedinLogo.png'
 
 export default () => {
 	return (
@@ -43,6 +46,9 @@ export default () => {
 						ul {
 							padding: 0;
 							list-style-type: none;
+							display: flex;
+							align-items: center;
+							justify-content: center;
 							li {
 								display: inline-block;
 								margin: 1rem;
@@ -53,12 +59,12 @@ export default () => {
 					<ul>
 						<li>
 							<a href="https://twitter.com/fab_mob" title="twitter">
-								<Emoji emoji="🐦" />
+								<img css="width: 2.1rem" src={TwitterLogo} alt="twitter" />
 							</a>
 						</li>
 						<li>
 							<a href="https://fr-fr.facebook.com/FABM0B" title="facebook">
-								<Emoji emoji="📘" />
+								<img css="width: 1.4rem" src={FacebookLogo} alt="facebook" />
 							</a>
 						</li>
 						<li>
@@ -66,13 +72,14 @@ export default () => {
 								href="https://www.linkedin.com/company/fabmob/"
 								title="linkedin"
 							>
-								<Emoji emoji="💼" />
+								<img css="width: 1.6rem" src={LinkedinLogo} alt="linkedin" />
 							</a>
 						</li>
 						<li>
 							<a
 								href="mailto:lafabriquedesmobilites@gmail.com"
 								title="courriel"
+								css="img {font-size: 120%}"
 							>
 								<Emoji emoji="✉" />
 							</a>
