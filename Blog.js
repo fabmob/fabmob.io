@@ -3,6 +3,14 @@ import { imageResizer } from './Article'
 import { Link } from 'react-router-dom'
 import articles from './getArticles.js'
 
+export const dateCool = (date) =>
+	date.toLocaleString(undefined, {
+		weekday: 'long',
+		year: 'numeric',
+		month: 'long',
+		day: 'numeric',
+	})
+
 export const pageLayout = `
 			max-width: 800px;
 			margin: 0 auto;
@@ -69,12 +77,7 @@ export default ({}) => (
 								<h2>{a.attributes.titre}</h2>
 							</Link>
 							<small>
-								{a.attributes.date.toLocaleString(undefined, {
-									weekday: 'long',
-									year: 'numeric',
-									month: 'long',
-									day: 'numeric',
-								})}
+								<small>{dateCool(a.attributes.date)}</small>
 							</small>
 						</header>
 						<Link to={'/blog/' + a.id}>

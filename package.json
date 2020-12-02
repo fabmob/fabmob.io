@@ -5,13 +5,15 @@
 	"main": "index.html",
 	"license": "MIT",
 	"scripts": {
-		"start": "webpack serve --hot --mode development --inline",
+		"start": "webpack serve --hot --mode development",
 		"compile": "NODE_ENV=production webpack --mode production -c webpack.config.js"
 	},
 	"dependencies": {
+		"buffer": "^6.0.3",
 		"framer-motion": "^2.9.4",
 		"front-matter": "^4.0.2",
 		"fuse.js": "6.4.3",
+		"imports-loader": "^1.2.0",
 		"path-browserify": "^1.0.1",
 		"process": "^0.11.10",
 		"raw-loader": "^4.0.2",

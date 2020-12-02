@@ -2,6 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
 import articles from './getArticles.js'
+import { dateCool } from './Accueil'
 
 export const imageResizer = (size) => (src) =>
 	src.includes('imgur.com')
@@ -14,7 +15,7 @@ export default ({}) => {
 	const { id } = useParams(),
 		article = articles.find((a) => a.id === id),
 		{
-			attributes: { image },
+			attributes: { image, date },
 			body,
 		} = article
 
@@ -31,6 +32,16 @@ export default ({}) => {
 				Blog FabMob
 			</div>
 			<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			<p
+				css={`
+					text-align: center;
+					font-style: italic;
+					opacity: 0.8;
+					margin-bottom: 2rem;
+				`}
+			>
+				<small>Publié le {dateCool(date)}, mis à jour le x</small>
+			</p>
 			<ReactMarkdown
 				renderers={{ image: ImageRenderer }}
 				source={body}
