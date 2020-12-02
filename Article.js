@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
 import articles from './getArticles.js'
-import { dateCool } from './Accueil'
+import { dateCool } from './Blog'
+
+const repo = 'fabmob/fabmob.io'
+
+const getLastEdit = (name, action) =>
+	fetch(
+		`https://api.github.com/repos/${repo}/commits?path=articles%2F${name}.md&page=1&per_page=1`
+	)
+		.then((res) => res.json())
+		.then((json) => {
+			const date = json[0].commit.committer.date
+
+			action(dateCool(new Date(date)))
+		})
 
 export const imageResizer = (size) => (src) =>
 	src.includes('imgur.com')
@@ -18,6 +31,9 @@ export default ({}) => {
 			attributes: { image, date },
 			body,
 		} = article
+
+	const [lastEditDate, setLastEditDate] = useState(null)
+	getLastEdit(id, setLastEditDate)
 
 	return (
 		<div css={() => articleStyle}>
@@ -40,7 +56,12 @@ export default ({}) => {
 					margin-bottom: 2rem;
 				`}
 			>
-				<small>Publié le {dateCool(date)}, mis à jour le x</small>
+				<small>
+					Publié le {dateCool(date)}, mis à jour le{' '}
+					<a href={`https://github.com/${repo}/blob/master/articles/${id}.md`}>
+						{lastEditDate}
+					</a>
+				</small>
 			</p>
 			<ReactMarkdown
 				renderers={{ image: ImageRenderer }}
