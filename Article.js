@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
 import articles from './getArticles.js'
+import { dateCool } from './Blog'
+
+const repo = 'fabmob/fabmob.io'
+
+const getLastEdit = (name, action) =>
+	fetch(
+		`https://api.github.com/repos/${repo}/commits?path=articles%2F${name}.md&page=1&per_page=1`
+	)
+		.then((res) => res.json())
+		.then((json) => {
+			const date = json[0].commit.committer.date
+
+			action(dateCool(new Date(date)))
+		})
 
 export const imageResizer = (size) => (src) =>
 	src.includes('imgur.com')
@@ -14,23 +28,42 @@ export default ({}) => {
 	const { id } = useParams(),
 		article = articles.find((a) => a.id === id),
 		{
-			attributes: { image },
+			attributes: { image, auteur, date },
 			body,
 		} = article
 
+	const [lastEditDate, setLastEditDate] = useState(null)
+	getLastEdit(id, setLastEditDate)
+
 	return (
 		<div css={() => articleStyle}>
-			<div
+			<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			<p
 				css={`
 					text-align: center;
 					font-style: italic;
-					font-weight: 600;
-					color: var(--color-secondary);
+					margin-bottom: 2rem;
 				`}
 			>
-				Blog FabMob
-			</div>
-			<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+				<small>
+					Par{' '}
+					<span
+						css={`
+							background: var(--color-secondary);
+							padding: 0.1rem 0.3rem;
+							margin: 0 0.2rem;
+							color: white;
+							border-radius: 0.3rem;
+						`}
+					>
+						{auteur}
+					</span>
+					le {dateCool(date)}, mis à jour le{' '}
+					<a href={`https://github.com/${repo}/blob/master/articles/${id}.md`}>
+						{lastEditDate}
+					</a>
+				</small>
+			</p>
 			<ReactMarkdown
 				renderers={{ image: ImageRenderer }}
 				source={body}

@@ -3,6 +3,14 @@ import { imageResizer } from './Article'
 import { Link } from 'react-router-dom'
 import articles from './getArticles.js'
 
+export const dateCool = (date) =>
+	date.toLocaleString(undefined, {
+		weekday: 'long',
+		year: 'numeric',
+		month: 'long',
+		day: 'numeric',
+	})
+
 export const pageLayout = `
 			max-width: 800px;
 			margin: 0 auto;
@@ -33,11 +41,12 @@ export default ({}) => (
 		<section
 			css={`
 				display: flex;
-				flex-direction: column;
+				flex-wrap: wrap;
 				align-items: center;
 				aside {
 					text-align: center;
 					width: 20rem;
+					height: 28rem;
 				}
 			`}
 		>
@@ -69,17 +78,12 @@ export default ({}) => (
 								<h2>{a.attributes.titre}</h2>
 							</Link>
 							<small>
-								{a.attributes.date.toLocaleString(undefined, {
-									weekday: 'long',
-									year: 'numeric',
-									month: 'long',
-									day: 'numeric',
-								})}
+								<small>{dateCool(a.attributes.date)}</small>
 							</small>
 						</header>
 						<Link to={'/blog/' + a.id}>
 							<img
-								css="width: 75%; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
+								css="max-width: 20rem; max-height: 10rem; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
 								src={imageResizer('m')(a.attributes.image)}
 							></img>
 						</Link>

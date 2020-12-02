@@ -1,94 +1,92 @@
 import React from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from './Lang'
+import Emoji from './Emoji'
+import { motion } from 'framer-motion'
+import TwitterLogo from './images/Twitter_Logo_Blue.png'
+import FacebookLogo from './images/FacebookLogo.png'
+import LinkedinLogo from './images/LinkedinLogo.png'
 
 export default () => {
 	return (
 		<div>
-			<header>
-				<img
-					css="height: 5rem"
-					src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/bg-communs.svg"
-				/>
-				<h1>Révolutionner la mobilité via les communs</h1>
-				<p>
-					L'association pour construire les nouvelles mobilités en réunissant
-					tous les acteurs autour de <mark>communs open source</mark>
-				</p>
-				<br />
-				<p>
-					<a href="./mvp.html" target="_blank">
-						<i>Découvrir</i>
-					</a>
-					<a href="#" target="_blank">
-						<b>Nous rejoindre</b>
-					</a>
-				</p>
+			<header
+				css={`
+					> section {
+						height: 65vh;
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+					}
+					h1 {
+						font-size: 120%;
+					}
+				`}
+			>
+				<section>
+					<motion.div
+						animate={{ scale: [1.5, 1] }}
+						transition={{ duration: 0.6, ease: 'easeOut' }}
+					>
+						<img
+							css="width: 10rem; margin: 1rem;"
+							src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
+						/>
+					</motion.div>
+					<h1>Révolutionner la mobilité via les communs</h1>
+					<p>
+						L'association pour construire les nouvelles mobilités en réunissant
+						tous les acteurs autour de communs open source.
+					</p>
+					<br />
+				</section>
+				<footer
+					css={`
+						ul {
+							padding: 0;
+							list-style-type: none;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							li {
+								display: inline-block;
+								margin: 1rem;
+							}
+						}
+					`}
+				>
+					<ul>
+						<li>
+							<a href="https://twitter.com/fab_mob" title="twitter">
+								<img css="width: 2.1rem" src={TwitterLogo} alt="twitter" />
+							</a>
+						</li>
+						<li>
+							<a href="https://fr-fr.facebook.com/FABM0B" title="facebook">
+								<img css="width: 1.4rem" src={FacebookLogo} alt="facebook" />
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.linkedin.com/company/fabmob/"
+								title="linkedin"
+							>
+								<img css="width: 1.6rem" src={LinkedinLogo} alt="linkedin" />
+							</a>
+						</li>
+						<li>
+							<a
+								href="mailto:lafabriquedesmobilites@gmail.com"
+								title="courriel"
+								css="img {font-size: 120%}"
+							>
+								<Emoji emoji="✉" />
+							</a>
+						</li>
+					</ul>
+				</footer>
 			</header>
-			<Présentation />
 		</div>
 	)
 }
-
-let Présentation = () => (
-	<main>
-		<section
-			css={`
-				img {
-					max-height: 12rem;
-					max-width: initial;
-					margin: 2rem auto;
-					display: block;
-					border-radius: 0.6rem;
-				}
-			`}
-		>
-			<header>
-				<h2>Un concept, des fabriques</h2>
-				<p>
-					Le modèle de la fabrique, initié en France, se répliquer dans d'autres
-					pays et domaines
-				</p>
-			</header>
-			<aside>
-				<img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&q=80"></img>
-				<h3> FabMob France</h3>
-				<p>
-					Premier membre du réseau, la Fabrique des Mobilités s'est constituée
-					en association, soutenue notamment par l'ADEME.
-				</p>
-				<p>
-					<Link to="france">
-						<em>Découvrir↗</em>
-					</Link>
-				</p>
-			</aside>
-			<aside>
-				<img src="https://imgur.com/HRpDml8.jpg"></img>
-				<h3> FabMob Québec</h3>
-				<p>
-					La Fabrique des Mobilités s'est ensuite implantée au Québec, notamment
-					autour des associations Savoir faire linux.
-				</p>
-				<p>
-					<a href="#">
-						<em>Découvrir↗</em>
-					</a>
-				</p>
-			</aside>
-			<aside>
-				<img src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"></img>
-				<h3>Votre FabMob</h3>
-				<p>
-					La Fabrique des mobilités est elle-même un commun bien documenté, et
-					nous vous aidons à vous en saisir.
-				</p>
-				<p>
-					<a href="#">
-						<em>Répliquer↗</em>
-					</a>
-				</p>
-			</aside>
-		</section>
-	</main>
-)

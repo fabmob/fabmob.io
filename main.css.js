@@ -18,7 +18,7 @@ export default `
   --hover-brightness: 1.2;
   --justify-important: center;
   --justify-normal: left;
-  --line-height: 150%;
+  --line-height: 130%;
   --width-card: 285px;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
@@ -56,6 +56,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding: 0;
+  font-size: 110%
 }
 
 footer,
@@ -110,6 +111,12 @@ section aside img {
   max-width: 100%;
 }
 
+article {
+max-width: 800px;
+
+margin: 0 auto;
+}
+
 /* Headers */
 article header,
 div header,
@@ -143,50 +150,8 @@ section header {
   width: 100%;
 }
 
-/* Nav */
-nav {
-  align-items: center;
-  display: flex;
-  font-weight: bold;
-  justify-content: space-between;
-  margin-bottom: 0rem;
-}
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
 
-nav ul li {
-  display: inline-block;
-  margin: 0 0.5rem;
-  position: relative;
-  text-align: left;
-}
-
-/* Nav Dropdown */
-nav ul li:hover ul {
-  display: block;
-}
-
-nav ul li ul {
-  background: var(--color-bg);
-  border: 1px solid var(--color-bg-secondary);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow) var(--color-shadow);
-  display: none;
-  height: auto;
-  padding: 0.5rem 1rem;
-  position: absolute;
-  right: 0;
-  top: 1.7rem;
-  width: auto;
-}
-
-nav ul li ul li,
-nav ul li ul li a {
-  display: block;
-}
 
 /* Typography */
 code,
@@ -225,6 +190,10 @@ h6 {
 mark {
   padding: 0.1rem;
 }
+ul {
+  padding: 0;
+  list-style-type:none;
+}
 
 ol li,
 ul li {
@@ -234,6 +203,7 @@ ul li {
 p {
   margin: 0.75rem 0;
   padding: 0;
+
 }
 
 pre {
@@ -265,7 +235,7 @@ sup {
 
 /* Links */
 a {
-  color: var(--color-secondary);
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
@@ -291,18 +261,23 @@ button {
 
 button {
   font-family: var(--font);
+  border: none;
+  border: 2px solid black;
+  background: none;
 }
 
 button:hover {
+background: black;
+color: white;
   cursor: pointer;
   filter: brightness(var(--hover-brightness));
 }
 
 a b,
-a strong,
-button {
+a strong
+{
   background-color: var(--color);
-  border: 2px solid var(--color);
+  border: 2px solid black;
   color: var(--color-bg);
 }
 

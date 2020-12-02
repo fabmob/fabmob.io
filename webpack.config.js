@@ -4,8 +4,26 @@ const isDevelopment = process.env.NODE_ENV !== 'production'
 
 module.exports = {
 	mode: isDevelopment ? 'development' : 'production',
+	resolve: {
+		fallback: {
+			path: 'path-browserify',
+			buffer: 'buffer',
+		},
+	},
 	module: {
 		rules: [
+			{
+				test: /node_modules\/vfile\/core\.js/,
+				use: [
+					{
+						loader: 'imports-loader',
+						options: {
+							type: 'commonjs',
+							imports: ['single process/browser process'],
+						},
+					},
+				],
+			},
 			{
 				test: /\.md$/i,
 				use: 'raw-loader',
