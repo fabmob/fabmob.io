@@ -37,22 +37,11 @@ export default ({}) => {
 
 	return (
 		<div css={() => articleStyle}>
-			<div
-				css={`
-					text-align: center;
-					font-style: italic;
-					font-weight: 600;
-					color: var(--color-secondary);
-				`}
-			>
-				Blog FabMob
-			</div>
 			<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
 			<p
 				css={`
 					text-align: center;
 					font-style: italic;
-					opacity: 0.8;
 					margin-bottom: 2rem;
 				`}
 			>
