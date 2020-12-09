@@ -12,9 +12,12 @@ const getLastEdit = (name, action) =>
 	)
 		.then((res) => res.json())
 		.then((json) => {
-			const date = json[0].commit.committer.date
-
-			action(dateCool(new Date(date)))
+			try {
+				const date = json[0].commit.committer.date
+				action(dateCool(new Date(date)))
+			} catch (e) {
+				console.log(e)
+			}
 		})
 
 export const imageResizer = (size) => (src) =>
@@ -37,7 +40,9 @@ export default ({}) => {
 
 	return (
 		<div css={() => articleStyle}>
-			<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			{image && (
+				<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			)}
 			<p
 				css={`
 					text-align: center;
@@ -73,7 +78,7 @@ export default ({}) => {
 				Venez discuter de cet article{' '}
 				<a
 					class="twitter-share-button"
-					href="https://twitter.com/intent/tweet?text=La crise, ou la ville idéale ? kont.me/ville-id%C3%A9ale-ou-crise @maeool"
+					href="https://twitter.com/intent/tweet?text= Super article à lire sur le blog @fab_mob"
 					data-size="large"
 				>
 					sur twitter
