@@ -1,0 +1,18 @@
+---
+title: "La startup Padam rejoint la Fabrique"
+date: "2016-02-15T13:48:41.000Z"
+categories: 
+  - "non-classe-fr"
+tags: 
+author: "ziad khoury"
+---
+
+[Padam](http://padambus.com/) est une startup ayant pour ambition d’inventer le transport en commun de demain, un transport flexible, connecté et intelligent. Elle est ainsi capable d’optimiser en temps réel une flotte de véhicule circulant sur un territoire donné. Lorsqu’un utilisateur fait une demande de réservation depuis son smartphone, Padam cherche quel véhicule de la flotte peut le prendre en charge et dévie son itinéraire en temps réel. Les passagers allant dans une direction similaire sont ainsi automatiquement regroupés au sein d’un même véhicule. Padam développe ainsi une nouvelle vision du transport en commun, basée non pas sur des lignes fixes, mais sur des lignes dynamiques et flexibles, adaptées à la demande réelle. La startup développe dans cette optique ses propres algorithmes et logiciels de simulation, ainsi que des interfaces dédiées aux clients et aux conducteurs.
+
+Padam a été créée en mai 2014 par Grégoire Bonnat et Ziad Khoury à l’issue de leurs études à l’école Polytechnique et de leur Master Entrepreneuriat à l’UC Berkeley. L’idée à l’origine de Padam était simple : le marché du taxi avait été bouleversé par Uber, celui du covoiturage longue distance par Blablacar, mais aucune startup ne s’était encore intéressée au domaine des transports en commun. Après plusieurs mois de recherches et d’expérimentations sur le terrain, Padam lance sa première application mobile et son premier service de transport en mars 2015. Ce service, destiné aux noctambules parisiens, leur permet de rentrer chez eux à Paris ou en banlieue les soirs de week-end après la fin de service du métro. Après neuf mois de fonctionnement et des centaines de personnes transportées, la startup change son positionnement pour conquérir un plus grand marché. Le service de nuit, en concurrence frontale avec Uber, est suspendu, et Padam propose son service [pour les trajets domicile-travail réguliers en Ile-de-France](http://padambus.com/padam-daily-transport-minibus-domicile-travail/).
+
+\[youtube http://www.youtube.com/watch?v=bItYcJ7W7S8\] La startup compte aujourd’hui une équipe de 10 personnes, avec des compétences variées en développement mobile, développement backend, recherche opérationnelle, design ou encore marketing digital. Une première levée de fonds a été effectuée en juillet 2015 auprès de setec Innovation, fonds d’investissement pour l’innovation du groupe d’ingénierie setec. Elle a également reçu le soutien de Bpi France à travers le concours d’Innovation Numérique et sortie vainqueur du Hello Tomorrow Challenge 2015, dans la catégorie « Transports et Mobilité ».
+
+En intégrant la Fabrique des Mobilités, Padam souhaite contribuer à son développement, tout en bénéficiant de ses avantages pour développer le transport en commun de demain. Padam propose d’apporter à la FabMob son savoir-faire, son expérience, et un certain nombre d’outils. Notamment des outils de simulation permettant de décrire le comportement d’un système de TAD sur un territoire donné, et les études de faisabilité qui peuvent en découler ; des interfaces utilisateurs (application client, application chauffeur, etc.) pour des expérimentations ciblées ; des activités de design thinking.
+
+Padam attend en contrepartie de la Fabrique la possibilité de mettre en avant son savoir-faire et surtout de le mettre en pratique : des cas d’usages concrets, des expérimentations sur le terrain, et même des simulations sont recherchées. Plusieurs cas d’usages sont possibles : mise en place d’un TAD sur une zone non desservie, flexibilisation de lignes fixes, dessertes de gares et d’aéroports, etc.
