@@ -2,7 +2,7 @@ import frontMatter from 'front-matter'
 
 var req = require.context('./articles', true, /\.md$/)
 const rawArticles = [...req.keys()].map((key) => [
-	key.replace(/.\/\d\d\d\d\//g, '').replace('.md', ''),
+	key.replace(/.\/(\d\d\d\d\/)?/g, '').replace('.md', ''),
 	req(key).default,
 ])
 
