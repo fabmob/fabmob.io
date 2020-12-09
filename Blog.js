@@ -84,7 +84,11 @@ export default ({}) => (
 						<Link to={'/blog/' + a.id}>
 							<img
 								css="max-width: 20rem; max-height: 10rem; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
-								src={imageResizer('m')(a.attributes.image)}
+								src={
+									a.attributes.image
+										? imageResizer('m')(a.attributes.image)
+										: 'http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg'
+								}
 							></img>
 						</Link>
 						<p>{a.attributes.résumé} </p>
