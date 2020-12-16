@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import articles from './getArticles.js'
 
 export const dateCool = (date) =>
-	date.toLocaleString(undefined, {
+	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
 		weekday: 'long',
 		year: 'numeric',
 		month: 'long',
