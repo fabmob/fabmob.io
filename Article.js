@@ -53,6 +53,9 @@ export default ({}) => {
 					text-align: center;
 					font-style: italic;
 					margin-bottom: 2rem;
+					border-bottom: 1px solid lightGrey;
+					border-top: 1px solid lightGrey;
+					padding: 0.4rem;
 				`}
 			>
 				<small>
@@ -68,10 +71,17 @@ export default ({}) => {
 					>
 						{author}
 					</span>
-					le {dateCool(date)}, mis à jour le{' '}
-					<a href={`https://github.com/${repo}/blob/master/articles/${id}.md`}>
-						{lastEditDate}
-					</a>
+					le {dateCool(date)}
+					{lastEditDate && (
+						<span>
+							, mis à jour le{' '}
+							<a
+								href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
+							>
+								{lastEditDate}
+							</a>
+						</span>
+					)}
 				</small>
 			</p>
 			<ReactMarkdown
