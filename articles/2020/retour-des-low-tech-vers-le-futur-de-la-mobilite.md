@@ -1,6 +1,7 @@
 ---
 title: "RETOUR des low-tech VERS LE FUTUR de la mobilité"
 date: "2020-10-06T09:46:09.000Z"
+image: https://imgur.com/WOeMVVY.png
 categories: 
   - "articles"
   - "innovation"

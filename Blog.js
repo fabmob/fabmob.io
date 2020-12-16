@@ -163,7 +163,7 @@ const ArticleVignette = ({
 					src={
 						image
 							? imageResizer('m')(image)
-							: 'http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg'
+							: '/images/logo fabmob sans texte.svg'
 					}
 				></img>
 			</Link>

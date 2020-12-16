@@ -1,6 +1,7 @@
 ---
 title: "L’Open Source au secours du secteur des transports !"
 date: "2020-09-01T13:33:37.000Z"
+image: https://imgur.com/lr536tD.png
 categories: 
   - "articles"
   - "industriels"

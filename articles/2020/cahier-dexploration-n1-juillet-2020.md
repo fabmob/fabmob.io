@@ -8,10 +8,10 @@ tags:
   - "cahier"
   - "futur-du-travail"
   - "teletravail"
+  - entreprise distribuée
+  - machine à café
 author: "Gabriel Plassat"
 ---
-
-###### Tags : `télétravail` `futur du travail` `entreprise distribuée` `machine à café`
 
 ## **FABMOB |**
 
