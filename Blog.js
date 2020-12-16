@@ -53,50 +53,59 @@ export default ({}) => (
 			{articles
 				.sort((a1, a2) => (a1.attributes.date > a2.attributes.date ? -1 : 1))
 				.map((a) => (
-					<aside
-						css={`
-							p {
-								max-width: 36rem;
-								margin-bottom: 0.3rem;
-							}
-							header {
-								margin-bottom: 1rem;
-							}
-							header > a {
-								text-decoration: none;
-							}
-							h2 {
-								display: block;
-								text-decoration: none;
-								margin-bottom: 0.3rem;
-							}
-							margin-bottom: 3rem;
-						`}
-					>
-						<header>
-							<Link to={'/blog/' + a.id}>
-								<h2>{a.attributes.titre}</h2>
-							</Link>
-							<small>
-								<small>{dateCool(a.attributes.date)}</small>
-							</small>
-						</header>
-						<Link to={'/blog/' + a.id}>
-							<img
-								css="max-width: 20rem; max-height: 10rem; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
-								src={
-									a.attributes.image
-										? imageResizer('m')(a.attributes.image)
-										: 'http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg'
-								}
-							></img>
-						</Link>
-						<p>{a.attributes.résumé} </p>
-						<Link to={'/blog/' + a.id}>
-							<em>Lire</em>
-						</Link>
-					</aside>
+					<ArticleVignette {...a} />
 				))}
 		</section>
 	</main>
 )
+
+const ArticleVignette = ({
+	id,
+	attributes: { date, résumé, titre, image },
+}) => {
+	return (
+		<aside
+			css={`
+				p {
+					max-width: 36rem;
+					margin-bottom: 0.3rem;
+				}
+				header {
+					margin-bottom: 1rem;
+				}
+				header > a {
+					text-decoration: none;
+				}
+				h2 {
+					display: block;
+					text-decoration: none;
+					margin-bottom: 0.3rem;
+				}
+				margin-bottom: 3rem;
+			`}
+		>
+			<header>
+				<Link to={'/blog/' + id}>
+					<h2>{titre}</h2>
+				</Link>
+				<small>
+					<small>{dateCool(date)}</small>
+				</small>
+			</header>
+			<Link to={'/blog/' + id}>
+				<img
+					css="max-width: 20rem; max-height: 10rem; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
+					src={
+						image
+							? imageResizer('m')(image)
+							: 'http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg'
+					}
+				></img>
+			</Link>
+			<p>{résumé} </p>
+			<Link to={'/blog/' + id}>
+				<em>Lire</em>
+			</Link>
+		</aside>
+	)
+}
