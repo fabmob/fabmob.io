@@ -39,8 +39,6 @@ const Header = () => (
 
 export default ({}) => (
 	<main css={pageLayout}>
-		<Header />
-
 		<Switch>
 			<Route exact path="/blog/:id">
 				<Article />
@@ -61,31 +59,38 @@ const Articles = ({ year }) => {
 	let year2 = year || useParams().year
 	console.log(year2, year, useParams())
 	return (
-		<section>
-			<YearMenu year2={year2} />
-			<ul
-				css={`
-					display: flex;
-					flex-wrap: wrap;
-					align-items: center;
-					justify-content: center;
-					aside {
-						text-align: center;
-						width: 20rem;
-						height: 28rem;
-					}
-				`}
-			>
-				{articles
-					.sort((a1, a2) => (a1.attributes.date > a2.attributes.date ? -1 : 1))
-					.filter((a) => new Date(a.attributes.date).getFullYear() == year2)
-					.map((a) => (
-						<li key={a.id}>
-							<ArticleVignette {...a} />
-						</li>
-					))}
-			</ul>
-		</section>
+		<div>
+			<Header />
+			<section>
+				<YearMenu year2={year2} />
+				<ul
+					css={`
+						display: flex;
+						flex-wrap: wrap;
+						align-items: center;
+						justify-content: center;
+						aside {
+							text-align: center;
+							width: 20rem;
+							height: 28rem;
+						}
+					`}
+				>
+					{articles
+						.sort((a1, a2) =>
+							new Date(a1.attributes.date) > new Date(a2.attributes.date)
+								? -1
+								: 1
+						)
+						.filter((a) => new Date(a.attributes.date).getFullYear() == year2)
+						.map((a) => (
+							<li key={a.id}>
+								<ArticleVignette {...a} />
+							</li>
+						))}
+				</ul>
+			</section>
+		</div>
 	)
 }
 const YearMenu = ({ year2 }) => (

@@ -31,9 +31,12 @@ export default ({}) => {
 	const { id } = useParams(),
 		article = articles.find((a) => a.id === id),
 		{
-			attributes: { image, auteur, date },
+			attributes: { image, titre, auteur, date },
 			body,
-		} = article
+		} = article,
+		// imported articles from wordpress have english attributes
+		author = auteur || article.attributes.author,
+		title = titre || article.attributes.title
 
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, setLastEditDate)
@@ -43,6 +46,7 @@ export default ({}) => {
 			{image && (
 				<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
 			)}
+			{title && <h1>{title}</h1>}
 			<p
 				css={`
 					text-align: center;
@@ -61,7 +65,7 @@ export default ({}) => {
 							border-radius: 0.3rem;
 						`}
 					>
-						{auteur}
+						{author}
 					</span>
 					le {dateCool(date)}, mis à jour le{' '}
 					<a href={`https://github.com/${repo}/blob/master/articles/${id}.md`}>
