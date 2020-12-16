@@ -40,30 +40,18 @@ const Header = () => (
 export default ({}) => (
 	<main css={pageLayout}>
 		<Header />
-		<section
-			css={`
-				display: flex;
-				flex-wrap: wrap;
-				align-items: center;
-				aside {
-					text-align: center;
-					width: 20rem;
-					height: 28rem;
-				}
-			`}
-		>
-			<Switch>
-				<Route exact path="/blog/:id">
-					<Article />
-				</Route>
-				<Route path="/blog/année/:year">
-					<Articles />
-				</Route>
-				<Route path="/blog/">
-					<Articles year="2020" />
-				</Route>
-			</Switch>
-		</section>
+
+		<Switch>
+			<Route exact path="/blog/:id">
+				<Article />
+			</Route>
+			<Route path="/blog/année/:year">
+				<Articles />
+			</Route>
+			<Route path="/blog/">
+				<Articles year="2020" />
+			</Route>
+		</Switch>
 	</main>
 )
 
@@ -73,39 +61,56 @@ const Articles = ({ year }) => {
 	let year2 = year || useParams().year
 	console.log(year2, year, useParams())
 	return (
-		<div>
+		<section>
+			<YearMenu year2={year2} />
 			<ul
 				css={`
 					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
 					justify-content: center;
-					li {
-						margin: 0 0.2rem;
-					}
-					button {
-						margin: 0;
-						padding: 0.1rem 0.6rem;
+					aside {
+						text-align: center;
+						width: 20rem;
+						height: 28rem;
 					}
 				`}
 			>
-				{years.map((y) => (
-					<li key={y}>
-						<button
-							css={y === year2 ? 'background: var(--color-secondary)' : ''}
-						>
-							<Link to={'/blog/année/' + y}>{y}</Link>
-						</button>
-					</li>
-				))}
+				{articles
+					.sort((a1, a2) => (a1.attributes.date > a2.attributes.date ? -1 : 1))
+					.filter((a) => new Date(a.attributes.date).getFullYear() == year2)
+					.map((a) => (
+						<li key={a.id}>
+							<ArticleVignette {...a} />
+						</li>
+					))}
 			</ul>
-			{articles
-				.sort((a1, a2) => (a1.attributes.date > a2.attributes.date ? -1 : 1))
-				.filter((a) => new Date(a.attributes.date).getFullYear() == year2)
-				.map((a) => (
-					<ArticleVignette {...a} />
-				))}
-		</div>
+		</section>
 	)
 }
+const YearMenu = ({ year2 }) => (
+	<ul
+		css={`
+			display: flex;
+			justify-content: center;
+			li {
+				margin: 0 0.2rem;
+			}
+			button {
+				margin: 0;
+				padding: 0.1rem 0.6rem;
+			}
+		`}
+	>
+		{years.map((y) => (
+			<li key={y}>
+				<button css={y === year2 ? 'background: var(--color-secondary)' : ''}>
+					<Link to={'/blog/année/' + y}>{y}</Link>
+				</button>
+			</li>
+		))}
+	</ul>
+)
 
 const ArticleVignette = ({
 	id,
@@ -148,7 +153,7 @@ const ArticleVignette = ({
 						max-width: 20rem;
 						max-height: 10rem;
 						box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;
-						${!image ? '' : ''}
+						${!image ? 'padding: .4rem' : ''}
 					`}
 					src={
 						image
