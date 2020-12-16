@@ -36,7 +36,8 @@ export default ({}) => {
 		} = article,
 		// imported articles from wordpress have english attributes
 		author = auteur || article.attributes.author,
-		title = titre || article.attributes.title
+		title = titre || article.attributes.title,
+		year = new Date(date).getFullYear()
 
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, setLastEditDate)
@@ -74,7 +75,7 @@ export default ({}) => {
 				</small>
 			</p>
 			<ReactMarkdown
-				renderers={{ image: ImageRenderer }}
+				renderers={{ image: ImageRenderer(year) }}
 				source={body}
 				escapeHtml={false}
 			/>
@@ -92,7 +93,14 @@ export default ({}) => {
 	)
 }
 
-const ImageRenderer = ({ src }) => <img src={imageResizer('l')(src)} />
+const ImageRenderer = (year) => ({ src: rawSrc }) => {
+	const src = rawSrc.includes('http')
+		? imageResizer('l')(rawSrc)
+		: rawSrc.indexOf('images/') === 0
+		? `/articles/${year}/images/${rawSrc.split('images/')[1]}`
+		: rawSrc
+	return <img src={src} />
+}
 
 const articleStyle = `
 	max-width: 800px;

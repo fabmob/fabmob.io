@@ -10,6 +10,7 @@
 	},
 	"dependencies": {
 		"buffer": "^6.0.3",
+		"copy-webpack-plugin": "^7.0.0",
 		"framer-motion": "^2.9.4",
 		"front-matter": "^4.0.2",
 		"fuse.js": "6.4.3",

@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 const isDevelopment = process.env.NODE_ENV !== 'production'
+const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
 	mode: isDevelopment ? 'development' : 'production',
@@ -79,6 +80,10 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'FabMob',
 			template: 'index.html',
+		}),
+		,
+		new CopyPlugin({
+			patterns: [{ from: 'articles/*/images/*' }],
 		}),
 	].filter(Boolean),
 }
