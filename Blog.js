@@ -119,7 +119,7 @@ const YearMenu = ({ year2 }) => (
 
 const ArticleVignette = ({
 	id,
-	attributes: { date, résumé, titre, image },
+	attributes: { date, résumé, titre, title, image },
 	body,
 }) => {
 	const résumé2 = résumé || body.split(' ').slice(0, 16).join(' ') + '...'
@@ -146,7 +146,7 @@ const ArticleVignette = ({
 		>
 			<header>
 				<Link to={'/blog/' + id}>
-					<h2>{titre}</h2>
+					<h2>{titre || title}</h2>
 				</Link>
 				<small>
 					<small>{dateCool(date)}</small>
