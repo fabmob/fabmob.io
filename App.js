@@ -20,7 +20,6 @@ import AccueilEn from './Accueil.en'
 import Blog from './Blog'
 import Communs from './Communs'
 import Action from './Action'
-import Article from './Article'
 import Ecosystem from './Ecosystem'
 import About from './About'
 
@@ -57,9 +56,6 @@ const Container = () => (
 				</Route>
 				<Route path="/en/">
 					<AccueilEn />
-				</Route>
-				<Route path="/blog/:id">
-					<Article />
 				</Route>
 				<Route path="/blog">
 					<Blog />

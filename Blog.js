@@ -2,6 +2,8 @@ import React from 'react'
 import { imageResizer } from './Article'
 import { Link } from 'react-router-dom'
 import articles from './getArticles.js'
+import { Switch, Route, useParams } from 'react-router-dom'
+import Article from './Article'
 
 export const dateCool = (date) =>
 	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
@@ -50,14 +52,60 @@ export default ({}) => (
 				}
 			`}
 		>
-			{articles
-				.sort((a1, a2) => (a1.attributes.date > a2.attributes.date ? -1 : 1))
-				.map((a) => (
-					<ArticleVignette {...a} />
-				))}
+			<Switch>
+				<Route exact path="/blog/:id">
+					<Article />
+				</Route>
+				<Route path="/blog/année/:year">
+					<Articles />
+				</Route>
+				<Route path="/blog/">
+					<Articles year="2020" />
+				</Route>
+			</Switch>
 		</section>
 	</main>
 )
+
+const years = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
+
+const Articles = ({ year }) => {
+	let year2 = year || useParams().year
+	console.log(year2, year, useParams())
+	return (
+		<div>
+			<ul
+				css={`
+					display: flex;
+					justify-content: center;
+					li {
+						margin: 0 0.2rem;
+					}
+					button {
+						margin: 0;
+						padding: 0.1rem 0.6rem;
+					}
+				`}
+			>
+				{years.map((y) => (
+					<li key={y}>
+						<button
+							css={y === year2 ? 'background: var(--color-secondary)' : ''}
+						>
+							<Link to={'/blog/année/' + y}>{y}</Link>
+						</button>
+					</li>
+				))}
+			</ul>
+			{articles
+				.sort((a1, a2) => (a1.attributes.date > a2.attributes.date ? -1 : 1))
+				.filter((a) => new Date(a.attributes.date).getFullYear() == year2)
+				.map((a) => (
+					<ArticleVignette {...a} />
+				))}
+		</div>
+	)
+}
 
 const ArticleVignette = ({
 	id,
@@ -96,7 +144,12 @@ const ArticleVignette = ({
 			</header>
 			<Link to={'/blog/' + id}>
 				<img
-					css="max-width: 20rem; max-height: 10rem; box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;"
+					css={`
+						max-width: 20rem;
+						max-height: 10rem;
+						box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;
+						${!image ? '' : ''}
+					`}
 					src={
 						image
 							? imageResizer('m')(image)
