@@ -62,7 +62,9 @@ export default ({}) => (
 const ArticleVignette = ({
 	id,
 	attributes: { date, résumé, titre, image },
+	body,
 }) => {
+	const résumé2 = résumé || body.split(' ').slice(0, 16).join(' ') + '...'
 	return (
 		<aside
 			css={`
@@ -102,7 +104,7 @@ const ArticleVignette = ({
 					}
 				></img>
 			</Link>
-			<p>{résumé} </p>
+			<p>{résumé2} </p>
 			<Link to={'/blog/' + id}>
 				<em>Lire</em>
 			</Link>
