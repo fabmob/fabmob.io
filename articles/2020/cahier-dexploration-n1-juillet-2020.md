@@ -11,6 +11,7 @@ tags:
   - entreprise distribuée
   - machine à café
 author: "Gabriel Plassat"
+résumé: Cahier d'exploration N°1 - les évolutions du télétravail
 ---
 
 ## **FABMOB |**
