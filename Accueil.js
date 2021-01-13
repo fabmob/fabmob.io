@@ -63,11 +63,6 @@ export default () => {
 							</a>
 						</li>
 						<li>
-							<a href="https://fr-fr.facebook.com/FABM0B" title="facebook">
-								<img css="width: 1.4rem" src={FacebookLogo} alt="facebook" />
-							</a>
-						</li>
-						<li>
 							<a
 								href="https://www.linkedin.com/company/fabmob/"
 								title="linkedin"
