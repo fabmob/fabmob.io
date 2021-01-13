@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import TwitterLogo from './images/Twitter_Logo_Blue.png'
 import FacebookLogo from './images/FacebookLogo.png'
 import LinkedinLogo from './images/LinkedinLogo.png'
+import YouTubeLogo from './images/YouTubeLogo.png'
 
 export default () => {
 	return (
@@ -68,6 +69,18 @@ export default () => {
 								title="linkedin"
 							>
 								<img css="width: 1.6rem" src={LinkedinLogo} alt="linkedin" />
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.youtube.com/channel/UC7jt1WuLQbb15ois1PQ-clw"
+								title="YoutUbe"
+							>
+								<img
+									css="width: 1.6rem"
+									src={YouTubeLogo}
+									alt="notre chaîne youtube"
+								/>
 							</a>
 						</li>
 						<li>
