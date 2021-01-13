@@ -7,6 +7,7 @@ import TwitterLogo from './images/Twitter_Logo_Blue.png'
 import FacebookLogo from './images/FacebookLogo.png'
 import LinkedinLogo from './images/LinkedinLogo.png'
 import YouTubeLogo from './images/YouTubeLogo.png'
+import Logo from './Logo.js'
 
 export default () => {
 	return (
@@ -30,10 +31,7 @@ export default () => {
 						animate={{ scale: [1.5, 1] }}
 						transition={{ duration: 0.6, ease: 'easeOut' }}
 					>
-						<img
-							css="width: 10rem; margin: 1rem;"
-							src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
-						/>
+						<Logo />
 					</motion.div>
 					<h1>Révolutionner la mobilité via les communs</h1>
 					<p>
