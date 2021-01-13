@@ -6,7 +6,6 @@ date: 2000-04-26
 auteur: Maël Thomas
 ---
 
-# La crise, ou la ville idéale ?
 
 ## Inaccessible propriété
 

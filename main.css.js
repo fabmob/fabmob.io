@@ -245,10 +245,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a b,
-a em,
-a i,
-a strong,
 button {
   border-radius: var(--border-radius);
   display: inline-block;
@@ -273,13 +269,6 @@ color: white;
   filter: brightness(var(--hover-brightness));
 }
 
-a b,
-a strong
-{
-  background-color: var(--color);
-  border: 2px solid black;
-  color: var(--color-bg);
-}
 
 a em,
 a i {

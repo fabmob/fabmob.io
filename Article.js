@@ -12,9 +12,12 @@ const getLastEdit = (name, action) =>
 	)
 		.then((res) => res.json())
 		.then((json) => {
-			const date = json[0].commit.committer.date
-
-			action(dateCool(new Date(date)))
+			try {
+				const date = json[0].commit.committer.date
+				action(dateCool(new Date(date)))
+			} catch (e) {
+				console.log(e)
+			}
 		})
 
 export const imageResizer = (size) => (src) =>
@@ -28,21 +31,31 @@ export default ({}) => {
 	const { id } = useParams(),
 		article = articles.find((a) => a.id === id),
 		{
-			attributes: { image, auteur, date },
+			attributes: { image, titre, auteur, date },
 			body,
-		} = article
+		} = article,
+		// imported articles from wordpress have english attributes
+		author = auteur || article.attributes.author,
+		title = titre || article.attributes.title,
+		year = new Date(date).getFullYear()
 
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, setLastEditDate)
 
 	return (
 		<div css={() => articleStyle}>
-			<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			{image && (
+				<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			)}
+			{title && <h1>{title}</h1>}
 			<p
 				css={`
 					text-align: center;
 					font-style: italic;
 					margin-bottom: 2rem;
+					border-bottom: 1px solid lightGrey;
+					border-top: 1px solid lightGrey;
+					padding: 0.4rem;
 				`}
 			>
 				<small>
@@ -56,16 +69,23 @@ export default ({}) => {
 							border-radius: 0.3rem;
 						`}
 					>
-						{auteur}
+						{author}
 					</span>
-					le {dateCool(date)}, mis à jour le{' '}
-					<a href={`https://github.com/${repo}/blob/master/articles/${id}.md`}>
-						{lastEditDate}
-					</a>
+					le {dateCool(date)}
+					{lastEditDate && (
+						<span>
+							, mis à jour le{' '}
+							<a
+								href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
+							>
+								{lastEditDate}
+							</a>
+						</span>
+					)}
 				</small>
 			</p>
 			<ReactMarkdown
-				renderers={{ image: ImageRenderer }}
+				renderers={{ image: ImageRenderer(year) }}
 				source={body}
 				escapeHtml={false}
 			/>
@@ -73,7 +93,7 @@ export default ({}) => {
 				Venez discuter de cet article{' '}
 				<a
 					class="twitter-share-button"
-					href="https://twitter.com/intent/tweet?text=La crise, ou la ville idéale ? kont.me/ville-id%C3%A9ale-ou-crise @maeool"
+					href="https://twitter.com/intent/tweet?text= Super article à lire sur le blog @fab_mob"
 					data-size="large"
 				>
 					sur twitter
@@ -83,7 +103,14 @@ export default ({}) => {
 	)
 }
 
-const ImageRenderer = ({ src }) => <img src={imageResizer('l')(src)} />
+const ImageRenderer = (year) => ({ src: rawSrc }) => {
+	const src = rawSrc.includes('http')
+		? imageResizer('l')(rawSrc)
+		: rawSrc.indexOf('images/') === 0
+		? `/articles/${year}/images/${rawSrc.split('images/')[1]}`
+		: rawSrc
+	return <img src={src} />
+}
 
 const articleStyle = `
 	max-width: 800px;

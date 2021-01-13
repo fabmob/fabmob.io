@@ -1,0 +1,32 @@
+---
+title: "3 équipes de pionniers en 2019"
+date: "2019-01-31T11:30:48.000Z"
+categories: 
+  - "innovation"
+tags: 
+author: "Gabriel Plassat"
+---
+
+En conservant une culture de «donneur d’ordre - fournisseur pour des clients acheteurs», toutes les stratégies cherchant à innover dans la mobilité sont vouées à l’échec. Vos produits ou services actuels vont sans doute s’améliorer, intégrer de nouvelles fonctions mais en aucun cas changer les pratiques de mobilités. Les principaux silos resteront, étanches. Vous nagez dans l’océan rouge, jouer à la marge. Il est également illusoire de croire qu’il suffit de faire se rencontrer « l’offre » d’un service de mobilité et la « demande » exprimée par des territoires pour les problèmes soient réglés.
+
+Pas de « plug & play » en matière de mobilité. Pour changer les pratiques de mobilités, il faut faire le deuil d’une approche linéaire et programmatique des actions.
+
+**Quelles transitions vivons-nous ?**
+
+En introduisant il y a plus de 10 ans [**le passage de l’objet automobile vers des services de mobilités**](https://transportsdufutur.ademe.fr/2009/11/le-passage-de-lobjet-vehicule-aux-services-de-mobilite-une-chance.html) en tant que système comme une des rares options valides, nous observons aujourd’hui que cette idée est devenue « mainstream ». Pour autant, elle n’est quasiment pas à l'œuvre dans de nombreux territoires, notamment les plus dépendants de l'automobile et n'a pas produit d'effet à l'échelle.Nous restons toujours drogués au pétrole et au moteur thermique, au quotidien. L’espace public est toujours alloué à stocker de la tôle pliée plutôt que des lieux de vies. Les transports publics en dehors des centres sont inopérants et la sécurité des femmes commence à peine à être l’ordre du jour. Le moindre changement du status quo est inimaginable. Ce système de mobilité, très performant sur certains critères est terriblement fragile, non résilient, avec de nombreuses et non compensées externalités négatives. Portés par de larges corporations privées mondiales, alimentant en taxes les états, ces filières industrielles se caractérisent par des autorités, donneurs d’ordre, acheteurs et des sous-traitants, fournisseurs, vers des client acheteurs. Changer les conditions, le prix du pétrole, les taxes ou le stationnement et le système vacille.
+
+La révolution numérique est terminée. Elle ajoute de la complexité dans la relation à la multitude. Les utilisateurs ne sont pas forcément acheteurs, alors qu’en l’utilisant ils apportent de la valeur à la plateforme. Aujourd’hui, il ne s’agit pas de développer uniquement de nouvelles solutions mais plutôt de comprendre grâce à différentes cultures pourquoi tout à échouer jusqu’à présent ? Quels sont les liens invisibles entre les éléments du problème ? Où sont les fondamentaux, les invariants et les degrés de libertés ? Quels contrats et relations peut-on construire avec les citoyens ?
+
+**Des équipes de pionniers**
+
+Nous proposons de constituer des équipes capables d’explorer l’inconnu en intégrant profondément le caractère complexe, évolutif et vivant de nos mobilités. Ces équipes constituées d’un petit groupe d’’entrepreneurs issus d’industrie, de startup et de territoire volontaires fonctionneront sous la forme d’alliance en dehors de toute logique client-fournisseur pour délivrer des propositions de valeurs aux citoyens, eux-mêmes impliqués. Ces équipes pourront être aidées par des mentors, des spécialistes d’intelligence collective, sociologues et toutes dynamiques territoriales positives. Dans la phase de croissance, l’équipe pourra œuvrer en invitant la transdisciplinarité, les savoirs non formels d’autres acteurs et d’associations, en questionnant les status quo établis et l’ontologie de chacun, en se basant au maximum sur des faits scientifiques objectifs validés par les usages. Dans la phase de maturation, l’équipe cherchera à renforcer la **résilience** de la solution, à identifier les options pour la pérenniser via une multitude de modèle d’affaire et de type de relation entre les parties prenantes. Il s’agit d’inventer une véritable biodiversité industrielle et sociale ! En cas d’échec, une phase de réorganisation pourra essaimer les apprentissages, les erreurs et certaines briques techniques développées.
+
+**Apprendre autrement**
+
+Les personnes impliquées dans ces équipes seront sélectionnées pour leur **[différence](http://wiki.lafabriquedesmobilites.fr/wiki/Se_pr%C3%A9senter_au_r%C3%A9seau)**, leur capacité d’empathie, de réciprocité, de bienveillance et d’ouverture en plus que leur compétence technique. De subtiles dynamiques de groupe se mettront à l’œuvre en dehors des cadres traditionnels. Leur structure d’origine devra avoir couper les ponts pour leur laisser le maximum de liberté, pour qu’ils puissent s’épanouir, pour ne pas les enfermer dans une culture datée et toxique. Libérés des architectures invisibles qui commandent une majeure partie de nos décisions, ces pionniers développeront des compétences inédites grâce aux interactions avec les autres membres de l’équipe. Ils mèneront des projets en utilisant des méthodes radicalement nouvelles pour créer, expérimenter, apprendre à la fois individuellement et collectivement. L’équipe gérera également la porosité de la membrane du projet pour équilibrer le compromis entre une fermeture protectrice mais potentiellement stérile et une ouverture qui risque de perturber mais riche en connexion. Tous ces apprentissages pourront, plus tard, alimenter les structures mères, changeant ainsi la culture grâce à ces pionniers.
+
+**Identifions les meilleures plages de débarquement**
+
+Tout doit être mis en œuvre pour aider ces équipes à explorer les principaux défis de mobilité auxquels nous sommes confrontés. Identifier les bons problèmes, les meilleures « [**plages de débarquement**](https://15marches.fr/business/crossing-the-chasm) », les aider à se lancer, à se structurer, à avancer malgré les hauts niveaux d’incertitudes et de risques. Ces démarches seront fermées, confidentielles sans s’interdire d’en extraire des communs.
+
+En complément de l’open source et des challenges ouverts en cours, la Fabrique mettra tout en œuvre pour cela en 2019 : mentorat et **challenges fermés avec des équipes de pionniers** dont nous avions esquissé les principes dans ce précédent [**article**](http://lafabriquedesmobilites.fr/articles/18-mois-temps-mort-de-linnovation/).
