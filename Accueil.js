@@ -77,7 +77,7 @@ export default () => {
 						</li>
 						<li>
 							<a
-								href="mailto:lafabriquedesmobilites@gmail.com"
+								href="contact@fabmob.io"
 								title="courriel"
 								css="img {font-size: 120%}"
 							>
