@@ -74,11 +74,7 @@ hr {
   margin: 4rem 0;
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: var(--justify-important);
-}
+section{margin-bottom: 4rem}
 
 section aside {
   border: 1px solid var(--color-bg-secondary);
@@ -177,6 +173,10 @@ details summary {
 details summary:focus {
   outline: none;
 }
+
+h1{font-size: 200%}
+h2{font-size: 160%}
+h3{font-size: 130%}
 
 h1,
 h2,

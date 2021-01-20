@@ -52,13 +52,25 @@ export default ({}) => {
 		fetchData()
 	}, [])
 	return (
-		<section>
+		<section
+			css={`
+				h2 {
+					text-align: center;
+				}
+			`}
+		>
 			<header>
-				<h1>Nos derniers communs </h1>
-				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
-					Explorer tous nos communs sur le wiki
-				</a>
+				<h1>Les communs </h1>
+				<p>
+					Un commun c'est n'importe quelle ressource utile à quelqu'un (un site
+					Web, un logiciel, les plans d'un objet, le process de fabrication d'un
+					objet), ayant la particularité d'
+					<strong>être ouverte et contributive</strong> : son code est lisible
+					et on peut, selon certaines conditions, se l'approprier pour
+					l'améliorer.{' '}
+				</p>
 			</header>
+			<h2>Nos communs actuels</h2>
 			<ul
 				css={`
 					display: flex;
@@ -75,8 +87,8 @@ export default ({}) => {
 							border-radius: var(--border-radius);
 							margin: 1rem;
 							width: 80%;
-							max-width: 30rem;
-							min-height: 20rem;
+							width: 20rem;
+							height: 16rem;
 							padding: 1rem;
 							> ul {
 								margin-bottom: 0.6rem;
@@ -94,13 +106,14 @@ export default ({}) => {
 								border-radius: 0.3rem;
 							}
 							img {
-								width: 10rem;
+								max-width: 10rem;
+								max-height: 5rem;,
 								border-radius: 0.6rem;
 							}
 						`}
 					>
 						<a href={commun.fullurl || '#'}>
-							<h2>{commun.title}</h2>
+							<h3>{commun.title}</h3>
 						</a>
 						{commun.data.Tags && (
 							<ul>
@@ -123,6 +136,19 @@ export default ({}) => {
 					</li>
 				))}
 			</ul>
+
+			<div
+				css={`
+					background: var(--color-secondary);
+					max-width: 400px;
+					margin: 0 auto;
+					padding: 1rem 4rem;
+				`}
+			>
+				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
+					Explorer tous nos communs sur le wiki
+				</a>
+			</div>
 		</section>
 	)
 }
