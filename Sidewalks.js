@@ -1,6 +1,6 @@
 import React from 'react'
 import cities from './sidewalks.yaml'
-import Emoji from './Emoji'
+import Emoji from 'Components/Emoji'
 
 export default () => (
 	<main>

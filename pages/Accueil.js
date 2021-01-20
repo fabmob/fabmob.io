@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
-import { Link } from './Lang'
+import { Link } from '../Lang'
 import Emoji from './Emoji'
 import { motion } from 'framer-motion'
 import TwitterLogo from './images/Twitter_Logo_Blue.png'

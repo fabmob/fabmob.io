@@ -2,10 +2,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 const isDevelopment = process.env.NODE_ENV !== 'production'
 const CopyPlugin = require('copy-webpack-plugin')
+const path = require('path')
 
 module.exports = {
 	mode: isDevelopment ? 'development' : 'production',
 	resolve: {
+		alias: {
+			Components: path.resolve('components/'),
+			Pages: path.resolve('pages/'),
+		},
 		fallback: {
 			path: 'path-browserify',
 			buffer: 'buffer',
