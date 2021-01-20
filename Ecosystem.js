@@ -93,27 +93,32 @@ let Présentation = ({ filter }) => (
 			<header>
 				<h2>Nos membres</h2>
 			</header>
-			{members
-				.filter((el) => !filter.géo || el.géo === filter.géo)
-				.map(({ nom, image, rôle }) => (
-					<aside>
-						<img src={image} title={nom} />
-						<h3>{nom}</h3>
-						<p>{rôle}</p>
-					</aside>
-				))}
+			<div css="display: flex;">
+				{members
+					.filter((el) => !filter.géo || el.géo === filter.géo)
+					.map(({ nom, image, rôle }) => (
+						<aside>
+							<img src={image} title={nom} />
+							<h3>{nom}</h3>
+							<p>{rôle}</p>
+						</aside>
+					))}
+			</div>
 			<header>
 				<h2>Les experts</h2>
 			</header>
-			{members
-				.filter((el) => !filter.géo || el.géo === filter.géo)
-				.map(({ nom, image, rôle }) => (
-					<aside>
-						<img src={image} title={nom} />
-						<h3>{nom}</h3>
-						<p>{rôle}</p>
-					</aside>
-				))}
+
+			<div css="display: flex;">
+				{members
+					.filter((el) => !filter.géo || el.géo === filter.géo)
+					.map(({ nom, image, rôle }) => (
+						<aside>
+							<img src={image} title={nom} />
+							<h3>{nom}</h3>
+							<p>{rôle}</p>
+						</aside>
+					))}
+			</div>
 		</section>
 	</main>
 )
