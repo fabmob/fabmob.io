@@ -70,7 +70,7 @@ export default ({}) => {
 					l'améliorer.{' '}
 				</p>
 			</header>
-			<h2>Nos communs actuels</h2>
+			<h2>Les communs FabMob</h2>
 			<ul
 				css={`
 					display: flex;
@@ -146,7 +146,7 @@ export default ({}) => {
 				`}
 			>
 				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
-					Explorer tous nos communs sur le wiki
+					Explorer tous les communs sur le wiki
 				</a>
 			</div>
 		</section>
