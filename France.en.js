@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from './Lang'
+import { Link } from 'Components/Lang'
 
 export default () => (
 	<div>

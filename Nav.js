@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Emoji from './Emoji'
-import { LangSwitch, Link } from './Lang'
-import colors from './colors'
+import Emoji from 'Components/Emoji'
+import { Link, LangSwitch } from 'Components/Lang'
+import colors from 'Components/colors'
 import LogoSansTexte from './images/logo fabmob sans texte.svg'
 import { useLocation } from 'react-router-dom'
 

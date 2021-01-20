@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from './Lang'
-import Page from './Page'
+import { Link } from 'Components/Lang'
+import Page from 'Components/Page'
 
 export default () => (
 	<Page

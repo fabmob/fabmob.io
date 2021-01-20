@@ -10,6 +10,7 @@ module.exports = {
 		alias: {
 			Components: path.resolve('components/'),
 			Pages: path.resolve('pages/'),
+			Images: path.resolve('images/'),
 		},
 		fallback: {
 			path: 'path-browserify',

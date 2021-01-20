@@ -69,7 +69,7 @@ const Container = () => (
 					<Ecosystem />
 				</Route>
 				<route path="/participer">
-					<Action />
+					<Participer />
 				</route>
 				<route path="/philosophie">
 					<Philosophie />

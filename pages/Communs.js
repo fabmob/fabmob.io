@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import colors from './colors'
+import colors from 'Components/colors'
 
 var url = 'https://wiki.lafabriquedesmobilites.fr/api.php'
 

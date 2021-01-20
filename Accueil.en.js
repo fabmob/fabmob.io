@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link as OriginalLink, useLocation } from 'react-router-dom'
-import { Link } from './Lang'
+import { Link } from 'Components/Lang'
 
 export default () => {
 	return (

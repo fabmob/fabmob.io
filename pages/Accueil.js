@@ -1,13 +1,13 @@
 import React from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
-import { Link } from '../Lang'
-import Emoji from './Emoji'
+import { Link } from 'Components/Lang'
+import Emoji from 'Components/Emoji'
 import { motion } from 'framer-motion'
-import TwitterLogo from './images/Twitter_Logo_Blue.png'
-import FacebookLogo from './images/FacebookLogo.png'
-import LinkedinLogo from './images/LinkedinLogo.png'
-import YouTubeLogo from './images/YouTubeLogo.png'
-import Logo from './Logo.js'
+import TwitterLogo from 'Images/Twitter_Logo_Blue.png'
+import FacebookLogo from 'Images/FacebookLogo.png'
+import LinkedinLogo from 'Images/LinkedinLogo.png'
+import YouTubeLogo from 'Images/YouTubeLogo.png'
+import Logo from '../Logo.js'
 
 export default () => {
 	return (

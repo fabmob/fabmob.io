@@ -1,5 +1,5 @@
 import React from 'react'
-import Emoji from './Emoji'
+import Emoji from 'Components/Emoji'
 
 import { Link as OriginalLink, useLocation } from 'react-router-dom'
 export const Link = ({ to, ...props }) => {

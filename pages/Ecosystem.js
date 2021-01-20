@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { Link } from './Lang'
-import colors from './colors'
-import members from './members.yaml'
-import Emoji from './Emoji'
-import Page from './Page'
+import { Link } from 'Components/Lang'
+import colors from 'Components/colors'
+import members from '../members.yaml'
+import Emoji from 'Components/Emoji'
+import Page from 'Components/Page'
 
 export default () => {
 	const [filter, setFilter] = useState({})

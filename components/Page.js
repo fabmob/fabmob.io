@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav2 from './Nav2'
+import Nav2 from 'Components/Nav2'
 
 export default ({ children, nav2, titre }) => (
 	<div
