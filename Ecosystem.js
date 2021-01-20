@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from './Lang'
 import colors from './colors'
 import members from './members.yaml'
+import Emoji from './Emoji'
 import Page from './Page'
 
 export default () => {
@@ -91,7 +92,7 @@ let Présentation = ({ filter }) => (
 			`}
 		>
 			<header>
-				<h2>Nos membres</h2>
+				<h2>L'équipe</h2>
 			</header>
 			<div css="display: flex;">
 				{members
@@ -105,7 +106,7 @@ let Présentation = ({ filter }) => (
 					))}
 			</div>
 			<header>
-				<h2>Les experts</h2>
+				<h2>Le conseil d'administration</h2>
 			</header>
 
 			<div css="display: flex;">
@@ -119,6 +120,15 @@ let Présentation = ({ filter }) => (
 						</aside>
 					))}
 			</div>
+
+			<header>
+				<h2>Les adhérents</h2>
+			</header>
+			<p>
+				<Emoji emoji="🏗" />
+				{'  '}Section en construction
+			</p>
+			<p>Nous allons ici afficher les noms et logos de tous les adhérents</p>
 		</section>
 	</main>
 )
