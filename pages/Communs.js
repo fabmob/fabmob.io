@@ -1,55 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import colors from 'Components/colors'
-
-var url = 'https://wiki.lafabriquedesmobilites.fr/api.php'
-
-var params = {
-	action: 'query',
-	generator: 'categorymembers',
-	gcmtitle: 'Category:Commun',
-	gcmsort: 'timestamp',
-	gcmdir: 'desc',
-	format: 'json',
-	prop: 'info|revisions|image',
-	rvprop: 'content',
-	inprop: 'url',
-}
-
-url = url + '?origin=*'
-Object.keys(params).forEach(function (key) {
-	url += '&' + key + '=' + params[key]
-})
+import { fetchSelectedCommuns } from '../wikiAPI'
+import communsFabmob from '../communs-fabmob.yaml'
 
 export default ({}) => {
 	const [communs, setCommuns] = useState([])
+	console.log('COMMUNS', communs)
 	useEffect(() => {
-		const fetchData = () =>
-			fetch(url)
-				.then((res) => res.json())
-				.then((list) => {
-					console.log(list)
-					const elements = list.query.pages
-					const parsed = Object.values(elements).map((e) => {
-						const content = e.revisions[0]['*']
-						const dataPairs = content
-								.split('{{')[1]
-								.split('}}')[0]
-								.split('|')
-								.map((el) => el.split('=')),
-							data = Object.fromEntries(dataPairs)
-
-						console.log(data)
-						return {
-							...e,
-							content,
-							data,
-						}
-					})
-
-					setCommuns(parsed)
-				})
-				.catch((e) => console.log(e))
-		fetchData()
+		fetchSelectedCommuns(communsFabmob)(setCommuns)
 	}, [])
 	return (
 		<section
@@ -130,9 +88,11 @@ export default ({}) => {
 								}
 							/>
 						)}
-						{commun.data.shortDescription.trim() !== commun.title && (
-							<p>{commun.data.shortDescription}</p>
-						)}
+						a
+						{commun.data.shortDescription &&
+							commun.data.shortDescription.trim() !== commun.title && (
+								<p>{commun.data.shortDescription}</p>
+							)}
 					</li>
 				))}
 			</ul>
