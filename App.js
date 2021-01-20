@@ -15,13 +15,13 @@ import France from './France'
 import FranceEn from './France.en'
 import Québec from './Québec'
 import QuébecEn from './Québec.en'
-import Accueil from './Accueil'
+import Accueil from './pages/Accueil'
 import AccueilEn from './Accueil.en'
 import Blog from './Blog'
-import Communs from './Communs'
-import Action from './Action'
-import Ecosystem from './Ecosystem'
-import About from './About'
+import Communs from './pages/Communs'
+import Participer from './pages/Participer'
+import Ecosystem from './pages/Ecosystem'
+import Philosophie from './pages/Philosophie'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -71,8 +71,8 @@ const Container = () => (
 				<route path="/participer">
 					<Action />
 				</route>
-				<route path="/à-propos">
-					<About />
+				<route path="/philosophie">
+					<Philosophie />
 				</route>
 				<Route path="/">
 					<Accueil />
