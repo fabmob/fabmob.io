@@ -13,11 +13,8 @@ export default () => {
 			titre="Ecosystème"
 			nav2={{ membres: 'Nos membres', experts: 'Nos experts' }}
 		>
-			<header>
-				<h1>L'ecosystème FabMob</h1>
-			</header>
+			<h1>L'ecosystème FabMob</h1>
 			<Présentation filter={filter} />
-			<AutresFabriques />
 		</Page>
 	)
 }
@@ -42,25 +39,22 @@ let Présentation = ({ filter }) => (
 				}
 			`}
 		>
-			<header>
-				<h2>L'équipe</h2>
-			</header>
+			<h2>L'équipe</h2>
 			<Members data={ecosystème["L'équipe"]} />
-			<header>
-				<h2>Le conseil d'administration</h2>
-			</header>
+			<h2>Le conseil d'administration</h2>
 
 			<Members data={ecosystème["Le conseil d'administration"]} />
 
-			<header>
-				<h2>Les adhérents</h2>
-			</header>
-			<p>
-				<Emoji emoji="🏗" />
-				{'  '}Section en construction
-			</p>
-			<p>Nous allons ici afficher les noms et logos de tous les adhérents</p>
+			<h2>Les adhérents</h2>
+			<div css="text-align: center">
+				<p>
+					<Emoji emoji="🏗" />
+					{'  '}Section en construction
+				</p>
+				<p>Nous allons ici afficher les noms et logos de tous les adhérents</p>
+			</div>
 		</section>
+		<AutresFabriques />
 	</main>
 )
 
@@ -79,9 +73,9 @@ const Members = ({ data }) => (
 const AutresFabriques = () => (
 	<div>
 		<h2>Les autres fabriques</h2>
-		<p>
+		<p css="text-align: center">
 			Le modèle de la fabrique, initié en France, se répliquer dans d'autres
-			pays et domaines
+			pays et domaines.
 		</p>
 		<div
 			css={`
