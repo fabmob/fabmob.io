@@ -17,3 +17,17 @@ export function shuffle(array) {
 
 	return array
 }
+
+export const sortBy = (path) => (objectList) =>
+	objectList.sort((a, b) => getValue(a, path) > getValue(b, path))
+
+export const getValue = (data, dottedPath) => {
+	var i,
+		path = dottedPath.split('.'),
+		len = path.length
+
+	for (i = 0; typeof data === 'object' && i < len; ++i) {
+		data = data[path[i]]
+	}
+	return data
+}

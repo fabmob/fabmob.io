@@ -84,7 +84,7 @@ export default () => {
 					<Link to="/communs">Communs</Link>
 				</li>
 				<li>
-					<Link to="/fabriques">Événements</Link>
+					<Link to="/événements">Événements</Link>
 					<Notifications count={2} />
 				</li>
 				<li>

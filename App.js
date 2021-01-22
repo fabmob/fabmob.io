@@ -22,6 +22,7 @@ import Communs from './pages/Communs'
 import Participer from './pages/Participer'
 import Ecosystem from './pages/Ecosystem'
 import Philosophie from './pages/Philosophie'
+import Événéments from './pages/Événements'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -73,6 +74,9 @@ const Container = () => (
 				</route>
 				<route path="/philosophie">
 					<Philosophie />
+				</route>
+				<route path="/événements">
+					<Événéments />
 				</route>
 				<Route path="/">
 					<Accueil />
