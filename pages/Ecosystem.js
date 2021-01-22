@@ -4,6 +4,7 @@ import colors from 'Components/colors'
 import ecosystème from '../ecosystème.yaml'
 import Emoji from 'Components/Emoji'
 import Page from 'Components/Page'
+import { shuffle } from '../utils'
 
 export default () => {
 	const [filter, setFilter] = useState({})
@@ -65,7 +66,7 @@ let Présentation = ({ filter }) => (
 
 const Members = ({ data }) => (
 	<div css="display:flex; justify-content: center;">
-		{data.map(({ nom, image, rôle }) => (
+		{shuffle(data).map(({ nom, image, rôle }) => (
 			<aside>
 				<img src={image} title={nom} />
 				<h3>{nom}</h3>
