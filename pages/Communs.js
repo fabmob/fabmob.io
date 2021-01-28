@@ -32,31 +32,7 @@ export default ({}) => {
 			<h2>Les communs FabMob</h2>
 			<CardList>
 				{communs.map((commun) => (
-					<Card>
-						<a href={commun.fullurl || '#'}>
-							<h3>{commun.title}</h3>
-						</a>
-						{commun.data.Tags && (
-							<Tags>
-								{commun.data.Tags.split(',').map((tag) => (
-									<li>{tag}</li>
-								))}
-							</Tags>
-						)}
-						{commun.data.Main_Picture && (
-							<img
-								src={
-									'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
-									commun.data.Main_Picture
-								}
-							/>
-						)}
-						a
-						{commun.data.shortDescription &&
-							commun.data.shortDescription.trim() !== commun.title && (
-								<p>{commun.data.shortDescription}</p>
-							)}
-					</Card>
+					<Commun commun={commun} />
 				))}
 			</CardList>
 
@@ -75,3 +51,30 @@ export default ({}) => {
 		</section>
 	)
 }
+
+const Commun = ({ commun }) => (
+	<Card>
+		<a href={commun.fullurl || '#'}>
+			<h3>{commun.title}</h3>
+		</a>
+		{commun.data.Tags && (
+			<Tags>
+				{commun.data.Tags.split(',').map((tag) => (
+					<li>{tag}</li>
+				))}
+			</Tags>
+		)}
+		{commun.data.Main_Picture && (
+			<img
+				src={
+					'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
+					commun.data.Main_Picture
+				}
+			/>
+		)}
+		{commun.data.shortDescription &&
+			commun.data.shortDescription.trim() !== commun.title && (
+				<p>{commun.data.shortDescription}</p>
+			)}
+	</Card>
+)
