@@ -2,7 +2,6 @@ import React from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from 'Components/Lang'
 import Emoji from 'Components/Emoji'
-import { motion } from 'framer-motion'
 import TwitterLogo from 'Images/Twitter_Logo_Blue.png'
 import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
@@ -27,12 +26,12 @@ export default () => {
 				`}
 			>
 				<section>
-					<motion.div
+					<div
 						animate={{ scale: [1.5, 1] }}
 						transition={{ duration: 0.6, ease: 'easeOut' }}
 					>
 						<Logo />
-					</motion.div>
+					</div>
 					<h1>Révolutionner la mobilité via les communs</h1>
 					<p>
 						L'association pour construire les nouvelles mobilités en réunissant
