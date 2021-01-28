@@ -5,7 +5,7 @@ Le nouveau site Web de la FabMob France.
 
 ## Comment modifier le contenu
 
-1) créer un compte github
+1) se connecter ou créer un compte github
 
 ### Ajouter ou modifier un article de blog
 
