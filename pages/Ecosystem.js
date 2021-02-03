@@ -5,6 +5,7 @@ import ecosystème from '../ecosystème.yaml'
 import Emoji from 'Components/Emoji'
 import Page from 'Components/Page'
 import { shuffle } from '../utils'
+import Adhérents from 'Pages/Adhérents'
 
 export default () => {
 	const [filter, setFilter] = useState({})
@@ -45,21 +46,21 @@ let Présentation = ({ filter }) => (
 
 			<Members data={ecosystème["Le conseil d'administration"]} />
 
-			<h2>Les adhérents</h2>
+			<h2>Nos 10 derniers adhérents</h2>
 			<div css="text-align: center">
 				<p>
 					<Emoji emoji="🏗" />
 					{'  '}Section en construction
 				</p>
-				<p>Nous allons ici afficher les noms et logos de tous les adhérents</p>
 			</div>
+			<Adhérents />
 		</section>
 		<AutresFabriques />
 	</main>
 )
 
 const Members = ({ data }) => (
-	<div css="display:flex; justify-content: center;">
+	<div css="display:flex; justify-content: center;flex-wrap: wrap">
 		{shuffle(data).map(({ nom, image, rôle }) => (
 			<aside>
 				<img src={image} title={nom} />
