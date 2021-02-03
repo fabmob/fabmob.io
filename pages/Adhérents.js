@@ -4,9 +4,15 @@ import { fetchAdhérents } from '../wikiAPI'
 
 export default () => {
 	const [data, setData] = useState([])
+	const [continueString, setContinue] = useState([])
+
+	const setDataAndContinue = (next, nextContinueString) => {
+		setData([...data, ...next])
+		setContinue(nextContinueString)
+	}
 	console.log('ADH', data)
 	useEffect(() => {
-		fetchAdhérents(setData)
+		fetchAdhérents(null, setDataAndContinue)
 	}, [])
 
 	return (
@@ -29,6 +35,14 @@ export default () => {
 					</aside>
 				)
 			)}
+			<button
+				onClick={() =>
+					console.log('yo') ||
+					fetchAdhérents('&gcmcontinue=' + continueString, setDataAndContinue)
+				}
+			>
+				Voir les 10 suivants
+			</button>
 		</div>
 	)
 }

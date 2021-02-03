@@ -135,7 +135,7 @@ export const fetchLastEvents = (then) => {
 		.catch((e) => console.log(e))
 }
 
-export const fetchAdhérents = (then) => {
+export const fetchAdhérents = (suffix = '', then) => {
 	const params = {
 		action: 'query',
 		generator: 'categorymembers',
@@ -154,7 +154,8 @@ export const fetchAdhérents = (then) => {
 		Object.keys(params).reduce(
 			(memo, key) => memo + '&' + key + '=' + params[key],
 			''
-		)
+		) +
+		suffix
 
 	fetch(url)
 		.then((res) => res.json())
@@ -176,7 +177,7 @@ export const fetchAdhérents = (then) => {
 				}
 			})
 
-			then(parsed)
+			then(parsed, list.continue.gcmcontinue)
 		})
 		.catch((e) => console.log(e))
 }
