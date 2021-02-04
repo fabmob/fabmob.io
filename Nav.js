@@ -64,7 +64,7 @@ export default () => {
 						position: fixed;
 						z-index: 1000;
 						align-item: end;
-						right: 0rem;
+						right: -1px;
 						top: 0;
 						width: 3rem;
 						height: 100vh;
