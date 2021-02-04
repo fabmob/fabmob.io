@@ -14,7 +14,11 @@ export default () => {
 			<header
 				css={`
 					> section {
-						height: 65vh;
+						height: 75vh;
+						@media (max-width: 800px) {
+							height: 70vh;
+						}
+
 						display: flex;
 						flex-direction: column;
 						justify-content: center;

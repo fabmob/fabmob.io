@@ -7,7 +7,6 @@ import { useLocation } from 'react-router-dom'
 
 export default () => {
 	let location = useLocation()
-	const [open, setOpen] = useState(false)
 	return (
 		<nav
 			css={`
@@ -15,8 +14,10 @@ export default () => {
 				margin: 0 auto;
 				width: 100%;
 				padding: 0.6rem 0;
-				box-shadow: var(--box-shadow) var(--color-bg-secondary);
-				border-bottom: 1px solid var(--color-bg-secondary);
+				@media (min-width: 800px) {
+					box-shadow: var(--box-shadow) var(--color-bg-secondary);
+					border-bottom: 1px solid var(--color-bg-secondary);
+				}
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -28,6 +29,7 @@ export default () => {
 					display: flex;
 					list-style: none;
 					padding: 0;
+					margin: 0;
 				}
 				ul > li {
 					display: inline-block;
@@ -63,8 +65,16 @@ export default () => {
 					}
 					ul {
 						flex-direction: column;
+						position: fixed;
+						z-index: 1000;
 						align-item: end;
-						${open ? 'display: flex' : 'display: none'}
+						right: 0rem;
+						top: 0;
+						width: 3rem;
+					}
+					ul li {
+						writing-mode: vertical-rl;
+						text-orientation: mixed;
 					}
 				}
 			`}
@@ -105,27 +115,6 @@ export default () => {
 					<LangSwitch />
 				</li>
 			</ul>
-			<div
-				title={open ? 'Fermer le menu' : 'Ouvrir le menu'}
-				css={`
-					cursor: pointer;
-					border: none;
-					padding: 0;
-					margin: 0;
-					svg {
-						width: 2rem;
-						height: 2rem;
-					}
-
-					display: none;
-					@media (max-width: 800px) {
-						display: block;
-					}
-				`}
-				onClick={() => setOpen(!open)}
-			>
-				{open ? <CloseMenuIcon /> : <MenuIcon />}
-			</div>
 		</nav>
 	)
 }
@@ -141,6 +130,10 @@ const Notifications = ({ count }) => (
 			font-size: 60%;
 			padding: 0.2rem 0.6rem;
 			position: relative;
+
+			@media (max-width: 800px) {
+				display: none;
+			}
 		`}
 	>
 		{count}
