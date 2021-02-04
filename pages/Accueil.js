@@ -20,8 +20,8 @@ export default () => {
 						justify-content: center;
 						align-items: center;
 					}
-					h1 {
-						font-size: 120%;
+					> section > p {
+						margin-top: 2rem;
 					}
 				`}
 			>
@@ -32,7 +32,6 @@ export default () => {
 					>
 						<Logo />
 					</div>
-					<h1>Révolutionner la mobilité via les communs</h1>
 					<p>
 						L'association pour construire les nouvelles mobilités en réunissant
 						tous les acteurs autour de communs open source.
