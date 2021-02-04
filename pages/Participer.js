@@ -25,8 +25,8 @@ let Présentation = () => (
 		<section>
 			<header>
 				<p>
-					En 2 minutes, accédez à la galaxie FabMob en créant un compte unique
-					galaxie FabMob
+					En 2 minutes, accédez à la galaxie FabMob en créant votre compte
+					unique.
 				</p>
 
 				<a

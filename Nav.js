@@ -7,7 +7,6 @@ import { useLocation } from 'react-router-dom'
 
 export default () => {
 	let location = useLocation()
-	const [open, setOpen] = useState(false)
 	return (
 		<nav
 			css={`
@@ -15,8 +14,10 @@ export default () => {
 				margin: 0 auto;
 				width: 100%;
 				padding: 0.6rem 0;
-				box-shadow: var(--box-shadow) var(--color-bg-secondary);
-				border-bottom: 1px solid var(--color-bg-secondary);
+				@media (min-width: 800px) {
+					box-shadow: var(--box-shadow) var(--color-bg-secondary);
+					border-bottom: 1px solid var(--color-bg-secondary);
+				}
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -28,6 +29,7 @@ export default () => {
 					display: flex;
 					list-style: none;
 					padding: 0;
+					margin: 0;
 				}
 				ul > li {
 					display: inline-block;
@@ -35,7 +37,6 @@ export default () => {
 					position: relative;
 					text-align: left;
 					text-transform: uppercase;
-					font-size: 110%;
 				}
 				/* Nav Dropdown */
 				ul li:hover ul {
@@ -58,13 +59,38 @@ export default () => {
 				@media (max-width: 800px) {
 					justify-content: space-evenly;
 
-					img {
-						width: 3rem;
-					}
 					ul {
 						flex-direction: column;
+						position: fixed;
+						z-index: 1000;
 						align-item: end;
-						${open ? 'display: flex' : 'display: none'}
+						right: -1px;
+						top: 0;
+						width: 3rem;
+						height: 100vh;
+					}
+					ul li {
+						writing-mode: vertical-rl;
+						text-orientation: mixed;
+						background: grey;
+						margin: 0;
+						padding: 2rem 0.7rem;
+						flex-grow: 1;
+					}
+					li:nth-child(0) {
+						background: #e4e4e4;
+					}
+					li:nth-child(1) {
+						background: #c4c4c4;
+					}
+					li:nth-child(2) {
+						background: #a3a3a3;
+					}
+					li:nth-child(3) {
+						background: #aaa;
+					}
+					img.emoji {
+						vertical-align: 0;
 					}
 				}
 			`}
@@ -80,52 +106,24 @@ export default () => {
 				<li>
 					<Link to="/communs">Communs</Link>
 				</li>
-				<li>
-					<Link to="/ecosystem">Écosystème</Link>
-				</li>
-				<li>
-					<Link to="/événements">Événements</Link>
-					<Notifications count={2} />
-				</li>
-				<li>
-					<Link to="/blog">Blog</Link>
-					<Notifications count={2} />
-				</li>
 				<li
 					css={`
 						padding: 0.2rem 0.3rem;
 						a {
-							color: ${colors.bleu} !important;
+							color: yellow;
 						}
 					`}
 				>
 					<Link to="/participer">Participer</Link>
 				</li>
 				<li>
+					<Link to="/blog">Blog</Link>
+					<Notifications count={2} />
+				</li>
+				<li>
 					<LangSwitch />
 				</li>
 			</ul>
-			<div
-				title={open ? 'Fermer le menu' : 'Ouvrir le menu'}
-				css={`
-					cursor: pointer;
-					border: none;
-					padding: 0;
-					margin: 0;
-					svg {
-						width: 2rem;
-						height: 2rem;
-					}
-
-					display: none;
-					@media (max-width: 800px) {
-						display: block;
-					}
-				`}
-				onClick={() => setOpen(!open)}
-			>
-				{open ? <CloseMenuIcon /> : <MenuIcon />}
-			</div>
 		</nav>
 	)
 }
@@ -141,6 +139,10 @@ const Notifications = ({ count }) => (
 			font-size: 60%;
 			padding: 0.2rem 0.6rem;
 			position: relative;
+
+			@media (max-width: 800px) {
+				display: none;
+			}
 		`}
 	>
 		{count}

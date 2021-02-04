@@ -39,49 +39,57 @@ const Container = () => (
 		<Router>
 			<Nav />
 
-			<Switch>
-				<Route path="/france">
-					<France />
-				</Route>
-				<Route path="/en/france">
-					<FranceEn />
-				</Route>
-				<Route path="/québec">
-					<Québec />
-				</Route>
-				<Route path="/en/québec">
-					<QuébecEn />
-				</Route>
-				<Route path="/sidewalks">
-					<Sidewalks />
-				</Route>
-				<Route path="/en/">
-					<AccueilEn />
-				</Route>
-				<Route path="/blog">
-					<Blog />
-				</Route>
-				{/* Pour la migration vers le nouveau site*/}
-				<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
-				<Route path="/communs">
-					<Communs />
-				</Route>
-				<Route path="/ecosystem">
-					<Ecosystem />
-				</Route>
-				<route path="/participer">
-					<Participer />
-				</route>
-				<route path="/a-propos">
-					<About />
-				</route>
-				<route path="/événements">
-					<Événéments />
-				</route>
-				<Route path="/">
-					<Accueil />
-				</Route>
-			</Switch>
+			<div
+				css={`
+					@media (max-width: 800px) {
+						width: 90%;
+					}
+				`}
+			>
+				<Switch>
+					<Route path="/france">
+						<France />
+					</Route>
+					<Route path="/en/france">
+						<FranceEn />
+					</Route>
+					<Route path="/québec">
+						<Québec />
+					</Route>
+					<Route path="/en/québec">
+						<QuébecEn />
+					</Route>
+					<Route path="/sidewalks">
+						<Sidewalks />
+					</Route>
+					<Route path="/en/">
+						<AccueilEn />
+					</Route>
+					<Route path="/blog">
+						<Blog />
+					</Route>
+					{/* Pour la migration vers le nouveau site*/}
+					<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
+					<Route path="/communs">
+						<Communs />
+					</Route>
+					<Route path="/ecosystem">
+						<Ecosystem />
+					</Route>
+					<route path="/participer">
+						<Participer />
+					</route>
+					<route path="/a-propos">
+						<About />
+					</route>
+					<route path="/événements">
+						<Événéments />
+					</route>
+					<Route path="/">
+						<Accueil />
+					</Route>
+				</Switch>
+			</div>
 		</Router>
 	</div>
 )
