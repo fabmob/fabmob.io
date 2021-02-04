@@ -75,13 +75,13 @@ export default () => {
 
 			<ul>
 				<li css="position: relative">
-					<Link to="/philosophie">Philosophie</Link>
-				</li>
-				<li>
-					<Link to="/ecosystem">Écosystème</Link>
+					<Link to="/a-propos">À propos</Link>
 				</li>
 				<li>
 					<Link to="/communs">Communs</Link>
+				</li>
+				<li>
+					<Link to="/ecosystem">Écosystème</Link>
 				</li>
 				<li>
 					<Link to="/événements">Événements</Link>

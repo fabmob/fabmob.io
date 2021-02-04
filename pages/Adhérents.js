@@ -10,7 +10,6 @@ export default () => {
 		setData([...data, ...next])
 		setContinue(nextContinueString)
 	}
-	console.log('ADH', data)
 	useEffect(() => {
 		fetchAdhérents(null, setDataAndContinue)
 	}, [])
@@ -37,7 +36,6 @@ export default () => {
 			)}
 			<button
 				onClick={() =>
-					console.log('yo') ||
 					fetchAdhérents('&gcmcontinue=' + continueString, setDataAndContinue)
 				}
 			>
