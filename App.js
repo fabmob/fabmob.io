@@ -42,7 +42,7 @@ const Container = () => (
 			<div
 				css={`
 					@media (max-width: 800px) {
-						width: 80%;
+						width: 90%;
 					}
 				`}
 			>

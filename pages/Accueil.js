@@ -16,7 +16,8 @@ export default () => {
 					> section {
 						height: 75vh;
 						@media (max-width: 800px) {
-							height: 70vh;
+							height: 65vh;
+							padding: 0 1rem;
 						}
 
 						display: flex;

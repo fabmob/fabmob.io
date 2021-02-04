@@ -37,7 +37,6 @@ export default () => {
 					position: relative;
 					text-align: left;
 					text-transform: uppercase;
-					font-size: 110%;
 				}
 				/* Nav Dropdown */
 				ul li:hover ul {
@@ -60,9 +59,6 @@ export default () => {
 				@media (max-width: 800px) {
 					justify-content: space-evenly;
 
-					img {
-						width: 3rem;
-					}
 					ul {
 						flex-direction: column;
 						position: fixed;
@@ -71,10 +67,30 @@ export default () => {
 						right: 0rem;
 						top: 0;
 						width: 3rem;
+						height: 100vh;
 					}
 					ul li {
 						writing-mode: vertical-rl;
 						text-orientation: mixed;
+						background: grey;
+						margin: 0;
+						padding: 2rem 0.7rem;
+						flex-grow: 1;
+					}
+					li:nth-child(0) {
+						background: #e4e4e4;
+					}
+					li:nth-child(1) {
+						background: #c4c4c4;
+					}
+					li:nth-child(2) {
+						background: #a3a3a3;
+					}
+					li:nth-child(3) {
+						background: #aaa;
+					}
+					img.emoji {
+						vertical-align: 0;
 					}
 				}
 			`}
@@ -90,26 +106,19 @@ export default () => {
 				<li>
 					<Link to="/communs">Communs</Link>
 				</li>
-				<li>
-					<Link to="/ecosystem">Écosystème</Link>
-				</li>
-				<li>
-					<Link to="/événements">Événements</Link>
-					<Notifications count={2} />
-				</li>
-				<li>
-					<Link to="/blog">Blog</Link>
-					<Notifications count={2} />
-				</li>
 				<li
 					css={`
 						padding: 0.2rem 0.3rem;
 						a {
-							color: ${colors.bleu} !important;
+							color: yellow;
 						}
 					`}
 				>
 					<Link to="/participer">Participer</Link>
+				</li>
+				<li>
+					<Link to="/blog">Blog</Link>
+					<Notifications count={2} />
 				</li>
 				<li>
 					<LangSwitch />
