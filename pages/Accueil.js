@@ -22,6 +22,11 @@ export default () => {
 					}
 					> section > p {
 						margin-top: 2rem;
+						width: 20rem;
+					}
+					p em {
+						background: yellow;
+						font-style: normal;
 					}
 				`}
 			>
@@ -33,8 +38,8 @@ export default () => {
 						<Logo />
 					</div>
 					<p>
-						L'association pour construire les nouvelles mobilités en réunissant
-						tous les acteurs autour de communs open source.
+						Brique par brique, nous construisons une <em>mobilité durable</em>{' '}
+						pour et avec tou.te.s grâce à l'<em>open source</em>.
 					</p>
 					<br />
 				</section>

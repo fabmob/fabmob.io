@@ -13,9 +13,9 @@ export default () => (
 		}}
 	>
 		<header>
-			<h1>A propos de la FabMob</h1>
+			<h1>À propos de la FabMob</h1>
 			<p>
-				Une association loi 1901 basée à Paris, présente dans toute le pays pour
+				Une association loi 1901 basée à Paris, présente dans tout le pays pour
 				construire les nouvelles mobilités en réunissant tous les acteurs autour
 				de <mark>communs open source</mark>
 			</p>
