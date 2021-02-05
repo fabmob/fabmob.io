@@ -57,7 +57,15 @@ module.exports = {
 					{
 						loader: require.resolve('babel-loader'),
 						options: {
-							presets: ['@babel/preset-env', '@babel/preset-react'],
+							presets: [
+								'@babel/preset-env',
+								[
+									'@babel/preset-react',
+									{
+										runtime: 'automatic',
+									},
+								],
+							],
 							plugins: [
 								'babel-plugin-styled-components',
 								isDevelopment && require.resolve('react-refresh/babel'),
@@ -74,10 +82,10 @@ module.exports = {
 	},
 
 	output: {
-		filename: 'index.js',
-		path: __dirname + '/dist',
+		path: path.join(__dirname, 'dist'),
 	},
 	devServer: {
+		contentBase: path.join(__dirname, 'dist'),
 		historyApiFallback: true,
 	},
 

@@ -5,7 +5,7 @@
 	"main": "index.html",
 	"license": "MIT",
 	"scripts": {
-		"start": "webpack serve --hot --mode development",
+		"start": "webpack serve --hot --mode development --inline",
 		"compile": "NODE_ENV=production webpack --mode production -c webpack.config.js"
 	},
 	"dependencies": {
@@ -35,7 +35,7 @@
 		"html-webpack-plugin": "^5.0.0",
 		"react-refresh": "^0.9.0",
 		"styled-components": "^5.2.1",
-		"webpack": "^5.20.1",
+		"webpack": "^5.20.2",
 		"webpack-cli": "^4.5.0",
 		"webpack-dev-server": "^3.11.2",
 		"worker-loader": "^3.0.7"
