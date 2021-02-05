@@ -17,7 +17,7 @@ export default () => (
 			<p>
 				Une association loi 1901 basée à Paris, présente dans tout le pays pour
 				construire les nouvelles mobilités en réunissant tous les acteurs autour
-				de <mark>communs open source</mark>
+				de <mark>communs open source</mark>.
 			</p>
 			<br />
 			<p>

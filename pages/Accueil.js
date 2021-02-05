@@ -38,8 +38,8 @@ export default () => {
 						<Logo />
 					</div>
 					<p>
-						Brique par brique, nous construisons une <em>mobilité durable</em>{' '}
-						pour et avec tou.te.s grâce à l'<em>open source</em>.
+						Brique par brique, nous construisons ensemble les{' '}
+						<em>mobilités durables</em> grâce à l'<em>open source</em>.
 					</p>
 					<br />
 				</section>
