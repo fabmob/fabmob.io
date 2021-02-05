@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useRef } from 'react'
+
 export function shuffle(array) {
 	var currentIndex = array.length,
 		temporaryValue,
@@ -30,4 +32,24 @@ export const getValue = (data, dottedPath) => {
 		data = data[path[i]]
 	}
 	return data
+}
+
+export function useInterval(callback, delay) {
+	const savedCallback = useRef()
+
+	// Remember the latest callback.
+	useEffect(() => {
+		savedCallback.current = callback
+	}, [callback])
+
+	// Set up the interval.
+	useEffect(() => {
+		function tick() {
+			savedCallback.current()
+		}
+		if (delay !== null) {
+			let id = setInterval(tick, delay)
+			return () => clearInterval(id)
+		}
+	}, [delay])
 }

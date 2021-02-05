@@ -7,12 +7,11 @@ import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
 import Logo from '../Logo.js'
+import { useInterval } from '../utils.js'
 
 const ReDe = () => {
 	const [fragment, setFragment] = useState(true)
-	useEffect(() => {
-		setInterval(() => setFragment(!fragment), 2000)
-	}, [fragment])
+	useInterval(() => setFragment(!fragment), 2000)
 	return <span>{fragment ? 're' : 'dé'}</span>
 }
 
