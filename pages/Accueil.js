@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from 'Components/Lang'
 import Emoji from 'Components/Emoji'
@@ -7,6 +7,14 @@ import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
 import Logo from '../Logo.js'
+
+const ReDe = () => {
+	const [fragment, setFragment] = useState(true)
+	useEffect(() => {
+		setInterval(() => setFragment(!fragment), 2000)
+	}, [fragment])
+	return <span>{fragment ? 're' : 'dé'}</span>
+}
 
 export default () => {
 	return (
@@ -38,8 +46,8 @@ export default () => {
 						<Logo />
 					</div>
 					<p>
-						Brique par brique, nous construisons ensemble les{' '}
-						<em>mobilités durables</em> grâce à l'<em>open source</em>.
+						Brique par brique et face à l'<em>urgence</em>, nous <ReDe />
+						construisons ensemble les mobilités grâce à l'<em>open source</em>.
 					</p>
 					<br />
 				</section>
