@@ -1,13 +1,13 @@
 ---
-title: "Passer d’une idée à une plateforme numérique publique en 4 ans – le cas du Registre de Preuve de Covoiturage"
-date: "2020-07-14T08:13:40.000Z"
-categories: 
-  - "articles"
-  - "innovation"
-tags: 
-  - "covoiturage"
-  - "plateforme"
-author: "Gabriel Plassat"
+title: "D'idée à plateforme numérique publique en 4 ans : Registre de Preuve de Covoiturage"
+date: '2020-07-14T08:13:40.000Z'
+categories:
+  - 'articles'
+  - 'innovation'
+tags:
+  - 'covoiturage'
+  - 'plateforme'
+author: 'Gabriel Plassat'
 ---
 
 En 2016, dans les locaux du Conseil Départemental des Alpes Maritimes, un groupe de travail de la Fabrique des Mobilités se réunissait en marge d’un évènement sur les smart cities (voir le [CR de cet atelier](https://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_autour_du_Covoiturage_quotidien_Atelier_N%C2%B01) avec les présentations et toutes les productions). Ce groupe était constitué des principaux acteurs du covoiturage en France. La question posée était singulière : « **De quoi avez-vous besoin maintenant (pour mieux atteindre vos objectifs) et que vous avez intérêt à faire ensemble ?** ».

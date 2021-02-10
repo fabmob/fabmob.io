@@ -1,18 +1,16 @@
 ---
-title: "Gtfs2NetexFr, nouvel outil open source pour faciliter la production de données transport au format NeTEx"
-date: "2020-06-08T06:16:19.000Z"
-categories: 
-  - "articles"
-  - "innovation"
-  - "innovation-fr"
-  - "territoires"
-tags: 
-author: "bertrand Billoud"
+title: 'Gtfs2NetexFr, nouvel outil open source pour produire des données transport'
+date: '2020-06-08T06:16:19.000Z'
+categories:
+  - 'articles'
+  - 'innovation'
+  - 'innovation-fr'
+  - 'territoires'
+tags:
+author: 'bertrand Billoud'
 ---
 
 **A la demande de la Mission Innovation Numérique et Territoires (MINT), au ministère de la transition  écologique et solidaire, les équipes de Kisio Digital viennent de réaliser le Convertisseur de données** [**Gtfs2NetexFr**](https://wiki.lafabriquedesmobilites.fr/wiki/Gtfs2NetexFr)**, un programme informatique en open source qui permet aux équipes de** [**BetaGouv**](https://beta.gouv.fr/) **(concepteur de services  numériques pour les différents ministères) de convertir les 260 jeux de données de Transport public du format GTFS au format NeTEx (profil France). Ces données transport sont mises à disposition des réutilisateurs en open data sur le PAN (Point d’Accès National)** **que BetaGouv développe dans le cadre d’une convention conclue avec la MINT.**
-
- 
 
 Chez Kisio Digital, le format NeTEx fait partie des nombreux formats de données transport (Neptune, Trident, TransXChange, NaPTAN, KV1, GTFS, NTFS, GTFS RT, Siri… et NeTEx) que nous sommes amenés à manipuler, produire ou enrichir pour le compte de nos clients (Autorités Organisatrices de Mobilité et Opérateurs de transport principalement) et pour les réutilisateurs de données open data, qui les téléchargent sur le PAN [**https://transport.data.gouv.fr/**](https://transport.data.gouv.fr/) ou les consomment sur l’API de transport public **[www.navitia.io.](http://www.navitia.io)**
 
@@ -32,7 +30,7 @@ Pourtant, force est de constater que le format **[GTFS](https://en.wikipedia.org
 
 Concrètement, à chaque fois qu’un nouveau jeu de données transport au format GTFS sera produit ou mis à jour sur le PAN, un programme automatique déclenchera le convertisseur Gtfs2Netex pour obtenir les mêmes données au format NeTEx France. Dans ce cas précis, le Convertisseur Gtfs2NetexFr ne concerne que le profil France. Il existe d’autres profils NeTEx, en fonction du producteur de données, du contexte, du pays. D’autres outils de traitement de données de ce type seront développés par la suite. Et la façon dont nous avons réalisé Gtfs2NetexFr permet facilement à n’importe qui de forker le programme pour en faire un NetexFr2Gtfs ou Gtfs2NetexNL pour la Hollande, un Gtfs2NetexUK pour la Grande Bretagne ou un Gtfs2NetexBrz pour la Bretagne… les combinaisons en termes de connecteurs sont multiples.
 
-**_« En dotant la plateforme transport.data.gouv.fr de ce service de conversion, nous souhaitons faciliter la réutilisation de données au format NeTEx, qui a été choisi au niveau européen, notamment dans le cadre du règlement délégué n° 2017-1926 sur la fourniture de services d’information multimodale »,_ explique Bernard Schwob, adjoint à la directrice de la MINT.** 
+**_« En dotant la plateforme transport.data.gouv.fr de ce service de conversion, nous souhaitons faciliter la réutilisation de données au format NeTEx, qui a été choisi au niveau européen, notamment dans le cadre du règlement délégué n° 2017-1926 sur la fourniture de services d’information multimodale »,_ explique Bernard Schwob, adjoint à la directrice de la MINT.**
 
 **\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_**
 
@@ -40,7 +38,7 @@ Concrètement, à chaque fois qu’un nouveau jeu de données transport au forma
 
 Quoi de plus logique de réaliser des outils open source quand on travaille pour le compte de l’Etat ou d’une collectivité, dans une logique de Service public, d’intérêt général et de bien commun ? Cette idée petit à petit fait son chemin et s’impose progressivement dans le domaine de la mobilité et du numérique. **C’est cette logique de coproduction de communs que la** [**Fabrique des mobilités**](http://lafabriquedesmobilites.fr/communs/) **a initiée dès 2015 et qui regroupe aujourd’hui des acteurs publics et privés, dont Kisio, Transport Data Gouv ou Mobility Data par exemple, avec des projets concrets, des réalisations au service de l’innovation, dans une logique de mutualisation des ressources, de coopération et d’intelligence collective.**
 
-Le code source de ce Convertisseur Gtfs2NetexFr est donc naturellement sous **[licence libre AGPL V3,](https://fr.wikipedia.org/wiki/GNU_Affero_General_Public_License)** exécutable sous un système d’exploitation GNU Linux. Cela signifie que n’importe quel développeur peut voir le code source du logiciel, le comprendre en lisant la documentation, le télécharger pour l’installer, proposer une amélioration s’il souhaite contribuer. La maintenance et la gouvernance concernant d’éventuelles contributions au logiciel Gtfs2NetexFr sera gérée par Kisio Digital. Le repository (dépôt du code source) est disponible sur la plateforme Github, les contributions sont les bienvenues : [**https://github.com/CanalTP/transit\_model/tree/master/gtfs2netexfr**](https://github.com/CanalTP/transit_model/tree/master/gtfs2netexfr)
+Le code source de ce Convertisseur Gtfs2NetexFr est donc naturellement sous **[licence libre AGPL V3,](https://fr.wikipedia.org/wiki/GNU_Affero_General_Public_License)** exécutable sous un système d’exploitation GNU Linux. Cela signifie que n’importe quel développeur peut voir le code source du logiciel, le comprendre en lisant la documentation, le télécharger pour l’installer, proposer une amélioration s’il souhaite contribuer. La maintenance et la gouvernance concernant d’éventuelles contributions au logiciel Gtfs2NetexFr sera gérée par Kisio Digital. Le repository (dépôt du code source) est disponible sur la plateforme Github, les contributions sont les bienvenues : [**https://github.com/CanalTP/transit_model/tree/master/gtfs2netexfr**](https://github.com/CanalTP/transit_model/tree/master/gtfs2netexfr)
 
 Et dans cette même logique d’open source, le logiciel Gtfs2NetexFr est développé en **[langage Rust](https://www.rust-lang.org/)** (langage informatique poussé par la Fondation Mozilla, très utilisé chez Kisio Digital, apprécié et reconnu par les développeurs pour ses performances techniques).
 
