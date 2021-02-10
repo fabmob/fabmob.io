@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
 import articles from './getArticles.js'
-import { dateCool } from './Blog'
+import { buildRésumé, dateCool } from './Blog'
 import Meta from './Meta'
 
 const repo = 'fabmob/fabmob.io'
@@ -48,7 +48,7 @@ export default ({}) => {
 			<Meta
 				{...{
 					title: titre,
-					description: résumé,
+					description: résumé || buildRésumé(body),
 					image,
 					url: 'https://lafabriquedesmobilites.fr/blog/' + id,
 					published: new Date(date).toISOString(),

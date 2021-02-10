@@ -117,12 +117,15 @@ const YearMenu = ({ year2 }) => (
 	</ul>
 )
 
+export const buildRésumé = (body) =>
+	body.split(' ').slice(0, 16).join(' ') + '...'
+
 const ArticleVignette = ({
 	id,
 	attributes: { date, résumé, titre, title, image },
 	body,
 }) => {
-	const résumé2 = résumé || body.split(' ').slice(0, 16).join(' ') + '...'
+	const résumé2 = résumé || buildRésumé(body)
 	return (
 		<aside
 			css={`
