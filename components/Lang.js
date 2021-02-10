@@ -6,7 +6,6 @@ export const Link = ({ to, ...props }) => {
 	const path = useLocation().pathname
 
 	const destination = path.includes('/en') ? '/en' + to : to
-	console.log('path', path, destination)
 
 	return <OriginalLink {...{ ...props, to: destination }}></OriginalLink>
 }

@@ -56,7 +56,6 @@ const yearsAndYears = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
 
 const Articles = ({ year }) => {
 	let year2 = year || useParams().year
-	console.log(year2, year, useParams())
 	return (
 		<div>
 			<Header />
