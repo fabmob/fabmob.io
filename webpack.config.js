@@ -78,7 +78,7 @@ module.exports = {
 	},
 
 	entry: {
-		javascript: './index.js',
+		index: './index.js',
 	},
 
 	output: {
