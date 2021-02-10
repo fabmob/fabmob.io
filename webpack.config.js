@@ -77,11 +77,9 @@ module.exports = {
 		],
 	},
 
-	entry: {
-		index: './index.js',
-	},
-
+	entry: '/index.js',
 	output: {
+		filename: 'index.js',
 		path: path.join(__dirname, 'dist'),
 	},
 	devServer: {
@@ -91,13 +89,8 @@ module.exports = {
 
 	plugins: [
 		isDevelopment && new ReactRefreshWebpackPlugin(),
-		new HtmlWebpackPlugin({
-			title: 'FabMob',
-			template: 'index.html',
-		}),
-		,
 		new CopyPlugin({
-			patterns: [{ from: 'articles/*/images/*' }],
+			patterns: [{ from: 'articles/*/images/*' }, { from: 'index.html' }],
 		}),
 	].filter(Boolean),
 }
