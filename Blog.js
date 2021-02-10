@@ -24,7 +24,6 @@ const Header = () => (
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			margin-bottom: 1rem;
 			> h1 {
 				margin: 0.8rem;
 			}
@@ -33,7 +32,7 @@ const Header = () => (
 			}
 		`}
 	>
-		<h1>Le blog de la FabMob</h1>
+		<h1>Le blog</h1>
 	</header>
 )
 
@@ -53,7 +52,7 @@ export default ({}) => (
 	</main>
 )
 
-const years = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
+const yearsAndYears = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
 
 const Articles = ({ year }) => {
 	let year2 = year || useParams().year
@@ -98,6 +97,16 @@ const YearMenu = ({ year2 }) => (
 		css={`
 			display: flex;
 			justify-content: center;
+			margin: 0px 0px 1rem;
+			display: flex;
+			-moz-box-align: center;
+			align-items: center;
+			-moz-box-pack: start;
+			@media (max-width: 800px){
+			justify-content: flex-start;
+			}
+			overflow-x: scroll;
+			height: 3.5rem;
 			li {
 				margin: 0 0.2rem;
 			}
@@ -105,9 +114,11 @@ const YearMenu = ({ year2 }) => (
 				margin: 0;
 				padding: 0.1rem 0.6rem;
 			}
+			    text-align: center;
+}
 		`}
 	>
-		{years.map((y) => (
+		{yearsAndYears.map((y) => (
 			<li key={y}>
 				<button css={y === year2 ? 'background: var(--color-secondary)' : ''}>
 					<Link to={'/blog/année/' + y}>{y}</Link>
