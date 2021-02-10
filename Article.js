@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
 import articles from './getArticles.js'
 import { dateCool } from './Blog'
+import Meta from './Meta'
 
 const repo = 'fabmob/fabmob.io'
 
@@ -14,7 +15,7 @@ const getLastEdit = (name, action) =>
 		.then((json) => {
 			try {
 				const date = json[0].commit.committer.date
-				action(dateCool(new Date(date)))
+				action(date)
 			} catch (e) {
 				console.log(e)
 			}
@@ -31,7 +32,7 @@ export default ({}) => {
 	const { id } = useParams(),
 		article = articles.find((a) => a.id === id),
 		{
-			attributes: { image, titre, auteur, date },
+			attributes: { image, titre, auteur, date, résumé },
 			body,
 		} = article,
 		// imported articles from wordpress have english attributes
@@ -44,6 +45,16 @@ export default ({}) => {
 
 	return (
 		<div css={() => articleStyle}>
+			<Meta
+				{...{
+					title: titre,
+					description: résumé,
+					image,
+					url: 'https://lafabriquedesmobilites.fr/blog/' + id,
+					published: new Date(date).toISOString(),
+					updated: lastEditDate,
+				}}
+			/>
 			{image && (
 				<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
 			)}
@@ -78,7 +89,7 @@ export default ({}) => {
 							<a
 								href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
 							>
-								{lastEditDate}
+								{dateCool(lastEditDate)}
 							</a>
 						</span>
 					)}
