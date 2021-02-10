@@ -71,7 +71,7 @@ const Articles = ({ year }) => {
 						aside {
 							text-align: center;
 							width: 20rem;
-							height: 28rem;
+							height: 32rem;
 						}
 					`}
 				>
