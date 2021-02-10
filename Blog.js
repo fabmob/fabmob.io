@@ -14,7 +14,7 @@ export const dateCool = (date) =>
 	})
 
 export const pageLayout = `
-			max-width: 800px;
+			max-width: 860px;
 			margin: 0 auto;
 `
 
@@ -70,7 +70,11 @@ const Articles = ({ year }) => {
 						justify-content: center;
 						aside {
 							text-align: center;
-							width: 20rem;
+							width: 22rem;
+							@media (max-width: 860px) {
+								width: 80%;
+							}
+
 							height: 32rem;
 						}
 					`}
@@ -169,7 +173,7 @@ const ArticleVignette = ({
 			<Link to={'/blog/' + id}>
 				<img
 					css={`
-						max-width: 20rem;
+						max-width: 100%;
 						max-height: 10rem;
 						box-shadow: rgb(147, 143, 143) 2px 2px 10px 0px;
 						${!image ? 'padding: .4rem' : ''}
