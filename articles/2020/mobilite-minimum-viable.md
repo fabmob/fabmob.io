@@ -1,11 +1,13 @@
 ---
-title: "Mobilité Minimum Viable"
-date: "2020-03-31T09:02:23.000Z"
-categories: 
-  - "articles"
-  - "innovation"
-tags: 
-author: "Gabriel Plassat"
+title: 'Mobilité Minimum Viable'
+résumé: Le Covid-19 questionne le quotidien, les proximités, la résilience des personnes, des ménages, des quartiers, des communes, des pays.
+date: 2020-03-31
+image: https://imgur.com/qdHb06N.jpg
+categories:
+  - 'articles'
+  - 'innovation'
+tags:
+author: 'Gabriel Plassat'
 ---
 
 Le Covid-19 questionne le quotidien, les proximités, la résilience des personnes, des ménages, des quartiers, des communes, des pays, de l’Europe, de notre planète. Il remet en question, révèle les faiblesses de nos organisations sociales, de nos normes sociales, de nos temporalités et nos habitudes. Pour la première fois en dehors d’un conflit, le virus synchronise l’humanité à un niveau inégalé dans la durée, en nombre de personne impliqué, sur toutes les classes sociales, sur un même défi. A la différence des précédents virus, la réflexivité, les modes de communication et les données produites atteignent une tout autre échelle. Nous serons en situation d’analyser à posteriori les décisions et leur impact dans plusieurs pays.
