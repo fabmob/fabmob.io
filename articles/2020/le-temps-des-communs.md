@@ -1,12 +1,13 @@
 ---
-title: "Le temps des communs"
-date: "2020-10-15T15:05:56.000Z"
-categories: 
-  - "innovation-fr"
-tags: 
-  - "anoptique"
-  - "commun"
-author: "Gabriel Plassat"
+title: 'Le temps des communs'
+date: '2020-10-15T15:05:56.000Z'
+image: https://imgur.com/TeTD7vf.png
+categories:
+  - 'innovation-fr'
+tags:
+  - 'anoptique'
+  - 'commun'
+author: 'Gabriel Plassat'
 ---
 
 > Le temps n'a pas d'importance, seule la vie est importante - le 5ème élément
@@ -31,7 +32,7 @@ Il y a donc une forme émergente collective générée par des dessins individue
 
 # Une perspective temporelle
 
-Rappelons que le concept de [perspective](https://fr.wikipedia.org/wiki/Perspective_(repr%C3%A9sentation)) a été déployée lors de la Renaissance pour représenter une certaine vision du réel avec un point de vue unique. Le GP et son serveur central représentent également une perspective différente que l’on peut qualifier de temporelle.
+Rappelons que le concept de [perspective](<https://fr.wikipedia.org/wiki/Perspective_(repr%C3%A9sentation)>) a été déployée lors de la Renaissance pour représenter une certaine vision du réel avec un point de vue unique. Le GP et son serveur central représentent également une perspective différente que l’on peut qualifier de temporelle.
 
 Le serveur collecte et renvoie les dessins individuels, il devient le point de fuite. Les informations transmises par chaque participant sont agrégées et renvoyées à tous les participants en toute transparence sous la forme d’une nouvelle image globale émergente, sans filtre, instantanément. Chacun décide de faire évoluer son dessin comme il le souhaite en tenant compte de l’image globale ou pas, sans système de contrôle ou d’incitation. Le GP génère ainsi des pulsations temporelles produites par les réactions de chaque participant.
 
