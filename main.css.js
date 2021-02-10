@@ -18,7 +18,7 @@ export default `
   --hover-brightness: 1.2;
   --justify-important: center;
   --justify-normal: left;
-  --line-height: 130%;
+  --line-height: 150%;
   --width-card: 285px;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
@@ -56,7 +56,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding: 0;
-  font-size: 110%
+  font-size: 115%
 }
 
 footer,
