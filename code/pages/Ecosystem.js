@@ -10,13 +10,10 @@ import Adhérents from 'Pages/Adhérents'
 export default () => {
 	const [filter, setFilter] = useState({})
 	return (
-		<Page
-			titre="Ecosystème"
-			nav2={{ membres: 'Nos membres', experts: 'Nos experts' }}
-		>
+		<>
 			<h1>L'ecosystème FabMob</h1>
 			<Présentation filter={filter} />
-		</Page>
+		</>
 	)
 }
 

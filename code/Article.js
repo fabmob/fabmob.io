@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
-import articles from './getArticles.js'
 import { buildRésumé, dateCool } from './Blog'
 import Meta from './Meta'
+import { ArticleStyle } from './UI'
 
 const repo = 'fabmob/fabmob.io'
 
@@ -28,8 +28,8 @@ export const imageResizer = (size) => (src) =>
 		? src.replace(/w=[0-9]+\&/, (_, p1) => `w=${size === 'm' ? '320' : '640'}&`)
 		: src
 
-export default ({}) => {
-	const { id } = useParams(),
+export default ({ articles, id: propId }) => {
+	const { id } = propId ? { id: propId } : useParams(),
 		article = articles.find((a) => a.id === id),
 		{
 			attributes: { image, titre, auteur, date, résumé },
@@ -44,7 +44,7 @@ export default ({}) => {
 	getLastEdit(id, setLastEditDate)
 
 	return (
-		<div css={() => articleStyle}>
+		<ArticleStyle>
 			<Meta
 				{...{
 					title: titre,
@@ -110,7 +110,7 @@ export default ({}) => {
 					sur twitter
 				</a>
 			</p>
-		</div>
+		</ArticleStyle>
 	)
 }
 
@@ -122,41 +122,3 @@ const ImageRenderer = (year) => ({ src: rawSrc }) => {
 		: rawSrc
 	return <img src={src} />
 }
-
-const articleStyle = `
-	max-width: 800px;
-	margin: 0 auto 4rem;
-	h1 {
-		text-align: center;
-	}
-	h2,
-	h3,
-	h4,
-	h5 {
-		margin-top: 2rem;
-	}
-	img {
-		max-width: 80%;
-		margin: 2rem auto;
-		display: block;
-	}
-	img + em {
-		color: #666;
-		text-align: center;
-	}
-	hr {
-		border: 1px solid #eee;
-		width: 70%;
-		margin: 2rem auto;
-	}
-	blockquote {
-		border-left: 6px solid grey;
-		padding-left: 1rem;
-		margin-left: 0;
-	}
-	code {
-		background: #eee;
-		padding: 0.1rem 0.4rem;
-		border-radius: 0.3rem;
-	}
-	`

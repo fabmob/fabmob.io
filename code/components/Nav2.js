@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default ({ data, titre }) => (
 	<div
@@ -32,12 +33,12 @@ export default ({ data, titre }) => (
 			}
 		`}
 	>
-		<h2>{titre}</h2>
+		{titre && <h2>{titre}</h2>}
 		<ul>
 			{[
 				Object.entries(data).map(([key, value]) => (
 					<li key={key}>
-						<a href={window.location.href.split('#')[0] + '#' + key}>{value}</a>
+						<Link to={'/à-propos/' + key}>{value}</Link>
 					</li>
 				)),
 			]}

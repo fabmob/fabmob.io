@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import articles from './getArticles.js'
 import { Switch, Route, useParams } from 'react-router-dom'
 import Article from './Article'
+import { PageMain } from './UI'
 
 export const dateCool = (date) =>
 	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
@@ -12,11 +13,6 @@ export const dateCool = (date) =>
 		month: 'long',
 		day: 'numeric',
 	})
-
-export const pageLayout = `
-			max-width: 860px;
-			margin: 0 auto;
-`
 
 const Header = () => (
 	<header
@@ -37,10 +33,10 @@ const Header = () => (
 )
 
 export default ({}) => (
-	<main css={pageLayout}>
+	<PageMain>
 		<Switch>
 			<Route exact path="/blog/:id">
-				<Article />
+				<Article articles={articles} />
 			</Route>
 			<Route path="/blog/année/:year">
 				<Articles />
@@ -49,7 +45,7 @@ export default ({}) => (
 				<Articles year="2020" />
 			</Route>
 		</Switch>
-	</main>
+	</PageMain>
 )
 
 const yearsAndYears = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']

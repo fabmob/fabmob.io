@@ -75,7 +75,7 @@ export default () => {
 
 			<ul>
 				<li css="position: relative">
-					<Link to="/a-propos">À propos</Link>
+					<Link to="/à-propos">À propos</Link>
 				</li>
 				<li>
 					<Link to="/communs">Nos communs</Link>

@@ -12,6 +12,7 @@ module.exports = {
 			Pages: path.resolve('code/pages/'),
 			Images: path.resolve('images/'),
 			Content: path.resolve('contenu/'),
+			Code: path.resolve('code/'),
 		},
 		fallback: {
 			path: 'path-browserify',

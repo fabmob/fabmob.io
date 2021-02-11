@@ -72,7 +72,7 @@ const Container = () => (
 				<route path="/participer">
 					<Participer />
 				</route>
-				<route path="/a-propos">
+				<route path="/à-propos">
 					<About />
 				</route>
 				<route path="/événements">
