@@ -17,9 +17,7 @@ export default () => (
 		<Nav2
 			data={{
 				'': 'À propos',
-				pourquoi: 'Pourquoi',
 				nous: 'Qui sommes nous ?',
-				solution: 'Notre solution',
 				durable: 'Mobilité durable',
 				opensource: "L'open source",
 				travailler: 'Travailler ensemble',
