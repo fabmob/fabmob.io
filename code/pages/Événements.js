@@ -16,6 +16,9 @@ export default ({}) => {
 				h2 {
 					text-align: center;
 				}
+				h3 {
+					margin: 0.4rem 0;
+				}
 			`}
 		>
 			<header>
