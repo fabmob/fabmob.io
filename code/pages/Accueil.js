@@ -13,7 +13,11 @@ import styled from 'styled-components'
 const ReDe = () => {
 	const [fragment, setFragment] = useState(true)
 	useInterval(() => setFragment(!fragment), 2000)
-	return <span>{fragment ? 're' : 'dé'}</span>
+	return (
+		<span css="font-weight: 700; margin-right: .1rem; text-transform: capitalize">
+			{fragment ? 're' : 'dé'}
+		</span>
+	)
 }
 
 export default () => {
@@ -31,6 +35,7 @@ export default () => {
 					> section > p {
 						margin-top: 2rem;
 						width: 20rem;
+						text-align: left;
 					}
 					p em {
 						background: yellow;
@@ -46,13 +51,16 @@ export default () => {
 						<Logo />
 					</div>
 					<p>
-						Ensemble, face à l'
+						Face à l'
 						<Link to="/à-propos/urgence">
 							<Surligné>urgence</Surligné>
 						</Link>
-						, <ReDe />
+						,
+						<br />
+						<ReDe />
 						construisons les mobilités <br />
-						grâce à l'
+						brique par brique, <br />
+						ensemble via l'
 						<Link to="/à-propos/opensource">
 							<Surligné>open source</Surligné>
 						</Link>
