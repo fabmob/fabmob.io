@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import colors from 'Components/colors'
 import { fetchSelectedCommuns } from '../wikiAPI'
-import communsFabmob from '../communs-fabmob.yaml'
+import communsFabmob from 'Content/communs-fabmob.yaml'
 import { Tags, Card, CardList } from '../UI'
 
 export default ({}) => {

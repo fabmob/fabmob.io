@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import colors from 'Components/colors'
 import { fetchLastEvents } from '../wikiAPI'
-import communsFabmob from '../communs-fabmob.yaml'
 import { sortBy } from '../utils'
 import styled from 'styled-components'
 import { Tags, Card, CardList } from '../UI'

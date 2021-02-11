@@ -11,12 +11,7 @@ import {
 import Nav from './Nav'
 import Footer from './Footer'
 import Sidewalks from './Sidewalks'
-import France from './France'
-import FranceEn from './France.en'
-import Québec from './Québec'
-import QuébecEn from './Québec.en'
 import Accueil from './pages/Accueil'
-import AccueilEn from './Accueil.en'
 import Blog from './Blog'
 import Communs from './pages/Communs'
 import Participer from './pages/Participer'
@@ -40,23 +35,28 @@ const Container = () => (
 			<Nav />
 
 			<Switch>
-				<Route path="/france">
-					<France />
-				</Route>
-				<Route path="/en/france">
-					<FranceEn />
-				</Route>
-				<Route path="/québec">
-					<Québec />
-				</Route>
-				<Route path="/en/québec">
-					<QuébecEn />
-				</Route>
+				{false && (
+					<>
+						<Route path="/france">
+							<France />
+						</Route>
+						<Route path="/en/france">
+							<FranceEn />
+						</Route>
+						<Route path="/québec">
+							<Québec />
+						</Route>
+						<Route path="/en/québec">
+							<QuébecEn />
+						</Route>
+
+						<Route path="/en/">
+							<AccueilEn />
+						</Route>
+					</>
+				)}
 				<Route path="/sidewalks">
 					<Sidewalks />
-				</Route>
-				<Route path="/en/">
-					<AccueilEn />
 				</Route>
 				<Route path="/blog">
 					<Blog />

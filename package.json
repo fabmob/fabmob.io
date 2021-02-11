@@ -5,8 +5,8 @@
 	"main": "index.html",
 	"license": "MIT",
 	"scripts": {
-		"start": "webpack serve --hot --mode development --inline",
-		"compile": "NODE_ENV=production webpack --mode production -c webpack.config.js"
+		"start": "webpack serve --hot --mode development --inline -c code/webpack.config.js",
+		"compile": "NODE_ENV=production webpack --mode production -c code/webpack.config.js"
 	},
 	"dependencies": {
 		"buffer": "^6.0.3",

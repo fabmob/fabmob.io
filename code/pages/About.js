@@ -6,10 +6,10 @@ export default () => (
 	<Page
 		titre="À propos"
 		nav2={{
-			problème: 'Le problème',
-			solution: 'La solution',
-			davantage: 'Aller plus loin',
-			encorePlus: 'Encore plus',
+			pourquoi: 'Pourquoi',
+			nous: 'Qui sommes nous ?',
+			solution: 'Notre solution',
+			travailler: 'Travailler ensemble',
 		}}
 	>
 		<header>

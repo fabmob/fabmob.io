@@ -8,9 +8,10 @@ module.exports = {
 	mode: isDevelopment ? 'development' : 'production',
 	resolve: {
 		alias: {
-			Components: path.resolve('components/'),
-			Pages: path.resolve('pages/'),
+			Components: path.resolve('code/components/'),
+			Pages: path.resolve('code/pages/'),
 			Images: path.resolve('images/'),
+			Content: path.resolve('contenu/'),
 		},
 		fallback: {
 			path: 'path-browserify',
@@ -77,7 +78,8 @@ module.exports = {
 		],
 	},
 
-	entry: '/index.js',
+	entry: path.join(__dirname, 'index.js'),
+
 	output: {
 		filename: 'index.js',
 		path: path.join(__dirname, 'dist'),
@@ -90,7 +92,10 @@ module.exports = {
 	plugins: [
 		isDevelopment && new ReactRefreshWebpackPlugin(),
 		new CopyPlugin({
-			patterns: [{ from: 'articles/*/images/*' }, { from: 'index.html' }],
+			patterns: [
+				{ from: 'contenu/articles/*/images/*' },
+				{ from: 'code/index.html' },
+			],
 		}),
 	].filter(Boolean),
 }

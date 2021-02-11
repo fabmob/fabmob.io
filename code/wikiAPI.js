@@ -68,8 +68,11 @@ export const fetchSelectedCommuns = (selection) => (then) => {
 		.then((res) => res.json())
 		.then((list) => {
 			const elements = list.query.pages
+			console.log('ELEMENS', elements)
 			const parsed = Object.values(elements).map((e) => {
+				if (!e.revisions) return null
 				const content = e.revisions[0]['*']
+
 				const dataPairs = content
 						.split('{{')[1]
 						.split('}}')[0]
@@ -84,7 +87,7 @@ export const fetchSelectedCommuns = (selection) => (then) => {
 				}
 			})
 
-			then(parsed)
+			then(parsed.filter(Boolean))
 		})
 		.catch((e) => console.log(e))
 }
