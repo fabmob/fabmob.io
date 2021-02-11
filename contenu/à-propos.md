@@ -2,51 +2,46 @@
 
 La FabMob est une association qui réunit tou.te.s les acteur.rice.s volontaires de la mobilité.
 
-# Pourquoi le faire ?
+# Pourquoi ?
 
-Nos mobilités actuelles **ne sont pas compatibles** avec nos objectifs d’émissions de réduction GES, de réduction de pollution et de sobriété énergétique.
+Nos façons de nous déplacer et d'organiser nos villes **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat et nos objectifs de sobriété et de pollution de l'air.
 
-Malgré les annonces et les discours, les pratiques de mobilité n’évoluent pas assez vite. **Les effets des innovations dans le domaine des Mobilités** restent marginaux. De plus, quand un “nouvel” acteur cherche à changer des choses, les acteurs en place font tout pour réduire son impact.
+Malgré les annonces et les discours, elles n’évoluent pas assez vite vers ces objectifs, et laissent de côté une partie de la population.
 
-# A quoi ça sert ?
-
-Nous existons pour changer la culture de l'innovation des organisations publiques et privées pour transformer les pratiques et offres de mobilité.
-
-# Qui la finance ?
-
-La Fabrique des Mobilités est
-
-- adhésions
-
-<button>Adhérez ! </button>
-
-- conventions de partenariat
-
-[En savoir plus](/à-propos/travailler).
-
-# Comment nous le faisons ?
-
-Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de transport, avec des approches en silos. Ce sont les **modes de vie, l’organisation des entreprises et des territoires, les temporalités ou encore la gestion de l’espace public** qui sont à dé-construire et ré-organiser.
-
-open source
+**Les effets des innovations dans le domaine des Mobilités** restent marginaux. Quand un “nouvel” acteur cherche à changer des choses, les acteurs en place font tout pour réduire son impact.
 
 # Que faisons-nous ?
 
+## Prendre du recul
+
+Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de transport, avec des approches en silos. Ce sont les **modes de vie, l’organisation des entreprises et des territoires, les temporalités ou encore la gestion de l’espace public** qui sont à dé-construire et ré-organiser.
+
 La Fabrique décloisonne les secteurs et les métiers.
 
-Elle mobilise un réseau pluridisciplinaire de personnes et d’organisations qu'elle accompagne dans la réalisation de projets collectifs et la production de communs.
+## Ensemble
 
-Elle capitalise les retours d’expériences et les erreurs, pour faire émerger une culture commune de l’innovation en s’appuyant sur des projets concrets et ouverts, qui agissent sur l’offre de transport et les pratique de mobilité.
+Elle mobilise son équipe, réseau d'adhérents, personnes et organisations qu'elle accompagne dans la réalisation de projets collectifs et la production de communs.
 
-Pour répondre à xxx, nous produisons ce que l'on appelle des communs. Un commun est ressource ouverte et utile à ceux qui le développent.
+Nous confrontons des intérêts qui peuvent être divergents pour trouver le commun dont la production intéressera au moins ces deux parties.
 
-> Par exemple, un logiciel qui permet de calculer des itinéraires d'un point A à un point B, et qui est utilisé dans les applications de transport en commun de plusieurs villes en France ou dans le monde📱.
+> De quoi avez-vous besoin maintenant et que vous avez intérêt à faire ensemble ?
 
-[Découvrez nos communs](/communs).
+Pour y répondre nous produisons ce que l'on appelle des communs. Un commun est une ressource ouverte et utile à ceux qui le développent.
+
+Par exemple, cela peut-être un logiciel qui permet de calculer des itinéraires d'un point A à un point B, et qui est utilisé dans les applications de transport en commun de plusieurs villes en France ou dans le monde📱.
 
 # Et concrètement ?
 
-- communautés
-- production de communs
+Découvrez [les communs](/communs) que nous développons aujourd'hui.
 
-# Ce que nous ne faisons pas
+Découvrez et rejoignez nos communautés via la page [contribuer](/contribuer), ou contactez-nous directement pour [travailler ensemble](/à-propos/travailler).
+
+# Comment ?
+
+Nous existons pour changer la culture de l'innovation des grandes organisations publiques et privées pour transformer les pratiques et offres de mobilité.
+
+# Qui nous finance ?
+
+La Fabrique des Mobilités est financée grâce à ses [adhérents](/contribuer) et des [conventions de partenariat](/travailler).
+
+[<button>Adhérez ! </button>](https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021)

@@ -19,7 +19,6 @@ export default () => (
 				'': 'À propos',
 				nous: 'Qui sommes nous ?',
 				durable: 'Mobilité durable',
-				opensource: "L'open source",
 				travailler: 'Travailler ensemble',
 			}}
 		/>
@@ -35,7 +34,7 @@ export default () => (
 				h3,
 				h4,
 				h5 {
-					text-align: center;
+					text-align: left;
 				}
 			`}
 		>

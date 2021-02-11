@@ -61,7 +61,7 @@ export default () => {
 						construisons les mobilités <br />
 						brique par brique, <br />
 						ensemble via l'
-						<Link to="/à-propos/opensource">
+						<Link to="/blog/lopen-source-au-secours-du-secteur-des-transports">
 							<Surligné>open source</Surligné>
 						</Link>
 						.

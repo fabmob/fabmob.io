@@ -8,7 +8,7 @@ export default () => (
 			<h1>Passer à l'action</h1>
 		</header>
 		<div css="text-align: center">
-			<p>La Fabrique est une assoctiation 1901.</p>
+			<p>La Fabrique est une association 1901.</p>
 			<a
 				href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2019-2020"
 				target="_blank"
