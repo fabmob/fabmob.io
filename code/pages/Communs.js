@@ -53,7 +53,7 @@ export default ({}) => {
 }
 
 const Commun = ({ commun }) => (
-	<Card>
+	<Card css="height: 26rem">
 		<a href={commun.fullurl || '#'}>
 			<h3>{commun.title}</h3>
 		</a>
