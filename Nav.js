@@ -101,9 +101,11 @@ export default () => {
 				>
 					<Link to="/participer">Participer</Link>
 				</li>
-				<li>
-					<LangSwitch />
-				</li>
+				{false && (
+					<li>
+						<LangSwitch />
+					</li>
+				)}
 			</ul>
 			<div
 				title={open ? 'Fermer le menu' : 'Ouvrir le menu'}
