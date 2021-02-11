@@ -45,6 +45,9 @@ let Présentation = () => (
 						width: 8rem;
 						max-height: inherit;
 					}
+					h3 {
+						margin-top: 0rem;
+					}
 				`}
 			>
 				<Card css="height: 24rem">
