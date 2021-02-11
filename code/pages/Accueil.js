@@ -8,6 +8,7 @@ import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
 import Logo from '../Logo.js'
 import { useInterval } from '../utils.js'
+import styled from 'styled-components'
 
 const ReDe = () => {
 	const [fragment, setFragment] = useState(true)
@@ -45,8 +46,16 @@ export default () => {
 						<Logo />
 					</div>
 					<p>
-						Brique par brique et face à l'<em>urgence</em>, nous <ReDe />
-						construisons ensemble les mobilités grâce à l'<em>open source</em>.
+						Brique par brique et face à l'
+						<Link to="/à-propos/urgence">
+							<Surligné>urgence</Surligné>
+						</Link>
+						, nous <ReDe />
+						construisons ensemble les mobilités grâce à l'
+						<Link to="/à-propos/opensource">
+							<Surligné>open source</Surligné>
+						</Link>
+						.
 					</p>
 					<br />
 				</section>
@@ -106,3 +115,8 @@ export default () => {
 		</div>
 	)
 }
+
+const Surligné = styled.span`
+	background: yellow;
+	font-weight: normal;
+`
