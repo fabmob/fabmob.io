@@ -46,12 +46,13 @@ export default () => {
 						<Logo />
 					</div>
 					<p>
-						Brique par brique et face à l'
+						Ensemble, face à l'
 						<Link to="/à-propos/urgence">
 							<Surligné>urgence</Surligné>
 						</Link>
-						, nous <ReDe />
-						construisons ensemble les mobilités grâce à l'
+						, <ReDe />
+						construisons les mobilités <br />
+						grâce à l'
 						<Link to="/à-propos/opensource">
 							<Surligné>open source</Surligné>
 						</Link>
