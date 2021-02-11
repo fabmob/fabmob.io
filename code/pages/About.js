@@ -18,7 +18,7 @@ export default () => (
 			data={{
 				'': 'À propos',
 				nous: 'Qui sommes nous ?',
-				durable: 'Mobilité durable',
+				urgence: "L'urgence",
 				travailler: 'Travailler ensemble',
 			}}
 		/>
