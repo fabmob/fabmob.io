@@ -4,6 +4,9 @@ import { Link, LangSwitch } from 'Components/Lang'
 import colors from 'Components/colors'
 import LogoSansTexte from 'Images/logo fabmob sans texte.svg'
 import { useLocation } from 'react-router-dom'
+import articles from './getArticles'
+
+const notificationsTriggerDate = new Date(Date.now() - 31 * 24 * 60 * 60 * 1000)
 
 export default () => {
 	let location = useLocation()
@@ -86,7 +89,14 @@ export default () => {
 				</li>
 				<li>
 					<Link to="/blog">Blog</Link>
-					<Notifications count={2} />
+					<Notifications
+						count={
+							articles.filter(
+								({ attributes: { date } }) =>
+									new Date(date) > notificationsTriggerDate
+							).length
+						}
+					/>
 				</li>
 				<li
 					css={`
@@ -129,22 +139,23 @@ export default () => {
 	)
 }
 
-const Notifications = ({ count }) => (
-	<span
-		css={`
-			background: ${colors.jaune};
-			color: black;
-			border-radius: 1rem;
-			right: -0.2rem;
-			top: -0.8rem;
-			font-size: 60%;
-			padding: 0.2rem 0.6rem;
-			position: relative;
-		`}
-	>
-		{count}
-	</span>
-)
+const Notifications = ({ count }) =>
+	!count ? null : (
+		<span
+			css={`
+				background: ${colors.jaune};
+				color: black;
+				border-radius: 1rem;
+				right: -0.2rem;
+				top: -0.8rem;
+				font-size: 60%;
+				padding: 0.2rem 0.6rem;
+				position: relative;
+			`}
+		>
+			{count}
+		</span>
+	)
 
 const MenuIcon = () => (
 	<svg viewBox="0 0 100 80" width="40" height="40">
