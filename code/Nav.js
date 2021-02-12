@@ -1,20 +1,27 @@
 import React, { useState } from 'react'
 import Emoji from 'Components/Emoji'
-import { Link, LangSwitch } from 'Components/Lang'
+import { Link as RouterLink, LangSwitch } from 'Components/Lang'
 import colors from 'Components/colors'
 import LogoSansTexte from 'Images/logo fabmob sans texte.svg'
 import { useLocation } from 'react-router-dom'
 import articles from './getArticles'
+import { useContext } from 'react'
+import { WikiContext } from './App'
 
 const notificationsTriggerDate = new Date(Date.now() - 31 * 24 * 60 * 60 * 1000)
 
-import { useContext } from 'react'
-
-import { WikiContext } from './App'
+const MenuLink = (setClosed) => ({ to, children }) => (
+	<RouterLink to={to} onClick={() => setClosed()}>
+		{children}
+	</RouterLink>
+)
 export default () => {
 	let location = useLocation()
 	const [open, setOpen] = useState(false)
 	const [eventData] = useContext(WikiContext)
+
+	const Link = MenuLink(() => setOpen(false))
+
 	return (
 		<nav
 			css={`
