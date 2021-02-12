@@ -1,5 +1,5 @@
 import css from './main.css.js'
-import React from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import { createGlobalStyle } from 'styled-components'
 import {
 	BrowserRouter as Router,
@@ -18,6 +18,7 @@ import Participer from './pages/Participer'
 import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
+import { fetchLastEvents } from './wikiAPI.js'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -26,10 +27,26 @@ const UtmFriendlyRedirect = (props) => (
 	/>
 )
 
+// Create Context Object
+export const WikiContext = createContext()
+
+// Create a provider for components to consume and subscribe to changes
+export const WikiContextProvider = (props) => {
+	const [eventData, setEventData] = useState([])
+
+	useEffect(() => fetchLastEvents(setEventData), [])
+
+	return (
+		<WikiContext.Provider value={[eventData, setEventData]}>
+			{props.children}
+		</WikiContext.Provider>
+	)
+}
+
 // is this a good idea ? Would it be quicker for the user to load as .css in index.html ?
 const GlobalStyle = createGlobalStyle`${css}`
 const Container = () => (
-	<div>
+	<WikiContextProvider>
 		<GlobalStyle />
 		<Router>
 			<Nav />
@@ -83,7 +100,7 @@ const Container = () => (
 				</Route>
 			</Switch>
 		</Router>
-	</div>
+	</WikiContextProvider>
 )
 
 export default Container

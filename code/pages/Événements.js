@@ -1,15 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import colors from 'Components/colors'
 import { fetchLastEvents } from '../wikiAPI'
 import { sortBy } from '../utils'
 import styled from 'styled-components'
 import { Tags, Card, CardList } from '../UI'
+import { WikiContext } from '../App'
 
 export default ({}) => {
-	const [data, setData] = useState([])
-	useEffect(() => {
-		fetchLastEvents(setData)
-	}, [])
+	const [data] = useContext(WikiContext)
 	return (
 		<section
 			css={`

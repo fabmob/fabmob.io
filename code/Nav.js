@@ -8,9 +8,13 @@ import articles from './getArticles'
 
 const notificationsTriggerDate = new Date(Date.now() - 31 * 24 * 60 * 60 * 1000)
 
+import { useContext } from 'react'
+
+import { WikiContext } from './App'
 export default () => {
 	let location = useLocation()
 	const [open, setOpen] = useState(false)
+	const [eventData] = useContext(WikiContext)
 	return (
 		<nav
 			css={`
@@ -85,7 +89,12 @@ export default () => {
 				</li>
 				<li>
 					<Link to="/événements">Événements</Link>
-					<Notifications count={2} />
+					<Notifications
+						count={
+							eventData.filter((e) => new Date(e.data.startDate) > Date.now())
+								.length
+						}
+					/>
 				</li>
 				<li>
 					<Link to="/blog">Blog</Link>
