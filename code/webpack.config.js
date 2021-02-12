@@ -95,6 +95,7 @@ module.exports = {
 		new CopyPlugin({
 			patterns: [
 				{ from: 'contenu/articles/*/images/*' },
+				{ from: 'images', to: 'images' },
 				{ from: 'code/index.html' },
 			],
 		}),

@@ -118,7 +118,7 @@ const ImageRenderer = (year) => ({ src: rawSrc }) => {
 	const src = rawSrc.includes('http')
 		? imageResizer('l')(rawSrc)
 		: rawSrc.indexOf('images/') === 0
-		? `/articles/${year}/images/${rawSrc.split('images/')[1]}`
+		? `contenu/articles/${year}/images/${rawSrc.split('images/')[1]}`
 		: rawSrc
 	return <img src={src} />
 }
