@@ -18,7 +18,7 @@ Les problèmes de mobilité ne seront pas résolus uniquement par des solutions 
 
 La Fabrique décloisonne les secteurs et les métiers.
 
-Nous changeons la culture de l'innovation des grandes organisations publiques et privées pour transformer les pratiques et offres de mobilité.
+Nous accompagnons le changement de culture de l'innovation des organisations publiques et privées pour transformer les pratiques et offres de mobilité.
 
 ## Ensemble
 
