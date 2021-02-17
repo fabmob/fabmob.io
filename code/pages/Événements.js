@@ -3,7 +3,7 @@ import colors from 'Components/colors'
 import { fetchLastEvents } from '../wikiAPI'
 import { sortBy } from '../utils'
 import styled from 'styled-components'
-import { Tags, Card, CardList } from '../UI'
+import { Title, Tags, Card, CardList } from '../UI'
 import { WikiContext } from '../App'
 
 export default ({}) => {
@@ -20,7 +20,7 @@ export default ({}) => {
 			`}
 		>
 			<header>
-				<h1>Les événements </h1>
+				<Title colors={[colors.jaune, colors.jauneVert]}>Les événements </Title>
 			</header>
 			<CardList>
 				{sortBy('data.data.startDate')(data)

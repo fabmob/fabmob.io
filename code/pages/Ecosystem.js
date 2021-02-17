@@ -6,14 +6,15 @@ import Emoji from 'Components/Emoji'
 import Page from 'Components/Page'
 import { shuffle } from '../utils'
 import Adhérents from 'Pages/Adhérents'
+import { ArticleStyle } from '../UI'
 
 export default () => {
 	const [filter, setFilter] = useState({})
 	return (
-		<>
+		<ArticleStyle colors={[colors.bleu, colors.bleuClair]}>
 			<h1>L'ecosystème FabMob</h1>
 			<Présentation filter={filter} />
-		</>
+		</ArticleStyle>
 	)
 }
 

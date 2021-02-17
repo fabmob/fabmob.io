@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import { newArticles as articles } from './getArticles'
 import { Switch, Route, useParams } from 'react-router-dom'
 import Article from './Article'
-import { PageMain } from './UI'
+import { PageMain, Title } from './UI'
+import colors from 'Components/colors'
 
 export const dateCool = (date) =>
 	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
@@ -28,7 +29,7 @@ const Header = () => (
 			}
 		`}
 	>
-		<h1>Le blog</h1>
+		<Title colors={[colors.bleu, colors.bleuClair]}>Le blog</Title>
 	</header>
 )
 

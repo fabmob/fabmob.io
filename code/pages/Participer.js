@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'Components/Lang'
-import { CardList, Card } from '../UI'
+import { CardList, Card, Title } from '../UI'
+import colors from 'Components/colors'
 
 export default () => (
 	<div>
 		<header>
-			<h1>Passer à l'action</h1>
+			<Title colors={[colors.jaune, colors.jauneVert]}>Passer à l'action</Title>
 		</header>
 		<div
 			css={`

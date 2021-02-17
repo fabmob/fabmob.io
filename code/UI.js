@@ -40,6 +40,16 @@ export const PageMain = styled.main`
 	max-width: 860px;
 	margin: 0 auto;
 `
+
+export const Title = styled.h1`
+	${({ colors }) =>
+		colors &&
+		css`
+			background: linear-gradient(to bottom left, ${colors[0]}, ${colors[1]});
+			display: inline-block;
+			padding: 0.1rem 1rem;
+		`}
+`
 export const ArticleStyle = styled.div`
 	${({ colors }) =>
 		colors &&
