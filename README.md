@@ -42,7 +42,7 @@ Blabla2
 
 Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourrons discuter / valider vos changements. Bravo 👏 !
 
-## Modifier le contenu d'une page de texte
+### Modifier le contenu d'une page de texte
 
 Certaines pages du site, celles de la section à-propos, sont dans le dossier [/contenu](https://github.com/fabmob/fabmob.io/tree/master/contenu).
 
