@@ -14,11 +14,11 @@ Pour participer à la création de ces nouvelles (dé)mobilités, plusieurs nive
 La contribution à la Fabrique des Mobilités est ouverte à toute personne ou entité qui souhaiterait partager un projet de mobilité (une ressource fermée, propriétaire), indexer un commun (ressource ouverte), partager des connaissances, des thèses, des défis et sans condition de temps ou de ressources. Chacun·e contribue comme iel peut et quand iel peut.
 
 **++Pourquoi contribuer ?++**
-Cette contribution permet également de proposer un commun ou idée de commun pour chercher sa communauté parmi notre réseau, rejoindre un commun ou idée de commun, rejoindre une communauté d'intérêt. 
+Cette contribution permet également de proposer un nouveau commun ou idée de commun pour chercher sa communauté parmi notre réseau, rejoindre un commun ou idée de commun, rejoindre une communauté d'intérêt. 
 
 Votre contribution permettra aussi de vous faire connaître du réseau de la Fabrique des Mobilités, de les rencontrer, d'identifier les compétences, les acteurs qui le composent.
 
-Et enfin, votre contribution permettra de continuer à construire une bibliothèque de ressources essentielle à la création du monde du demain.
+Et enfin, votre contribution permettra de continuer à construire une bibliothèque de ressources ouvertes essentielle à la création du monde du demain.
 
 ## Adhésion
 *L'adhésion est valable 12 mois, de juin à juin. Toutefois, une trimestrialisation est possible.*
