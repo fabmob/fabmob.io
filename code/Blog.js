@@ -1,7 +1,7 @@
 import React from 'react'
 import { imageResizer } from './Article'
 import { Link } from 'react-router-dom'
-import articles from './getArticles.js'
+import { newArticles as articles } from './getArticles'
 import { Switch, Route, useParams } from 'react-router-dom'
 import Article from './Article'
 import { PageMain } from './UI'
