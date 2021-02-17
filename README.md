@@ -42,6 +42,13 @@ Blabla2
 
 Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourrons discuter / valider vos changements. Bravo 👏 !
 
+## Modifier le contenu d'une page de texte
+
+Certaines pages du site, celles de la section à-propos, sont dans le dossier [/contenu](https://github.com/fabmob/fabmob.io/tree/master/contenu).
+
+Par exemple, la page d'accueil "à-propos" [ici](https://github.com/fabmob/fabmob.io/blob/master/contenu/à-propos.md). C'est du markdown. Pour les modifier, voir la section au-dessus à propos des pages de blog, c'est le même procédé mais sans l'en-tête entre les `---`, juste du markdown.
+
+D'autres contenus sont des fichiers .yaml. Ils nous permettent de [lister les membres](https://github.com/fabmob/fabmob.io/blob/master/contenu/ecosystème.yaml) et de [lister les communs](https://github.com/fabmob/fabmob.io/blob/master/contenu/communs-fabmob.yaml) que l'on veut mettre en avant. Ils sont lus par les pages Ecosystème.js et Communs.js, des pages qui mélangent du Javascript (le langage de programmation du Web) et du HTML (le langage d'affichage des pages Web) pour afficher les pages dans le navigateur.
 
 
 ## Infos techniques 
