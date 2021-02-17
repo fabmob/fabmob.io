@@ -92,7 +92,7 @@ export default () => {
 					<Link to="/à-propos">À propos</Link>
 				</li>
 				<li>
-					<Link to="/communs">Nos communs</Link>
+					<Link to="/communs">Communs</Link>
 				</li>
 				<li>
 					<Link to="/événements">Événements</Link>
