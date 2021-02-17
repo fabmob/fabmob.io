@@ -10,7 +10,7 @@ export default () => (
 		<div css="text-align: center">
 			<p>La Fabrique est une association 1901.</p>
 			<a
-				href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2019-2020"
+				href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021"
 				target="_blank"
 			>
 				<button>Adhérer à FabMob France</button>
