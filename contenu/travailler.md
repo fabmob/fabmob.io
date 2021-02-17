@@ -33,7 +33,7 @@ En fonction du statut de l'organisation, un·e adhérent·e pourra également pr
 
 ## Le partenariat
 **++Qui ?++**
-Le partenariat est ouvert à toute personne ou entité adhérente de la Fabrique des Mobilités qui souhaiterait mobiliser les ressources de la Fabrique des Mobilités pour explorer un sujet, une problématique précise sur un temps court (8 à 12 mois). 
+Le partenariat est ouvert à toute personne ou entité adhérente de la Fabrique des Mobilités qui souhaiterait mobiliser plus intensément les ressources de la Fabrique des Mobilités pour explorer un sujet, une problématique précise sur un temps court (8 à 12 mois). 
 
 **++Pourquoi devenir partenaire ?++**
 La Fabrique des Mobilités soutiendra alors la production de ressources ouvertes pour résoudre cette problématique à travers la création d'une communauté d'acteur·rice·s dédié·e·s et l'identification de ressources ouvertes nécessaires ou utiles à la production du commun. Ce travail se fera toujours de manière collaborative, en lien direct avec une équipe ou personne dédiée chez le partenaire et au sein de la Fabrique des Mobilités.
