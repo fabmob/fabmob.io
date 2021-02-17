@@ -1,6 +1,6 @@
 # Qu'est-ce que la FabMob ?
 
-La FabMob est une association qui réunit tou·te·s les acteur·rice·s volontaires de la mobilité.
+La FabMob est une association qui réunit tou·te·s les acteur·rice·s volontaires de la mobilité : territoires, industriels, laboratoires de recherche, start-up, pôles de compétitivité, écoles, agences et ministères.
 
 # Pourquoi ?
 
