@@ -69,7 +69,7 @@ let Présentation = () => (
 					<a href="https://pad.fabmob.io">pad.fabmob.io</a>
 					<img src="https://d33wubrfki0l68.cloudfront.net/5a26e2c8eafa7e50df52260b0f912f53a4c52efe/002dd/assets/images/tool-icons/codimd.png" />
 					<p>
-						<a href="#">
+						<a href="https://pad.fabmob.io/">
 							<button>Prenez des notes↗</button>
 						</a>
 					</p>
