@@ -1,3 +1,5 @@
+# L'urgence
+
 ## Une urgence climatique
 
 La crise climatique à laquelle nous faisons face est une réalité sur laquelle nous ne débattons plus : le GIEC a montré que la hausse des températures s'accélère et que sans réduction de nos émissions, la température pourrait augmenter de 4,8°C d'ici à 2100. Les changements climatiques occasionnés pourraient augmenter la fréquence des évènements extrêmes auxquels les populations sont confrontées. Pour viser une limitation de la hausse de la température en deça de 2°C, comme s'y sont engagés les États, les émissions de GES associées au secteur des transports et de la mobilité doivent diminuer : elles représentent en France 30% des émissions totales.
@@ -6,7 +8,7 @@ Cependant, les pratiques de mobilité ne changent pas à une vitesse suffisante 
 
 Malgré les annonces et les discours, nous n'observons que des évolutions très lentes dans les comportements / offres de mobilité / dé-mobilité. Les effets des innovations dans le domaine des Mobilités restent marginaux.
 
-## Urgence sociale
+## Et sociale
 
 Les modèles d'aménagement du territoire des dernières décennies se sont basés sur le recours aux modes motorisés, généralement individuels, en raison des faibles densités de population résultantes. Ils ont participé à l'augmentation des distances parcourues et à la dévitalisation des centres-villes au profit de centres commerciaux à l'extérieur de celles-ci.
 Par ailleurs, ils ont renforcé les fractures territoriales, en reléguant les classes moyennes et populaires dans les espaces ruraux et périurbains.

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import colors from './components/colors'
 
 export const Card = styled.li`
@@ -41,6 +41,15 @@ export const PageMain = styled.main`
 	margin: 0 auto;
 `
 export const ArticleStyle = styled.div`
+	${({ colors }) =>
+		colors &&
+		css`
+			h1 {
+				background: linear-gradient(to bottom left, ${colors[0]}, ${colors[1]});
+				display: inline-block;
+				padding: 0.1rem 1rem;
+			}
+		`}
 	max-width: 800px;
 	margin: 0 auto 4rem;
 	h1 {

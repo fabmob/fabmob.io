@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import { buildRésumé, dateCool } from './Blog'
 import Meta from './Meta'
 import { ArticleStyle } from 'Code/UI'
+import colors from './components/colors'
 
 export const imageResizer = (size) => (src) =>
 	src.includes('imgur.com')
@@ -20,7 +21,7 @@ export default ({ articles, id: propId }) => {
 	const titre = id
 
 	return (
-		<ArticleStyle>
+		<ArticleStyle colors={[colors.bleu, colors.bleuClair]}>
 			<Meta
 				{...{
 					titre,
