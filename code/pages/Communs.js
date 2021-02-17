@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react'
 import colors from 'Components/colors'
 import { fetchSelectedCommuns } from '../wikiAPI'
 import communsFabmob from 'Content/communs-fabmob.yaml'
-import { Tags, Card, CardList } from '../UI'
+import { Tags, Card, CardList, Title } from '../UI'
 
 export default ({}) => {
 	const [communs, setCommuns] = useState([])
-	console.log('COMMUNS', communs)
 	useEffect(() => {
 		fetchSelectedCommuns(communsFabmob)(setCommuns)
 	}, [])
@@ -19,7 +18,7 @@ export default ({}) => {
 			`}
 		>
 			<header>
-				<h1>Les communs </h1>
+				<Title colors={[colors.vert, colors.jauneVert]}>Les communs </Title>
 				<p>
 					Un commun c'est n'importe quelle ressource utile à quelqu'un (un site
 					Web, un logiciel, les plans d'un objet, le process de fabrication d'un

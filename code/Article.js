@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
-import { buildRésumé, dateCool } from './Blog'
+import { buildRésumé, dateCool } from './Articles'
 import Meta from './Meta'
 import { ArticleStyle } from './UI'
+import {  articles } from './getArticles'
 
 const repo = 'fabmob/fabmob.io'
 
@@ -28,7 +29,7 @@ export const imageResizer = (size) => (src) =>
 		? src.replace(/w=[0-9]+\&/, (_, p1) => `w=${size === 'm' ? '320' : '640'}&`)
 		: src
 
-export default ({ articles, id: propId }) => {
+export default ({ id: propId }) => {
 	const { id } = propId ? { id: propId } : useParams(),
 		article = articles.find((a) => a.id === id),
 		{
