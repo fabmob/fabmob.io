@@ -63,8 +63,8 @@ export default ({}) => {
 					padding: 1rem 4rem;
 				`}
 			>
-				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
-					Explorer tous les communs sur le wiki
+				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Evénements">
+					Explorer tous les événements sur le wiki
 				</a>
 			</div>
 		</section>
