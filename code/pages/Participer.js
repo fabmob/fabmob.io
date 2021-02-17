@@ -7,23 +7,36 @@ export default () => (
 		<header>
 			<h1>Passer à l'action</h1>
 		</header>
-		<div css="text-align: center">
-			<p>La Fabrique est une association 1901.</p>
-			<a
-				href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021"
-				target="_blank"
-			>
-				<button>Adhérer à FabMob France</button>
-			</a>
-		</div>
-		<Présentation />
-	</div>
-)
+		<div
+			css={`
+				> div {
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: center;
+					margin-bottom: 1rem;
+				}
 
-let Présentation = () => (
-	<main>
-		<section>
-			<header>
+				> div p {
+					margin: 0 1rem;
+					width: 20rem;
+				}
+				> div button {
+					margin-top: 0.6rem;
+					width: 20rem;
+				}
+			`}
+		>
+			<div css="">
+				<p>La Fabrique est une association 1901.</p>
+				<a
+					href="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021"
+					target="_blank"
+				>
+					<button>Adhérer à FabMob France</button>
+				</a>
+			</div>
+			<div>
 				<p>
 					En 2 minutes, accédez à la galaxie FabMob en créant votre compte
 					unique.
@@ -35,7 +48,15 @@ let Présentation = () => (
 				>
 					<button>Créer un compte FabMobId</button>
 				</a>
-			</header>
+			</div>
+		</div>
+		<Présentation />
+	</div>
+)
+
+let Présentation = () => (
+	<main>
+		<section>
 			<CardList
 				css={`
 					li a {
