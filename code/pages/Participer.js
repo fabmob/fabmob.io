@@ -59,19 +59,26 @@ let Présentation = () => (
 		<section>
 			<CardList
 				css={`
+					li {
+						height: 22rem;
+						padding-left: 2rem;
+					}
 					li a {
 						display: block;
 					}
 					li img {
-						width: 8rem;
-						max-height: inherit;
+						height: 6rem;
+						max-width: inherit;
 					}
 					h3 {
 						margin-top: 0rem;
 					}
+					p {
+						height: 3rem;
+					}
 				`}
 			>
-				<Card css="height: 24rem">
+				<Card>
 					{/* <img src={require('./images/vélo.svg').default}></img>*/}
 					<h3>Le chat</h3>
 					<p>Discutez en direct avec toutes nos communautés</p>
@@ -83,7 +90,7 @@ let Présentation = () => (
 						</a>
 					</p>
 				</Card>
-				<Card css="height: 24rem">
+				<Card>
 					{/* <img src={require('./images/appli.svg').default}></img>*/}
 					<h3>Le pad</h3>
 					<p>Prenez de notes collaboratives</p>
@@ -95,7 +102,7 @@ let Présentation = () => (
 						</a>
 					</p>
 				</Card>
-				<Card css="height: 24rem">
+				<Card>
 					{/* <img src={require('./images/appli.svg').default}></img>*/}
 					<h3>Le Wiki</h3>
 					<p>Plongez dans le contenu et participez à sa construction</p>
@@ -107,7 +114,7 @@ let Présentation = () => (
 						</a>
 					</p>
 				</Card>
-				<Card css="height: 24rem">
+				<Card>
 					<h3>Le forum</h3>
 					<p>Discutez de façon posée</p>
 					<a href="https://forum.fabmob.io">forum.fabmob.io</a>
@@ -118,7 +125,7 @@ let Présentation = () => (
 						</a>
 					</p>
 				</Card>
-				<Card css="height: 24rem">
+				<Card>
 					{/* <img src={require('./images/appli.svg').default}></img>*/}
 					<h3>Le cloud</h3>
 					<p>Téléchargez et partagez des fichiers</p>
@@ -130,7 +137,7 @@ let Présentation = () => (
 						</a>
 					</p>
 				</Card>
-				<Card css="height: 24rem">
+				<Card>
 					{/* <img src={require('./images/appli.svg').default}></img>*/}
 					<h3>Nos codes</h3>
 					<p>Explorer et construire des produits</p>
