@@ -1,14 +1,11 @@
-import React, { useState } from 'react'
+import React, { Suspense, lazy, useState } from 'react'
 import Emoji from 'Components/Emoji'
 import { Link as RouterLink, LangSwitch } from 'Components/Lang'
 import colors from 'Components/colors'
 import LogoSansTexte from 'Images/logo fabmob sans texte.svg'
 import { useLocation } from 'react-router-dom'
-import { articles } from './getArticles'
 import { useContext } from 'react'
 import { WikiContext } from './App'
-
-const notificationsTriggerDate = new Date(Date.now() - 31 * 24 * 60 * 60 * 1000)
 
 const MenuLink = (setClosed) => ({ to, children }) => (
 	<RouterLink to={to} onClick={() => setClosed()}>
@@ -105,14 +102,9 @@ export default () => {
 				</li>
 				<li>
 					<Link to="/blog">Blog</Link>
-					<Notifications
-						count={
-							articles.filter(
-								({ attributes: { date } }) =>
-									new Date(date) > notificationsTriggerDate
-							).length
-						}
-					/>
+					<Suspense fallback={null}>
+						<LazyBlogNotifications />
+					</Suspense>
 				</li>
 				<li
 					css={`
@@ -155,7 +147,7 @@ export default () => {
 	)
 }
 
-const Notifications = ({ count }) =>
+export const Notifications = ({ count }) =>
 	!count ? null : (
 		<span
 			css={`
@@ -192,3 +184,5 @@ const CloseMenuIcon = () => (
 		<path d="m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z" />
 	</svg>
 )
+
+const LazyBlogNotifications = lazy(() => import('./BlogNotifications'))
