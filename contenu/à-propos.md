@@ -1,6 +1,6 @@
 # Qu'est-ce que la FabMob ?
 
-La FabMob est une association qui réunit tou.te.s les acteur.rice.s volontaires de la mobilité.
+La FabMob est une association qui réunit tou·te·s les acteur·rice·s volontaires de la mobilité.
 
 # Pourquoi ?
 
@@ -8,7 +8,7 @@ Nos façons de nous déplacer et d'organiser nos territoires **ne sont pas compa
 
 Malgré les annonces et les discours, elles n’évoluent pas assez vite vers ces objectifs, et laissent de côté une partie de la population.
 
-**Les effets des innovations dans le domaine des Mobilités** restent marginaux. Quand un “nouvel” acteur cherche à changer des choses, les acteurs en place font tout pour réduire son impact.
+**Les effets des innovations dans le domaine des Mobilités** restent marginaux. Quand un « nouvel » acteur cherche à changer des choses, les acteurs en place font tout pour réduire son impact.
 
 # Que faisons-nous ?
 
@@ -22,13 +22,13 @@ Nous accompagnons le changement de culture de l'innovation des organisations pub
 
 ## Ensemble
 
-La Fabrique mobilise [son équipe, réseau d'adhérents, personnes et organisations](/à-propos/nous) qu'elle accompagne dans la réalisation de projets collectifs et en particulier la production de communs.
+La Fabrique mobilise [son équipe, réseau d'adhérent·e·s, personnes et organisations](/à-propos/nous) qu'elle accompagne dans la réalisation de projets collectifs et en particulier la production de communs.
 
 Nous confrontons des intérêts qui peuvent être divergents pour trouver le commun dont la production intéressera au moins ces deux parties.
 
 > De quoi avez-vous besoin maintenant et que vous avez intérêt à faire ensemble ?
 
-Pour y répondre, nous produisons ce que l'on appelle des communs. Un commun est une ressource ouverte et utile à ceux qui le développent.
+Pour y répondre, nous produisons ce que l'on appelle des communs. Un commun est une ressource ouverte et utile à celles et ceux qui le développent.
 
 Par exemple : un logiciel qui permet de calculer des itinéraires d'un point A à un point B, utilisé dans les applications de transport en commun de plusieurs villes en France ou dans le monde.
 
