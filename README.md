@@ -9,7 +9,9 @@ Le nouveau site Web de la FabMob France.
 
 ### Ajouter ou modifier un article de blog
 
-Tout est dans le dossier [`articles`](https://github.com/fabmob/fabmob.io/tree/master/articles). Ce sont des fichiers .md dits "markdown", qui est une alternative 10x plus simple au .doc. Pas de panique, ça s'[apprend en 5 minutes](https://learnxinyminutes.com/docs/fr-fr/markdown-fr/) puis ça se pratique ;). 
+Les articles sont dans le dosser [`/articles`](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles). Ce sont des fichiers .md dits "markdown", qui est une alternative 10x plus simple au .doc. 
+
+Pas de panique, ça s'[apprend en 5 minutes](https://learnxinyminutes.com/docs/fr-fr/markdown-fr/) puis ça se pratique ;). 
 
 ▶️ Concrètement : 
 - pour créer un fichier, une fois connecté à votre compte github, cliquez sur `Add file` > `Create a new file`, remplissez son nom en haut (par exemple 2019-tu-me-manques.md). 
@@ -40,7 +42,13 @@ Blabla2
 
 ```
 
-Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourrons discuter / valider vos changements. Bravo 👏 !
+Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". 
+
+Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). 
+
+Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourrons discuter / valider vos changements. N'ayez pas peur de tenter quelque chose : tout se corrige, tout s'améliore, github est fait pour discuter des changements 🙂
+
+Bravo 👏 !
 
 ### Modifier le contenu d'une page de texte
 
