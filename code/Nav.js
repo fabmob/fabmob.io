@@ -4,7 +4,7 @@ import { Link as RouterLink, LangSwitch } from 'Components/Lang'
 import colors from 'Components/colors'
 import LogoSansTexte from 'Images/logo fabmob sans texte.svg'
 import { useLocation } from 'react-router-dom'
-import { newArticles as articles } from './getArticles'
+import { articles } from './getArticles'
 import { useContext } from 'react'
 import { WikiContext } from './App'
 
