@@ -4,7 +4,7 @@ La FabMob est une association qui réunit tou.te.s les acteur.rice.s volontaires
 
 # Pourquoi ?
 
-Nos façons de nous déplacer et d'organiser nos villes **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat, nos objectifs de sobriété énergétique et de réduction de la pollution de l'air. 
+Nos façons de nous déplacer et d'organiser nos territoires **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat, nos objectifs de sobriété énergétique et de réduction de la pollution de l'air. 
 
 Malgré les annonces et les discours, elles n’évoluent pas assez vite vers ces objectifs, et laissent de côté une partie de la population.
 
