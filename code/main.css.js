@@ -56,7 +56,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding: 0;
-  font-size: 115%
+  font-size: 110%
 }
 
 footer,
