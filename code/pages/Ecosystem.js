@@ -32,6 +32,7 @@ let Présentation = ({ filter }) => (
 				}
 				aside img {
 					width: 10rem;
+					filter: grayscale(1);
 				}
 				aside p {
 					margin: 0.3rem;

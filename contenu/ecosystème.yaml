@@ -10,23 +10,30 @@ L'équipe:
     rôle: Développeur
   - nom: Amandine Richaud-Crambes
     rôle: Directrice
+    image: /images/nous/amandine.resized.jpg
   - nom: Malou Charenton
     rôle: Démobilité & logistique
+    image: /images/nous/malou.resized.png
   - nom: Fredéric Nikolaïdis
     rôle: Responsable Mon Compte Mobilité
-
+    image: /images/nous/fred.resized.jpg
 Le conseil d'administration: 
   - nom: Bruno Marzloff
     rôle: Président
+    image: /images/nous/bruno.resized.jpg
   - image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_1220_l.jpg?r=1586425010
     nom: Fabien Gainier
     rôle: Secrétaire FabMob France
   - nom: Mathilde Bras
     rôle: Trésorière
+    image: /images/nous/mathilde.resized.jpg
   - nom: Bertil DE FOS
     rôle: VP Thématique 
+    image: /images/nous/bertil.resized.jpg
   - nom: Erik GRAB
     rôle: VP Thématique  
+    image: /images/nous/erik.resized.jpg
   - nom: Julie Braka
     rôle: VP Thématique 
+    image: /images/nous/julie.resized.jpg
 
