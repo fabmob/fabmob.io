@@ -18,6 +18,6 @@ export default ({ title, description, image, url, published, updated }) => (
 		{updated && <meta property="og:updated_time" content={updated} />}
 		<meta name="twitter:card" content="summary_large_image" />
 
-		<meta property="og:site_name" content="kont.me" />
+		<meta property="og:site_name" content="La fabrique des mobilités" />
 	</Helmet>
 )
