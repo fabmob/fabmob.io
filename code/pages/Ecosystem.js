@@ -32,6 +32,13 @@ let Présentation = ({ filter }) => (
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					overflow: auto;
+				}
+				@media (max-width: 800px) {
+					aside {
+						width: 8rem;
+						margin: 0.4rem;
+					}
 				}
 				aside h3 {
 					margin: 0.3rem;
