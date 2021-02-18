@@ -11,7 +11,10 @@ import { ArticleStyle } from '../UI'
 export default () => {
 	const [filter, setFilter] = useState({})
 	return (
-		<ArticleStyle colors={[colors.bleu, colors.bleuClair]}>
+		<ArticleStyle
+			colors={[colors.bleu, colors.bleuClair]}
+			css="max-width: 1000px"
+		>
 			<h1>L'ecosystème FabMob</h1>
 			<Présentation filter={filter} />
 		</ArticleStyle>
@@ -25,13 +28,18 @@ let Présentation = ({ filter }) => (
 				aside {
 					width: 10rem;
 					text-align: center;
-					padding: 1rem;
+					padding: 0.4rem;
+					display: flex;
+					align-items: center;
+					justify-content: center;
 				}
 				aside h3 {
 					margin: 0.3rem;
+					text-align: center;
 				}
 				aside img {
 					width: 10rem;
+					margin: 0.4rem;
 					filter: grayscale(1);
 				}
 				aside p {
