@@ -18,13 +18,13 @@ export default ({ articles, id: propId }) => {
 		article = articles.find((a) => a.id === id),
 		{ body } = article
 
-	const titre = id
+	const title = id
 
 	return (
 		<ArticleStyle colors={[colors.bleu, colors.bleuClair]}>
 			<Meta
 				{...{
-					titre,
+					title,
 				}}
 			/>
 			<ReactMarkdown source={body} escapeHtml={false} />
