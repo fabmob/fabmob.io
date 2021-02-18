@@ -83,6 +83,29 @@ let Présentation = () => (
 				`}
 			>
 				<Card>
+					{/* <img src={require('./images/appli.svg').default}></img>*/}
+					<h3>Le Wiki</h3>
+					<p>Plongez dans le contenu et participez à sa construction</p>
+					<a href="https://wiki.fabmob.io">wiki.fabmob.io</a>
+					<img src="https://www.mediawiki.org/static/images/project-logos/mediawikiwiki.png" />
+					<p>
+						<a href="#">
+							<button>Documenter↗</button>
+						</a>
+					</p>
+				</Card>
+				<Card>
+					<h3>Le forum</h3>
+					<p>Discutez de façon posée</p>
+					<a href="https://forum.fabmob.io">forum.fabmob.io</a>
+					<img src="https://www.discourse.org/a/img/favicon.png" />
+					<p>
+						<a href="https://forum.fabmob.io">
+							<button>Discuter posément↗</button>
+						</a>
+					</p>
+				</Card>
+				<Card>
 					{/* <img src={require('./images/vélo.svg').default}></img>*/}
 					<h3>Le chat</h3>
 					<p>Discutez en direct avec toutes nos communautés</p>
@@ -103,29 +126,6 @@ let Présentation = () => (
 					<p>
 						<a href="https://pad.fabmob.io/">
 							<button>Prenez des notes↗</button>
-						</a>
-					</p>
-				</Card>
-				<Card>
-					{/* <img src={require('./images/appli.svg').default}></img>*/}
-					<h3>Le Wiki</h3>
-					<p>Plongez dans le contenu et participez à sa construction</p>
-					<a href="https://wiki.fabmob.io">wiki.fabmob.io</a>
-					<img src="https://www.mediawiki.org/static/images/project-logos/mediawikiwiki.png" />
-					<p>
-						<a href="#">
-							<button>Documenter↗</button>
-						</a>
-					</p>
-				</Card>
-				<Card>
-					<h3>Le forum</h3>
-					<p>Discutez de façon posée</p>
-					<a href="https://forum.fabmob.io">forum.fabmob.io</a>
-					<img src="https://www.discourse.org/a/img/favicon.png" />
-					<p>
-						<a href="https://forum.fabmob.io">
-							<button>Discuter posément↗</button>
 						</a>
 					</p>
 				</Card>
