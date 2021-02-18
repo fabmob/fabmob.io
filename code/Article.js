@@ -66,7 +66,7 @@ export default ({ id: propId }) => {
 				{...{
 					title: titre,
 					description: résumé || buildRésumé(body),
-					image,
+					image: coverImage,
 					url: 'https://lafabriquedesmobilites.fr/blog/' + id,
 					published: new Date(date).toISOString(),
 					updated: lastEditDate,
