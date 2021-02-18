@@ -78,8 +78,6 @@ const Container = () => (
 				<Route path="/blog">
 					<Blog />
 				</Route>
-				{/* Pour la migration vers le nouveau site*/}
-				<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
 				<Route path="/communs">
 					<Communs />
 				</Route>
@@ -95,6 +93,10 @@ const Container = () => (
 				<route path="/événements">
 					<Événéments />
 				</route>
+				{/* Pour la migration vers le nouveau site*/}
+				<UtmFriendlyRedirect from="/articles/:category/:id" to="/blog/:id" />
+				<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
+				<UtmFriendlyRedirect from="/:category/:id" to="/blog/:id" />
 				<Route path="/">
 					<Accueil />
 				</Route>
