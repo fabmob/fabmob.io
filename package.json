@@ -42,5 +42,8 @@
 		"webpack-dev-server": "^3.11.2",
 		"worker-loader": "^3.0.7"
 	},
-	"keywords": []
+	"keywords": [],
+	"optionalDependencies": {
+		"scrape-it": "^5.3.1"
+	}
 }
