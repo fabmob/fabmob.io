@@ -61,12 +61,7 @@ let Présentation = ({ filter }) => (
 			<Members data={ecosystème["Le conseil d'administration"]} />
 
 			<h2>Nos 10 derniers adhérents</h2>
-			<div css="text-align: center">
-				<p>
-					<Emoji emoji="🏗" />
-					{'  '}Section en construction
-				</p>
-			</div>
+			<div css="text-align: center"></div>
 			<Adhérents />
 		</section>
 		<AutresFabriques />
