@@ -4,7 +4,8 @@ import { useParams } from 'react-router-dom'
 import { buildRésumé, dateCool } from './Articles'
 import Meta from './Meta'
 import { ArticleStyle } from './UI'
-import {  articles } from './getArticles'
+import { articles } from './getArticles'
+import { EmailContact } from './pages/Accueil'
 
 const repo = 'fabmob/fabmob.io'
 
@@ -31,8 +32,18 @@ export const imageResizer = (size) => (src) =>
 
 export default ({ id: propId }) => {
 	const { id } = propId ? { id: propId } : useParams(),
-		article = articles.find((a) => a.id === id),
-		{
+		article = articles.find((a) => a.id === id)
+	if (!article)
+		return (
+			<div>
+				<p>Nous n'avons pas trouvé votre article :/</p>
+				<p>N'hésitez pas à nous le signaler par mail</p>
+				<div css="font-size: 200%">
+					<EmailContact />
+				</div>
+			</div>
+		)
+	const {
 			attributes: { image, titre, auteur, date, résumé },
 			body,
 		} = article,
@@ -119,7 +130,7 @@ const ImageRenderer = (year) => ({ src: rawSrc }) => {
 	const src = rawSrc.includes('http')
 		? imageResizer('l')(rawSrc)
 		: rawSrc.indexOf('images/') === 0
-		? `contenu/articles/${year}/images/${rawSrc.split('images/')[1]}`
+		? `/contenu/articles/${year}/images/${rawSrc.split('images/')[1]}`
 		: rawSrc
 	return <img src={src} />
 }

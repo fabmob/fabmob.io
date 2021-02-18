@@ -110,13 +110,7 @@ export default () => {
 							</a>
 						</li>
 						<li>
-							<a
-								href="contact@fabmob.io"
-								title="courriel"
-								css="img {font-size: 120%}"
-							>
-								<Emoji emoji="✉" />
-							</a>
+							<EmailContact />
 						</li>
 					</ul>
 				</footer>
@@ -129,3 +123,13 @@ const Surligné = styled.span`
 	background: yellow;
 	font-weight: normal;
 `
+
+export const EmailContact = () => (
+	<a
+		href="mailto:contact@fabmob.io"
+		title="courriel"
+		css="img {font-size: 120%}"
+	>
+		<Emoji emoji="✉" />
+	</a>
+)
