@@ -270,15 +270,6 @@ color: white;
 }
 
 
-a em,
-a i {
-  border: 2px solid var(--color);
-  border-radius: var(--border-radius);
-  color: var(--color);
-  display: inline-block;
-  padding: 1rem 2rem;
-}
-
 /* Images */
 figure {
   margin: 0;

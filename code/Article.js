@@ -121,7 +121,13 @@ export default ({ id: propId }) => {
 				Venez discuter de cet article{' '}
 				<a
 					class="twitter-share-button"
-					href="https://twitter.com/intent/tweet?text= Super article à lire sur le blog @fab_mob"
+					href={
+						'https://twitter.com/intent/tweet?text= Super article à lire sur le blog @fab_mob ' +
+						title +
+						' ' +
+						'https://lafabriquedesmobilites.fr/blog/' +
+						id
+					}
 					data-size="large"
 				>
 					sur twitter
