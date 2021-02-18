@@ -6,6 +6,15 @@ import styled from 'styled-components'
 import { Title, Tags, Card, CardList } from '../UI'
 import { WikiContext } from '../App'
 
+export const Newsletter = () => (
+	<p>
+		Pour ne rien rater, abonnez-vous à notre{' '}
+		<a href="https://us12.list-manage.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341">
+			📮 lettre d'information
+		</a>
+	</p>
+)
+
 export default ({}) => {
 	const [data] = useContext(WikiContext)
 	return (
@@ -21,6 +30,7 @@ export default ({}) => {
 		>
 			<header>
 				<Title colors={[colors.jaune, colors.jauneVert]}>Les événements </Title>
+				<Newsletter />
 			</header>
 			<CardList>
 				{sortBy('data.data.startDate')(data)

@@ -3,6 +3,7 @@ import { Title } from './UI'
 import colors from 'Components/colors'
 import { Link, useParams } from 'react-router-dom'
 import { coverImageURL, imageResizer } from './Article'
+import { Newsletter } from './pages/Événements'
 
 const yearsAndYears = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
 
@@ -29,6 +30,7 @@ const Header = () => (
 		`}
 	>
 		<Title colors={[colors.bleu, colors.bleuClair]}>Le blog</Title>
+		<Newsletter />
 	</header>
 )
 export default ({ year }) => {
