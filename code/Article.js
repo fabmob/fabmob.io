@@ -9,6 +9,9 @@ import { EmailContact } from './pages/Accueil'
 
 const repo = 'fabmob/fabmob.io'
 
+export const coverImageURL = (image, id) =>
+	image || '/contenu/articles/couvertures/' + id + '.jpg'
+
 const getLastEdit = (name, action) =>
 	fetch(
 		`https://api.github.com/repos/${repo}/commits?path=articles%2F${name}.md&page=1&per_page=1`
@@ -55,6 +58,8 @@ export default ({ id: propId }) => {
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, setLastEditDate)
 
+	const coverImage = coverImageURL(image, id)
+
 	return (
 		<ArticleStyle>
 			<Meta
@@ -67,8 +72,8 @@ export default ({ id: propId }) => {
 					updated: lastEditDate,
 				}}
 			/>
-			{image && (
-				<img css="max-height: 30rem;" src={imageResizer('l')(image)}></img>
+			{coverImage && (
+				<img css="max-height: 30rem;" src={imageResizer('l')(coverImage)}></img>
 			)}
 			{title && <h1>{title}</h1>}
 			<p

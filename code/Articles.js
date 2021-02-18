@@ -2,7 +2,7 @@ import { articles } from './getArticles'
 import { Title } from './UI'
 import colors from 'Components/colors'
 import { Link, useParams } from 'react-router-dom'
-import { imageResizer } from './Article'
+import { coverImageURL, imageResizer } from './Article'
 
 const yearsAndYears = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
 
@@ -113,10 +113,11 @@ export const buildRésumé = (body) =>
 
 const ArticleVignette = ({
 	id,
-	attributes: { date, résumé, titre, title, image },
+	attributes: { date, résumé, titre, title, image: rawImage },
 	body,
 }) => {
 	const résumé2 = résumé || buildRésumé(body)
+	const image = coverImageURL(rawImage, id)
 	return (
 		<aside
 			css={`

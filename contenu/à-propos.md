@@ -6,7 +6,7 @@ La FabMob est une association qui réunit tou·te·s les acteur·rice·s volonta
 
 ## Pourquoi ?
 
-Nos façons de nous déplacer et d'organiser nos territoires **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat, nos objectifs de sobriété énergétique et de réduction de la pollution de l'air. 
+Nos façons de nous déplacer et d'organiser nos territoires **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat, nos objectifs de sobriété énergétique et de réduction de la pollution de l'air.
 
 Malgré les annonces et les discours, elles n’évoluent pas assez vite vers ces objectifs, et laissent de côté une partie de la population.
 
@@ -30,7 +30,7 @@ Nous confrontons des intérêts qui peuvent être divergents pour trouver le com
 
 > De quoi avez-vous besoin maintenant et que vous avez intérêt à faire ensemble ?
 
-Pour y répondre, nous produisons ce que l'on appelle des communs. Un commun est une ressource ouverte et utile à celles et ceux qui le développent.
+Pour y répondre, nous produisons ce que l'on appelle des communs. Un commun est une ressource ouverte, dite <em>open source</em>, et utile à celles et ceux qui le développent.
 
 Par exemple : un logiciel qui permet de calculer des itinéraires d'un point A à un point B, utilisé dans les applications de transport en commun de plusieurs villes en France ou dans le monde.
 
