@@ -31,6 +31,7 @@ export default () => {
 						flex-direction: column;
 						justify-content: center;
 						align-items: center;
+						margin: 1rem 0;
 					}
 					> section > p {
 						margin-top: 2rem;
