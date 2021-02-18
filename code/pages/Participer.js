@@ -57,6 +57,9 @@ export default () => (
 
 let Présentation = () => (
 	<main>
+		<p css="text-align: center">
+			Ce compte centralisé vous permet d'accéder à tous nos outils :{' '}
+		</p>
 		<section>
 			<CardList
 				css={`
