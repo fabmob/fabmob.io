@@ -26,6 +26,10 @@ export default ({}) => {
 					<strong>être ouverte et contributive</strong> : son code est lisible
 					et on peut, selon certaines conditions, se l'approprier pour
 					l'améliorer.{' '}
+					<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Communs">
+						En savoir plus
+					</a>
+					.
 				</p>
 			</header>
 			<h2>Les communs FabMob</h2>
