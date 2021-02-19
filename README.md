@@ -41,6 +41,7 @@ Blabla
 Blabla2
 
 ```
+Pour le contenu principal, c'est au format `markdown`. Sur github, l'éditeur ne propose pas de boutons (par exemple mettre un paragraphe en gras). Si vous préférez, vous pouvez créer votre contenu dans pad.fabmob.io ou un autre outil et copier coller cela dans l'éditeur github une fois terminé. Ctrl-a (sélectionner tout), Ctrl-c, Ctrl-v, modifier le contenu, puis pareil en sens inverse ;)
 
 Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". 
 
