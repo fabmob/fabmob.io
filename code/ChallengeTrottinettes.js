@@ -25,7 +25,7 @@ export default () => (
 			<div>
 				<h1>Challenge national des trottinettes</h1>
 				
-				<div css="display: flex; justify-content: space-evenly">
+				<div css="display: flex; flex-wrap: wrap; justify-content: space-evenly">
 					<a href="https://forum.fabmob.io/c/nos-communs/2nde-vie-des-trottinettes/32">
 						<button>Venez discuter sur le forum</button>
 					</a>
