@@ -24,13 +24,16 @@ export default () => (
 			/>
 			<div>
 				<h1>Challenge national des trottinettes</h1>
-				<p>Rejoignez-nous ! </p>
+				
 				<div css="display: flex; justify-content: space-evenly">
 					<a href="https://forum.fabmob.io/c/nos-communs/2nde-vie-des-trottinettes/32">
-						<button>Participez sur le forum</button>
+						<button>Venez discuter sur le forum</button>
 					</a>
-					<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil">
-						<button>Découvrez les communs</button>
+					<a href="https://cloud.fabmob.io/s/feoXaxoa4b2J7sd">
+						<button>Candidatez sur ce challenge</button>
+					</a>
+					<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_du_challenge_de_seconde_vie_des_trottinettes_%C3%A9lectriques">
+						<button>Découvrez la communauté réunie autour de ce challenge</button>
 					</a>
 				</div>
 				<a href="#infos">Plus d'infos ⬇️</a>
