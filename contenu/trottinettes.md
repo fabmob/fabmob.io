@@ -45,8 +45,8 @@ la Fabrique des Mobilités.
 # CONTEXTE
 
 Nos mobilités conditionnent à la fois nos quotidiens, la performance de
-nos entreprises, la qualité de l\'air que l\'on respire, les évolutions
-de notre climat, l\'aménagement de nos territoires. Or, le transport
+nos entreprises, la qualité de l'air que l'on respire, les évolutions
+de notre climat, l'aménagement de nos territoires. Or, le transport
 routier serait responsable d'environ 30% des émissions de gaz à effet de
 serre en France (chiffres de l'année 2017) dont 95% seraient imputables
 au véhicule particulier selon les [données du ministère de la Transition
@@ -56,7 +56,7 @@ nous remplacions tous ces véhicules par un parc 100% électrique.\
 D'après une étude de [l'Insee en
 2015](https://www.insee.fr/fr/statistiques/2557426), les trajets entre
 le domicile et le travail sont effectués majoritairement en voiture,
-même quand il s\'agit de courtes distances. Ce moyen de transport est
+même lorsqu'il s'agit de distances courtes. Ce moyen de transport est
 ultra-majoritaire en toute circonstance, que ce soit sur des distances
 adaptées à la marche à pied (moins de 3 km) ou idéales à vélo (moins de
 5 km). Et, évidemment, au-delà de 5 km de trajet, quatre travailleurs
@@ -64,9 +64,9 @@ sur cinq y ont recours. Même pour des distances inférieures à 1 km, 58%
 des actifs se déplacent en voiture.
 
 Il paraît donc compliqué de justifier que pour de si faibles distances,
-l\'on persiste à utiliser l\'automobile.
+l'on persiste à utiliser l'automobile.
 
-Au-delà de la voiture thermique c'est bien la question du l'usage et de
+Au-delà de la voiture thermique c'est bien la question de l'usage et de
 la forme de la voiture individuelle qui est à questionner pour répondre
 à ses besoins élémentaires : aller travailler, faire les courses, se
 rendre à ses loisirs.
@@ -91,7 +91,7 @@ sait que cette distance concerne plus de la moitié des trajets en
 Europe. C'est dans cette optique que le challenge national de seconde
 vie des trottinettes électriques est imaginé.
 
-# 1^er^ CHALLENGE NATIONAL DE SECONDE VIE DES TROTTINETTES ÉLECTRIQUES
+# 1er CHALLENGE NATIONAL DE SECONDE VIE DES TROTTINETTES ÉLECTRIQUES
 
 La Fabrique des Mobilités et My Human Kit lancent le premier challenge
 sur la réutilisation des trottinettes électriques après leur première
@@ -110,11 +110,11 @@ associations, entreprises, opérateurs de trottinettes électriques. Ce
 challenge a vocation à pouvoir ensuite se décliner pour servir d'autres
 engins de mobilité.
 
-Enfin, La FabMob et MHK envisagent ce challenge uniquement par un
+Enfin, la FabMob et MHK envisagent ce challenge uniquement **par un
 travail collectif pour des résultats mis au service de l'intérêt
-général, c'est la raison pour laquelle nous encourageons la
+général**, c'est la raison pour laquelle nous encourageons la
 participation des différent∙e∙s acteur∙rice∙s des mobilités et la
-création de solutions seront 100% open source et reproductibles pour
+**création de solutions seront 100% open source et reproductibles** pour
 permettre à tous les territoires et leurs acteurs locaux de s'en saisir.
 C'est également dans cet esprit que ce challenge sera lui aussi
 documenté pour en permettre la déclinaison pour servir d'autres engins
@@ -148,43 +148,43 @@ Celles-ci se sont engagées à :
 - **\[et/ou\]** Proposer des défis aux équipes participantes liés à
   des problématiques partagées entre tous les opérateurs.
 
-> []{#\_Toc65142769 .anchor}LIME
+### LIME
 
-[]{#\_Toc65142770 .anchor}Société américaine créée en 2017, Lime propose
+Société américaine créée en 2017, Lime propose
 des solutions de mobilité urbaine en libre-service : vélos, trottinettes
 et scooters électriques.
 
 Implantée dans plus de 120 villes dans le monde, Lime est présente en
 France à Paris, La Défense et Bordeaux.
 
-> VOI TECHNOLOGY
+### VOI TECHNOLOGY
 
 Née en Suède, Voi propose une solution de mobilité durable pour le
 dernier kilomètre en créant un réseau de trottinettes électriques
 partagées. Voi est présent dans 2 villes françaises et s'est associée à
 BlablaCar, offrant une nouvelle identité aux trottinettes : Blabla Ride.
 
-> []{#\_Toc65142771 .anchor}DOTT
+### DOTT
 
 Dott est une start-up française implantée à Amsterdam proposant des
 vélos et trottinettes électriques en libre-service et notamment dans 3
 villes en France.
 
-> []{#\_Toc65142772 .anchor}BIRD
+### BIRD
 
 Bird est une société de micro-mobilité basée à Santa Monica, en
 Californie. Fondée en septembre 2017, Bird opère une flotte de
 trottinettes électriques en libre-service dans plus de 100 villes à
 travers le monde.
 
-> []{#\_Toc65142773 .anchor}TIER MOBILITY
+### TIER MOBILITY
 
 Basée à Berlin, Tier Mobility est présent dans plus de 70 villes dans 9
-pays. Dans l\'Hexagone, outre Lyon, l\'entreprise a déjà déployé ses
+pays. Dans l'Hexagone, outre Lyon, l'entreprise a déjà déployé ses
 trottinettes à Paris, Bordeaux et Grenoble. La société emploie plus de
 500 personnes.
 
-> []{#\_Toc65142774 .anchor}OXELO
+### OXELO
 
 Implantée à Lille, Oxelo est la division de Decathlon en charge de la
 glisse urbaine et fabrique des trottinettes et trottinettes électriques
@@ -194,16 +194,16 @@ en vente dans tous les magasins de sport de la maison mère.
 d'électrification des véhicules de micromobilité et sur la réutilisation
 et le reconditionnement des batteries.
 
-> []{#\_Toc65142775 .anchor}VIRVOLT
+### VIRVOLT
 
 Virvolt est une société crée en 2018 qui offre un service
-d\'électrification de vélos afin d\'inscrire la mobilité dans une
+d'électrification de vélos afin d'inscrire la mobilité dans une
 logique plus circulaire et durable.\
 Dans cette logique, Virvolt est un expert dans la réparation, le
-reconditionnement et l\'audit de batteries Lithium-Ion, ainsi que de
+reconditionnement et l'audit de batteries Lithium-Ion, ainsi que de
 leur optimisation pour leur recyclage.
 
-> []{#\_Toc65142776 .anchor}BLOCKTRICITY
+### BLOCKTRICITY
 
 Blocktricity est une société qui a conçu une plateforme de données
 autorisées basée sur la blockchain permettant la création de marchés de
@@ -214,7 +214,7 @@ Enfin, notre dernier sponsor participera à faire rayonner ce challenge
 dans son réseau qu'il invitera à participer, offrira son expertise ainsi
 que des propositions de cas d'usage à développer par les équipes.
 
-> []{#\_Toc65142777 .anchor}FAB&CO
+### FAB&CO
 
 Fab&Co est une association qui réunit entreprises de l'industrie, du
 service et des écoles dont l'objectif est de promouvoir les ateliers de
@@ -230,19 +230,18 @@ industrielles.
 
 ---
 
-**1^er^ mars 2021 : lancement de l'appel à candidatures**.
+**4 mars 2021 : lancement de l'appel à candidatures**.
 
 **12 avril 2021 :** **lancement du challenge** qui aura pour objet de
-réunir tou∙te∙s les participant∙e∙s et parties prenantes du challenge,
-leur repréciser l'objectif de ce challenge et son déroulé, de présenter
+réunir tou∙te∙s les participant∙e∙s et parties prenantes du challenge, de
+repréciser l'objectif de ce challenge et son déroulé, de présenter
 les partenaires, les outils d'expérimentation (outils permettant la
 documentation, les différents composants de la trottinette) et le jury.
 Ce lancement sera également l'occasion de mettre en relation les
 différentes équipes avec leur lieu d'expérimentation (si l'équipe en
 question n'est pas directement liée à un fablab, tiers-lieux, écoles ou
 universités) et les personnes en charge de ce lieu et de commencer à
-réfléchir sur les cas d'usage envisagés pour ces 6 mois
-d'expérimentation.
+réfléchir aux cas d'usage envisagés pour ces 6 mois d'expérimentation.
 
 **Juin 2021 : rdv intermédiaire** pour permettre aux équipes de
 présenter leur avancement, poser leurs questions et partager leur
@@ -267,16 +266,13 @@ Les différentes solutions seront alors jugées selon plusieurs critères :
 
 - La pertinence des solutions proposées en termes d'impact écologique,
   social et économique.
-
 - La reproductibilité des solutions : les solutions doivent être 100%
   open source et documentées pour en permettre la reproduction par
   tou∙te∙s.
-
 - La facilité de mise en œuvre de la solution : documentation
   détaillée de la vision de mise en œuvre de ses concepteur∙rice∙s -
   la solution devra être présentable en l'état à des
   territoires/associations pour être testée.
-
 - L'intégration de la solution dans une économie circulaire locale.
 
 L'équipe ou les équipes gagnantes pourront être accompagnée(s) pour
@@ -292,14 +288,11 @@ veulent les mettre en place.
 Alors la Fabrique des Mobilités pourra :
 
 - La diffuser plus largement à son réseau pour créer une communauté
-  autour du commun (voir [Annexe 1](#section)).
-
+  autour du commun.
 - En favoriser la création grâce à la communauté créée.
-
 - En permettre la reprise par des acteurs partenaires pour qu\'elles
   voient le jour dans le cas où les concepteur∙rice∙s ne
   voudraient/pourraient pas s'en saisir.
-
 - Aider au financement de la solution.
 
 # CANDIDATURE ET ENGAGEMENTS
@@ -307,15 +300,15 @@ Alors la Fabrique des Mobilités pourra :
 ## Qui peut candidater ?
 
 Ce challenge est à destination des entreprises fabricant, revendeurs de
-trottinettes, ateliers, fablabs, tiers-lieux, espaces _makers_,
+trottinettes, ateliers, fablabs, tiers-lieux, espaces *makers*,
 associations, territoires/collectivités, universités, écoles ou encore
 passionné∙e∙s de bricolage en tout genre.
 
 Il est possible de candidater :
 
 - En équipe déjà constituée regroupant a minima un territoire ou une
-  collectivité et un fablab ou espace _makers_[^1]
-
+  collectivité et un fablab ou espace *makers* (Sauf si l'équipe constituée est basée à Wissous, Villeurbanne,
+  Marseille, Paris ou Lyon où nos sponsors pourront vous accueillir en toute sécurité.
 - Par entité propre en signifiant votre intérêt et ce que vous
   souhaitez apporter à une équipe (compétences, expertises,
   savoir-faire...).
@@ -332,36 +325,31 @@ Pour toutes informations complémentaires, aide à la candidature ou pour
 proposer une autre forme de participation ou simplement poser vos
 questions, merci de contacter
 [eline\@fabmob.io](file:///C:\Users\la_cr\Documents\1.%20TRAVAIL\1.%20FABMOB\eline@fabmob.io)
-ou de venir discuter sur [l'espace du Forum de la Fabrique des Mobilités
+ou de rejoindre [l'espace du Forum de la Fabrique des Mobilités
 dédié à ce
 challenge](https://forum.fabmob.io/t/challenge-national-de-la-seconde-vie-des-trottinettes/711).
 
 ## Engagements et réciprocités
 
-### Si vous êtes un atelier, un fablab, un espace _makers_, un tiers-lieu
+### Si vous êtes un atelier, un fablab, un espace *makers*, un tiers-lieu
 
 Votre rôle sera de :
 
 - Participer en tant qu'équipe ou réunir une équipe pour participer au
   challenge
-
 - Mettre à disposition de façon occasionnelle (ou réglementée) un lieu
   permettant à votre équipe ou l'équipe accueillie de travailler sur
   les trottinettes et composants avec les outils adaptés et en toute
   sécurité
-
 - Mettre à disposition des expert∙e∙s de façon occasionnelle
 
 Ce challenge vous permettra de :
 
-- Participer à la création de communs (voir [Annexe 1](#section)) qui,
+- Participer à la création de communs qui,
   potentiellement, pourront vous servir dans vos projets futurs
-
 - Accueillir de nouveaux projets
-
 - Vous inscrire dans une démarche visant à promouvoir l'économie
   circulaire sur votre territoire
-
 - Participer à l'amélioration de l'ACV des trottinettes électriques
 
 ### Si vous êtes un territoire/une collectivité
@@ -371,24 +359,19 @@ Votre rôle sera de :
 - Offrir un terrain d'expérimentation aux solutions créées lors du
   challenge que vous estimerez les plus pertinentes pour votre
   territoire
-
 - Offrir un cadre légal/juridique pour vérifier la faisabilité de la
   mise en action de la solution imaginée par votre équipe
 
 Ce challenge vous permettra de :
 
-- Participer à la création de communs (voir [Annexe 1](#section)) qui,
+- Participer à la création de communs qui,
   potentiellement, pourront vous servir dans vos projets futurs
-
 - Accueillir de nouveaux projets/nouvelles solutions sur votre
   territoire
-
 - Encourager de nouveaux usages aux trottinettes ou à ses composants
   en travaillant avec les acteurs (associations & entreprises) locaux
   (économie circulaire et locale)
-
 - Participer à l'amélioration de l'ACV des trottinettes électriques
-
 - Stimuler le marché de l'emploi par la formation et la création de
   nouveaux métiers sur votre territoire pour gérer ces solutions
 
@@ -398,25 +381,20 @@ Votre rôle sera de :
 
 - Faire participer une personne ou une équipe pour développer un cas
   d'usage pertinent pour vous
-
 - **\[En option\]** Participer à la gestion de l'expérimentation des
   cas d'usage choisis sur votre territoire et dans la limite de vos
   compétences
 
 Ce challenge vous permettra de :
 
-- Participer à la création de communs (voir [Annexe 1](#section)) qui,
+- Participer à la création de communs qui,
   potentiellement, pourront vous servir dans vos projets futurs
-
 - Accueillir de nouveaux projets
-
-- Vous inscrire dans une démarche visant à promouvoir l\'économie
+- Vous inscrire dans une démarche visant à promouvoir l'économie
   circulaire sur votre territoire et en créant de nouveaux
   partenariats avec les acteurs locaux
-
 - Apprendre un nouveau métier grâce aux cas d'usage inventés durant ce
   challenge
-
 - Participer à l'amélioration de l'ACV des trottinettes électriques
 
 ### Si vous êtes une université, une école
@@ -428,9 +406,8 @@ Votre rôle sera de :
 
 Ce challenge vous permettra de :
 
-- Participer à la création de communs (voir [Annexe 1](#section)) qui,
+- Participer à la création de communs qui,
   potentiellement, pourront vous servir dans vos projets futurs
-
 - Monter en compétence notamment sur la mécanique et l'électronique
   des trottinettes et/ou de leurs composants
 
@@ -444,60 +421,5 @@ Votre rôle sera de :
 
 Ce challenge vous permettra de :
 
-- Participer à la création de communs (voir [Annexe 1](#section)) qui,
+- Participer à la création de communs qui,
   potentiellement, pourront vous servir dans vos projets futurs
-
-# ANNEXE 1 -- QU'EST-CE QU'UN COMMUN ?
-
-Un commun est une **ressource** mise en partage et alimentée par
-une **communauté** qui met en place une **gouvernance** et des règles
-pour la gérer et la protéger.
-
-![](media/image10.png){width="6.270138888888889in"
-height="4.397916666666666in"}
-
-Un commun peut aussi être regardé comme une ressource nécessaire et non
-compétitive dans un domaine. Les acteur∙rice∙s ont donc intérêt à
-s'organiser pour mutualiser son développement, à le faire grandir et
-éventuellement à en faire un standard.
-
-Dans notre challenge, les communs seront toutes les ressources (cas
-d'usage ou processus de recyclage optimisé) créées par les équipes qui
-pourront être répliquées sur tous les territoires en respectant la
-licence ouverte imposée par leurs créateur∙rice∙s.
-
-**[Les licences pouvant être envisagées]{.underline}**
-
-Les licences pouvant être utilisées pour les résultats de challenge
-doivent permettre à chacun∙e le droit d'accéder, d'utiliser, de modifier
-et de partager toutes les ressources pour tous les usages.
-
-Les licences pouvant être choisies pour répondre aux exigences ci-dessus
-:
-
-- **\[Pour le software\] GNU GPL** -- l'auteur∙rice autorise
-  l'utilisation, l'étude, la modification et la diffusion de son
-  œuvre. En revanche, le logiciel et ses composants, qu'il ait été
-  modifié ou non, ne peuvent être redistribués que sous la licence
-  initiale ;
-
-- **CC-BY-SA 4.0** -- En plus des libertés données ci-dessus, le ou la
-  titulaire des droits peut autoriser à l\'avance les modifications ;
-  peut se superposer l\'obligation (SA) pour les œuvres dites dérivées
-  d\'être proposées au public avec les mêmes libertés que l\'œuvre
-  originale (sous les mêmes options Creative Commons). Elle permet la
-  reproduction commerciale de la solution.
-
-- **\[Pour l'hardware\] CERN-OHL V.2** - Le matériel libre donne aux
-  concepteurs et aux utilisateurs la liberté de partager les éléments
-  de la conception de matériel, de les modifier, de fabriquer des
-  produits basés sur les documents de conception, et de commercialiser
-  ces produits. Dans sa forme fortement réciproque, un produit est
-  réalisé à partir d'une conception de matériel ouverte, la conception
-  de ce produit, y compris toute amélioration ou modification, devra
-  être mise à disposition sous la même licence que la base utilisée.
-
-[^1]:
-    Sauf si l'équipe constituée est basée à Wissous, Villeurbanne,
-    Marseille, Paris ou Lyon où nos sponsors pourront vous accueillir en
-    toute sécurité.
