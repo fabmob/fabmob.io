@@ -14,17 +14,30 @@ export default () => {
 		fetchAdhérents(null, setDataAndContinue)
 	}, [])
 
+	console.log(data)
+
 	return (
 		<div css="display:flex; justify-content: center; flex-wrap: wrap">
 			{data.map(
 				({
 					fullurl: url,
 					title,
-					data: { name: description, "villes d'implantation": cities },
-					image,
+					data: {
+						name: description,
+						"villes d'implantation": cities,
+						Main_Picture: image,
+					},
 				}) => (
 					<aside>
-						<img src={image} title={title} />
+						{image && (
+							<img
+								src={
+									'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
+									image
+								}
+								title={title}
+							/>
+						)}
 						<a href={url} target="_blank">
 							{title}
 						</a>
