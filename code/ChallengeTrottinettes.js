@@ -1,3 +1,6 @@
+import ReactMarkdown from 'react-markdown'
+import content from 'Content/trottinettes.md'
+
 export default () => (
 	<div css="max-width: 800px; margin: 0 auto">
 		<h1>Challenge national des trottinettes</h1>
@@ -14,6 +17,8 @@ export default () => (
 		<a href="#infos">
 			<button>Plus d'infos ⬇️</button>
 		</a>
-		<div id="#infos">blabla</div>
+		<div id="infos">
+			<ReactMarkdown source={content} />
+		</div>
 	</div>
 )
