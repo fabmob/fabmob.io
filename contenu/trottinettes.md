@@ -224,12 +224,6 @@ industrielles.
 
 ## Calendrier
 
----
-
-**Mars** **Avril** **Mai** **Juin** **Juillet** **Août** **Septembre**
-
----
-
 **4 mars 2021 : lancement de l'appel à candidatures**.
 
 **12 avril 2021 :** **lancement du challenge** qui aura pour objet de
