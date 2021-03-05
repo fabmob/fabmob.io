@@ -72,6 +72,7 @@ Le site utilise un mini-moteur de blog intégré, `Article.js`, développé pour
 
 Du point de vue CSS, on a commencé à styler les éléments HTML "nativement", sur le même principe que l'excellent https://andybrewer.github.io/mvp/, puis à utiliser style-components en mode attribut `css` parce que c'est vraiment pratique pour itérer, avant de construire notre propre bibliothèque de composants.
 
+Le site est hébergé par Netlify, pour sa simplicité d'utilisation, sa gratuité et sa performance. N'en déduisez pas qu'il est servi depuis Silicon Valley à l'autre bout du monde : le code de ce dépôt est compilé en un site statique qui est déposé par Netlify sur un CDN, content delivery network. Autrement dit, quand vous tapez lafabriquedesmobilites.fr depuis Rennes, il sera servi par des serveurs à Rennes, Paris ou Berlin, mais pas San Francisco. 
 
 ⚙️ Pour le lancer sur votre machine, installez node, yarn puis faites `yarn && yarn start`. 
 
