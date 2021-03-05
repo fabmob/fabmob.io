@@ -47,7 +47,7 @@ export default () => (
 					href="https://id.indie.host/auth/realms/fabmob-io/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fwiki.lafabriquedesmobilites.fr%2Fwiki%2FSp%25C3%25A9cial%3AConnexion&client_id=wiki&scope=openid"
 					target="_blank"
 				>
-					<button>Créer un compte FabMobId</button>
+					<button>Créer un compte FabMobID</button>
 				</a>
 			</div>
 		</div>
