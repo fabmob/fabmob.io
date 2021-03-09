@@ -1,7 +1,7 @@
 ---
 title: 'Réinventer les territoires avec la démobilité : toutes et tous mobilisé.e.s'
 date: '2021-03-09'
-image: manifeste-inventons-hubs-de-demobilite.jpg
+image: https://github.com/fabmob/fabmob.io/blob/d79dd2d6fa048a284e69228820afdbeeac53f0c1/contenu/articles/2021/images/manifeste-inventons-hubs-de-demobilite.jpg
 categories: 
   - 'articles'
   - 'aménagement du territoire'
