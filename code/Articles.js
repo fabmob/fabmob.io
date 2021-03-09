@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom'
 import { coverImageURL, imageResizer } from './Article'
 import { Newsletter } from './pages/Événements'
 
-const yearsAndYears = ['2020', '2019', '2018', '2017', '2016', '2015', '2014']
+const yearsAndYears = ['2021', '2020', '2019', '2018', '2017', '2016', '2015', '2014']
 
 export const dateCool = (date) =>
 	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
