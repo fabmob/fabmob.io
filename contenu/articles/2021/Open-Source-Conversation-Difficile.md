@@ -1,7 +1,7 @@
 ---
 title: Open source, cette conversation difficile
 date: 2021-03-09
-image: 
+image: https://github.com/fabmob/fabmob.io/blob/master/images/source%20ouverte.jpg?raw=true
 categories: 
   - articles
   - communs
