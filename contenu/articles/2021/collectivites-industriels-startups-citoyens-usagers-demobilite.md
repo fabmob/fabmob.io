@@ -1,14 +1,14 @@
 ---
-title: Réinventer les territoires avec la démobilité : toutes et tous mobilisé.e.s.
-date: 2021-03-09
+title: 'Réinventer les territoires avec la démobilité : toutes et tous mobilisé.e.s'
+date: '2021-03-09'
 image: https://cloud.fabmob.io/s/2DToLB3wLHeJbGx 
 categories: 
-  - articles
-  - aménagement du territoire
+  - 'articles'
+  - 'aménagement du territoire'
 tags: 
-  - démobilité 
-  - communs 
-author: Malou Charenton
+  - 'démobilité' 
+  - 'communs' 
+author: 'Malou Charenton'
 ---
 
 # Réinventer les territoires avec la démobilité : toutes et tous mobilisé.e.s.
