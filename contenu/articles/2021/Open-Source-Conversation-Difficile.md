@@ -9,9 +9,6 @@ tags:
   - Open Source
 author: Nicolas le Douarec
 ---
-
-# Open source, cette conversation difficile
-
 Vous avez remarqué ? parler d'open source est bien compliqué. Les à priori, préjugés et autres poncifs ont la vie dure. Les exemples semblent connus, mais derrière les histoires légendaires, qu'en est-il de la réalité au quotidien. 
 Il faut s'accorder sur une définition du terme, se mettre d'accord sur ce qui est open source et ne l'est pas, faire attention à ménager les susceptibilités des uns (libertaires de ce monde unissez vous derriere Richard Stallman) et des autres (capitalistes de ce monde).
 Et là où cette contre culture de la propriété intellectuelle fleurit naturellement dans le code informatique, dés qu'on en sort, la graine semble avoir du mal a pousser, malgré des arrosages et expositions aux soleils multiples.
