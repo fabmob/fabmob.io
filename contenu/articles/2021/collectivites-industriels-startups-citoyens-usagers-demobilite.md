@@ -11,8 +11,6 @@ tags:
 author: 'Malou Charenton'
 ---
 
-# Réinventer les territoires avec la démobilité : toutes et tous mobilisé.e.s.
-
 Les crises sanitaire, démocratique, écologique (Covid-19, grève des transports, mouvement des gilets jaunes, crise climatique) auxquelles nous faisons face, nous poussent à reconsidérer le rôle des déplacements dans notre quotidien. Elles s’accompagnent d’un éloignement des transports publics, d’une croissance des mobilités individuelles (voitures, mais aussi marche et vélo), et également d’un recours plus fréquent au télétravail, pour les personnes qui peuvent y recourir. Elles révèlent dans certains cas une appétence et une capacité des usagers à transformer leurs usages, et mettent en lumière la nécessité d’interroger un droit à la mobilité qui peut résonner comme une injonction. Différentes études confirment d’ailleurs une demande citoyenne de réduction des mobilités considérées comme subies. Il faut sortir du paradigme du déplacement comme marqueur de liberté et de richesse, de redonner sa valeur au temps et de commencer à construire une alternative à un modèle à bout de souffle. 
 
 Cette sur-mobilité procède des progrès des modes motorisés qui ont radicalement transformé les modes de vie, en France et dans le monde, générant augmentation des distances vitales, étalement urbain, dépendance à la voiture, mais aussi industrialisation d’une filière très soumise à la concurrence. Ce modèle perdure mais atteint ses limites: congestions à répétition, artificialisation du territoire, irresponsabilité face aux défis du climat, ou encore la matrice épuisante du métro-boulot-dodo et l’augmentation des problèmes de santé publique, dûs à la sédentarité ou la pollution. 
