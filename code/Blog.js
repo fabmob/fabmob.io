@@ -15,7 +15,7 @@ export default ({}) => (
 					<Articles />
 				</Route>
 				<Route path="/blog/">
-					<Articles year="2020" />
+					<Articles year="2021" />
 				</Route>
 			</Switch>
 		</Suspense>
