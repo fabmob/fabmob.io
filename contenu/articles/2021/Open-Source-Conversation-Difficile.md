@@ -18,33 +18,33 @@ Toutes ces distractions pour éviter de se lancer dans l'inconnu. Et plus on en 
 # Open source, épouvantail.
 Ouvrir la source, la Fontaine (mauvais jeu de mot)  en parlait déjà très bien, c'est exposer sa vulnérabilité, se faire critiquer, s'exposer au désaccord, rager son ego, mas surtout risquer que quelqu'un d'autre, un ennemi, un prédateur vienne boire à cette source et s'en trouve fortifié.
 Et puis cette source, fruit de mon dur labeur, qui va me rétribuer pour cette valeur et cette fraicheur que tout le monde semble apprécier tant !
-Des peurs légitimes qui demandent qu'on les ecoute, les respecte et les prenne comme tel(les ?), des peurs, des pensées négatives, des risques qui comme toute bonne stratégie se mitige.
+Des peurs légitimes qui demandent qu'on les écoute, les respecte et les prenne comme tel(les ?), des peurs, des pensées négatives, des risques qui comme toute bonne stratégie se mitigent.
 
 **Quel est le PIRE qui puisse arriver ?**  cette "question puissante" libère les shakras de l'aventurier qui sommeille en nous tous. Explorer le pire permet de le décrire, l'envisager, et le gérer, et de se rendre compte qu'au pire, ce n'est pas si grave. Mais au mieux, ce serait tellement bien !
 
 
 # Open source, contre culture.
-Open source et closed source ont les mêmes finalités : l'amélioration des conditions de vie / de travail des communautés impactées, et pour les initiateurs, s'en retrouver reconnus par leurs "pairs"
+Open source et closed source ont les mêmes finalités : l'amélioration des conditions de vie / de travail des communautés impactées, et pour les initiateurs, s'en retrouver reconnus par leurs "pairs".
 Dans les 2 cas tout part d'un petit groupe, 2, 3 personnes pas plus, qui ont une idée, scribouillent sur un bout de papier, ou fabriquent une vague maquette, prototype ou prétotype.
 
 A partir de là tout les sépare. 
 
-En "closed source", on va vite vite cacher ce que l'on fait, renforcer les barrières entre "nous" et les autres", chercher à imaginer la plus grande cathédrale possible, la décrire dans le plus intime détail, rien ne doit être laissé de coté, au risque d'un effondrement catastrophique. Il faut proteger cette cathédrale, éviter qu'elle se fasse copier, il faut qu'elle soit meilleure, plus haute, plus forte ET moins chère que les autres.
+En "closed source", on va vite vite cacher ce que l'on fait, renforcer les barrières entre "nous" et les autres", chercher à imaginer la plus grande cathédrale possible, la décrire dans le plus intime détail, rien ne doit être laissé de coté, au risque d'un effondrement catastrophique. Il faut protéger cette cathédrale, éviter qu'elle se fasse copier, il faut qu'elle soit meilleure, plus haute, plus forte ET moins chère que les autres.
 
-En "open source" on va vite vite publier à qui veut l'entendre un truc pour voir si les hypothèses de départ sont les bonnes. On essaie de créer une première "version", ni brouillon, ni prototype, un VRAI truc  utilisable et utile. Et puis l'équipe, telle les premieres abeilles d'un essaim part explorer et construire sa ruche. Les interactions se multiplient, ou pas, ce n'est pas grave, l'équipe n'a pas vraiment d'idée de ce que leur embryon de "produit" va devenir, mais elle est diaboliquement intransigeante sur qui constituera son premier cercle, puis second, etc...  et sait intuitivement ce qui doit être rejeté voire combattu. Cette clarté d'intention, et de vision est curieusement contagieuse et se retrouve dans chaque "contributeur". Des combats internes sont inévitables ils sont sains, et ne cherchent pas à être évités. Au contraire, ils appellent à être documentés.
+En "open source" on va vite vite publier à qui veut l'entendre un truc pour voir si les hypothèses de départ sont les bonnes. On essaie de créer une première "version", ni brouillon, ni prototype, un VRAI truc utilisable et utile. Et puis l'équipe, telle les premières abeilles d'un essaim part explorer et construire sa ruche. Les interactions se multiplient, ou pas, ce n'est pas grave, l'équipe n'a pas vraiment d'idée de ce que leur embryon de "produit" va devenir, mais elle est diaboliquement intransigeante sur qui constituera son premier cercle, puis second, etc...  et sait intuitivement ce qui doit être rejeté voire combattu. Cette clarté d'intention, et de vision est curieusement contagieuse et se retrouve dans chaque "contributeur". Des combats internes sont inévitables ils sont sains, et ne cherchent pas à être évités. Au contraire, ils appellent à être documentés.
 
 # Open source, biomimétisme ?
-Dans un monde d'ingenieur.e.s, tout est machine. La même cause produit toujours le même effet, un probleme peut se réduire en sous problèmes. Notre monde est construit sur ce modèle, au point de confondre le monde et sa représentation simpliste qui nous permet de l'exploiter, parce que cela a trop bien marché !
+Dans un monde d'ingénieur.e.s, tout est machine. La même cause produit toujours le même effet, un problème peut se réduire en sous problèmes. Notre monde est construit sur ce modèle, au point de confondre le monde et sa représentation simpliste qui nous permet de l'exploiter, parce que cela a trop bien marché !
 Et pourtant, on ressent tous de plus en plus l'erreur fondamentale derrière cet engouement.
 
-Dans un monde étrange mais bien scientifique aussi, déjà c'est devenu ces dernieres temps plus compliqué, la matiere est du vide; le temps est relatif;  observer un phénomene, le change à tout jamais; une petite perturbation initiale, et boum le chaos s'invite !
+Dans un monde étrange mais bien scientifique aussi, déjà c'est devenu ces derniers temps plus compliqué, la matière est du vide; le temps est relatif;  observer un phénomène, le change à tout jamais; une petite perturbation initiale, et boum le chaos s'invite !
 
-Et dans le "vrai" monde du vivant, tout autour de nous, c'est encore plus "complexe". Dans la nature, tout est interaction, une graine de blé coupée en 2 ne poussera pas ! tout est equilibre ET déséquilibre, en dialogue perpetuel. et Tout est dsponible en "source ouverte".
+Et dans le "vrai" monde du vivant, tout autour de nous, c'est encore plus "complexe". Dans la nature, tout est interaction, une graine de blé coupée en 2 ne poussera pas ! Tout est équilibre ET déséquilibre, en dialogue perpétuel. et Tout est dsponible en "source ouverte".
 
-Si on ne ressent pas le besoin de s'émanciper du modele du monde machine pour tendre vers le modele du monde vivant, on ne peut se sentir à l'aise dans l'open source. 
+Si on ne ressent pas le besoin de s'émanciper du modèle du monde machine pour tendre vers le modèle du monde vivant, on ne peut se sentir à l'aise dans l'open source. 
 
 # Open source, conditions initiales de fertilité.
-Concretement alors, comment fait on pour parler open source sereinement ? 
+Concrètement alors, comment fait on pour parler open source sereinement ? 
 * prenez un sujet / objet / produit / service qui sert à un grand nombre de personnes. Attention la définition de l'objet-sujet doit etre la plus simple et generique possible. Cela suggere par exemple que le sujet "voiture" n'est pas bon car il s'agit d'une instance particuliere d'un sujet plus générique, ce sujet c'est plutôt de se déplacer plus vite qu'en marchant sur la route, et à plusieurs ?
 * définissez  sa version la plus simple possible, ou pas loin, mais qui serait utile déjà a un grand nombre de personnes. Construisez cette version et documentez ce que vous avez fait.
 * publiez et montrez le résultat pour attirer de l'intérêt. Prenez les premières décisions, adoptez les méthodes de gouvernance (qui prend les décisions et comment !) pour la suite.
