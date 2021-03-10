@@ -18,6 +18,7 @@ import Participer from './pages/Participer'
 import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
+import ChallengeTrottinettes from './ChallengeTrottinettes'
 import { fetchLastEvents } from './wikiAPI.js'
 
 const UtmFriendlyRedirect = (props) => (
@@ -72,6 +73,9 @@ const Container = () => (
 						</Route>
 					</>
 				)}
+				<Route path="/trottinettes">
+					<ChallengeTrottinettes />
+				</Route>
 				<Route path="/sidewalks">
 					<Sidewalks />
 				</Route>
