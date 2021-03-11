@@ -121,6 +121,6 @@ const TempForumDown = ({}) => (
 			Nous publierons ici des nouvelles quand nous aurons avancé sur sa remise
 			en ligne.
 		</p>
-		<p>Il était hébergé à [cette adresse IP](217.70.184.38).</p>
+		<p>Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.</p>
 	</div>
 )
