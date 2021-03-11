@@ -8,7 +8,7 @@ categories:
 tags:
   - 'démobilité'
   - 'communs'
-author: 'Malou Charenton'
+author: 'Communauté Démobilité'
 ---
 
 Les crises sanitaire, démocratique, écologique (Covid-19, grève des transports, mouvement des gilets jaunes, crise climatique) auxquelles nous faisons face, nous poussent à reconsidérer le rôle des déplacements dans notre quotidien. Elles s’accompagnent d’un éloignement des transports publics, d’une croissance des mobilités individuelles (voitures, mais aussi marche et vélo), et également d’un recours plus fréquent au télétravail, pour les personnes qui peuvent y recourir. Elles révèlent dans certains cas une appétence et une capacité des usagers à transformer leurs usages, et mettent en lumière la nécessité d’interroger un droit à la mobilité qui peut résonner comme une injonction. Différentes études confirment d’ailleurs une demande citoyenne de réduction des mobilités considérées comme subies. Il faut sortir du paradigme du déplacement comme marqueur de liberté et de richesse, de redonner sa valeur au temps et de commencer à construire une alternative à un modèle à bout de souffle.
