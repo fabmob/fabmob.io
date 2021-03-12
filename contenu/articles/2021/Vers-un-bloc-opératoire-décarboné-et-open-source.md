@@ -11,7 +11,7 @@ tags:
 author: Yann Bergamaschi
 ---
 
-*[La Fabrique des Santés est un projet associatif incubé par la Fabrique des Mobilités.]*
+*La Fabrique des Santés est un projet associatif incubé par la Fabrique des Mobilités.*
 
 ***ENTRETIEN avec Arthur Ferrero. Dans un contexte d’urgence environnementale et sanitaire, l’association GreenCataract ambitionne d’inventer le premier bloc opératoire de la cataracte décarboné et open source. Retour sur ce projet lauréat du 126ème Congrès de la Société Française d’Ophtalmologie (SFO, 2020), qui se lance aujourd’hui dans l’innovation ouverte.***
 
