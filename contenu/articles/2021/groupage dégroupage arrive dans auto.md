@@ -1,6 +1,6 @@
 ---
 title: Le groupage dégroupage arrive dans l'auto
-date: 2000-04-26
+date: 2021-03-15
 image: /contenu/articles/2021/images/cockpit_samsung.jpg
 categories: 
   - articles
