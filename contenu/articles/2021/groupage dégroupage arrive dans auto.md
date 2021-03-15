@@ -34,7 +34,6 @@ Le passage en cours vers l'électrique présente un avantage majeur, sans doute 
 Mais ils apparaient de nouveaux acteurs industriels prêts à tirer profit pour reconcevoir la partie "fonctionnelle" du véhicule. Ils sont essentiellement chinois et américains, un peu européen.
 Ces skateboards présentent l'intérêt de séparer les fonctions "usages" des fonctions techniques. Un même skateboard servira pour une automobile et un véhicule de livraison. Vous allez me dire que c'est déjà le cas. Oui mais cela pourra être réalisé sur des véhicules neufs ou d'occasion, sans connaitre à l'avance les futurs usages. Concernant la partie supérieure, le "cockpit" là aussi de nouveaux acteurs industriels puissants comme Samsung par exemple s'intéressent à concevoir et proposer une expérience globale. Ce groupage-dégroupage apparait également quand la valeur du numérique augmente, rendant légitime la prise de pouvoir ces nouveaux acteurs.
 
-image : /contenu/articles/2021/images/new-hp-platform.jpg
 ![skateboard](https://github.com/fabmob/fabmob.io/raw/master/contenu/articles/2021/images/new-hp-platform.jpg)
 
 Après avoir dégroupés, skateboard et cockpit, les industriels devront standardiser, dans les principaux marchés mondiaux, **les interfaces physiques et numériques** pour permettre le re-groupage et garantir ainsi maintenance, évolutivité et donc une infinité de combinaison.
@@ -59,7 +58,6 @@ Voilà pourquoi nous menons un projet de [Véhicule électrique open source](htt
 
 :::warning
 [Se créer un compte](https://pad.fabmob.io/creationcompte) | [Adhérer](https://wiki.lafabriquedesmobilites.fr/wiki/Adh%C3%A9sion) | [Newsletter](http://lafabriquedesmobilites.us12.list-manage1.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341) | [Tous les Cahiers et Autour d'un Café](https://pad.fabmob.io/gabriel)
-</center>
-:::
+</center>:::
 
 ![[Fabrique des Mobilités, CC-BY-SA]](https://s3.standard.indie.host/pad-fabmob-io/uploads/upload_d8c27ee5358ae4a555445a70cb38a55a.png)
