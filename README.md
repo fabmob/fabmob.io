@@ -44,7 +44,7 @@ Blabla2
 Pour le contenu principal, c'est au format `markdown`. Sur github, l'éditeur ne propose pas de boutons (par exemple mettre un paragraphe en gras). Si vous préférez, vous pouvez créer votre contenu dans pad.fabmob.io ou un autre outil et copier coller cela dans l'éditeur github une fois terminé. Ctrl-a (sélectionner tout), Ctrl-c, Ctrl-v, modifier le contenu, puis pareil en sens inverse ;)
 
 Pour les images, à la fois l'image de couverture (`image: xxx` dans l'en-tête) et les images du corps de l'article, vous avez le choix : 
-- soit mettre des images via l'interface de github dans le dossier de l'année de l'article [contenu/articles/2021/images](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles/2021/images), puis référencer l'image avec un lien relatif comme ceci : `image: contenu/articles/2021/images/monimage.jpg` ou dans le corps de l'article comme ceci : `![description de l'image](contenu/articles/2021/images/monimage.jpg)`
+- soit mettre des images via l'interface de github dans le dossier de l'année de l'article [contenu/articles/2021/images](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles/2021/images), puis référencer l'image avec un lien relatif comme ceci : `image: /contenu/articles/2021/images/monimage.jpg` ou dans le corps de l'article comme ceci : `![description de l'image](contenu/articles/2021/images/monimage.jpg)`
 - soit utiliser un service externe comme imgur.com ou piquer une belle image libre de droit sur unsplash.com et référencer l'URL complète 
 
 Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". 
