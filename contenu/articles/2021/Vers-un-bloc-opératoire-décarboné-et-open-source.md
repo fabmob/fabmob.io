@@ -1,7 +1,7 @@
 ---
 title: Vers un bloc opératoire décarboné et open source
 date: 2021-03-12
-image: Bloc opératoire décarboné et OS.jpg
+image: contenu/articles/2021/images/Bloc opératoire décarboné et OS.jpg
 categories: 
   - articles
   - Fabrique
