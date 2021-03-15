@@ -1,7 +1,7 @@
 ---
 title: Vers un bloc opératoire décarboné et open source
 date: 2021-03-12
-image: 
+image: Bloc opératoire décarboné et OS.jpg
 categories: 
   - articles
   - Fabrique
@@ -11,8 +11,9 @@ tags:
 author: Yann Bergamaschi
 ---
 
-La Fabrique des Santés est un projet associatif incubé par la Fabrique des Mobilités.
+[La Fabrique des Santés est un projet associatif incubé par la Fabrique des Mobilités].
 
+<br/>
 ***ENTRETIEN avec Arthur Ferrero. Dans un contexte d’urgence environnementale et sanitaire, l’association GreenCataract ambitionne d’inventer le premier bloc opératoire de la cataracte décarboné et open source. Retour sur ce projet lauréat du 126ème Congrès de la Société Française d’Ophtalmologie (SFO, 2020), qui se lance aujourd’hui dans l’innovation ouverte.***
 
 
@@ -82,14 +83,14 @@ La troisième est d’organiser un premier temps d’échange ouvert, qui aura p
 **Et comment rejoindre l'aventure ?**
 
 Eh bien, à tous.tes les intéressé.es, prenons date et passons des paroles aux actes ! 
-
-> *Pour participer à notre premier atelier-rencontre du 15 avril 2021, c'est par [ici](https://www.helloasso.com/associations/la-fabrique-des-santes/evenements/bloc-operatoire-decarbone-et-open-source)* 
+<br/>
+➡ **Pour participer à notre premier atelier-rencontre du 15 avril 2021, c'est par [ici](https://www.helloasso.com/associations/la-fabrique-des-santes/evenements/bloc-operatoire-decarbone-et-open-source)** 
 
 Au programme : deux heures de rencontres, de discussions autour de la démarche et des suites à donner ensemble, pour fédérer une première communauté autour du projet.
-
-> *Pour nous partager toute idée, suggestion ou question, c'est par là : greencataract.asso@gmail.com*  
+<br/>
+➡ **Pour nous partager toute idée, suggestion ou question, c'est par là : greencataract.asso@gmail.com**  
 
 Nous aurons à coeur de répondre à chacune de vos sollicitations, alors n'hésitez pas !
 
 
-*[Arthur Ferrero est chirurgien ophtalmologiste. Après quatre années d’exercice à l’Hôpital Cochin et dans le cabinet Med-Ophta à Paris, il a rejoint le Centre Ophtalmologique de la Clinique de l’Union à Saint-Jean (Occitanie), en janvier 2021. Ils ont créé l’association GreenCataract au printemps 2020, avec Florence Hoogewoud et Raphaël Thouvenin, deux confrères.soeurs qui exercent respectivement à l'Hôpital Jules Gonin à Lausanne (Suisse) et à la Clinique de l'Union de Saint-Jean.]*
+***Arthur Ferrero est chirurgien ophtalmologiste. Après quatre années d’exercice à l’Hôpital Cochin et dans le cabinet Med-Ophta à Paris, il a rejoint le Centre Ophtalmologique de la Clinique de l’Union à Saint-Jean (Occitanie), en janvier 2021. Ils ont créé l’association GreenCataract au printemps 2020, avec Florence Hoogewoud et Raphaël Thouvenin, deux confrères.soeurs qui exercent respectivement à l'Hôpital Jules Gonin à Lausanne (Suisse) et à la Clinique de l'Union de Saint-Jean.***
