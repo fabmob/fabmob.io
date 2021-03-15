@@ -56,8 +56,8 @@ Voilà pourquoi nous menons un projet de [Véhicule électrique open source](htt
 ***********
 <center>
 
-:::warning
+
 [Se créer un compte](https://pad.fabmob.io/creationcompte) | [Adhérer](https://wiki.lafabriquedesmobilites.fr/wiki/Adh%C3%A9sion) | [Newsletter](http://lafabriquedesmobilites.us12.list-manage1.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341) | [Tous les Cahiers et Autour d'un Café](https://pad.fabmob.io/gabriel)
-</center>:::
+</center>
 
 ![[Fabrique des Mobilités, CC-BY-SA]](https://s3.standard.indie.host/pad-fabmob-io/uploads/upload_d8c27ee5358ae4a555445a70cb38a55a.png)
