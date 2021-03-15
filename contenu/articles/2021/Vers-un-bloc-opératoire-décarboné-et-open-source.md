@@ -83,7 +83,7 @@ La troisième est d’organiser un premier temps d’échange ouvert, qui aura p
 
 Eh bien, à tous.tes les intéressé.es, prenons date et passons des paroles aux actes ! 
 
-> *Pour participer à notre premier atelier-rencontre du 15 avril 2021, c'est par ici : https://www.helloasso.com/associations/la-fabrique-des-santes/evenements/bloc-operatoire-decarbone-et-open-source* 
+> *Pour participer à notre premier atelier-rencontre du 15 avril 2021, c'est par [ici](https://www.helloasso.com/associations/la-fabrique-des-santes/evenements/bloc-operatoire-decarbone-et-open-source)* 
 
 Au programme : deux heures de rencontres, de discussions autour de la démarche et des suites à donner ensemble, pour fédérer une première communauté autour du projet.
 
