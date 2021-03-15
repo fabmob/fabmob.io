@@ -36,7 +36,7 @@ Le passage en cours vers l'électrique présente un avantage majeur, sans doute 
 Mais ils apparaient de nouveaux acteurs industriels prêts à tirer profit pour reconcevoir la partie "fonctionnelle" du véhicule. Ils sont essentiellement chinois et américains, un peu européen.
 Ces skateboards présentent l'intérêt de séparer les fonctions "usages" des fonctions techniques. Un même skateboard servira pour une automobile et un véhicule de livraison. Vous allez me dire que c'est déjà le cas. Oui mais cela pourrait être réalisé sur un véhicule existant lui apportant de nouvelles capacités. Concernant la partie supérieure, le "cockpit" là aussi de nouveaux acteurs industriels puissants comme Samsung par exemple s'intéressent à concevoir et proposer une expérience globale. Ce groupage-dégroupage apparait également quand la valeur du numérique rend légitime la prise de pouvoir ces nouveaux acteurs.
 
-image:contenu/articles/2021/images/new-hp-platform.jpg
+image: contenu/articles/2021/images/new-hp-platform.jpg
 
 Une fois dégroupés, skateboard et cockpit, les industriels devront standardiser, dans les principaux marchés mondiaux, **les interfaces physiques et numériques** pour permettre le re-groupage et garantir ainsi maintenance, évolutivité, infinité de combinaison.
 
