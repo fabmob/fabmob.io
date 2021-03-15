@@ -1,7 +1,7 @@
 ---
 title: Le groupage dégroupage arrive dans l'auto
 date: 2021-03-15
-image: /contenu/articles/2021/images/cockpit_samsung.jpg
+image: /contenu/articles/2021/images/lamborghini-miura-18991-1.jpg
 categories: 
   - articles
   - innovation
@@ -30,11 +30,12 @@ Progressivement elle va conseiller des produits aux restaurateurs, puis proposer
 **Qui aurait parié sur le dégroupage de la restauration ? Quelle est l'histoire de celui de l'automobile ?**
 
 Le passage en cours vers l'électrique présente un avantage majeur, sans doute le principale : une extrême simplicité de la base technique roulante que l'on pourrait appeler le "skateboard". Cette simplification est aujourd'hui partiellement exploitée par les constructeurs historiques pour une raison simple : ils en font que refaire des voitures électriques comme ils faisaient des voitures thermiques. Par ailleurs nous verrons plus loin que le groupage-dégroupage est bien souvent synonyme d'innovation donc de changement dans la chaîne de valeur.
+![skateboard](https://github.com/fabmob/fabmob.io/raw/master/contenu/articles/2021/images/new-hp-platform.jpg)
 
 Mais ils apparaient de nouveaux acteurs industriels prêts à tirer profit pour reconcevoir la partie "fonctionnelle" du véhicule. Ils sont essentiellement chinois et américains, un peu européen.
 Ces skateboards présentent l'intérêt de séparer les fonctions "usages" des fonctions techniques. Un même skateboard servira pour une automobile et un véhicule de livraison. Vous allez me dire que c'est déjà le cas. Oui mais cela pourra être réalisé sur des véhicules neufs ou d'occasion, sans connaitre à l'avance les futurs usages. Concernant la partie supérieure, le "cockpit" là aussi de nouveaux acteurs industriels puissants comme Samsung par exemple s'intéressent à concevoir et proposer une expérience globale. Ce groupage-dégroupage apparait également quand la valeur du numérique augmente, rendant légitime la prise de pouvoir ces nouveaux acteurs.
 
-![skateboard](https://github.com/fabmob/fabmob.io/raw/master/contenu/articles/2021/images/new-hp-platform.jpg)
+![cockpit](https://github.com/fabmob/fabmob.io/raw/master/contenu/articles/2021/images/cockpit_samsung.jpg)
 
 Après avoir dégroupés, skateboard et cockpit, les industriels devront standardiser, dans les principaux marchés mondiaux, **les interfaces physiques et numériques** pour permettre le re-groupage et garantir ainsi maintenance, évolutivité et donc une infinité de combinaison.
 
