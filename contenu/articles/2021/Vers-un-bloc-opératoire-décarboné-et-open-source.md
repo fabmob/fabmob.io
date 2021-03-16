@@ -18,6 +18,7 @@ author: Yann Bergamaschi
 
 ***ENTRETIEN avec Arthur Ferrero. Dans un contexte d’urgence environnementale et sanitaire, l’association GreenCataract ambitionne d’inventer le premier bloc opératoire de la cataracte décarboné et open source. Retour sur ce projet lauréat du 126ème Congrès de la Société Française d’Ophtalmologie (SFO, 2020), qui se lance aujourd’hui dans l’innovation ouverte.***
 
+<br/>
 
 **Peux-tu revenir avec nous sur la genèse du projet GreenCataract ?**
 
@@ -94,5 +95,7 @@ Au programme : deux heures de rencontres, de discussions autour de la démarche 
 
 Nous aurons à coeur de répondre à chacune de vos sollicitations, alors n'hésitez pas !
 
+<br/>
+<br/>
 
 ***Arthur Ferrero est chirurgien ophtalmologiste. Après quatre années d’exercice à l’Hôpital Cochin et dans le cabinet Med-Ophta à Paris, il a rejoint le Centre Ophtalmologique de la Clinique de l’Union à Saint-Jean (Occitanie), en janvier 2021. Ils ont créé l’association GreenCataract au printemps 2020, avec Florence Hoogewoud et Raphaël Thouvenin, deux confrères.soeurs qui exercent respectivement à l'Hôpital Jules Gonin à Lausanne (Suisse) et à la Clinique de l'Union de Saint-Jean.***
