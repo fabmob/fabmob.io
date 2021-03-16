@@ -24,6 +24,7 @@ En début de fichier, vous devez respecter un peu de formalisme dans un deuxièm
 title: Bouger, un phénomène culturel intégral
 date: 2000-04-26
 image: https://i.imgur.com/OZEwzs5.jpg
+résumé: Le résumé est important pour la liste des articles qui s'affiche sur le site, sinon le premier paragraphe sera extrait.
 categories: 
   - articles
   - innovation
