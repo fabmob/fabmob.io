@@ -15,7 +15,7 @@ author: Gabriel Plassat
 
 ## **FABMOB |** 
 L'objectif général de la FabMob est de **déconstruire puis reconstruire** une nouvelle approche de la mobilité pour conduire à des quotidiens anti-fragiles & efficients pour tou.te.s dans tous les territoires.
-Pour cela, nous identifions les principaux paramètres pour mieux les synchroniser : partir des besoins de mobilité pour les [réduire dans certains cas](http://lafabriquedesmobilites.fr/artic]les/innovation/manifeste-inventons-hubs-de-demobilite/), re-concevoir les infrastructures, l’urbanisme ou encore les temporalités, en appuyant en même temps du côté de l’offre et de la demande. 
+Pour cela, nous identifions les principaux paramètres pour mieux les synchroniser : partir des besoins de mobilité pour les [réduire dans certains cas](http://lafabriquedesmobilites.fr/artic]les/innovation/manifeste-inventons-hubs-de-demobilite/), re-concevoir les infrastructures, l’urbanisme ou encore les temporalités, en appuyant en même temps du côté de l’offre et de la demande, et également grouper-dégrouper les objets techniques comme les véhicules.
 :::info
 Les cahiers d'exploration sont des prises de notes, partagées, pour inviter aux échanges.
 :::
@@ -39,7 +39,7 @@ Ces skateboards présentent l'intérêt de séparer les fonctions "usages" des f
 
 Après avoir dégroupés, skateboard et cockpit, les industriels devront standardiser, dans les principaux marchés mondiaux, **les interfaces physiques et numériques** pour permettre le re-groupage et garantir ainsi maintenance, évolutivité et donc une infinité de combinaison.
 
-Les conséquences sont vertigineuses à la fois pour la logistique, la production des composants et des véhicules, les marchés de l'occasion, mais aussi de nouveaux métiers et surtout de nouveaux usages. Il faudra sans doute une décennie pour réussir cette standardisation. Les premiers opposants s(er)ont les industriels en place car cela menace leur positionnement dans la chaine de valeur. Comme [15Marches le décrit pour le container](https://15marches.fr/business/out-of-the-box), il est essentiel d'identifier et s'impliquer dans ce processus pour y prendre part, se positionner en reconfigurant son activité. 
+Les conséquences sont vertigineuses à la fois pour la logistique, la production des composants et des véhicules, les marchés de l'occasion, mais aussi de nouveaux métiers et surtout de nouveaux usages. Cet [exemple de PIX](https://3dprintingindustry.com/news/pix-is-3d-printing-self-driving-cars-inspired-by-slime-mold-185727/) montre que le processus de fabrication du cockpit peut alors être totalement revu. Il faudra sans doute une décennie pour réussir cette standardisation. Les premiers opposants s(er)ont les industriels en place car cela menace leur positionnement dans la chaine de valeur. Comme [15Marches le décrit pour le container](https://15marches.fr/business/out-of-the-box), il est essentiel d'identifier et s'impliquer dans ce processus pour y prendre part, se positionner en reconfigurant son activité. 
 
 
 ## **REFLEXIONS |** 
