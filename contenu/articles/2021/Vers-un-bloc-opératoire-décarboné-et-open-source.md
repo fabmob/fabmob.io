@@ -2,6 +2,7 @@
 title: Vers un bloc opératoire décarboné et open source
 date: 2021-03-12
 image: /contenu/articles/2021/images/BDOS.jpg
+résumé: Lancement d'une démarche d'innovation ouverte autour d'un bloc opératoire de la cataracte décarboné et open source.
 categories: 
   - articles
   - Fabrique
@@ -10,6 +11,7 @@ tags:
   - Open Source
 author: Yann Bergamaschi
 ---
+rés
 
 [La Fabrique des Santés est un projet associatif incubé par la Fabrique des Mobilités].
 
