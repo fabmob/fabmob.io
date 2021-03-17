@@ -25,7 +25,7 @@ Ce troisième cahier porte sur le phénomène de groupage / dégroupage. Qu'est 
 
 Faire la cuisine dans un restaurant pour ensuite vendre un repas. Voilà une activité "intégrée" ou groupée. Le numérique arrive, le premier site web, pas grand chose ne change... Puis le smartphone et apparaissent les premières plateformes multifaces. Vu du restaurant, il s'agit alors de livrer des repas **en plus** de son activité. Vu de l'opérateur de la plateforme (Uber Eats ou Deliveroo) cela revient à mettre en relation des acheteurs d'un repas, des restaurateurs et des livreurs. Cette intermédiation, si elle est réussie, apporte de bénéfices pour toutes les parties prenantes, du moins au début. Si la plateforme réussit à créer de l'[effet de réseau](https://fr.wikipedia.org/wiki/Effet_de_r%C3%A9seau), elle s'impose et créé un monopole. Et là, elle renverse les choses.
 
-Progressivement elle va conseiller des produits aux restaurateurs, puis proposer aux restaurateurs d'ouvrir des cuisines sans salle pour servir aux endroits où elle sait que le marché achètera. Puis elle va ouvrir elle-même des cuisines vides et les louer aux restaurateurs, poursuivant ainsi le dégroupage de la restauration. Viendra le moment où la plateforme n'achètera plus que les recettes, ayant les cuisines, les cuisiniers, les livreurs et bien sûr la relation aux acheteurs. Elle pourra alors regrouper les différentes briques, chacune étant à la fois indépendante et interfacée.
+azdoianzdoaiznoaizd
 
 **Qui aurait parié sur le dégroupage de la restauration ? Quelle est l'histoire de celui de l'automobile ?**
 
