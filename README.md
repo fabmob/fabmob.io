@@ -9,12 +9,12 @@ Le nouveau site Web de la FabMob France.
 
 ### Ajouter ou modifier un article de blog
 
-Les articles sont dans le dosser [`/articles`](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles). Ce sont des fichiers .md dits "markdown", qui est une alternative 10x plus simple au .doc. 
+Les articles sont dans le dossier [`/articles`](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles). Ce sont des fichiers .md dits "markdown", qui est une alternative 10x plus simple au .doc. 
 
 Pas de panique, ça s'[apprend en 5 minutes](https://learnxinyminutes.com/docs/fr-fr/markdown-fr/) puis ça se pratique ;). 
 
 ▶️ Concrètement : 
-- pour créer un fichier, une fois connecté à votre compte github, cliquez sur `Add file` > `Create a new file`, remplissez son nom en haut (par exemple 2019-tu-me-manques.md). 
+- pour créer un fichier, une fois connecté à votre compte github, cliquez sur `Add file` > `Create a new file`, remplissez son nom en haut (par exemple 2019-tu-me-manques.md). Le .md est à ajouter impérativement à la fin de votre nom d'article. 
 - pour modifier un fichier, cliquez sur l'icône crayon 🖋 en haut à droite, puis modifiez-le. 
 
 En début de fichier, vous devez respecter un peu de formalisme dans un deuxième format très intéressant et simple qu'on appelle le YAML. Si vous voulez, vous pouvez suivre le tuto ["le YAML pour les nuls"](https://velolib.re/documentation/introduction-yaml). 
