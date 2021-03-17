@@ -51,7 +51,7 @@ Le groupage-dégroupage arrive dans le secteur automobile grâce ou à cause de 
 * Quelles évolutions de la chaîne de valeur ?
 
 ## **POURSUIVRE |**
-Voilà pourquoi nous menons un projet de [Véhicule électrique open source](https://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_du_v%C3%A9hicule_Open_Source), exercice théorique mais surtout pratique pour opérer dans un monde où la base roulante technique est électrique, open source & donc entièrement documentée.
+L'[actualité de VW](https://www.4legend.com/2021/le-groupe-volkswagen-devoile-les-plateformes-pour-lelectrification-de-ses-marques/) montre que ce groupage/dégroupage est également mis en oeuvre. Voilà pourquoi nous menons un projet de [Véhicule électrique open source](https://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_du_v%C3%A9hicule_Open_Source), exercice théorique mais surtout pratique pour opérer dans un monde où la base roulante technique est électrique, open source & donc entièrement documentée.
 
 
 ***********
