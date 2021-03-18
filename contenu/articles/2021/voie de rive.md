@@ -1,7 +1,7 @@
 ---
 title: Pourquoi la voie de rive a besoin d’un écosystème numérique ouvert
 date: 2021-03-18
-image: /contenu/articles/2021/images/lamborghini-miura-18991-1.jpg
+image: /contenu/articles/2021/images/image2.png
 categories: 
   - articles
   - innovation
