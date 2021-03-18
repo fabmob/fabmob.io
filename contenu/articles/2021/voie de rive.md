@@ -19,15 +19,11 @@ Depuis quelques années, tous les regards sont tournés vers la voie de rive (tr
 
 > Afin d’innover, les villes ont besoin de meilleures données pour comprendre et communiquer les réglementations en vigueur.
 
- 
-
 La réglementation numérique doit soutenir nos utilisations actuelles de cet espace public et élargir les possibilités d’utilisations futures. Pour ce faire, il est crucial que cette nouvelle infrastructure de données repose sur les mêmes valeurs que les villes qu’elle dessert. L’innovation doit reposer sur une gouvernance publique plutôt que d’être strictement géré par les intérêts commerciaux privés.
 
 C’est dans le but de faciliter la mise en place d’un écosystème ouvert pour les données de voie de rive que SharedStreets a conçu ce projet de standardisation. Dans cet écosystème, les villes peuvent accéder aux outils et aux fournisseurs dont elles ont besoin pour créer des inventaires de bordures numériques interopérables avec une multitude de technologies et systèmes. C’est cette approche qui permettra à l’industrie d’innover. Avec un langage commun partagé pour la voie de rive, les consultants et les plates-formes d’analyse de données peuvent créer des outils et travailler ensemble pour aider les villes à mieux comprendre l’offre et la demande en bordure de rue. Ces outils aideront les villes à prendre des décisions éclairées pour savoir où et quand convertir un espace de stationnement en zone flexible, ou comment facturer convenablement cet espace. Les villes gardent le contrôle de leurs données et de leurs espaces publics, et les entreprises sont libres d’innover et de s’appuyer sur l’information.
 
 **Le résultat: des villes et des technologies qui reflètent mieux les besoins de mobilité d’aujourd’hui et de demain.**
-
- 
 
 *Comment les données circulent dans un écosystème numérique ouvert pour la voie de rive*
 
@@ -35,7 +31,6 @@ C’est dans le but de faciliter la mise en place d’un écosystème ouvert pou
 
 
 Cet écosystème ouvert profiterait aux autorités municipales, aux résidents et aux opérateurs de mobilité. Mais il y encore des efforts à faire pour le mettre en place.
-
  
 ## Les risques qui guettent les données sur la voie de rive
 
@@ -49,15 +44,13 @@ Dans les deux cas, les entreprises proposent des solutions techniques comme poin
 
 Ce sont ces préoccupations qui ont poussé SharedStreets à s’intéresser à la standardisation des données de voie de rive. Le point de vue de SharedStreets est que les villes doivent avoir la propriété de leurs données d’inventaire de la voie de rive. De même, aucune entreprise ne doit «posséder» la voie de rive, déterminer son prix ou contrôler qui y a accès. Cette responsabilité est une compétence municipale. Elle exige la participation du public et vient avec une reddition de compte que la gouvernance publique apporte. SharedStreets s’est concentré sur la création d’alternatives ouvertes et collaboratives pour prendre en charge la gestion de la voie de rive.
 
- 
 ## Le rôle de SharedStreets
 
 Depuis plus d’un an, SharedStreets a développé une infrastructure numérique qui favorise un écosystème ouvert et collaboratif. À commencer par CurbLR, une norme de données ouvertes pour la réglementation de la voie de rive.
 
 Depuis, l’organisme a expérimenté des outils et des méthodes de collecte de données existants pour créer des ensembles de données comme l’exemple du centre-ville de Portland, avec une carte interactive de visualisation CurbLR:
 
- ![sharedstreet](https://github.com/fabmob/fabmob.io/blob/master/contenu/articles/2021/images/image2.png)
-
+![sharedstreet](https://github.com/fabmob/fabmob.io/blob/master/contenu/articles/2021/images/image2.png)
 
 L’objectif de ce travail est de créer les éléments de base pour aider les villes intéressées à prendre les devants pour cartographier et gérer leur propre trottoir, et s’assurer qu’elles possèdent les données qui en résultent. En aidant les villes à créer des informations essentielles, nous jetons les bases d’un écosystème ouvert.
 
