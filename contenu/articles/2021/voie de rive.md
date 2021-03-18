@@ -27,8 +27,7 @@ C’est dans le but de faciliter la mise en place d’un écosystème ouvert pou
 
 *Comment les données circulent dans un écosystème numérique ouvert pour la voie de rive*
 
-![schema1](https://github.com/fabmob/fabmob.io/blob/master/contenu/articles/2021/images/image1.png)
-
+![schema1](/contenu/articles/2021/images/image1.png)
 
 Cet écosystème ouvert profiterait aux autorités municipales, aux résidents et aux opérateurs de mobilité. Mais il y encore des efforts à faire pour le mettre en place.
  
@@ -50,7 +49,7 @@ Depuis plus d’un an, SharedStreets a développé une infrastructure numérique
 
 Depuis, l’organisme a expérimenté des outils et des méthodes de collecte de données existants pour créer des ensembles de données comme l’exemple du centre-ville de Portland, avec une carte interactive de visualisation CurbLR:
 
-![sharedstreet](https://github.com/fabmob/fabmob.io/blob/master/contenu/articles/2021/images/image2.png)
+![sharedstreet](/contenu/articles/2021/images/image2.png)
 
 L’objectif de ce travail est de créer les éléments de base pour aider les villes intéressées à prendre les devants pour cartographier et gérer leur propre trottoir, et s’assurer qu’elles possèdent les données qui en résultent. En aidant les villes à créer des informations essentielles, nous jetons les bases d’un écosystème ouvert.
 
