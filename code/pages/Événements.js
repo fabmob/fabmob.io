@@ -33,7 +33,7 @@ export default ({}) => {
 				<Newsletter />
 			</header>
 			<CardList>
-				{sortBy('data.data.startDate')(data)
+				{sortBy('data.startDate')(data)
 					.reverse()
 					.map((data) => (
 						<Card>
