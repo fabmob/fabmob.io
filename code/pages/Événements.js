@@ -37,7 +37,12 @@ export default ({}) => {
 					.reverse()
 					.map((data) => (
 						<Card>
-							{data.data.startDate}
+							{new Date(data.data.startDate).toLocaleString('fr-FR', {
+								weekday: 'long',
+								month: 'long',
+								day: 'numeric',
+								year: 'numeric',
+							})}
 							<a href={data.fullurl || '#'}>
 								<h3>{data.title}</h3>
 							</a>
