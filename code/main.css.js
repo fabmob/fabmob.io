@@ -222,15 +222,16 @@ small {
 }
 
 sup {
-  background-color: var(--color-secondary);
-  border-radius: var(--border-radius);
-  color: var(--color-bg);
-  font-size: xx-small;
-  font-weight: bold;
+  color: var(--color);
+  font-size: small;
   margin: 0.2rem;
   padding: 0.2rem 0.3rem;
   position: relative;
   top: -2px;
+}
+
+sup a {
+color: inherit
 }
 
 /* Links */

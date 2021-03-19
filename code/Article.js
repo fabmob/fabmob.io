@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
+import remarkFootnotes from 'remark-footnotes'
 import { useParams } from 'react-router-dom'
 import { buildRésumé, dateCool } from './Articles'
 import Meta from './Meta'
@@ -113,8 +114,42 @@ export default ({ id: propId }) => {
 				</small>
 			</p>
 			<ReactMarkdown
-				renderers={{ image: ImageRenderer(year) }}
+				renderers={{
+					image: ImageRenderer(year),
+					footnoteReference: ({ identifier, label }) => (
+						<sup id={'ref' + identifier}>
+							<a href={window.location.pathname + '#def' + identifier}>
+								{label}
+							</a>
+						</sup>
+					),
+					footnoteDefinition: ({ identifier, label, children }) => (
+						<div
+							id={'def' + identifier}
+							css={`
+								${window.location.hash === '#def' + identifier
+									? `{
+								background: var(--color); 
+								color: var(--textColor); 
+								a {color: inherit}; 
+								border-radius: .3rem; 
+								padding: 0.1rem 0.3rem;
+						    }`
+									: ''};
+								> p {
+									display: inline;
+								}
+							`}
+						>
+							<a href={window.location.pathname + '#ref' + identifier}>
+								{label}
+							</a>{' '}
+							: {children}
+						</div>
+					),
+				}}
 				source={body}
+				plugins={[remarkFootnotes]}
 				escapeHtml={false}
 			/>
 			<p>
