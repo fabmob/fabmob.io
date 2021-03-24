@@ -23,6 +23,7 @@ Alex pénètre dans le forum, un grand bâtiment servant à la fois de marché, 
 Alex signale sa présence en activant une icône et sélectionne la personne qu’elle doit rencontrer.
 Hélène réside à plus de 400 kilomètres de Paris et est âgée de 82 ans. Bien que ce ne soit pas une consultation ordinaire, elle a tenu à respecter la pratique habituelle d’Alex. Pour ces raisons, elle a choisi ce moyen de transport peu onéreux.
 La porte s’ouvre. Un robot sur roulette, aussi haut qu’Alex, et arborant un écran à la place du visage, s’avance.
+
 —Bonjour, lance Alex.
 —Bonjour, répond Hélène d’une voix atone.
 Ses cheveux sont regroupés sur sa tête en chignon, coiffure dont s’échappe quelques mèches blanches. Et elle porte des lunettes à grosses montures passées de mode, mais elle ne fait pas son âge.
