@@ -58,7 +58,7 @@ export default ({ id: propId }) => {
 		author = auteur || article.attributes.author,
 		title = titre || article.attributes.title,
 		year = new Date(date).getFullYear(),
-		isImaginaire = tags.includes('imaginaires')
+		isImaginaire = tags && tags.includes('imaginaires')
 
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, year, setLastEditDate)
