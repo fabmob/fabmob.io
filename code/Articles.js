@@ -103,8 +103,8 @@ const YearMenu = ({ year2 }) => (
 			-moz-box-align: center;
 			align-items: center;
 			-moz-box-pack: start;
-			@media (max-width: 800px){
-			justify-content: flex-start;
+			@media (max-width: 800px) {
+				justify-content: flex-start;
 			}
 			overflow-x: scroll;
 			height: 3.5rem;
@@ -115,15 +115,16 @@ const YearMenu = ({ year2 }) => (
 				margin: 0;
 				padding: 0.1rem 0.6rem;
 			}
-			    text-align: center;
-}
+			text-align: center;
 		`}
 	>
 		{yearsAndYears.map((y) => (
 			<li key={y}>
-				<button css={y === year2 ? 'background: var(--color-secondary)' : ''}>
-					<Link to={'/blog/année/' + y}>{y}</Link>
-				</button>
+				<Link to={'/blog/année/' + y}>
+					<button css={y === year2 ? 'background: var(--color-secondary)' : ''}>
+						{y}
+					</button>
+				</Link>
 			</li>
 		))}
 	</ul>
