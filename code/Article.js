@@ -134,7 +134,7 @@ export default ({ id: propId }) => {
 			<div
 				css={`
 					${isImaginaire
-						? `margin-top: 2rem;border: 1.5rem solid #073dff; padding: 1rem;
+						? `margin-top: 2rem;border: 1rem solid #073dff; padding: 1rem;
 @media (max-width: 800px){
 border-width: .6rem
 }
