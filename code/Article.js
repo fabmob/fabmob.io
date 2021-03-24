@@ -10,6 +10,7 @@ import { EmailContact } from './pages/Accueil'
 import imaginairesIntroduction from 'Content/imaginaires-introduction.md'
 
 import Emoji from 'Components/Emoji'
+import OpenMoji from 'Components/OpenMoji'
 
 const repo = 'fabmob/fabmob.io'
 
@@ -18,7 +19,7 @@ export const coverImageURL = (image, id) =>
 
 const getLastEdit = (name, year, action) =>
 	fetch(
-		`https://api.github.com/repos/${repo}/commits?path=articles%2F${year}%2F${name}.md&page=1&per_page=1`
+		`https://api.github.com/repos/${repo}/commits?path=%2Fcontenu%2Farticles%2F${year}%2F${name}.md&page=1&per_page=1`
 	)
 		.then((res) => res.json())
 		.then((json) => {
@@ -119,14 +120,12 @@ export default ({ id: propId }) => {
 					>
 						{author}
 					</span>
-					{dateCool(date)}
-					{lastEditDate && (
-						<span>- mis à jour {dateCool(lastEditDate)}</span>
-					)} -{' '}
+					{dateCool(date)} -{' '}
 					<a
 						css="font-weight: normal;color: inherit "
 						href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
 					>
+						<OpenMoji id="270F" />
 						contribuer
 					</a>
 				</small>
