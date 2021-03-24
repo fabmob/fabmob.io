@@ -8,14 +8,16 @@ import { ArticleStyle } from './UI'
 import { articles } from './getArticles'
 import { EmailContact } from './pages/Accueil'
 
+import Emoji from 'Components/Emoji'
+
 const repo = 'fabmob/fabmob.io'
 
 export const coverImageURL = (image, id) =>
 	image || '/contenu/articles/couvertures/' + id + '.jpg'
 
-const getLastEdit = (name, action) =>
+const getLastEdit = (name, year, action) =>
 	fetch(
-		`https://api.github.com/repos/${repo}/commits?path=articles%2F${name}.md&page=1&per_page=1`
+		`https://api.github.com/repos/${repo}/commits?path=articles%2F${year}%2F${name}.md&page=1&per_page=1`
 	)
 		.then((res) => res.json())
 		.then((json) => {
@@ -57,7 +59,7 @@ export default ({ id: propId }) => {
 		year = new Date(date).getFullYear()
 
 	const [lastEditDate, setLastEditDate] = useState(null)
-	getLastEdit(id, setLastEditDate)
+	getLastEdit(id, year, setLastEditDate)
 
 	const coverImage = coverImageURL(image, id)
 
@@ -100,17 +102,16 @@ export default ({ id: propId }) => {
 					>
 						{author}
 					</span>
-					le {dateCool(date)}
+					{dateCool(date)}
 					{lastEditDate && (
-						<span>
-							, mis à jour le{' '}
-							<a
-								href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
-							>
-								{dateCool(lastEditDate)}
-							</a>
-						</span>
-					)}
+						<span>- mis à jour {dateCool(lastEditDate)}</span>
+					)} -{' '}
+					<a
+						css="font-weight: normal;color: inherit "
+						href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
+					>
+						contribuer
+					</a>
 				</small>
 			</p>
 			<ReactMarkdown

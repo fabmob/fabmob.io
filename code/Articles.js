@@ -5,15 +5,34 @@ import { Link, useParams } from 'react-router-dom'
 import { coverImageURL, imageResizer } from './Article'
 import { Newsletter } from './pages/Événements'
 
-const yearsAndYears = ['2021', '2020', '2019', '2018', '2017', '2016', '2015', '2014']
+const yearsAndYears = [
+	'2021',
+	'2020',
+	'2019',
+	'2018',
+	'2017',
+	'2016',
+	'2015',
+	'2014',
+]
 
-export const dateCool = (date) =>
-	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
-		weekday: 'long',
+export const dateCool = (date) => {
+	const jsDate = typeof date === 'string' ? new Date(date) : date,
+		recentStartDate = new Date(
+			new Date().getFullYear(),
+			new Date().getMonth() - 3,
+			new Date().getDate()
+		),
+		recentDate = jsDate > recentStartDate
+
+	const humanDate = jsDate.toLocaleString(undefined, {
 		year: 'numeric',
 		month: 'long',
-		day: 'numeric',
+		...(recentDate ? { day: 'numeric' } : {}),
 	})
+
+	return (recentDate ? 'le ' : 'en ') + humanDate
+}
 
 const Header = () => (
 	<header

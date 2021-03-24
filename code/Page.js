@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import { ArticleStyle } from 'Code/UI'
+import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
-import { buildRésumé, dateCool } from './Blog'
-import Meta from './Meta'
-import { ArticleStyle } from 'Code/UI'
 import colors from './components/colors'
+import Meta from './Meta'
 
 export const imageResizer = (size) => (src) =>
 	src.includes('imgur.com')
