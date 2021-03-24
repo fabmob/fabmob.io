@@ -45,7 +45,7 @@ Au bout d’à peine une minute, Hélène s’écrie : —Stop ! »
 —Je m’excuse. Je pensais que cela vous aiderait à vous souvenir.  
 Les deux femmes évoluent lentement sur le trottoir. Alex n’a pas prévu d’itinéraire précis.
 —Dans votre message, vous avez mentionné l’année 2020.
-— Comment alliez-vous cette année-là ?
+—Comment alliez-vous cette année-là ?
 Hélène ne répond pas immédiatement. Le temps passe au rythme des pas d’Alex.
 —Mal, finit par lâcher la climatologue d’une voix lasse. Mon mari faisait une dépression, ma mère souffrait d’une maladie auto-immune, et mon père avait des problèmes cardiaques. J’avais moi-même des ennuis avec quelques uns de mes collègues. Et le monde allait mal, en général.
 —Je pensais que vous me parleriez surtout de votre métier.  
