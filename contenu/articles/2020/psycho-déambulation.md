@@ -4,6 +4,8 @@ résumé: Nouvelle construite avec les participant·es des 8 juillet et 8 septem
 image: https://i.imgur.com/buw9rZ2.jpg
 date: 2020-10-01
 auteur: Li-Cam
+tags:
+  - imaginaires
 ---
 
 L’agenda d’Alex n’est pas très chargé aujourd’hui, il se remplira comme souvent au fil des pas, des heures et des rencontres. Pour l’instant, il ne contient que deux rendez-vous ce matin ; les prénoms et les lieux de consultation choisis s’affichent en relief sur ses lentilles de contact. Calque discret mais parfaitement lisible sur la réalité.

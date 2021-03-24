@@ -7,6 +7,7 @@ import Meta from './Meta'
 import { ArticleStyle } from './UI'
 import { articles } from './getArticles'
 import { EmailContact } from './pages/Accueil'
+import imaginairesIntroduction from 'Content/imaginaires-introduction.md'
 
 import Emoji from 'Components/Emoji'
 
@@ -50,13 +51,14 @@ export default ({ id: propId }) => {
 			</div>
 		)
 	const {
-			attributes: { image, titre, auteur, date, résumé },
+			attributes: { image, titre, auteur, date, résumé, tags },
 			body,
 		} = article,
 		// imported articles from wordpress have english attributes
 		author = auteur || article.attributes.author,
 		title = titre || article.attributes.title,
-		year = new Date(date).getFullYear()
+		year = new Date(date).getFullYear(),
+		isImaginaire = tags.includes('imaginaires')
 
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, year, setLastEditDate)
@@ -114,6 +116,7 @@ export default ({ id: propId }) => {
 					</a>
 				</small>
 			</p>
+			{isImaginaire && <ReactMarkdown source={imaginairesIntroduction} />}
 			<ReactMarkdown
 				renderers={{
 					image: ImageRenderer(year),
