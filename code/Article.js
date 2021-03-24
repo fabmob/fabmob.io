@@ -4,7 +4,7 @@ import remarkFootnotes from 'remark-footnotes'
 import { useParams } from 'react-router-dom'
 import { buildRésumé, dateCool } from './Articles'
 import Meta from './Meta'
-import { ArticleStyle } from './UI'
+import { ArticleStyle, Encart } from './UI'
 import { articles } from './getArticles'
 import { EmailContact } from './pages/Accueil'
 import imaginairesIntroduction from 'Content/imaginaires-introduction.md'
@@ -66,7 +66,7 @@ export default ({ id: propId }) => {
 	const coverImage = coverImageURL(image, id)
 
 	return (
-		<ArticleStyle>
+		<ArticleStyle isImaginaire={isImaginaire}>
 			<Meta
 				{...{
 					title: titre,
@@ -77,10 +77,22 @@ export default ({ id: propId }) => {
 					updated: lastEditDate,
 				}}
 			/>
-			{coverImage && (
+			{!isImaginaire && coverImage && (
 				<img css="max-height: 30rem;" src={imageResizer('l')(coverImage)}></img>
 			)}
 			{title && <h1>{title}</h1>}
+			{isImaginaire && (
+				<div css="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
+					<img
+						css="max-height: 10rem;"
+						src={imageResizer('l')(coverImage)}
+					></img>
+
+					<Encart css="font-weight: 200;">
+						{isImaginaire && <ReactMarkdown source={imaginairesIntroduction} />}
+					</Encart>
+				</div>
+			)}
 			<p
 				css={`
 					text-align: center;
@@ -116,46 +128,57 @@ export default ({ id: propId }) => {
 					</a>
 				</small>
 			</p>
-			{isImaginaire && <ReactMarkdown source={imaginairesIntroduction} />}
-			<ReactMarkdown
-				renderers={{
-					image: ImageRenderer(year),
-					footnoteReference: ({ identifier, label }) => (
-						<sup id={'ref' + identifier}>
-							<a href={window.location.pathname + '#def' + identifier}>
-								{label}
-							</a>
-						</sup>
-					),
-					footnoteDefinition: ({ identifier, label, children }) => (
-						<div
-							id={'def' + identifier}
-							css={`
-								${window.location.hash === '#def' + identifier
-									? `{
+			<div
+				css={`
+					${isImaginaire
+						? `margin-top: 2rem;border: 1.5rem solid #073dff; padding: 1rem;
+@media (max-width: 800px){
+border-width: .6rem
+}
+							`
+						: ''}
+				`}
+			>
+				<ReactMarkdown
+					renderers={{
+						image: ImageRenderer(year),
+						footnoteReference: ({ identifier, label }) => (
+							<sup id={'ref' + identifier}>
+								<a href={window.location.pathname + '#def' + identifier}>
+									{label}
+								</a>
+							</sup>
+						),
+						footnoteDefinition: ({ identifier, label, children }) => (
+							<div
+								id={'def' + identifier}
+								css={`
+									${window.location.hash === '#def' + identifier
+										? `{
 								background: var(--color); 
 								color: var(--textColor); 
 								a {color: inherit}; 
 								border-radius: .3rem; 
 								padding: 0.1rem 0.3rem;
 						    }`
-									: ''};
-								> p {
-									display: inline;
-								}
-							`}
-						>
-							<a href={window.location.pathname + '#ref' + identifier}>
-								{label}
-							</a>{' '}
-							: {children}
-						</div>
-					),
-				}}
-				source={body}
-				plugins={[remarkFootnotes]}
-				escapeHtml={false}
-			/>
+										: ''};
+									> p {
+										display: inline;
+									}
+								`}
+							>
+								<a href={window.location.pathname + '#ref' + identifier}>
+									{label}
+								</a>{' '}
+								: {children}
+							</div>
+						),
+					}}
+					source={body}
+					plugins={[remarkFootnotes]}
+					escapeHtml={false}
+				/>
+			</div>
 			<p>
 				Venez discuter de cet article{' '}
 				<a

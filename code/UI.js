@@ -1,6 +1,14 @@
 import styled, { css } from 'styled-components'
 import colors from './components/colors'
 
+export const Encart = styled.div`
+	padding: 1rem 2rem;
+	box-shadow: var(--box-shadow) var(--color-bg-secondary);
+	border: 1px solid var(--color-bg-secondary);
+	border-radius: var(--border-radius);
+	font-style: italic;
+`
+
 export const Card = styled.li`
 	box-shadow: var(--box-shadow) var(--color-bg-secondary);
 	border: 1px solid var(--color-bg-secondary);
