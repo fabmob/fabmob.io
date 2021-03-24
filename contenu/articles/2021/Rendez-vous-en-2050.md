@@ -2,7 +2,7 @@
 titre: 'Rendez-vous en 2050'
 résumé: Nouvelle construite avec les participant·es des 8 juillet et 8 septembre 2020.
 image: https://i.imgur.com/buw9rZ2.jpg
-date: 2020
+date: 2021
 auteur: Ketty Steward
 tags:
   - imaginaires
