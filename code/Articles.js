@@ -5,15 +5,34 @@ import { Link, useParams } from 'react-router-dom'
 import { coverImageURL, imageResizer } from './Article'
 import { Newsletter } from './pages/Événements'
 
-const yearsAndYears = ['2021', '2020', '2019', '2018', '2017', '2016', '2015', '2014']
+const yearsAndYears = [
+	'2021',
+	'2020',
+	'2019',
+	'2018',
+	'2017',
+	'2016',
+	'2015',
+	'2014',
+]
 
-export const dateCool = (date) =>
-	(typeof date === 'string' ? new Date(date) : date).toLocaleString(undefined, {
-		weekday: 'long',
+export const dateCool = (date) => {
+	const jsDate = typeof date === 'string' ? new Date(date) : date,
+		recentStartDate = new Date(
+			new Date().getFullYear(),
+			new Date().getMonth() - 3,
+			new Date().getDate()
+		),
+		recentDate = jsDate > recentStartDate
+
+	const humanDate = jsDate.toLocaleString(undefined, {
 		year: 'numeric',
 		month: 'long',
-		day: 'numeric',
+		...(recentDate ? { day: 'numeric' } : {}),
 	})
+
+	return (recentDate ? 'le ' : 'en ') + humanDate
+}
 
 const Header = () => (
 	<header
@@ -40,6 +59,7 @@ export default ({ year }) => {
 			<Header />
 			<section>
 				<YearMenu year2={year2} />
+
 				<ul
 					css={`
 						display: flex;
@@ -84,8 +104,8 @@ const YearMenu = ({ year2 }) => (
 			-moz-box-align: center;
 			align-items: center;
 			-moz-box-pack: start;
-			@media (max-width: 800px){
-			justify-content: flex-start;
+			@media (max-width: 800px) {
+				justify-content: flex-start;
 			}
 			overflow-x: scroll;
 			height: 3.5rem;
@@ -96,15 +116,16 @@ const YearMenu = ({ year2 }) => (
 				margin: 0;
 				padding: 0.1rem 0.6rem;
 			}
-			    text-align: center;
-}
+			text-align: center;
 		`}
 	>
 		{yearsAndYears.map((y) => (
 			<li key={y}>
-				<button css={y === year2 ? 'background: var(--color-secondary)' : ''}>
-					<Link to={'/blog/année/' + y}>{y}</Link>
-				</button>
+				<Link to={'/blog/année/' + y}>
+					<button css={y === year2 ? 'background: var(--color-secondary)' : ''}>
+						{y}
+					</button>
+				</Link>
 			</li>
 		))}
 	</ul>

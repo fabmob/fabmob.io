@@ -76,6 +76,9 @@ export default ({}) => {
 					max-width: 400px;
 					margin: 0 auto;
 					padding: 1rem 4rem;
+					a {
+						color: black;
+					}
 				`}
 			>
 				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Evénements">

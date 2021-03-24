@@ -123,6 +123,7 @@ export default () => {
 const Surligné = styled.span`
 	background: yellow;
 	font-weight: normal;
+	color: black;
 `
 
 export const EmailContact = () => (

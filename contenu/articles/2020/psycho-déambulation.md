@@ -4,6 +4,8 @@ résumé: Nouvelle construite avec les participant·es des 8 juillet et 8 septem
 image: https://i.imgur.com/buw9rZ2.jpg
 date: 2020-10-01
 auteur: Li-Cam
+tags:
+  - imaginaires
 ---
 
 L’agenda d’Alex n’est pas très chargé aujourd’hui, il se remplira comme souvent au fil des pas, des heures et des rencontres. Pour l’instant, il ne contient que deux rendez-vous ce matin ; les prénoms et les lieux de consultation choisis s’affichent en relief sur ses lentilles de contact. Calque discret mais parfaitement lisible sur la réalité.
@@ -43,7 +45,7 @@ Au bout d’à peine une minute, Hélène s’écrie : —Stop ! »
 —Je m’excuse. Je pensais que cela vous aiderait à vous souvenir.  
 Les deux femmes évoluent lentement sur le trottoir. Alex n’a pas prévu d’itinéraire précis.
 —Dans votre message, vous avez mentionné l’année 2020.
-— Comment alliez-vous cette année-là ?
+—Comment alliez-vous cette année-là ?
 Hélène ne répond pas immédiatement. Le temps passe au rythme des pas d’Alex.
 —Mal, finit par lâcher la climatologue d’une voix lasse. Mon mari faisait une dépression, ma mère souffrait d’une maladie auto-immune, et mon père avait des problèmes cardiaques. J’avais moi-même des ennuis avec quelques uns de mes collègues. Et le monde allait mal, en général.
 —Je pensais que vous me parleriez surtout de votre métier.  

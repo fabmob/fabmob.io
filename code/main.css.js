@@ -143,10 +143,7 @@ header nav img {
 
 section header {
   padding-top: 0;
-  width: 100%;
 }
-
-
 
 
 /* Typography */
@@ -185,6 +182,7 @@ h4,
 h5,
 h6 {
   line-height: var(--line-height);
+  color: black
 }
 
 mark {
@@ -236,8 +234,7 @@ color: inherit
 
 /* Links */
 a {
-  color: black;
-  font-weight: bold;
+  color: var(--color);
   text-decoration: none;
 }
 

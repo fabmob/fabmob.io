@@ -45,6 +45,10 @@ export default ({}) => {
 					max-width: 400px;
 					margin: 0 auto;
 					padding: 1rem 4rem;
+					text-align: center;
+					a {
+						color: black;
+					}
 				`}
 			>
 				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">

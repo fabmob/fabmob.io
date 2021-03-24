@@ -4,18 +4,21 @@ import remarkFootnotes from 'remark-footnotes'
 import { useParams } from 'react-router-dom'
 import { buildRésumé, dateCool } from './Articles'
 import Meta from './Meta'
-import { ArticleStyle } from './UI'
+import { ArticleStyle, Encart } from './UI'
 import { articles } from './getArticles'
 import { EmailContact } from './pages/Accueil'
+import imaginairesIntroduction from 'Content/imaginaires-introduction.md'
+
+import Emoji from 'Components/Emoji'
 
 const repo = 'fabmob/fabmob.io'
 
 export const coverImageURL = (image, id) =>
 	image || '/contenu/articles/couvertures/' + id + '.jpg'
 
-const getLastEdit = (name, action) =>
+const getLastEdit = (name, year, action) =>
 	fetch(
-		`https://api.github.com/repos/${repo}/commits?path=articles%2F${name}.md&page=1&per_page=1`
+		`https://api.github.com/repos/${repo}/commits?path=articles%2F${year}%2F${name}.md&page=1&per_page=1`
 	)
 		.then((res) => res.json())
 		.then((json) => {
@@ -48,21 +51,22 @@ export default ({ id: propId }) => {
 			</div>
 		)
 	const {
-			attributes: { image, titre, auteur, date, résumé },
+			attributes: { image, titre, auteur, date, résumé, tags },
 			body,
 		} = article,
 		// imported articles from wordpress have english attributes
 		author = auteur || article.attributes.author,
 		title = titre || article.attributes.title,
-		year = new Date(date).getFullYear()
+		year = new Date(date).getFullYear(),
+		isImaginaire = tags.includes('imaginaires')
 
 	const [lastEditDate, setLastEditDate] = useState(null)
-	getLastEdit(id, setLastEditDate)
+	getLastEdit(id, year, setLastEditDate)
 
 	const coverImage = coverImageURL(image, id)
 
 	return (
-		<ArticleStyle>
+		<ArticleStyle isImaginaire={isImaginaire}>
 			<Meta
 				{...{
 					title: titre,
@@ -73,10 +77,25 @@ export default ({ id: propId }) => {
 					updated: lastEditDate,
 				}}
 			/>
-			{coverImage && (
+			{!isImaginaire && coverImage && (
 				<img css="max-height: 30rem;" src={imageResizer('l')(coverImage)}></img>
 			)}
 			{title && <h1>{title}</h1>}
+			{isImaginaire && (
+				<Encart css="font-weight: 200;margin-bottom: 2rem;">
+					<div css="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
+						<img
+							css="max-height: 10rem;"
+							src={imageResizer('l')(coverImage)}
+						></img>
+						{isImaginaire && (
+							<div css="max-width: 70%; @media (max-width: 800px){max-width: 100%}">
+								<ReactMarkdown source={imaginairesIntroduction} />
+							</div>
+						)}
+					</div>
+				</Encart>
+			)}
 			<p
 				css={`
 					text-align: center;
@@ -100,58 +119,69 @@ export default ({ id: propId }) => {
 					>
 						{author}
 					</span>
-					le {dateCool(date)}
+					{dateCool(date)}
 					{lastEditDate && (
-						<span>
-							, mis à jour le{' '}
-							<a
-								href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
-							>
-								{dateCool(lastEditDate)}
-							</a>
-						</span>
-					)}
+						<span>- mis à jour {dateCool(lastEditDate)}</span>
+					)} -{' '}
+					<a
+						css="font-weight: normal;color: inherit "
+						href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
+					>
+						contribuer
+					</a>
 				</small>
 			</p>
-			<ReactMarkdown
-				renderers={{
-					image: ImageRenderer(year),
-					footnoteReference: ({ identifier, label }) => (
-						<sup id={'ref' + identifier}>
-							<a href={window.location.pathname + '#def' + identifier}>
-								{label}
-							</a>
-						</sup>
-					),
-					footnoteDefinition: ({ identifier, label, children }) => (
-						<div
-							id={'def' + identifier}
-							css={`
-								${window.location.hash === '#def' + identifier
-									? `{
+			<div
+				css={`
+					${isImaginaire
+						? `margin-top: 2rem;border: 1rem solid #073dff; padding: 1rem;
+@media (max-width: 800px){
+border-width: .6rem
+}
+							`
+						: ''}
+				`}
+			>
+				<ReactMarkdown
+					renderers={{
+						image: ImageRenderer(year),
+						footnoteReference: ({ identifier, label }) => (
+							<sup id={'ref' + identifier}>
+								<a href={window.location.pathname + '#def' + identifier}>
+									{label}
+								</a>
+							</sup>
+						),
+						footnoteDefinition: ({ identifier, label, children }) => (
+							<div
+								id={'def' + identifier}
+								css={`
+									${window.location.hash === '#def' + identifier
+										? `{
 								background: var(--color); 
 								color: var(--textColor); 
 								a {color: inherit}; 
 								border-radius: .3rem; 
 								padding: 0.1rem 0.3rem;
 						    }`
-									: ''};
-								> p {
-									display: inline;
-								}
-							`}
-						>
-							<a href={window.location.pathname + '#ref' + identifier}>
-								{label}
-							</a>{' '}
-							: {children}
-						</div>
-					),
-				}}
-				source={body}
-				plugins={[remarkFootnotes]}
-				escapeHtml={false}
-			/>
+										: ''};
+									> p {
+										display: inline;
+									}
+								`}
+							>
+								<a href={window.location.pathname + '#ref' + identifier}>
+									{label}
+								</a>{' '}
+								: {children}
+							</div>
+						),
+					}}
+					source={body}
+					plugins={[remarkFootnotes]}
+					escapeHtml={false}
+				/>
+			</div>
 			<p>
 				Venez discuter de cet article{' '}
 				<a
