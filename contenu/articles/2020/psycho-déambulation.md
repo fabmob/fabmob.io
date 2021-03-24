@@ -65,7 +65,7 @@ Elles continuent à converser encore un moment, puis Alex réalise qu’elle doi
 —Voulez-vous que je vous raccompagne ? demande-t-elle à son interlocutrice.  
 —J’ai prévu de me promener encore un peu. Je n’ai pas visité Paris depuis des années.
 Les deux femmes se séparent, et Alex se reconnecte à la source data de la ville. L’activité a augmenté, le bilan carbone est en hausse, mais sa progression est sans commune mesure avec ce qu’elle devait être trente ans plus tôt. Elle repense au fichier qu’elle a fait écouter à Hélène en introduction de leur conversation, au vacarme de la rue, à tout ce bruit insupportable.  
- Puis, elle découvre que Joe lui a laissé un message, il l’attend devant son éco-bat qui se situe à 10 minutes de marche. La psychologue pourrait presser le pas, or elle n’en fait rien. Joe a 25 ans, dix ans de moins qu’elle. Il bouillonne à l’intérieur. Il est persuadé d’avoir raison sur tout, il a accepté d’entrer en thérapie « pour que ses vieux le lâchent », comme il dit.  
+Puis, elle découvre que Joe lui a laissé un message, il l’attend devant son éco-bat qui se situe à 10 minutes de marche. La psychologue pourrait presser le pas, or elle n’en fait rien. Joe a 25 ans, dix ans de moins qu’elle. Il bouillonne à l’intérieur. Il est persuadé d’avoir raison sur tout, il a accepté d’entrer en thérapie « pour que ses vieux le lâchent », comme il dit.  
 Quand Alex se présente au lieu de rendez-vous, Joe sirote une bière artisanale à la terrasse de l’éco-bat où il habite avec ses parents.
 —On y va, dit la psychologue en se postant devant le jeune homme.  
 —Où ? demande-t-il.
@@ -85,16 +85,16 @@ Elle voudrait qu’il puisse élaborer un peu plus à ce sujet. Mais il est touj
 —Ça va, ça vient.  
 Alex saisit l’occasion qui lui est donnée.
 —Les émotions changent, elles bougent plus ou moins vites, elles sont parfois fortes, parfois douces. Il faut pouvoir les ressentir, les regarder, les analyser, puis les laisser passer. Elles vont et viennent comme tu l’as très justement dit, elles nous apprennent des choses sur nous et sur le monde. Pour bénéficier de leur apport, on peut leur donner une couleur, un son, ou les exprimer avec des mots.  
-— Je ne sais pas comment je me sens. Je n’ai rien à dire !
+—Je ne sais pas comment je me sens. Je n’ai rien à dire !
 Joe a élevé la voix. En réponse, la psychologue modifie la musique qu’émettent les feuilles, la brise en les soulevant sonne désormais comme les vagues venant effleurer le sable. Le bruissement de l’océan est régulier, apaisant, hypnotique.
 Alex note que le jeune homme regarde désormais autour de lui, qu’il paraît moins tendu. Elle ne lui pose pas de questions, elle le laisse vivre et profiter de l’instant.
 Pendant que Joe se détend sur le calque qui lui est dévolu, la psychologue revient sur le calque collectif. Des bulles de savon flottent indolentes dans le ciel. La texture des façades d’ordinaire couvertes de plantes, a parfois été modifiées ; laine, fourrure, eau, bois, ou encore paille, on peut aussi y voir de grands animaux, des feux d’artifices, des textes, des messages, des recettes de cuisine. Un gigantesque « I love mon quartier » couvre plusieurs façades d’eco-bats.
 À chacun de ses pas, le trottoir murmure à Alex des encouragements.
 Au bout d’un quart d’heure, la psychologue demande :
-— Je pourrais enregistrer cette tonalité, qu’en penses-tu ?  
-— Quoi ?
-— Le bruit des vagues dans le feuillage des arbres, je peux l’enregistrer pour notre prochaine séance, si tu veux.  
-— T’as qu’à faire ça.
+—Je pourrais enregistrer cette tonalité, qu’en penses-tu ?  
+—Quoi ?
+—Le bruit des vagues dans le feuillage des arbres, je peux l’enregistrer pour notre prochaine séance, si tu veux.  
+—T’as qu’à faire ça.
 Alex se dit que la colère du jeune homme cache d’autres émotions, la peur et la tristesse à n’en pas douter. Joe lutte à sa manière contre une dépression sévère depuis plusieurs années, depuis que sa copine l’a quitté, depuis qu’il a laissé tomber ses études d’ingénieur.
 Après s’être séparé du jeune homme, la psychologue garde le calque collectif ouvert, et le consulte longuement pour prendre la température émotionnelle du quartier.
 Puis elle se met à flâner en attendant d’être contactée par d’autres patients. Elle traverse la dalle de déambulation, couvrant une surface de 3000 mètres carrés, un endroit réservé aux piétons et dédié à diverses activités. Le lieu est ombragé, parsemé de pergolas où grimpent des glycines, de la vigne ou encore du chèvrefeuille. Aux endroits ensoleillés, des graines sèchent sur des toiles posées au sol. Une jeune femme passe en tenant plusieurs chiens en laisse, elle les promène pour d’autres, des gens résidant dans le même éco-bat. Un groupe d’une vingtaine de personnes de tout âge participe à un cours de Tai-Chi en plein air. Lenteur et élégance des mouvements. Temps suspendu. Le groupe respire à l’unisson. Et Alex les regarde un moment, s’accordant une pause bien méritée.
@@ -102,14 +102,14 @@ Puis elle réactive la source data de la ville et constate qu’elle a reçu un 
 
 Alors qu’elle arrive aux abords de l’école où enseigne Lina, Alex reçoit un message du lycéen qu’elle a croisé plus tôt. Dans son message, il indique qu’il souhaite la voir le lendemain, Alex accepte le rendez-vous et lui envoie un lien vers un calque vierge d’emotion mapping en lui demandant de le remplir avant leur rencontre. Il répond d’un pouce levé.  
 Alex et Lina se sont rejointes dans une zone multi-activités située à quelques rues de l’école où travaille l’institutrice. Il s’agit d’un lieu couvert, une sorte de barnum semi-provisoire, dans lequel des ateliers de recyclage ou de réhabilitation de matériel s’installent la semaine, tandis que le week-end est dédié aux activités pour les enfants ou pour les seniors. Lina a modifié le lieu de leur rendez-vous au dernier moment car elle a voulu s’assurer pendant sa pause déjeuner que tout était en ordre pour l’installation prochaine, un jour par semaine, d’un ébéniste rénovant des meubles anciens. Alex se fait la remarque que la jeune institutrice a décidément du mal à gérer la charge mentale liée à son activité bénévole.
-— L’empreinte carbone de la ville est fluctuante, et les loyers recommencent à monter, indique Lina qui porte toujours sa blouse maculée de craie, et contemple longuement son sandwich pita d’un air désolé. Ça ne s’était pas vu depuis le début des années 20, depuis l’essor du télétravail et le départ des classes les plus aisées vers la Province.
-— Mmmhh, répond Alex.
-— Certains trottoirs sont si encombrés qu’on ne peut plus y circuler. Le déblaiement ou la réassignation du mobilier urbain coûte cher en points carbone.
-— Mmmhh…
-— J’ai lancé une consultation citoyenne au sujet des transports mutualisés sur plusieurs immeubles. La plupart sont des autonoms, mais il reste encore quelques conducteurs bénévoles qui se retrouvent pris à parti dans des conflits de générations. Les jeunes et les plus âgés se les arrachent les week-ends. Nous n’avons pas les moyens en ce moment d’acheter plus d’autonoms et je rechigne à recourir davantage au bénévolat. Il est impossible de satisfaire tout le monde.  
-— Exactement. Tu me sembles fatiguée. Pourquoi ne pas ralentir un peu pendant quelques temps ? Ou prendre des vacances ?  
-— Il y a trop de projets en cours, ce n’est pas le bon moment.  
-— Tu devrais y réfléchir.
+—L’empreinte carbone de la ville est fluctuante, et les loyers recommencent à monter, indique Lina qui porte toujours sa blouse maculée de craie, et contemple longuement son sandwich pita d’un air désolé. Ça ne s’était pas vu depuis le début des années 20, depuis l’essor du télétravail et le départ des classes les plus aisées vers la Province.
+—Mmmhh, répond Alex.
+—Certains trottoirs sont si encombrés qu’on ne peut plus y circuler. Le déblaiement ou la réassignation du mobilier urbain coûte cher en points carbone.
+—Mmmhh…
+—J’ai lancé une consultation citoyenne au sujet des transports mutualisés sur plusieurs immeubles. La plupart sont des autonoms, mais il reste encore quelques conducteurs bénévoles qui se retrouvent pris à parti dans des conflits de générations. Les jeunes et les plus âgés se les arrachent les week-ends. Nous n’avons pas les moyens en ce moment d’acheter plus d’autonoms et je rechigne à recourir davantage au bénévolat. Il est impossible de satisfaire tout le monde.  
+—Exactement. Tu me sembles fatiguée. Pourquoi ne pas ralentir un peu pendant quelques temps ? Ou prendre des vacances ?  
+—Il y a trop de projets en cours, ce n’est pas le bon moment.  
+—Tu devrais y réfléchir.
 Lina continue à parler de son rôle de représentante de secteur, elle aborde la réhabilitation de plusieurs lieux, et la construction d’un éco-bat modulable. Alex l’écoute, consciente que sa patiente n’a pas entendu ce qu’elle lui avait dit.  
 Après son rendez-vous, la psychologue consulte la source data à nouveau. Personne ne l’ayant contactée, elle décide de s’accorder une pause, et marche dans le quartier d’un pas lent, méditatif. Elle regarde autour d’elle, remarque des détails, des modifications qui n’étaient pas là hier ou encore la semaine dernière. Tout bouge, tout change. Un nouvel étal s’est installé sur le trottoir qu’elle arpente, à quelques encablures d’une grande serre partagée par les habitants de plusieurs éco-bats, serre construite il y a peine quelques mois.
 La ville change, sans cesse en mouvement, elle cherche un équilibre, tel un esprit qui se remet lentement.
@@ -125,9 +125,9 @@ Joe lui aussi s’est manifesté, il a apporté quelques modifications sur son c
 Milan sort de classe, récupère son sac dans les casiers de consigne mobile devant l’entrée du bahut. Se change dans la cabine, sa silhouette d’athlète en ombre projetée sur la paroi translucide par le soleil couchant. Descend la marche d’un pas souple, s’appuie sur le banc du frontage voisin pour faire un premier échauffement. Jette un coup d’œil sur l’affiche interactive du quartier, le chantier d’écorénovation de 10 maisons de la rue va commencer ce soir, le forum de quartier ouvre une votation sur les navettes Autonom partagées, le foodtruck estaminet s’est installé deux rues plus loin. Ce soir, ce sera donc cuisine participative avec qui sera là. Sur ce il s’élance, pour un parcours de sport de rue d’une petite heure. Il affectionne ce moment à lui, au milieu de la nature rafraichissante qui borde le réseau vert aménagé où chacun entre et sort pour s’approprier les abords. Fin du parcours, détente et étirements. Mais sa pensée est déjà ailleurs, il s’est fait depuis peu recenser et vient de recevoir le lien d’enregistrement pour le service civique « jeunes ». Une grande nouvelle question, pour laquelle il n’a pas vraiment de réponse. Direction le foodtruck estaminet, pour donner son avis sur le service des Autonoms et reprendre de l’énergie, avant la permission de minuit avec les copains.
 
 Un homme, après être passé plusieurs fois devant Alex, finit par s’asseoir à ses côtés. Elle ne le connaît que de vue. Ses avant-bras sont couverts de psoriasis. Il lui annonce qu’il n’a pas osé prendre rendez-vous, mais qu’il croit avoir besoin d’une consultation. Alex se lève.
-— Allons-y, annonce-t-elle.
+—Allons-y, annonce-t-elle.
 Il s’appelle Timo.
-— Diminutif de Timothée, souffle-t-il.
+—Diminutif de Timothée, souffle-t-il.
 Très timide, il évite le regard d’Alex, et marche légèrement en retrait. Il murmure et soupire plus qu’il ne parle de son coloc qui ne fait pas la cuisine, de sa sœur qui ne le contacte jamais, de son psoriasis qui le gêne beaucoup, de son surpoids. Il se dévalue, n’arrête pas de se gratter les avant-bras et de tirer sur son T-shirt pour cacher son ventre légèrement rebondi.
 En pleine consultation, la psychologue est abordée par Auriol, un autre patient qui l’inonde de messages depuis près de deux semaines, il souhaiterait qu’elle puisse le voir en soirée car il souffre d’agoraphobie. Elle s’y est refusée jusqu’à maintenant pour l’obliger à dompter sa peur, ce qu’il tente de faire en venant à sa rencontre en fin d’après-midi, dans une rue passante. Elle accepte donc de le rencontrer à 9 heures du soir, à l’endroit de son choix.
 Puis, elle reporte toute son attention sur Timo, qui s’est éloigné et l’attend en faisant semblant de s’intéresser à un portique de livres d’occasion en libre-service.  
@@ -141,23 +141,23 @@ Sa fille lui répond « regarde la grande dauphin sur le mur ? »
 « C’est un dauphin pas une dauphin … tu as beaucoup d’imagination ma chouchou » répond le papa.
 Amparo tout prêt écoute avec amusement, puis dit à la petite fille et à son papa. « C’est bien un dauphin ». Au fur et à mesure qu’iel présente son exposition sur les animaux des fonds marins qui se révèlent dans la nuit à l’air libre, la couleur qui ressemblait à de la mousse s’est éclairci jusqu’à devenir luminescente. Le mur offre alors au passant un aquarium bioluminescent à l’air libre !
 
--Merci Mme Alex d’être venue
--Alex tout court, Auriol… Marchons un peu, vous voulez bien ?
--Merci Alex. D’accord, marchons.
--Je ne pourrai pas vous prendre souvent en consultation si ça doit être de nuit. Quand je vous ai vu cette après-midi près votre spot de travail, vous aviez l’air à bout. Mais je dois aussi me reposer de temps en temps !
--Je comprends. Mais écoutez, regardez : c’est si calme ! Tout est tellement plus doux !
--Mais Paris est devenue douce, non ? Vous avez l’âge pour l’avoir connue autrement…
--Oui, et j’ai approuvé. J’ai fait partie des premiers désobéissants civiques. Mais quand même, là, je n’en peux plus. Tous ces échanges, tous ces gens qui vous parlent, toute cette participation. Donner son avis sur tout, tenir son quart au composteur, compter ses émissions, s’occuper des aînés, faire ses exercices, faire la cuisine pour tout l’étage chaque semaine…
--Ça vous pèse ?
--Terriblement. Je sais pourquoi on a fait tout ça. Je suis d’accord, au fond. Mais vous avez raison, des fois je me souviens du temps où j’étais juste un consommateur. Je m’achetais un tour de mégasurf, je faisais un boucan d’enfer, je terrorisais tout le monde, je me faisais même mal, souvent, mais je me foutais des conséquences. C’était délicieux !
--Pas pour tout le monde.
--Non, vous avez raison. Raison, raisonnable… C’est ça qui coince. Même dans mon boulot ça s’entrechoque. Je suis programmeur et programmateur des ressources partagées : je dois organiser la souplesse, vous voyez le problème ?
--Expliquez-le moi.
--Je passe mon temps à contenir le désir des gens.
--Parce que leur désir pourrait en empêcher d’autres d’accéder au leur ?
--Bien sûr. N’empêche. C’est pour ça que la nuit…
--Qu’est-ce que vous y voyez, dans cette nuit ?
--Regardez là-bas. C’est un des chantiers d’éclairage urbain d’Amparo. Iel coche toutes les cases : c’est utile puisque ça éclaire la ville ; c’est vertueux, puisque ce sont les algues que j’ai cultivées pendant mon tour au potager de Clichy qui produisent la lumière ; c’est collectif, la majorité de ses assistants et assistantes sont des jeunes en servique et j’imagine qu’iels s’éclatent ; iel utilise même un de mes logiciels pour planifier ses interventions en fonction des demandes ou des disponibilités. Mais moi, au fond, je m’en fous : je me pose au loin, tout seul, dans le silence, et je les regarde tisser la lumière. Vous êtes la première personne avec qui je parle pendant que je regarde ça. Parfois on est plusieurs, mais on ne se dit rien, on se tient à distance, tout juste si on se regarde.
--Et là, dans cette forme qu’iels commencent à dessiner, vous lisez quoi ?
--Un serpent… Avec des ailes… Un dragon… Mais muselé, ni fumée ni feu… Ou bien trop jeune…Ah, je vois, la consultation commence ?
--Elle a commencé depuis un bon moment…
+—Merci Mme Alex d’être venue
+—Alex tout court, Auriol… Marchons un peu, vous voulez bien ?
+—Merci Alex. D’accord, marchons.
+—Je ne pourrai pas vous prendre souvent en consultation si ça doit être de nuit. Quand je vous ai vu cette après-midi près votre spot de travail, vous aviez l’air à bout. Mais je dois aussi me reposer de temps en temps !
+—Je comprends. Mais écoutez, regardez : c’est si calme ! Tout est tellement plus doux !
+—Mais Paris est devenue douce, non ? Vous avez l’âge pour l’avoir connue autrement…
+—Oui, et j’ai approuvé. J’ai fait partie des premiers désobéissants civiques. Mais quand même, là, je n’en peux plus. Tous ces échanges, tous ces gens qui vous parlent, toute cette participation. Donner son avis sur tout, tenir son quart au composteur, compter ses émissions, s’occuper des aînés, faire ses exercices, faire la cuisine pour tout l’étage chaque semaine…
+—Ça vous pèse ?
+—Terriblement. Je sais pourquoi on a fait tout ça. Je suis d’accord, au fond. Mais vous avez raison, des fois je me souviens du temps où j’étais juste un consommateur. Je m’achetais un tour de mégasurf, je faisais un boucan d’enfer, je terrorisais tout le monde, je me faisais même mal, souvent, mais je me foutais des conséquences. C’était délicieux !
+—Pas pour tout le monde.
+—Non, vous avez raison. Raison, raisonnable… C’est ça qui coince. Même dans mon boulot ça s’entrechoque. Je suis programmeur et programmateur des ressources partagées : je dois organiser la souplesse, vous voyez le problème ?
+—Expliquez-le moi.
+—Je passe mon temps à contenir le désir des gens.
+—Parce que leur désir pourrait en empêcher d’autres d’accéder au leur ?
+—Bien sûr. N’empêche. C’est pour ça que la nuit…
+—Qu’est-ce que vous y voyez, dans cette nuit ?
+—Regardez là-bas. C’est un des chantiers d’éclairage urbain d’Amparo. Iel coche toutes les cases : c’est utile puisque ça éclaire la ville ; c’est vertueux, puisque ce sont les algues que j’ai cultivées pendant mon tour au potager de Clichy qui produisent la lumière ; c’est collectif, la majorité de ses assistants et assistantes sont des jeunes en servique et j’imagine qu’iels s’éclatent ; iel utilise même un de mes logiciels pour planifier ses interventions en fonction des demandes ou des disponibilités. Mais moi, au fond, je m’en fous : je me pose au loin, tout seul, dans le silence, et je les regarde tisser la lumière. Vous êtes la première personne avec qui je parle pendant que je regarde ça. Parfois on est plusieurs, mais on ne se dit rien, on se tient à distance, tout juste si on se regarde.
+—Et là, dans cette forme qu’iels commencent à dessiner, vous lisez quoi ?
+—Un serpent… Avec des ailes… Un dragon… Mais muselé, ni fumée ni feu… Ou bien trop jeune…Ah, je vois, la consultation commence ?
+—Elle a commencé depuis un bon moment…
