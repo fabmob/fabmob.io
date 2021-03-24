@@ -82,16 +82,19 @@ export default ({ id: propId }) => {
 			)}
 			{title && <h1>{title}</h1>}
 			{isImaginaire && (
-				<div css="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
-					<img
-						css="max-height: 10rem;"
-						src={imageResizer('l')(coverImage)}
-					></img>
-
-					<Encart css="font-weight: 200;">
-						{isImaginaire && <ReactMarkdown source={imaginairesIntroduction} />}
-					</Encart>
-				</div>
+				<Encart css="font-weight: 200;margin-bottom: 2rem;">
+					<div css="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
+						<img
+							css="max-height: 10rem;"
+							src={imageResizer('l')(coverImage)}
+						></img>
+						{isImaginaire && (
+							<div css="max-width: 70%; @media (max-width: 800px){max-width: 100%}">
+								<ReactMarkdown source={imaginairesIntroduction} />
+							</div>
+						)}
+					</div>
+				</Encart>
 			)}
 			<p
 				css={`
