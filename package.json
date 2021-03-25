@@ -23,6 +23,7 @@
 		"react-highlight-words": "^0.17.0",
 		"react-markdown": "^5.0.3",
 		"react-router-dom": "^5.2.0",
+		"remark-breaks": "^2.0.1",
 		"remark-footnotes": "^3.0.0",
 		"twemoji": "^13.0.1",
 		"yaml-loader": "^0.6.0"
