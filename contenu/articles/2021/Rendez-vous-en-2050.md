@@ -23,7 +23,7 @@ Ce 8 septembre 2050, une graine de Tropikozoïde foliacée, une plante disparue 
 ### Jan s'adapte
 Jan n’a pas de genre particulier, iel s’adapte selon les personnes iel est soit homme soit femme selon les besoins des situations. Son corps change légèrement en fonction du genre adopté. S’il est homme il a des muscles plus développés, si elle est femme elle aura des formes.
 
-Jan est plutôt grand·e, les cheveux noirs et les yeux marrons-verts. Iel a la peau pâle parce qu’iel ne sort pas beaucoup au soleil. En effet, Jan préfère se promener de nuit, il fait beaucoup trop chaud en journée. Jan aime bien faire de longue balade en ville de nuit, car iel aime découvrir la vie nocturne, les petits animaux qui réoccupent l’espace quand tout le monde dort. Jan tient d’ailleurs un carnet où iel fait le point sur ses découvertes. Iel les partage ensuite avec ses amis, qu’iel voit tous les week-ends. Iel est célibataire, car de par sa particularité, il est difficile pour Jan de trouver un ou une partenaire. Jan aimerait rencontrer quelqu’un qui lui ressemble.
+Jan est plutôt grand·e, les cheveux noirs et les yeux marrons-verts. Iel a la peau pâle parce qu’iel ne sort pas beaucoup au soleil. En effet, Jan préfère se promener de nuit, il fait beaucoup trop chaud en journée. Jan aime bien faire de longues balades en ville de nuit, car iel aime découvrir la vie nocturne, les petits animaux qui réoccupent l’espace quand tout le monde dort. Jan tient d’ailleurs un carnet où iel fait le point sur ses découvertes. Iel les partage ensuite avec ses amis, qu’iel voit tous les week-ends. Iel est célibataire, car de par sa particularité, il est difficile pour Jan de trouver un ou une partenaire. Jan aimerait rencontrer quelqu’un qui lui ressemble.
  
 (…)
  
