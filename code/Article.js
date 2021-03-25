@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkFootnotes from 'remark-footnotes'
+import remarkBreaks from 'remark-breaks'
 import { useParams } from 'react-router-dom'
 import { buildRésumé, dateCool } from './Articles'
 import Meta from './Meta'
@@ -177,7 +178,7 @@ border-width: .6rem
 						),
 					}}
 					source={body}
-					plugins={[remarkFootnotes]}
+					plugins={[remarkFootnotes, remarkBreaks]}
 					escapeHtml={false}
 				/>
 			</div>
