@@ -19,6 +19,7 @@ import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
+import CGUTracemob from './tracemob/CGU'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -74,6 +75,9 @@ const Container = () => (
 				)}
 				<Route path="/feu-le-forum">
 					<TempForumDown />
+				</Route>
+				<Route path="/tracemob/cgu">
+					<CGUTracemob />
 				</Route>
 				<Route path="/sidewalks">
 					<Sidewalks />
