@@ -310,7 +310,7 @@ let Pourquoi = () => (
 			}
 			h2 {
 				font-weight: 600;
-				font-size: 140%;
+				font-size: 135%;
 				padding-right: 2rem;
 				margin: 3rem 0 1.2rem;
 				line-height: 1.4rem;
@@ -318,31 +318,53 @@ let Pourquoi = () => (
 			.illustration {
 				font-size: 3rem;
 				display: block;
-				margin: 0 auto;
-			}
-			@media (max-width: 800px) {
-				.illustration {
-					text-align: center;
-				}
+				margin: 0 auto 1rem;
+				text-align: center;
 			}
 		`}
 	>
 		<h2>
-			C'est <em>la crise</em> !
+			Vos données sont <em>à vous </em> !
 		</h2>
-		<span className="illustration">📢</span>
+		<span className="illustration">🗺️</span>
 		<p>
-			La dépendance à la voiture est subie, et l’approvisionnement en essence
-			incertain.
+			Nous sommes tous intéressés par nos déplacements. Combien de km ai-je fait
+			le mois dernier ? L'année dernière ? En voiture, en train, en vélo, à
+			pieds ?
 		</p>
-		<span className="illustration"> 🌍</span>{' '}
-		<p>La transition écologique est au point mort.</p>
-		<span className="illustration">💨</span>
-		<p> Les villes sont polluées et stressantes.</p>
+		<span className="illustration"> 🔒</span>{' '}
+		<p>
+			Jusqu'à présent, seuls Google, Apple ou votre opérateur téléphonique
+			disposent de vos traces de déplacements, et la clef de cet entrepôt privé
+			reste dans leur main.
+		</p>
+		<img
+			className="illustration"
+			src={require('./tracemob/tracemob.svg').default}
+			css="width: 60px"
+		/>
+		<p>
+			Tracemob suit automatiquement vos déplacements, sans épuiser votre
+			batterie, trouve automatiquement le mode de transports utilisé.
+		</p>
+		<p>
+			Visualisez alors vos déplacements, et surtout : faites ce qu'il vous plaît
+			avec ces données.
+		</p>
+		<span className="illustration">🧮🌱💸</span>
+		<p>
+			Suivez vos déplacements sur une carte annuelle -- calculez l'empreinte
+			climat de vos déplacements -- gagnez de l'argent pour chaque kilomètre
+			fait en vélo
+		</p>
 		<h2>
 			Construire <em>ensemble</em> le futur du transport
 		</h2>
-		<p>Le point commun à tous ces problèmes ? Nos façons de nous déplacer.</p>
+		<p>
+			Si vous le désirez, et la décision vous revient, vous pourrez envoyer vos
+			données de déplacement anonymisées à votre collectivité pour participer à
+			améliorer les transports et l'infrastructure publique.
+		</p>
 		<p>
 			<strong>Donnez aux collectivités</strong> la chance de mieux comprendre
 			vos déplacements du quotidien, pour que les nouvelles pistes cyclables,
@@ -360,98 +382,43 @@ let Pourquoi = () => (
 			bus, jour après jour.{' '}
 		</p>
 		<p>
-			🕵️ Privée par défaut, ces données{' '}
-			<strong>ne quittent pas votre téléphone</strong>.
+			Ces données sont retraitées pour notamment détecter le mode puis envoyées
+			sur votre <strong>entrepôt de données personnelles</strong>.
 		</p>
 		<p>Puis seulement si vous le voulez, faites un don !</p>
-		<div
-			css={`
-				h3 {
-					margin-bottom: 0;
-					background: #aaa;
-					border-radius: 0.3rem;
-					display: inline-block;
-					color: white;
-					padding: 0 0.4rem;
-					font-size: 100%;
-				}
-			`}
-		>
-			<h2>
-				Faites <em>votre choix</em> !
-			</h2>
-			<h3>Niveau 0</h3>
-			<p>Pas de partage</p>
-			<p>📊 Interessé uniquement par vos statistiques de déplacement ?</p>
-			<p>✅ Pas de problème, elles restent au chaud.</p>
-			<h3>Niveau 1</h3>
-			<p>
-				Partage de trajets <strong>anonymes</strong>.
-			</p>
-			<p>
-				🚗 Marre de toujours faire le même trajet en voiture sur des axes
-				fréquentés, vous voulez une alternative en commun ?
-			</p>
-			<p>
-				🚌 Vous prenez le bus, mais il est lent, irrégulier et ne passe pas au
-				bon endroit, vous seriez ravi de signaler votre galère de la journée en
-				appuyant sur un bouton ?
-			</p>
-			<p>
-				🚲 Fier de sortir le vélo, mais pas satisfait par les infrastructures
-				cyclables incomplètes ou inexistantes ?
-			</p>
-			<p>
-				✅ Balancez vos données et demandes aux collectivités en{' '}
-				<strong>en un clic</strong>, pour leur éviter d'utiliser votre argent
-				pour payer les données de Google, Uber, Strava, TomTom...
-			</p>
-			<h3>Niveau 2</h3>
-			<p>
-				Partage en <strong>temps réel</strong>.
-			</p>
-			<p>
-				Il y a de la place dans votre voiture, mais vous n'en pouvez plus de
-				passer 20 minutes chaque chaque soir à se coordonner avec les autres
-				parents ?
-			</p>
-			<p>
-				Vous rêvez de retrouver la simplicité du stop d'antan, mais préferez
-				finir votre café en attendant le conducteur ?{' '}
-			</p>
-			<p>Vous voulez co-cycler, tout simplement parce que c'est sympa ? </p>
-			<p>
-				✅ L'appli analyse vos déplacements récents pour mettre en contact
-				passagers et conducteurs... et rien d'autre !
-			</p>
-		</div>
 		<h2>Des questions ?</h2>
 		<h3>Ça sort quand ? </h3>
-		<p>Bientôt.</p>
+		<p>Cet été 2021.</p>
 		<h3>Google les a déjà non ?</h3>
 		<p>
-			Tout à fait ! Dès lors que vous avez un téléphone dans votre poche, vous
-			êtes suivis.{' '}
+			Tout à fait ! Dès lors que vous avez un téléphone dans votre poche et une
+			application comme Google Maps, vous êtes suivis.{' '}
 		</p>
 		<p>
 			Vos données sont l'or des GAFA, souvent revendues à d'autres acteurs, dont
-			notamment... les collectivités !
+			notamment... les collectivités, qui achètent ces données avec votre argent
+			!
 		</p>{' '}
 		<p>
-			Les données collectées par Kilomètre ne serviront qu'à{' '}
-			<strong>améliorer le transport en France</strong>.
+			Les données collectées par Tracemob ne serviront qu'à vous, vous choisirez
+			ce que vous voulez en faire.
 		</p>
 		<h3>Pourquoi devrais-je vous faire confiance ?</h3>
 		<p>
 			Le code de l'application est entièrement libre, tout le monde peut
-			vérifier qu'elle ne collecte pas les données autorisation.
+			vérifier qu'elle ne collecte pas les données autorisation. Voici le code
+			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de
+			<a href="https://github.com/fabmob/tracemob-phone">interface</a>.
 		</p>
 		<h3>Et ma batterie 🔋 ? </h3>
 		<p>
 			Les versions récentes d'Android sont bien faites : suivre votre position
 			ne consomme que quelques petits % de batterie par jour.{' '}
 		</p>
-		<p>Si vous constatez le contraire, désinstallez-là en un clic !</p>
+		<p>
+			Si vous constatez le contraire dans les paramètres, envoyez-nous un mail
+			puis désinstallez-là en un clic !
+		</p>
 		<h3>Les données collectées seront-elles représentatives ?</h3>
 		<p>
 			Les données collectées ne viendront que compléter les enquêtes actuelles
