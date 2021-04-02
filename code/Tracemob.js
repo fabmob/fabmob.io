@@ -16,7 +16,7 @@ const Home = () => (
 	<div>
 		<div
 			css={`
-				height: 100vh;
+				height: 90vh;
 				box-shadow: 0 12px 12px -10px rgba(48, 41, 41, 0.1);
 				background: #375c9dff;
 				display: flex;
@@ -28,6 +28,7 @@ const Home = () => (
 				css={`
 					color: white;
 					width: 80%;
+
 					text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 					margin: 0 auto;
 					padding-left: 1rem;
@@ -53,6 +54,24 @@ const Home = () => (
 							width: 100%;
 						}
 					}
+
+					@media (max-width: 800px) {
+						width: 100%;
+						h1 {
+							font-size: 250%;
+							margin: 0.4rem 0;
+						}
+						#phone {
+							width: 30%;
+						}
+						header img {
+							width: 100px;
+						}
+
+						display: flex;
+						flex-wrap: nowrap;
+						overflow: hidden;
+					}
 				`}
 			>
 				<header>
@@ -62,8 +81,7 @@ const Home = () => (
 					/>
 					<h1>Tracemob</h1>
 					<p>
-						L'appli qui
-						<br /> <strong>collecte vos données</strong> <br />
+						Collectez <strong>vos données</strong> <br />
 						de déplacement.
 					</p>
 				</header>
@@ -76,6 +94,7 @@ const Home = () => (
 						filter: grayscale(90%);
 						opacity: 0.8;
 					}
+
 					margin: 0 auto;
 					color: white;
 				`}
@@ -93,7 +112,7 @@ const Home = () => (
 						display: block;
 						background: white;
 						border-radius: 0.3rem;
-						width: 7rem;
+						width: 14rem;
 						text-align: center;
 						cursor: pointer;
 						text-decoration: none;
@@ -106,7 +125,7 @@ const Home = () => (
 					}
 				`}
 			>
-				<a href="#quoi">Quoi 😲 ?</a>
+				<a href="#quoi">😲 Comment ça ?</a>
 			</div>
 		</div>
 		<Pourquoi />
