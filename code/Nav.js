@@ -2,7 +2,7 @@ import React, { Suspense, lazy, useState } from 'react'
 import Emoji from 'Components/Emoji'
 import { Link as RouterLink, LangSwitch } from 'Components/Lang'
 import colors from 'Components/colors'
-import LogoSansTexte from 'Images/logo fabmob sans texte.svg'
+import LogoSansTexte from 'Images/fabmob_cmjn6.png'
 import { useLocation } from 'react-router-dom'
 import { useContext } from 'react'
 import { WikiContext } from './App'
@@ -60,7 +60,7 @@ export default () => {
 				}
 				img {
 					margin: 0rem 2rem;
-					width: 4rem;
+					width: 8rem;
 				}
 				> a {
 					${location.pathname === '/' ? 'display: none;' : ''}
@@ -69,9 +69,6 @@ export default () => {
 				@media (max-width: 800px) {
 					justify-content: space-evenly;
 
-					img {
-						width: 3rem;
-					}
 					ul {
 						flex-direction: column;
 						align-item: end;
