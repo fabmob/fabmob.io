@@ -69,6 +69,21 @@ const Home = () => (
 				</header>
 				<Phone />
 			</div>
+			<div
+				css={`
+					img {
+						height: 40px;
+						filter: grayscale(90%);
+						opacity: 0.8;
+					}
+					margin: 0 auto;
+					color: white;
+				`}
+			>
+				<p>Bientôt sur vos téléphones</p>
+				<img src={require('./tracemob/appstore-badge.png').default} />
+				<img src={require('./tracemob/playstore-badge.png').default} />
+			</div>
 
 			<div
 				href="#quoi"
