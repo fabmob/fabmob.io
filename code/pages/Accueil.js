@@ -6,7 +6,7 @@ import TwitterLogo from 'Images/Twitter_Logo_Blue.png'
 import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
-import Logo from '../Logo.js'
+import Logo from 'Images/fabmob_cmjn1.png'
 import { useInterval } from '../utils.js'
 import styled from 'styled-components'
 
@@ -42,14 +42,21 @@ export default () => {
 						background: yellow;
 						font-style: normal;
 					}
+					text-align: left;
 				`}
 			>
 				<section>
 					<div
+						css={`
+							width: 20rem;
+							img {
+								width: 200px;
+							}
+						`}
 						animate={{ scale: [1.5, 1] }}
 						transition={{ duration: 0.6, ease: 'easeOut' }}
 					>
-						<Logo />
+						<img src={Logo} css="" />
 					</div>
 					<p>
 						Face à l'
