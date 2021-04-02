@@ -19,7 +19,7 @@ import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
-import CGUTracemob from './tracemob/CGU'
+import Tracemob from './Tracemob'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -76,8 +76,8 @@ const Container = () => (
 				<Route path="/feu-le-forum">
 					<TempForumDown />
 				</Route>
-				<Route path="/tracemob/cgu">
-					<CGUTracemob />
+				<Route path="/tracemob">
+					<Tracemob />
 				</Route>
 				<Route path="/sidewalks">
 					<Sidewalks />
@@ -125,6 +125,8 @@ const TempForumDown = ({}) => (
 			Nous publierons ici des nouvelles quand nous aurons avancé sur sa remise
 			en ligne.
 		</p>
-		<p>Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.</p>
+		<p>
+			Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.
+		</p>
 	</div>
 )
