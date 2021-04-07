@@ -54,13 +54,14 @@ const Header = () => (
 )
 export default ({ year }) => {
 	let year2 = year || useParams().year
+	let tag = useParams().tag
 	return (
 		<div>
 			<Header />
 			<section>
 				<YearMenu year2={year2} />
 				<Link
-					to="/tag/imaginaires"
+					to="/blog/tag/imaginaires"
 					css={`
 						background: ${couleurImaginaires};
 						color: white;
@@ -96,7 +97,16 @@ export default ({ year }) => {
 								? -1
 								: 1
 						)
-						.filter((a) => new Date(a.attributes.date).getFullYear() == year2)
+						.filter((a) => {
+							const date = a.attributes.date,
+								goodDate = new Date(date).getFullYear() == year2
+
+							const tags = a.attributes.tags || [],
+								goodTag = tags.includes(tag)
+
+							return tag ? goodTag : !tags.includes('imaginaires') && goodDate
+						})
+
 						.map((a) => (
 							<li key={a.id}>
 								<ArticleVignette {...a} />
