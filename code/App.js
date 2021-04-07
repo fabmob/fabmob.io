@@ -82,6 +82,9 @@ const Container = () => (
 				<Route path="/sidewalks">
 					<Sidewalks />
 				</Route>
+				<UtmFriendlyRedirect from="/blog/mentors" to="/blog" />
+				<UtmFriendlyRedirect from="/blog/articles" to="/blog" />
+				<UtmFriendlyRedirect from="/blog/home" to="/blog" />
 				<Route path="/blog">
 					<Blog />
 				</Route>
@@ -125,6 +128,8 @@ const TempForumDown = ({}) => (
 			Nous publierons ici des nouvelles quand nous aurons avancé sur sa remise
 			en ligne.
 		</p>
-		<p>Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.</p>
+		<p>
+			Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.
+		</p>
 	</div>
 )
