@@ -74,6 +74,7 @@ export default () => {
 						</Link>
 						.
 					</p>
+					<CTA text="Découvrez nos communs" to="/communs" />
 					<br />
 				</section>
 				<footer
@@ -132,6 +133,21 @@ const Surligné = styled.span`
 	font-weight: normal;
 	color: black;
 `
+
+const CTA = ({ to, text, img }) => (
+	<Link to={to}>
+		<button
+			css={`
+				box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+				border: none;
+				border-radius: 0;
+			`}
+		>
+			{img}
+			<span>{text}</span>
+		</button>
+	</Link>
+)
 
 export const EmailContact = () => (
 	<a
