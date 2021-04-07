@@ -2,7 +2,7 @@ import { articles } from './getArticles'
 import { Title } from './UI'
 import colors from 'Components/colors'
 import { Link, useParams } from 'react-router-dom'
-import { coverImageURL, imageResizer } from './Article'
+import { couleurImaginaires, coverImageURL, imageResizer } from './Article'
 import { Newsletter } from './pages/Événements'
 
 const yearsAndYears = [
@@ -59,6 +59,19 @@ export default ({ year }) => {
 			<Header />
 			<section>
 				<YearMenu year2={year2} />
+				<Link
+					to="/tag/imaginaires"
+					css={`
+						background: ${couleurImaginaires};
+						color: white;
+						width: 60%;
+						margin: 0 auto;
+						display: block;
+						padding: 0.4rem 1rem;
+					`}
+				>
+					Découvrez notre recueil de fictions "Imaginaires de la mobilité"
+				</Link>
 
 				<ul
 					css={`
