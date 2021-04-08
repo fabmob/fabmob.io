@@ -363,8 +363,8 @@ let Pourquoi = () => (
 		</h2>
 		<p>
 			Si vous le désirez, et la décision vous revient, vous pourrez envoyer vos
-			données de déplacement anonymisées à votre collectivité pour participer à
-			améliorer les transports et l'infrastructure publique.
+			données de déplacement moyennées et anonymisées à votre collectivité pour
+			participer à améliorer les transports et l'infrastructure publique.
 		</p>
 		<p>
 			<strong>Donnez aux collectivités</strong> la chance de mieux comprendre
@@ -396,10 +396,11 @@ let Pourquoi = () => (
 			application comme Google Maps, vous êtes suivis.{' '}
 		</p>
 		<p>
-			Vos données sont l'or des GAFA, souvent revendues à d'autres acteurs, dont
-			notamment... les collectivités, qui achètent ces données avec votre argent
+			Vos données sont l'or des GAFAM (Google, Apple, Facebook, Amazon,
+			Microsoft...), elles leur permettent de vous cibler pour de la publicité.
+			Vos données de déplacement sont même achetées par certaines collectivités
 			!
-		</p>{' '}
+		</p>
 		<p>
 			Les données collectées par Tracemob ne serviront qu'à vous, vous choisirez
 			ce que vous voulez en faire.
@@ -428,7 +429,7 @@ let Pourquoi = () => (
 		<p>
 			Plus de 90% de la population active possède un smartphone. Ces données
 			nous permettront au moins d'améliorer la connaissance des déplacements
-			domicile-travail, qu'on a rarement le choix de faire.
+			domicile-travail.
 		</p>
 	</div>
 )
