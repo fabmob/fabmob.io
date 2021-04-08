@@ -82,7 +82,7 @@ L’Utilisateur est responsable des informations qu’il transfère, et doit év
 En respect du principe de minimisation des données, toute donnée inutile et superflue au vu des finalités sera supprimée.
 
 
-**6. Données personnelles**
+**6. Données personnelles et politique de confidentialité**
 **a. Quelles données sont collectées et pourquoi ?**
 
 La Fabrique des Mobilités est responsable de traitement des données des utilisateurs. Elle fait appel à deux sous-traitants : ICIA (pour développer l’application), et OVH (pour héberger l’application). La Fabrique des Mobilités s’est assurée contractuellement que ses deux sous-traitants respectent scrupuleusement le RGPD et les règles de la protection des données à caractère personnel. 
