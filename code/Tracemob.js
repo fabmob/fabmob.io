@@ -412,7 +412,7 @@ let Pourquoi = () => (
 			libre</a> développé et maintenu par un labo américain, tout le monde peut
 			vérifier que l'appli ne collecte pas les données sans autorisation. Voici le code
 			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de
-			<a href="https://github.com/fabmob/tracemob-phone">interface</a>.
+			<a href="https://github.com/fabmob/tracemob-phone">l'interface</a>.
 		</p>
 		<h3>Et ma batterie 🔋 ? </h3>
 		<p>
