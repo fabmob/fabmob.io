@@ -1,3 +1,8 @@
+---
+titre: Qu'est-ce que la FabMob
+description: Réunir les acteurs de la mobilité pour construire ensemble une mobilité durable et open source
+---
+
 # À propos
 
 ## Qu'est-ce que la FabMob ?
