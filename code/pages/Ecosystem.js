@@ -7,6 +7,7 @@ import Page from 'Components/Page'
 import { shuffle } from '../utils'
 import Adhérents from 'Pages/Adhérents'
 import { ArticleStyle } from '../UI'
+import Meta from '../Meta'
 
 export default () => {
 	const [filter, setFilter] = useState({})
@@ -23,6 +24,10 @@ export default () => {
 
 let Présentation = ({ filter }) => (
 	<main>
+		<Meta
+			title="La FabMob, c'est qui ?"
+			description="Découvrez qui se cache derrière la FabMob : l'équipe, le conseil d'administration, les adhérents et les acteurs de la communauté"
+		/>
 		<section
 			css={`
 				aside {

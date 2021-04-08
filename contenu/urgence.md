@@ -1,3 +1,9 @@
+---
+titre: L'urgence climatique et sociale
+description: |
+  Nous insistons notamment sur deux urgences : la crise climatique et la crise sociale, toutes les deux intimement liées à notre mobilité.
+---
+
 # L'urgence
 
 ## Une urgence climatique
