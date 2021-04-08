@@ -19,6 +19,9 @@ export default ({}) => (
 				<Route path="/blog/année/:year">
 					<Articles />
 				</Route>
+				<Route path="/blog/tag/:tag">
+					<Articles />
+				</Route>
 				<Route path="/blog/">
 					<Articles year="2021" />
 				</Route>
