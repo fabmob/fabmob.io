@@ -22,6 +22,7 @@ const Home = () => (
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+				overflow: hidden;
 			`}
 		>
 			<div
