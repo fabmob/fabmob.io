@@ -20,7 +20,7 @@ const Home = () => (
 				box-shadow: 0 12px 12px -10px rgba(48, 41, 41, 0.1);
 				background: #375c9dff;
 				display: flex;
-				flex-wrap: wrap;
+				flex-direction: column;
 				align-items: center;
 			`}
 		>
@@ -28,6 +28,7 @@ const Home = () => (
 				css={`
 					color: white;
 					width: 80%;
+					height: 70%;
 
 					text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 					margin: 0 auto;
@@ -81,7 +82,7 @@ const Home = () => (
 					/>
 					<h1>Tracemob</h1>
 					<p>
-						Collectez <strong>vos données</strong> <br />
+						Collectez <strong>vos</strong> données <br />
 						de déplacement.
 					</p>
 				</header>
@@ -121,7 +122,7 @@ const Home = () => (
 						color: black;
 						text-transform: uppercase;
 						font-weight: 600;
-						margin: 1rem auto;
+						margin: 3rem auto;
 					}
 				`}
 			>
