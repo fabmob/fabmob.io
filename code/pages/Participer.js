@@ -2,11 +2,16 @@ import React from 'react'
 import { Link } from 'Components/Lang'
 import { CardList, Card, Title } from '../UI'
 import colors from 'Components/colors'
+import Meta from '../Meta'
 
 export default () => (
 	<div>
 		<header>
 			<Title colors={[colors.jaune, colors.jauneVert]}>Passer à l'action</Title>
+			<Meta
+				title="Participez en pratique !"
+				description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
+			/>
 		</header>
 		<div
 			css={`
