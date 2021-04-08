@@ -332,7 +332,7 @@ let Pourquoi = () => (
 		<p>
 			Nous sommes tous intéressés par nos déplacements. Combien de km ai-je fait
 			le mois dernier ? L'année dernière ? En voiture, en train, en vélo, à
-			pieds ?
+			pied ?
 		</p>
 		<span className="illustration"> 🔒</span>{' '}
 		<p>
@@ -347,7 +347,7 @@ let Pourquoi = () => (
 		/>
 		<p>
 			Tracemob suit automatiquement vos déplacements, sans épuiser votre
-			batterie, trouve automatiquement le mode de transports utilisé.
+			batterie, trouve automatiquement le mode de transport utilisé.
 		</p>
 		<p>
 			Visualisez alors vos déplacements, et surtout : faites ce qu'il vous plaît
@@ -357,13 +357,13 @@ let Pourquoi = () => (
 		<p>
 			Suivez vos déplacements sur une carte annuelle -- calculez l'empreinte
 			climat de vos déplacements -- gagnez de l'argent pour chaque kilomètre
-			fait en vélo
+			fait en vélo.
 		</p>
 		<h2>
 			Construire <em>ensemble</em> le futur du transport
 		</h2>
 		<p>
-			Si vous le désirez, et la décision vous revient, vous pourrez envoyer vos
+			Si vous le désirez - et la décision vous revient - vous pourrez envoyer vos
 			données de déplacement moyennées et anonymisées à votre collectivité pour
 			participer à améliorer les transports et l'infrastructure publique.
 		</p>
@@ -384,7 +384,7 @@ let Pourquoi = () => (
 			bus, jour après jour.{' '}
 		</p>
 		<p>
-			Ces données sont retraitées pour notamment détecter le mode puis envoyées
+			Ces données sont re-traitées pour notamment détecter le mode puis envoyées
 			sur votre <strong>entrepôt de données personnelles</strong>.
 		</p>
 		<p>Puis seulement si vous le voulez, faites un don !</p>
@@ -408,8 +408,9 @@ let Pourquoi = () => (
 		</p>
 		<h3>Pourquoi devrais-je vous faire confiance ?</h3>
 		<p>
-			Le code de l'application est entièrement libre, tout le monde peut
-			vérifier qu'elle ne collecte pas les données autorisation. Voici le code
+			Le code de l'application est entièrement libre, il est issu d'un <a href="https://github.com/e-mission/e-mission-docs">logiciel 
+			libre</a> développé et maintenu par un labo américain, tout le monde peut
+			vérifier que l'appli ne collecte pas les données sans autorisation. Voici le code
 			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de
 			<a href="https://github.com/fabmob/tracemob-phone">interface</a>.
 		</p>
