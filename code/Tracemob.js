@@ -3,11 +3,11 @@ import CGU from './tracemob/CGU'
 
 export default () => (
 	<Switch>
+		<Route path="/tracemob/cgu">
+			<CGU />
+		</Route>
 		<Route path="/">
 			<Home />
-		</Route>
-		<Route path="/cgu">
-			<CGU />
 		</Route>
 	</Switch>
 )
@@ -331,8 +331,8 @@ let Pourquoi = () => (
 		<span className="illustration">🗺️</span>
 		<p>
 			Nous sommes tous intéressés par nos déplacements. Combien de km ai-je fait
-			le mois dernier ? L'année dernière ? En voiture, en train, en vélo, à
-			pied ?
+			le mois dernier ? L'année dernière ? En voiture, en train, en vélo, à pied
+			?
 		</p>
 		<span className="illustration"> 🔒</span>{' '}
 		<p>
@@ -363,9 +363,9 @@ let Pourquoi = () => (
 			Construire <em>ensemble</em> le futur du transport
 		</h2>
 		<p>
-			Si vous le désirez - et la décision vous revient - vous pourrez envoyer vos
-			données de déplacement moyennées et anonymisées à votre collectivité pour
-			participer à améliorer les transports et l'infrastructure publique.
+			Si vous le désirez - et la décision vous revient - vous pourrez envoyer
+			vos données de déplacement moyennées et anonymisées à votre collectivité
+			pour participer à améliorer les transports et l'infrastructure publique.
 		</p>
 		<p>
 			<strong>Donnez aux collectivités</strong> la chance de mieux comprendre
@@ -408,9 +408,10 @@ let Pourquoi = () => (
 		</p>
 		<h3>Pourquoi devrais-je vous faire confiance ?</h3>
 		<p>
-			Le code de l'application est entièrement libre, il est issu d'un <a href="https://github.com/e-mission/e-mission-docs">logiciel 
-			libre</a> développé et maintenu par un labo américain, tout le monde peut
-			vérifier que l'appli ne collecte pas les données sans autorisation. Voici le code
+			Le code de l'application est entièrement libre, il est issu d'un{' '}
+			<a href="https://github.com/e-mission/e-mission-docs">logiciel libre</a>{' '}
+			développé et maintenu par un labo américain, tout le monde peut vérifier
+			que l'appli ne collecte pas les données sans autorisation. Voici le code
 			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de
 			<a href="https://github.com/fabmob/tracemob-phone">l'interface</a>.
 		</p>
