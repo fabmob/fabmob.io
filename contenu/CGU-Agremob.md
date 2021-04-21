@@ -1,4 +1,4 @@
-# **Conditions Générales d'Utilisation - TraceMob**
+# **Politique de confidentialité et conditions d'utilisation - TraceMob**
 *Date de dernière mises à jour : 10/02/2021*
 
 **Propos introductifs**
