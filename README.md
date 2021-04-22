@@ -14,6 +14,7 @@ Les articles sont dans le dossier [`/articles`](https://github.com/fabmob/fabmob
 Pas de panique, ça s'[apprend en 5 minutes](https://learnxinyminutes.com/docs/fr-fr/markdown-fr/) puis ça se pratique ;). 
 
 ▶️ Concrètement : 
+- si vous avez les droits sur fabmob (donc par exemple vous êtes membres de l'équipe), alors vous allez travailler directement *dans le dépôt principal de code*. Sinon, github vous proposera de créer un "fork", une copie qui vous appartient, et à partir de ce fork une "pull request", qui constiste à dire : "eh, fabmob, j'ai fait cette modification chez moi, et j'aimerais que vous l'appliquiez au dépôt principal :)".
 - pour créer un fichier, une fois connecté à votre compte github, cliquez sur `Add file` > `Create a new file`, remplissez son nom en haut (par exemple 2019-tu-me-manques.md). Le .md est à ajouter impérativement à la fin de votre nom d'article. 
 - pour modifier un fichier, cliquez sur l'icône crayon 🖋 en haut à droite, puis modifiez-le. 
 
