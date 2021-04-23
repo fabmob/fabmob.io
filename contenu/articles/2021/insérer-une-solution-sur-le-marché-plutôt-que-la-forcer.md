@@ -1,31 +1,33 @@
 ---
-Title: Mobilité: l’expérimentation d’affaires comme une technique pour insérer une solution sur le marché plutôt que la forcer
-Date: 2021-04-20
-Image: https://unsplash.com/photos/8e2gal_GIE8
-Résumé: Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage
-Categories:
--Articles
--Innovation
--Covoiturage
-Tags:
--Mobilité
--Expérimentation d'affaires
+title: |
+  Mobilité: l’expérimentation d’affaires comme une technique pour insérer une solution sur le marché plutôt que la forcer
+date: 2021-04-20
+image: https://unsplash.com/photos/8e2gal_GIE8
+résumé: |
+  Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage
+categories:
+  - articles
+  - innovation
+  - covoiturage
+tags:
+  - mobilité
+  - expérimentation d'affaires
 author: Fabrique_A
 ---
 
 # Mobilité: l’expérimentation d’affaires comme une technique pour insérer une solution sur le marché plutôt que la forcer
 
-*Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage*
+_Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage_
 
 image: /contenu/articles/2021/images/CovoiturageExperimentation.jpg
 
 Crédit photo : Why Kei, Unsplash
 
-----
+---
 
 Lorsqu’on parle de solutions en mobilité, est-ce compliqué ou complexe pour vous?
 
-Pour illustrer les différences entre les deux concepts, nous vous partageons une métaphore du français Jean-François Zobrist citée dans le livre « [Reinventing Organizations](https://www.amazon.ca/dp/B00ICS9VI4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) » de Frédéric Laloux : 
+Pour illustrer les différences entre les deux concepts, nous vous partageons une métaphore du français Jean-François Zobrist citée dans le livre « [Reinventing Organizations](https://www.amazon.ca/dp/B00ICS9VI4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) » de Frédéric Laloux :
 
 « Un avion […] est un système compliqué. Il est composé de millions de pièces qui doivent fonctionner ensemble sans accroc. Mais tout est sur plan; si l’on change une pièce, on est normalement en mesure d’anticiper toutes les conséquences qui en découleront. Une assiette de spaghettis, elle, est un système complexe. Même si elle se limite à quelques dizaines de pièces, il est virtuellement impossible de prédire ce qui se passera si l’on tire sur l’extrémité d’un spaghetti qui dépasse de l’assiette ».
 
