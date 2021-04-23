@@ -50,3 +50,5 @@ Découvrez et rejoignez nos communautés via la page [participer](/participer), 
 La Fabrique des Mobilités est financée grâce à ses [adhésions](https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021) et des [conventions de partenariat](/à-propos/travailler).
 
 [<button>Adhérez ! </button>](https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021)
+
+[<button>Inscrivez-vous à la Newsletter! </button>](https://us12.list-manage.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341)
