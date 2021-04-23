@@ -2,7 +2,7 @@
 title: |
   Mobilité: l’expérimentation d’affaires comme une technique pour insérer une solution sur le marché plutôt que la forcer
 date: 2021-04-20
-image: https://unsplash.com/photos/8e2gal_GIE8
+image: https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
 résumé: |
   Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage
 categories:
