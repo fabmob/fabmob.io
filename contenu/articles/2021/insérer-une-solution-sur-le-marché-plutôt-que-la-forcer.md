@@ -6,23 +6,11 @@ image: https://unsplash.com/photos/8e2gal_GIE8
 résumé: |
   Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage
 categories:
-  - articles
-  - innovation
   - covoiturage
 tags:
   - mobilité
   - expérimentation d'affaires
 author: Fabrique_A
----
-
-# Mobilité: l’expérimentation d’affaires comme une technique pour insérer une solution sur le marché plutôt que la forcer
-
-_Découvrez à travers l’expérimentation d’affaires comment décomplexifier un projet de mobilité durable, accélérer votre apprentissage et construire une solution à forte valeur ajoutée pour le covoiturage_
-
-image: /contenu/articles/2021/images/CovoiturageExperimentation.jpg
-
-Crédit photo : Why Kei, Unsplash
-
 ---
 
 Lorsqu’on parle de solutions en mobilité, est-ce compliqué ou complexe pour vous?
@@ -62,3 +50,7 @@ Le sondage fait auprès des organisations concernées (Ex : à Montréal, Monté
 Un autre point fort qui a révélé ce cycle d’expérimentation concerne à la première hypothèse invalidée, la de supposer qu’un incitatif monétaire amènerait les gens à utiliser davantage le covoiturage. « Ce n’est pas aussi facile », a reconnu Sylvain. « Est-ce que le meilleur incitatif est l’argent? Pourquoi pas une place pour stationner autour du travail ou au centre ville, par exemple? Pourquoi ne pas valoriser le temps de l’utilisateur »?, a-t-il ajouté.
 
 Pour en savoir plus, allez découvrir les réponses à ces questions et plus encore dans cette entrevue en format [podcast](https://open.spotify.com/episode/0PNu1bcJswCpjZsGWnj6tA?si=ucPP6WMHRO-1pirpk-XQew&nd=1) ou [vidéo](https://www.youtube.com/watch?v=DtyF1g9LOCY) qui était dédié à l’expérimentation appliquée au covoiturage en compagnie de [Sylvain Ethier](https://www.linkedin.com/in/ethiersylvain/), cofondateur de [Fabrique_A](http://fabriqueagile.com/en/home/).
+
+---
+
+Crédit photo : Why Kei, Unsplash
