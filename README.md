@@ -34,8 +34,6 @@ tags:
 author: Gabriel Plassat
 ---
 
-# Mon titre
-
 Blabla
 
 ## Mon sous-titre
@@ -43,6 +41,9 @@ Blabla
 Blabla2
 
 ```
+
+> Au sujet du titre : il faut s'efforcer de mettre des titres courts, moins de 10 mots (par exemple "Vers un bloc opératoire décarboné et open source"), d'une pour que le titre ne dépasse pas sur la page d'accueil du blog, et de deux parce qu'un article de blog avec un titre trop long sera beaucoup moins lu ! Le `résumé` est là pour en dire plus ;) 
+
 Pour le contenu principal, c'est au format `markdown`. Sur github, l'éditeur ne propose pas de boutons (par exemple mettre un paragraphe en gras). Si vous préférez, vous pouvez créer votre contenu dans pad.fabmob.io ou un autre outil et copier coller cela dans l'éditeur github une fois terminé. Ctrl-a (sélectionner tout), Ctrl-c, Ctrl-v, modifier le contenu, puis pareil en sens inverse ;)
 
 Pour les images, à la fois l'image de couverture (`image: xxx` dans l'en-tête) et les images du corps de l'article, vous avez le choix : 
