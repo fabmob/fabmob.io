@@ -1,6 +1,6 @@
 ---
 title: |
-  L’expérimentation d’affaires comme une technique d'insérer une solution de covoiturage
+ Aller vers le covoiturage par l'expérimentation
 date: 2021-04-20
 image: https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
 résumé: |
