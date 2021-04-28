@@ -39,7 +39,7 @@ export default () => {
 						text-align: left;
 					}
 					p em {
-						background: yellow;
+						background: #ffef23;
 						font-style: normal;
 					}
 					text-align: left;
