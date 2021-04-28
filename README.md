@@ -54,7 +54,7 @@ Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressa
 
 Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). 
 
-Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourrons discuter / valider vos changements. N'ayez pas peur de tenter quelque chose : tout se corrige, tout s'améliore, github est fait pour discuter des changements 🙂
+Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourront discuter / valider vos changements. N'ayez pas peur de tenter quelque chose : tout se corrige, tout s'améliore, github est fait pour discuter des changements 🙂
 
 Bravo 👏 !
 
