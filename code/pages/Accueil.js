@@ -58,7 +58,7 @@ export default () => {
 					>
 						<img src={Logo} css="" />
 					</div>
-					<p>
+					<p css="font-size: 130%">
 						Face à l'
 						<Link to="/à-propos/urgence">
 							<Surligné>urgence</Surligné>
