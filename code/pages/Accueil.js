@@ -74,7 +74,19 @@ export default () => {
 						</Link>
 						.
 					</p>
-					<CTA text="Découvrez nos communs" to="/communs" />
+					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
+						<CTA
+							text="Découvrez nos communs"
+							to="/communs"
+							img={<CTAArrow />}
+						/>
+
+						<CTA
+							text="Adhérez à la Fabrique"
+							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021"
+							img={<CTAArrow />}
+						/>
+					</div>
 					<br />
 				</section>
 				<footer
@@ -133,21 +145,39 @@ const Surligné = styled.span`
 	font-weight: normal;
 	color: black;
 `
+const CTAButton = styled.button`
+	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 0;
+	display: block;
+	padding: 0.6rem;
+	display: flex;
+	justify-content: left;
+	margin: 0.6rem 0;
+`
 
-const CTA = ({ to, text, img }) => (
-	<Link to={to}>
-		<button
-			css={`
-				box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
-				border: none;
-				border-radius: 0;
-			`}
-		>
-			{img}
-			<span>{text}</span>
-		</button>
-	</Link>
+const CTAArrow = () => (
+	<img
+		src="/images/flèche-nord-est.svg"
+		css="width: 1rem; margin-right: 1rem; "
+	/>
 )
+const CTA = ({ to, text, img }) =>
+	to.includes('http') ? (
+		<a href={to}>
+			<CTAButton>
+				{img}
+				<span>{text}</span>
+			</CTAButton>
+		</a>
+	) : (
+		<Link to={to}>
+			<CTAButton>
+				{img}
+				<span>{text}</span>
+			</CTAButton>
+		</Link>
+	)
 
 export const EmailContact = () => (
 	<a
