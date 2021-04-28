@@ -1,47 +1,3 @@
-# PRÉSENTATION DES PORTEURS
-
-## LA FABRIQUE DES MOBILITÉS
-
-La Fabrique des Mobilités est un **catalyseur et accélérateur** dans
-l\'écosystème de la mobilité. Son rôle est de rassembler tous les
-acteurs volontaires, les projets de mobilité, de capitaliser les retours
-d'expérience pour faire émerger une **culture commune de l'innovation**
-dans l'action et faire évoluer le secteur vers **une mobilité plus
-responsable et durable par la création et le partage de communs**.
-
-La Fabrique des Mobilités considère qu'à l'ère du numérique, il est
-nécessaire de relier les acteurs de la mobilité afin de construire
-ensemble des ressources communes : plateformes technologiques, données
-ouvertes, logiciels libres, connaissances, retours d'expérience,
-protocoles, territoires d'expérimentation\... Le partage de ces
-ressources facilite ensuite non seulement l'entrée de petits acteurs qui
-les utilisent pour prototyper et tester leurs idées mais peut également
-servir d\'accélérateur pour des acteurs de plus grande taille qui
-peuvent alors se concentrer sur de **nouvelles solutions durables**.
-
-Ce challenge est soutenu par [l'ADEME](https://www.ademe.fr/), l'Agence
-de la Transition Écologique, par le biais de son Accord Cadre avec la
-Fabrique des Mobilités.
-
-## MY HUMAN KIT
-
-My Human Kit se positionne comme un opérateur expérimental dédié à
-l'invention et la propagation de méthodes et solutions concrètes, et à
-l'établissement d'un réseau de lieux où **les personnes handicapées ou
-non** collaboreront pour les inventer, les fabriquer, et les partager.
-
-My Human Kit veut démontrer et essaimer le concept de Humanlab, un
-atelier inspiré des fablabs et croisant les dimensions humaines,
-pédagogiques et techniques pour **proposer aux personnes handicapées ou
-non de devenir** inventeur∙rice∙s, bricoleur∙euse∙s et pourvoyeur∙euse∙s
-d'aides techniques aux handicaps les un∙e∙s pour les autres.
-
-En s\'appuyant sur une filière locale de réemploi des vélos électriques
-(moteurs et batteries), My Human Kit a exploré la question des mobilités
-douces au service de la fabrication collective d\'aide au handicap et
-souhaite partager son expertise et ses expériences en partenariat avec
-la Fabrique des Mobilités.
-
 # CONTEXTE
 
 Nos mobilités conditionnent à la fois nos quotidiens, la performance de
@@ -93,7 +49,7 @@ vie des trottinettes électriques est imaginé.
 
 # 1er CHALLENGE NATIONAL DE SECONDE VIE DES TROTTINETTES ÉLECTRIQUES
 
-La Fabrique des Mobilités et My Human Kit lancent le premier challenge
+La Fabrique des Mobilités et [My Human Kit](https://wikilab.myhumankit.org/index.php?title=Main_Page) lancent le premier challenge
 sur la réutilisation des trottinettes électriques après leur première
 vie en flottes en libre-service.
 
@@ -115,9 +71,9 @@ travail collectif pour des résultats mis au service de l'intérêt
 général**, c'est la raison pour laquelle nous encourageons la
 participation des différent∙e∙s acteur∙rice∙s des mobilités et la
 **création de solutions seront 100% open source et reproductibles** pour
-permettre à tous les territoires et leurs acteurs locaux de s'en saisir.
+permettre à tous les territoires et les acteurs locaux de s'en saisir.
 C'est également dans cet esprit que ce challenge sera lui aussi
-documenté pour en permettre la déclinaison pour servir d'autres engins
+documenté sur le [wiki de la FabMob](https://wiki.lafabriquedesmobilites.fr/wiki/Accueil) pour en permettre la déclinaison pour servir d'autres engins
 de mobilité.
 
 ## Les sponsors du Challenge
@@ -229,8 +185,8 @@ industrielles.
 **12 avril 2021 :** **lancement du challenge** qui aura pour objet de
 réunir tou∙te∙s les participant∙e∙s et parties prenantes du challenge, de
 repréciser l'objectif de ce challenge et son déroulé, de présenter
-les partenaires, les outils d'expérimentation (outils permettant la
-documentation, les différents composants de la trottinette) et le jury.
+les partenaires, le kit d'expérimentation (outils permettant la
+documentation, les différents composants de la trottinette et trottinette) et le jury.
 Ce lancement sera également l'occasion de mettre en relation les
 différentes équipes avec leur lieu d'expérimentation (si l'équipe en
 question n'est pas directement liée à un fablab, tiers-lieux, écoles ou
@@ -246,14 +202,14 @@ d'expert∙e∙s (parmi les partenaires du projet).
 documenter son projet (description, photos, vidéos, plans, document
 permettant la mise en œuvre de la solution, logiciel...) sur [[le wiki
 de la Fabrique des
-Mobilités]{.underline}](https://wiki.lafabriquedesmobilites.fr/wiki/Accueil),
+Mobilités]{.underline}](https://wiki.lafabriquedesmobilites.fr/wiki/Accueil) ou sur le [dépôt GitHub](https://github.com/fabmob/fabmob.io),
 c'est-à-dire la documentation nécessaire pour en permettre la
 reproduction.
 
 ## Restitution du challenge
 
 Une restitution sera organisée pour permettre aux équipes de présenter
-leur solution devant le jury composé de partenaires de la FabMob et My
+leur projet devant le jury composé de partenaires de la FabMob et My
 Human Kit sur ce projet et d'expert∙e∙s de la mobilité.
 
 Les différentes solutions seront alors jugées selon plusieurs critères :
@@ -317,11 +273,7 @@ et jusqu'au 30 mars.**
 
 Pour toutes informations complémentaires, aide à la candidature ou pour
 proposer une autre forme de participation ou simplement poser vos
-questions, merci de contacter
-[eline\@fabmob.io](file:///C:\Users\la_cr\Documents\1.%20TRAVAIL\1.%20FABMOB\eline@fabmob.io)
-ou de rejoindre [l'espace du Forum de la Fabrique des Mobilités
-dédié à ce
-challenge](https://forum.fabmob.io/t/challenge-national-de-la-seconde-vie-des-trottinettes/711).
+questions, merci de contacter eline@fabmob.io.
 
 ## Engagements et réciprocités
 
