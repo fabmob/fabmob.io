@@ -1,5 +1,11 @@
 import css from './main.css.js'
-import React, { createContext, useEffect, useState } from 'react'
+import React, {
+	lazy,
+	Suspense,
+	createContext,
+	useEffect,
+	useState,
+} from 'react'
 import { createGlobalStyle } from 'styled-components'
 import {
 	BrowserRouter as Router,
@@ -19,7 +25,7 @@ import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
-import Tracemob from './Tracemob'
+const Tracemob = lazy(() => import('./tracemob/Tracemob'))
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -77,7 +83,9 @@ const Container = () => (
 					<TempForumDown />
 				</Route>
 				<Route path="/tracemob">
-					<Tracemob />
+					<Suspense fallback={null}>
+						<Tracemob />
+					</Suspense>
 				</Route>
 				<Route path="/sidewalks">
 					<Sidewalks />
