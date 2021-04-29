@@ -1,0 +1,12 @@
+---
+title: 'Comment ça marche?'
+taxonomy:
+    tag:
+        - e-mission
+---
+
+Après quelques jours de prise en main, et surtout grâce aux explications de Shankari, on commence à mieux comprendre les différents composants du logiciel, qui il faut l'avouer est complexe.
+- la partie mobile (en cordova) compile vers Android et iPhone, elle utilise de nombreux plugins cordova qui comprennent du code natif (android et iOS), qui permettent la récupération des traces et leur envoi asynchrone vers le serveur, entre autres ; l'app e-mission-phone proprement dite apporte les fonctionnalités (affichage de carte, des indicateurs, notifications, saisie d'infos par l'utilisateur à son initiative ou en réponse à une demande déclenchée par le téléphone - fin d'un trajet - ou par le serveur). Il est assez simple d'adapter en surface cette application, changer sa présentation ou supprimer un écran, en revanche pour le PoC (site pilote), il sera sans doute préférable de développer une nouvelle app en réutilisant certains plugins et l'architecture générale, mais sans faire évoluer l'app actuelle. Parmi les fonctionnalités à améliorer, il faudra faciliter la possibilité pour l'utilisateur de récupérer ses données sous une forme plus facile à réutiliser. 
+- la partie serveur comprend plusieurs parties : le stockage en base mongo et la transformation des traces brutes remontées par l'app en déplacements avec identification des modes, ainsi que le calcul des indicateurs individuels; le serveur web assurant les échanges et l'affichage des données; des scripts python qui permettent de calculer des indicateurs agrégés. 
+
+Pour l'instant, la priorité est de comprendre [les différents types de données gérées](https://github.com/e-mission/e-mission-server/blob/master/emission/core/wrapper/entry.py) et comment fonctionne [le pipeline de traitement](https://github.com/e-mission/e-mission-server/blob/master/emission/pipeline/intake_stage.py), de façon à pouvoir les exporter facilement et les afficher sous différentes formes.
