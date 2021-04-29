@@ -101,17 +101,20 @@ const Home = () => (
 				css={`
 					img {
 						height: 40px;
-						filter: grayscale(90%);
-						opacity: 0.8;
 					}
 
 					margin: 0 auto;
 					color: white;
 				`}
 			>
-				<p>Bientôt sur vos téléphones</p>
-				<img src={require('./tracemob/appstore-badge.png').default} />
-				<img src={require('./tracemob/playstore-badge.png').default} />
+				<p>Téléchargez l'application</p>
+
+				<a href="https://apps.apple.com/us/app/tracemob/id1545371062">
+					<img src={require('./tracemob/appstore-badge.png').default} />
+				</a>
+				<a href="https://play.google.com/store/apps/details?id=com.fabmob.tracemob">
+					<img src={require('./tracemob/playstore-badge.png').default} />
+				</a>
 			</div>
 
 			<div
