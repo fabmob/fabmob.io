@@ -40,7 +40,14 @@ export default ({}) => {
 			<h2>Les communs FabMob</h2>
 			<CardList>
 				{communs.map((commun) => (
-					<Commun commun={commun} />
+					<Commun
+						commun={{
+							...commun,
+							fullurl: commun.title.includes('Traceur')
+								? '/tracemob'
+								: commun.fullurl,
+						}}
+					/>
 				))}
 			</CardList>
 
