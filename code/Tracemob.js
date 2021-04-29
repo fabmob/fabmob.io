@@ -229,9 +229,9 @@ let Pourquoi = () => (
 		</p>
 		<span className="illustration">🧮🌱💸</span>
 		<p>
-			Suivez vos déplacements sur une carte annuelle -- calculez l'empreinte
-			climat de vos déplacements -- gagnez de l'argent pour chaque kilomètre
-			fait en vélo.
+			Suivez vos déplacements sur une carte annuelle - calculez l'empreinte
+			climat de vos déplacements - dans une prochaine version, gagnez de
+			l'argent pour chaque kilomètre fait en vélo.
 		</p>
 		<h2>
 			Construire <em>ensemble</em> le futur du transport
