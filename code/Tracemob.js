@@ -225,7 +225,8 @@ let Pourquoi = () => (
 		</p>
 		<p>
 			Visualisez alors vos déplacements, et surtout : faites ce qu'il vous plaît
-			avec ces données.
+			avec ces données. Vous pouvez consulter{' '}
+			<a href="/tracemob/CGU">les conditions d'utilisation de l'application</a>.
 		</p>
 		<span className="illustration">🧮🌱💸</span>
 		<p>
