@@ -1,10 +1,6 @@
 import frontMatter from 'front-matter'
 
-var req = require.context(
-	'../contenu/tracemob-archive',
-	true,
-	/(20\d\d)(.)*\.md$/
-)
+var req = require.context('../contenu/tracemob-archive', true, /(.)*\.md$/)
 const raw = [...req.keys()].map((key) => [
 	key.replace(/.\/(\d\d\d\d\/)?/g, '').replace('.md', ''),
 	req(key).default,

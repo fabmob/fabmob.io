@@ -163,7 +163,6 @@ const Archives = () => (
 				</li>
 			))}
 		</ul>
-		SQalut
 	</div>
 )
 
