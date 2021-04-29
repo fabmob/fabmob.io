@@ -99,10 +99,10 @@ Les données traitées sont les suivantes :
     * Identifiant unique de l’appareil.
 
 * Finalité 2 : visualisation des traces de mobilités par l’utilisateur ou le bêta-testeur avec une estimation de son empreinte carbone.
-    * Positions géographiques détectées par le système d’exploitation du téléphone.
+    * Positions géographiques du téléphone.
 
 * Finalité 3 : nettoyage et correction des traces de mobilités pour que l’utilisateur puisse les visualiser.
-    * Positions géographiques détectées par le système d’exploitation du téléphone
+    * Positions géographiques du téléphone.
     * Vitesses détectées par le système d’exploitation du téléphone 
     * Modes de transports détectés par le système d’exploitation du téléphone
 
