@@ -194,8 +194,8 @@ let Pourquoi = () => (
 			.illustration {
 				font-size: 3rem;
 				display: block;
-				margin: 0 auto 1rem;
 				text-align: center;
+				margin: 3rem auto 1.6rem;
 			}
 		`}
 	>
