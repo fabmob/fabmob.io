@@ -22,17 +22,19 @@ export default () => (
 				<Emoji emoji="🕰️" /> Historique du projet
 			</h2>
 			<ul>
-				{archives.map((el) => (
-					<li>
-						<details>
-							<summary css="text-transform: capitalize">
-								{el.attributes.title}
-							</summary>
+				{archives
+					.sort((a1, a2) => a2.id.slice(0, 1) - a1.id.slice(0, 1))
+					.map((el) => (
+						<li>
+							<details>
+								<summary css="text-transform: capitalize">
+									{el.attributes.title}
+								</summary>
 
-							<ReactMarkdown source={el.body} escapeHtml={false} />
-						</details>
-					</li>
-				))}
+								<ReactMarkdown source={el.body} escapeHtml={false} />
+							</details>
+						</li>
+					))}
 			</ul>
 		</div>
 	</div>
