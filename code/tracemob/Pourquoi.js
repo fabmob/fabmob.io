@@ -93,8 +93,6 @@ export default () => (
 		</p>
 		<p>Puis seulement si vous le voulez, faites un don !</p>
 		<h2>Des questions ?</h2>
-		<h3>Ça sort quand ? </h3>
-		<p>Cet été 2021.</p>
 		<h3>Google les a déjà non ?</h3>
 		<p>
 			Tout à fait ! Dès lors que vous avez un téléphone dans votre poche et une
