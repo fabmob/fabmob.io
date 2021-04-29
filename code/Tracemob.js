@@ -181,7 +181,7 @@ let Pourquoi = () => (
 				padding-left: 1rem;
 			}
 			em {
-				color: #6c5ce7;
+				color: #375c9dff;
 				font-style: normal;
 			}
 			h2 {
