@@ -10,7 +10,7 @@ const raw = [...req.keys()].map((key) => [
 	req(key).default,
 ])
 
-export const articles = raw.map(([id, string]) => ({
+export default raw.map(([id, string]) => ({
 	...frontMatter(string),
 	id,
 }))

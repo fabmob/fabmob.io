@@ -2,6 +2,8 @@ import { Route, Switch } from 'react-router'
 import CGU from './tracemob/CGU'
 import SmartphoneScreen from './SmartphoneScreen'
 import Meta from './Meta'
+import archives from './getTracemobArchiveArticles'
+import ReactMarkdown from 'react-markdown'
 
 export default () => (
 	<Switch>
@@ -137,6 +139,29 @@ const Home = () => (
 			</div>
 		</div>
 		<Pourquoi />
+		<Archives />
+	</div>
+)
+
+const Archives = () => (
+	<div
+		css={`
+			background: #375c9dff;
+		`}
+	>
+		<h2>Historique du projet</h2>
+		<ul>
+			{archives.map((el) => (
+				<li>
+					<details>
+						<summary>{el.attributes.title}</summary>
+
+						<ReactMarkdown source={el.body} escapeHtml={false} />
+					</details>
+				</li>
+			))}
+		</ul>
+		SQalut
 	</div>
 )
 
@@ -257,7 +282,7 @@ let Pourquoi = () => (
 			<a href="https://github.com/e-mission/e-mission-docs">logiciel libre</a>{' '}
 			développé et maintenu par un labo américain, tout le monde peut vérifier
 			que l'appli ne collecte pas les données sans autorisation. Voici le code
-			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de
+			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de{' '}
 			<a href="https://github.com/fabmob/tracemob-phone">l'interface</a>.
 		</p>
 		<h3>Et ma batterie 🔋 ? </h3>
