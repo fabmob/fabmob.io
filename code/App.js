@@ -19,7 +19,7 @@ import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
-import Tracemob from './Tracemob'
+import Tracemob from './tracemob/Tracemob'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
