@@ -144,11 +144,13 @@ const Home = () => (
 )
 
 const Archives = () => (
-	<div
-		css={`
-			background: #375c9dff;
-		`}
-	>
+	<div>
+		<div
+			css={`
+				border-top: 9px solid #375c9d;
+				box-shadow: 2px 5px 12px 3px rgba(48, 41, 41, 0.34);
+			`}
+		></div>
 		<h2>Historique du projet</h2>
 		<ul>
 			{archives.map((el) => (
