@@ -37,7 +37,7 @@ export default ({}) => {
 					.
 				</p>
 			</header>
-			<h2>Les communs FabMob</h2>
+			<h2>Les communs et communautés FabMob</h2>
 			<CardList>
 				{communs.map((commun) => (
 					<Commun
