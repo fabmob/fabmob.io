@@ -1,5 +1,6 @@
 import { Route, Switch } from 'react-router'
 import Meta from './Meta'
+import { Card, CardList } from './UI'
 
 export default () => (
 	<div>
@@ -117,12 +118,33 @@ export default () => (
 	</div>
 )
 
+const vehicules = [
+	{
+		nom: 'Vélolibre',
+		texte: 'Blabla',
+		url: 'https://velolib.re',
+		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
+	},
+	{
+		nom: 'XYZ',
+		texte: 'Blabla',
+		url: 'https://velolib.re',
+		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
+	},
+	{
+		nom: 'Milla',
+		texte: 'Blabla',
+		url: 'https://velolib.re',
+		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
+	},
+]
+
 const Pourquoi = () => (
 	<div
 		id="quoi"
 		css={`
 			margin: 0 auto;
-			max-width: 40rem;
+			max-width: 80vw;
 			padding: 0.3rem 1rem;
 			ul {
 				list-style-type: none;
@@ -147,9 +169,35 @@ const Pourquoi = () => (
 			}
 		`}
 	>
-		<h2>
-			Vos données sont <em>à vous </em> !
-		</h2>
+		<h2>Les véhicules en développement</h2>
+		<CardList>
+			{vehicules.map((v) => (
+				<a href={v.url}>
+					<Card
+						key={v.nom}
+						css={`
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: center;
+							img {
+								max-width: 100%;
+								max-height: 100%;
+							}
+							height: 25rem;
+							h3 {
+								margin: 0.6rem;
+							}
+						`}
+					>
+						<h3>{v.nom}</h3>
+						<p>{v.texte}</p>
+						<img src={v.image} />
+					</Card>
+				</a>
+			))}
+		</CardList>
+		<h2>Blabla</h2>
 		<span className="illustration">🗺️</span>
 		<p>
 			Nous sommes tous intéressés par nos déplacements. Combien de km ai-je fait
