@@ -1,7 +1,7 @@
 ---
 title: Goodbye Traceur Fabmob, hello TraceMob
 date: 2021-06-04
-image: https://i.imgur.com/OZEwzs5.jpg
+image: /contenu/articles/2021/images/tracemob_agremob.jpg
 résumé: Application open source de traçage pour auto-produire les données d'usages et permettre à l'utilisateur de les gérer
 categories: 
   - articles
