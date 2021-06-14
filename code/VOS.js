@@ -16,8 +16,8 @@ export default () => (
 			`}
 		>
 			<Meta
-				title="Véhicule open source"
-				description="Construisons ensemble une base hardware permettant d'explorer de nouveaux modèles de conception et d'élaboration du véhicule et de son environnement"
+				title="Véhicules open source"
+				description="Construisons ensemble une base hardware open source permettant d'explorer de nouveaux modèles de conception et d'élaboration du véhicule et de son environnement"
 			/>
 			<div
 				css={`
@@ -71,9 +71,9 @@ export default () => (
 				`}
 			>
 				<header>
-					<h1>Véhicule open source</h1>
+					<h1>Véhicules open source</h1>
 					<p>
-						Construisons ensemble une base hardware permettant d'explorer de
+						Construisons ensemble une base hardware open source permettant d'explorer de
 						nouveaux modèles de conception et d'élaboration du véhicule et de
 						son environnement
 					</p>
@@ -126,15 +126,25 @@ const vehicules = [
 		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
 	},
 	{
-		nom: 'XYZ',
-		texte: 'Blabla',
-		url: 'https://velolib.re',
+		nom: 'Expérimentations Open Hardware',
+		texte: 'Nous explorons l’open hardware en testant et en documentant 
+		les modifications, les cas d'usage avec un véhicule simple et modulaire et 
+		une communauté d'acteurs locaux de la mobilité réunis à Rennes. Grâce à ce travail, 
+		nous essayons d’identifier des moyens concrets de répondre à des problématiques de mobilité 
+		que d’autres acteurs « historiques » de la mobilité ne sauraient pas adresser.',
+		url: 'https://forum.fabmob.io/t/gt1-experimentations-sur-un-premier-vehicule/26/22',
 		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
 	},
 	{
-		nom: 'Milla',
-		texte: 'Blabla',
-		url: 'https://velolib.re',
+		nom: 'Exploration de la faisabilité industrielle du Véhicule Open Source',
+		texte: 'Nous explorons la faisabilité industrielle de véhicule open source en essayant de 
+		redéfinir ce que seraient la place des acteurs historiques, leur modèle économique et la 
+		place de nouveaux entrants, l’impact réglementaire, les écosystèmes qui graviteraient autour…
+		Aujourd’hui, nous travaillons sur l’ouverture d’un châssis roulant électrique proposé
+		par Milla Group pour d'une explorer les cas d'usage que l'on pourrait imaginer sur une base 
+		roulante ouverte mais également pour réfléchir à de nouveaux modèles de conception et d’élaboration 
+		du véhicule.',
+		url: 'Lien vers une page wiki sur l'ouverture de la plateforme ?',
 		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
 	},
 ]
@@ -198,11 +208,37 @@ const Pourquoi = () => (
 			))}
 		</CardList>
 		<h2>Blabla</h2>
-		<span className="illustration">🗺️</span>
+		<span className="illustration">📜</span>
 		<p>
-			Nous sommes tous intéressés par nos déplacements. Combien de km ai-je fait
-			le mois dernier ? L'année dernière ? En voiture, en train, en vélo, à pied
-			?
+			La communauté réunie autour du véhicule open source a rédigé un manifeste pour affirmer 
+			sa volonté de voir l'open source se développer dans le secteur de l'automobile.
+			Reconnu comme un formidable levier d’accélération de l’innovation dans le numérique, 
+			l’open source tarde à s’imposer dans les autres secteurs. Or il constitue à l’évidence 
+			un modèle particulièrement pertinent pour accompagner la transition écologique et pour 
+			répondre aux défis inédits et d’une ampleur considérable que pose aujourd’hui le passage 
+			à l’échelle de la mobilité électrique. Cette révolution, pour pouvoir être menée à bien rapidement 
+			et efficacement, suppose en effet un haut niveau de convergence de vues et de collaborations dans 
+			les moyens entre un très grand nombre d’acteurs, beaucoup n’étant d’ailleurs pas natifs du secteur 
+			de la mobilité. En mettant en commun, ressources, moyens et objectifs, les entreprises qui 
+			s’engagent dans l’open source minimisent le risque de l’échec individuel et démultiplient la portée 
+			de leurs efforts.
+			
+			Par la signature de ce texte, nous prenons les engagements suivants :
+			- Nous rappelons notre attachement à diminuer les émissions de gaz à effet de serre
+			- Nous reconnaissons la pertinence de l'open source (hardware ET software) dans notre
+			métier / activité comme outil et démarche pour transformer la mobilité pour qu'elle devienne plus durable.
+			- Nous nous engageons à permettre à nos équipes de se former et de monter en compétences sur la 
+			conception, l'élaboration et la conduite de projets open source.
+			- Nous nous engageons, collectivement et individuellement à favoriser l'émergence de l'open source au
+			sein de nos organisations et de notre écosystème.
+			
+			Nous sommes
+			image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
+				
+			✒ Rejoignez-nous, {' '}<a href="https://cloud.fabmob.io/s/boqJpCinPnqAYQc">signez</a>{' '}le manifeste 
+			(cliquez sur ouvrir dans ONLYOFFICE pour éditer) !
+		
+			
 		</p>
 		<span className="illustration"> 🔒</span>{' '}
 		<p>
