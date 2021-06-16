@@ -145,7 +145,7 @@ const vehicules = [
 		roulante ouverte mais également pour réfléchir à de nouveaux modèles de conception et d’élaboration 
 		du véhicule.',
 		url: 'Lien vers une page wiki sur l'ouverture de la plateforme ?',
-		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
+		image: 'https://github.com/fabmob/fabmob.io/blob/289d81aca9e36bd5bb390e709970e125341a3035/images/Plateforme%20Milla.jpg',
 	},
 ]
 
