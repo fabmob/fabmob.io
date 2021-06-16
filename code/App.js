@@ -1,5 +1,11 @@
 import css from './main.css.js'
-import React, { createContext, useEffect, useState } from 'react'
+import React, {
+	lazy,
+	Suspense,
+	createContext,
+	useEffect,
+	useState,
+} from 'react'
 import { createGlobalStyle } from 'styled-components'
 import {
 	BrowserRouter as Router,
@@ -19,6 +25,7 @@ import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
+const Tracemob = lazy(() => import('./tracemob/Tracemob'))
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -75,9 +82,17 @@ const Container = () => (
 				<Route path="/feu-le-forum">
 					<TempForumDown />
 				</Route>
+				<Route path="/tracemob">
+					<Suspense fallback={null}>
+						<Tracemob />
+					</Suspense>
+				</Route>
 				<Route path="/sidewalks">
 					<Sidewalks />
 				</Route>
+				<UtmFriendlyRedirect from="/blog/mentors" to="/blog" />
+				<UtmFriendlyRedirect from="/blog/articles" to="/blog" />
+				<UtmFriendlyRedirect from="/blog/home" to="/blog" />
 				<Route path="/blog">
 					<Blog />
 				</Route>
@@ -121,6 +136,8 @@ const TempForumDown = ({}) => (
 			Nous publierons ici des nouvelles quand nous aurons avancé sur sa remise
 			en ligne.
 		</p>
-		<p>Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.</p>
+		<p>
+			Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.
+		</p>
 	</div>
 )

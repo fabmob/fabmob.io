@@ -3,6 +3,7 @@ import colors from 'Components/colors'
 import { fetchSelectedCommuns } from '../wikiAPI'
 import communsFabmob from 'Content/communs-fabmob.yaml'
 import { Tags, Card, CardList, Title } from '../UI'
+import Meta from '../Meta'
 
 export default ({}) => {
 	const [communs, setCommuns] = useState([])
@@ -18,6 +19,10 @@ export default ({}) => {
 			`}
 		>
 			<header>
+				<Meta
+					title="Les communs FabMob"
+					description="Découvrez les communs, des projets ouverts que nous développons activement pour bousculer notre mobilité"
+				/>
 				<Title colors={[colors.vert, colors.jauneVert]}>Les communs </Title>
 				<p>
 					Un commun c'est n'importe quelle ressource utile à quelqu'un (un site
@@ -32,10 +37,17 @@ export default ({}) => {
 					.
 				</p>
 			</header>
-			<h2>Les communs FabMob</h2>
+			<h2>Les communs et communautés FabMob</h2>
 			<CardList>
 				{communs.map((commun) => (
-					<Commun commun={commun} />
+					<Commun
+						commun={{
+							...commun,
+							fullurl: commun.title.includes('Traceur')
+								? '/tracemob'
+								: commun.fullurl,
+						}}
+					/>
 				))}
 			</CardList>
 

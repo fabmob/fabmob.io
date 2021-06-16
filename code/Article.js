@@ -9,9 +9,10 @@ import { ArticleStyle, Encart } from './UI'
 import { articles } from './getArticles'
 import { EmailContact } from './pages/Accueil'
 import imaginairesIntroduction from 'Content/imaginaires-introduction.md'
-
 import Emoji from 'Components/Emoji'
 import OpenMoji from 'Components/OpenMoji'
+
+export const couleurImaginaires = '#073dff'
 
 const repo = 'fabmob/fabmob.io'
 
@@ -134,7 +135,7 @@ export default ({ id: propId }) => {
 			<div
 				css={`
 					${isImaginaire
-						? `margin-top: 2rem;border: 1rem solid #073dff; padding: 1rem;
+						? `margin-top: 2rem;border: 1rem solid ${couleurImaginaires}; padding: 1rem;
 @media (max-width: 800px){
 border-width: .6rem
 }

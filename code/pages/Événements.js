@@ -5,6 +5,7 @@ import { sortBy } from '../utils'
 import styled from 'styled-components'
 import { Title, Tags, Card, CardList } from '../UI'
 import { WikiContext } from '../App'
+import Meta from '../Meta'
 
 export const Newsletter = () => (
 	<p>
@@ -29,6 +30,10 @@ export default ({}) => {
 			`}
 		>
 			<header>
+				<Meta
+					title="Nos événements"
+					description="Découvrez nos événements à venir : ateliers, conférences, discussions techniques, etc."
+				/>
 				<Title colors={[colors.jaune, colors.jauneVert]}>Les événements </Title>
 				<Newsletter />
 			</header>

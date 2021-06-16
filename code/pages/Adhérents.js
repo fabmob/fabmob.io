@@ -1,6 +1,9 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { fetchAdhérents } from '../wikiAPI'
+import Emoji from 'Components/Emoji'
+
+const isAdherent = (string) => (string || 'non').toLowerCase().includes('oui')
 
 export default () => {
 	const [data, setData] = useState([])
@@ -26,9 +29,14 @@ export default () => {
 						name: description,
 						"villes d'implantation": cities,
 						Main_Picture: image,
+						Adherent,
 					},
 				}) => (
-					<aside>
+					<aside
+						css={`
+							${isAdherent(Adherent) ? 'border: 2px #00b894 solid' : ''}
+						`}
+					>
 						{image && (
 							<img
 								src={
@@ -44,6 +52,22 @@ export default () => {
 						<p>
 							<em>{cities}</em>
 						</p>
+						{isAdherent(Adherent) && (
+							<div
+								css={`
+									background: #00b894;
+									padding: 0.1rem 0.6rem;
+									border-radius: 0.6rem;
+									display: flex;
+									align-items: center;
+									img {
+										filter: none !important;
+									}
+								`}
+							>
+								<Emoji emoji="⭐️" /> Adhérent
+							</div>
+						)}
 					</aside>
 				)
 			)}

@@ -15,15 +15,16 @@ export const imageResizer = (size) => (src) =>
 export default ({ articles, id: propId }) => {
 	const { id } = propId ? { id: propId } : useParams(),
 		article = articles.find((a) => a.id === id),
-		{ body } = article
+		{ body, attributes } = article
 
-	const title = id
+	const title = attributes?.titre || id
 
 	return (
 		<ArticleStyle colors={[colors.bleu, colors.bleuClair]}>
 			<Meta
 				{...{
 					title,
+					description: attributes.description,
 				}}
 			/>
 			<ReactMarkdown source={body} escapeHtml={false} />

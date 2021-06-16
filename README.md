@@ -14,6 +14,7 @@ Les articles sont dans le dossier [`/articles`](https://github.com/fabmob/fabmob
 Pas de panique, ça s'[apprend en 5 minutes](https://learnxinyminutes.com/docs/fr-fr/markdown-fr/) puis ça se pratique ;). 
 
 ▶️ Concrètement : 
+- si vous avez les droits sur fabmob (donc par exemple vous êtes membres de l'équipe), alors vous allez travailler directement *dans le dépôt principal de code*. Sinon, github vous proposera de créer un "fork", une copie qui vous appartient, et à partir de ce fork une "pull request", qui constiste à dire : "eh, fabmob, j'ai fait cette modification chez moi, et j'aimerais que vous l'appliquiez au dépôt principal :)".
 - pour créer un fichier, une fois connecté à votre compte github, cliquez sur `Add file` > `Create a new file`, remplissez son nom en haut (par exemple 2019-tu-me-manques.md). Le .md est à ajouter impérativement à la fin de votre nom d'article. 
 - pour modifier un fichier, cliquez sur l'icône crayon 🖋 en haut à droite, puis modifiez-le. 
 
@@ -33,8 +34,6 @@ tags:
 author: Gabriel Plassat
 ---
 
-# Mon titre
-
 Blabla
 
 ## Mon sous-titre
@@ -42,6 +41,9 @@ Blabla
 Blabla2
 
 ```
+
+> Au sujet du titre : il faut s'efforcer de mettre des titres courts, moins de 10 mots (par exemple "Vers un bloc opératoire décarboné et open source"), d'une pour que le titre ne dépasse pas sur la page d'accueil du blog, et de deux parce qu'un article de blog avec un titre trop long sera beaucoup moins lu ! Le `résumé` est là pour en dire plus ;) 
+
 Pour le contenu principal, c'est au format `markdown`. Sur github, l'éditeur ne propose pas de boutons (par exemple mettre un paragraphe en gras). Si vous préférez, vous pouvez créer votre contenu dans pad.fabmob.io ou un autre outil et copier coller cela dans l'éditeur github une fois terminé. Ctrl-a (sélectionner tout), Ctrl-c, Ctrl-v, modifier le contenu, puis pareil en sens inverse ;)
 
 Pour les images, à la fois l'image de couverture (`image: xxx` dans l'en-tête) et les images du corps de l'article, vous avez le choix : 
@@ -52,7 +54,7 @@ Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressa
 
 Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). 
 
-Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourrons discuter / valider vos changements. N'ayez pas peur de tenter quelque chose : tout se corrige, tout s'améliore, github est fait pour discuter des changements 🙂
+Cliquez sur "Create pull request". Les membres de l'équipe qui suivent ce site auront une notification et pourront discuter / valider vos changements. N'ayez pas peur de tenter quelque chose : tout se corrige, tout s'améliore, github est fait pour discuter des changements 🙂
 
 Bravo 👏 !
 
