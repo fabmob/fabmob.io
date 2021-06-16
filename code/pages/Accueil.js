@@ -6,7 +6,7 @@ import TwitterLogo from 'Images/Twitter_Logo_Blue.png'
 import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
-import Logo from 'Images/fabmob_cmjn1.png'
+import Logo from 'Images/fabmob_cmjn1.svg'
 import { useInterval } from '../utils.js'
 import styled from 'styled-components'
 
