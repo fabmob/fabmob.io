@@ -237,7 +237,11 @@ const Pourquoi = () => (
 				
 			✒ Rejoignez-nous, {' '}<a href="https://cloud.fabmob.io/s/boqJpCinPnqAYQc">signez</a>{' '}le manifeste 
 			(cliquez sur ouvrir dans ONLYOFFICE pour éditer) !
-		
+				
+			NB : Tous les membres de la communauté n'ont pas souhaité signer cette version du manifeste, et des 
+			personnes non membres l'ont signé. Ce manifeste a été déposé sur le Github de la Fabrique des Mobilités 
+			afin d'en permettre l'évolution permanente et d'initier des discussions entre les contributeur·rice·s.
+			✒ Pour y contribuer, suivez ce lien
 			
 		</p>
 		<span className="illustration"> 🔒</span>{' '}
