@@ -1,7 +1,7 @@
 ---
 title: L'expérimentation au sein de Cyclistes solidaires
 date: 2021-06-16
-image: https://www.facebook.com/photo?fbid=228243255757293&set=a.228243239090628
+image: /contenu/articles/2021/images/Cyclistes1.jpg
 résumé: En tant que mouvement citoyen qui soutient la sécurité alimentaire à Montréal, Cyclistes solidaires est consacré à la livraison de repas aux plus défavorisés.
 categories: 
   - articles
@@ -17,7 +17,7 @@ author: Fabrique_A
 # L'expérimentation d'affaires au sein de Cyclistes solidaires
 En tant que mouvement citoyen sans but lucratif qui soutient la sécurité alimentaire à Montréal, Cyclistes solidaires est consacré à la livraison de repas aux plus défavorisés.
 
-https://www.facebook.com/photo?fbid=228243255757293&set=a.228243239090628
+[Image Cyclistes solidaires](contenu/articles/2021/images/Cyclistes1.jpg)
 
 Vous avez probablement déjà entendu parler d'eux, un groupe de cyclistes enthousiastes qui ont apporté une grande contribution aux plus démunis de Montréal en temps de Covid. Mais, comment est né ce mouvement citoyen? Même si cela n'en a pas l'air, découvrez comment la démarche expérimentale de ce projet a permis de le consolider au fil du temps, s'imposant comme un outil de réponse qui s'inscrit dans la politique de sécurité alimentaire développée par la métropole du Québec.
 
