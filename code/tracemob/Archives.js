@@ -33,6 +33,9 @@ export default () => {
 								<details open={hash.substring(1) === el.id ? true : false}>
 									<summary css="text-transform: capitalize">
 										{el.attributes.title}
+										<span css="font-weight: 300">
+											&nbsp;{el.attributes.date}
+										</span>
 										<a href={'/tracemob#' + el.id} css="margin-left: 1rem">
 											<Emoji emoji="⚓️" />
 										</a>
