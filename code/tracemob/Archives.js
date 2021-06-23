@@ -3,6 +3,15 @@ import ReactMarkdown from 'react-markdown'
 import Emoji from 'Components/Emoji'
 import { useLocation } from 'react-router'
 
+const parseDate = (str) => {
+	var parts = str.split('-')
+	return new Date(
+		parseInt(parts[2], 10),
+		parseInt(parts[1], 10) - 1,
+		parseInt(parts[0], 10)
+	)
+}
+
 export default () => {
 	const { hash } = useLocation()
 
@@ -27,12 +36,18 @@ export default () => {
 				</h2>
 				<ul>
 					{archives
-						.sort((a1, a2) => a2.id.slice(0, 1) - a1.id.slice(0, 1))
+						.sort(
+							(a1, a2) =>
+								parseDate(a2.attributes.date) - parseDate(a1.attributes.date)
+						)
 						.map((el) => (
 							<li key={el.id} id={el.id}>
 								<details open={hash.substring(1) === el.id ? true : false}>
 									<summary css="text-transform: capitalize">
 										{el.attributes.title}
+										<span css="font-weight: 300">
+											&nbsp;{el.attributes.date}
+										</span>
 										<a href={'/tracemob#' + el.id} css="margin-left: 1rem">
 											<Emoji emoji="⚓️" />
 										</a>
