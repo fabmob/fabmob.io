@@ -94,7 +94,7 @@ let Présentation = () => (
 					<a href="https://wiki.fabmob.io">wiki.fabmob.io</a>
 					<img src="https://www.mediawiki.org/static/images/project-logos/mediawikiwiki.png" />
 					<p>
-						<a href="#">
+						<a href="https://wiki.fabmob.io">
 							<button>Documenter↗</button>
 						</a>
 					</p>
