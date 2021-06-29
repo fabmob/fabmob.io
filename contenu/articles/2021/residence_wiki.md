@@ -32,8 +32,8 @@ Durant ces deux jours, qu’avons-nous fait et appris pendant cette résidence�
 *	Le travail a été relancé sur la problématique complexe de la traduction. Wikifab développé par Dokit propose un wiki multilangues qui pourrait être un bon objectif.
 
 **Sur la méthode de travail**
-Nous avons également prototypé une méthode de travail collective et contributive, elle aussi documentée : la [stigmergie](https://wiki.lafabriquedesmobilites.fr/wiki/Animation_stigmergique)
-*	Identification des sujets d’intérêt, regroupement puis sélection
+Nous avons également prototypé une méthode de travail collective et contributive, elle aussi documentée, la [stigmergie](https://wiki.lafabriquedesmobilites.fr/wiki/Animation_stigmergique) :
+* Identification des sujets d’intérêt, regroupement puis sélection
 *	Travail en sous-groupe, échanges pour se synchroniser toutes les 2 heures environ
 *	Cette méthode appliquée et mise en oeuvre dans les Fabriques est à documenter en continu sur la page du wiki « [Animation Stigmergique](https://wiki.lafabriquedesmobilites.fr/wiki/Animation_stigmergique) ».
 
