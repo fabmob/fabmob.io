@@ -34,8 +34,8 @@ Durant ces deux jours, qu’avons-nous fait et appris pendant cette résidence�
 **Sur la méthode de travail**
 Nous avons également prototypé une méthode de travail collective et contributive, elle aussi documentée, la [stigmergie](https://wiki.lafabriquedesmobilites.fr/wiki/Animation_stigmergique) :
 * Identification des sujets d’intérêt, regroupement puis sélection
-*	Travail en sous-groupe, échanges pour se synchroniser toutes les 2 heures environ
-*	Cette méthode appliquée et mise en oeuvre dans les Fabriques est à documenter en continu sur la page du wiki « [Animation Stigmergique](https://wiki.lafabriquedesmobilites.fr/wiki/Animation_stigmergique) ».
+* Travail en sous-groupe, échanges pour se synchroniser toutes les 2 heures environ
+* Cette méthode appliquée et mise en oeuvre dans les Fabriques est à renseigner en continu sur la page du wiki « [Animation Stigmergique](https://wiki.lafabriquedesmobilites.fr/wiki/Animation_stigmergique) ».
 
 **Contribution, financement et co-rémunération**
 Nous testons également un budget collectif sur [Open Collective](https://opencollective.com/wiki-fabriques) alimenté par plusieurs structures représentatives des Fabriques permettant d’alimenter des coûts (logement, repas, mobilité) et des compétences (en s’appuyant sur une méthode de [co-rémunération](https://wiki.lafabriquedesmobilites.fr/wiki/Cor%C3%A9mun%C3%A9ration)). Les contributeurs souhaitant être rémunérés pourront ainsi indiquer publiquement le montant qu’ils jugent correspondre à leurs actions.
