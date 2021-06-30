@@ -6,7 +6,7 @@ import TwitterLogo from 'Images/Twitter_Logo_Blue.png'
 import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
-import Logo from '../Logo.js'
+import Logo from 'Images/fabmob_cmjn1.svg'
 import { useInterval } from '../utils.js'
 import styled from 'styled-components'
 
@@ -39,19 +39,26 @@ export default () => {
 						text-align: left;
 					}
 					p em {
-						background: yellow;
+						background: #ffef23;
 						font-style: normal;
 					}
+					text-align: left;
 				`}
 			>
 				<section>
 					<div
+						css={`
+							width: 20rem;
+							img {
+								width: 200px;
+							}
+						`}
 						animate={{ scale: [1.5, 1] }}
 						transition={{ duration: 0.6, ease: 'easeOut' }}
 					>
-						<Logo />
+						<img src={Logo} css="" />
 					</div>
-					<p>
+					<p css="font-size: 130%">
 						Face à l'
 						<Link to="/à-propos/urgence">
 							<Surligné>urgence</Surligné>
@@ -67,6 +74,19 @@ export default () => {
 						</Link>
 						.
 					</p>
+					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
+						<CTA
+							text="Découvrez nos communs"
+							to="/communs"
+							img={<CTAArrow />}
+						/>
+
+						<CTA
+							text="Adhérez à la Fabrique"
+							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2020-2021"
+							img={<CTAArrow />}
+						/>
+					</div>
 					<br />
 				</section>
 				<footer
@@ -125,6 +145,39 @@ const Surligné = styled.span`
 	font-weight: normal;
 	color: black;
 `
+const CTAButton = styled.button`
+	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 0;
+	display: block;
+	padding: 0.6rem;
+	display: flex;
+	justify-content: left;
+	margin: 0.6rem 0;
+`
+
+const CTAArrow = () => (
+	<img
+		src="/images/flèche-nord-est.svg"
+		css="width: 1rem; margin-right: 1rem; "
+	/>
+)
+const CTA = ({ to, text, img }) =>
+	to.includes('http') ? (
+		<a href={to}>
+			<CTAButton>
+				{img}
+				<span>{text}</span>
+			</CTAButton>
+		</a>
+	) : (
+		<Link to={to}>
+			<CTAButton>
+				{img}
+				<span>{text}</span>
+			</CTAButton>
+		</Link>
+	)
 
 export const EmailContact = () => (
 	<a

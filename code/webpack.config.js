@@ -13,6 +13,7 @@ module.exports = {
 			Images: path.resolve('images/'),
 			Content: path.resolve('contenu/'),
 			Code: path.resolve('code/'),
+			Fonts: path.resolve('code/fonts'),
 		},
 		fallback: {
 			path: 'path-browserify',
@@ -32,6 +33,12 @@ module.exports = {
 						},
 					},
 				],
+			},
+			{
+				test: /\.(woff|woff2)$/,
+				use: {
+					loader: 'url-loader',
+				},
 			},
 			{
 				test: /\.md$/i,
@@ -98,6 +105,7 @@ module.exports = {
 				{ from: 'contenu/articles/couvertures/*' },
 				{ from: 'images', to: 'images' },
 				{ from: 'code/index.html' },
+				{ from: 'code/fonts', to: 'fonts' },
 			],
 		}),
 	].filter(Boolean),

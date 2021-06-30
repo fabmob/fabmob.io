@@ -20,6 +20,8 @@ export default () => (
 				nous: 'Qui sommes nous ?',
 				urgence: "L'urgence",
 				travailler: 'Travailler ensemble',
+				'mentions-légales-et-données':
+					'Mentions légales & données personnelles',
 			}}
 		/>
 		<div
