@@ -50,6 +50,9 @@ Pour les images, à la fois l'image de couverture (`image: xxx` dans l'en-tête)
 - soit mettre des images via l'interface de github dans le dossier de l'année de l'article [contenu/articles/2021/images](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles/2021/images), puis référencer l'image avec un lien relatif comme ceci : `image: /contenu/articles/2021/images/monimage.jpg` ou dans le corps de l'article comme ceci : `![description de l'image](contenu/articles/2021/images/monimage.jpg)`
 - soit utiliser un service externe comme imgur.com ou piquer une belle image libre de droit sur unsplash.com et référencer l'URL complète 
 
+Si vous choisissez d'héberger l'image ici dans le dossier contenu, alors vous devez le faire sur la branche que vous avez créé pour la publication de votre article .md. Si vous crééz deux branches différentes, donc deux `Pull requests`, vous ne verrez pas l'image sur le lien d'aperçu de votre article.
+
+
 Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". 
 
 Vous arrivez sur un écran qui vous permet de visualiser vos changements qui est surtout intéressant quand vous modifiez quelque chose car vous verrez des lignes rouges (supprimées) et des vertes (ajoutées). 
