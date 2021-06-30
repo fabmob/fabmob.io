@@ -1,6 +1,6 @@
 ---
 title: L’entrevue problème pour améliorer l’autopartage au Québec
-date: 2000-06-29
+date: 2021-06-29
 image: contenu/articles/2021/images/Covoiturage_Tim_Mossholder-unsplash.jpg
 résumé: Découvrez une cas d’étude qui raconte comment l’entrevue problème a permis d’en apprendre plus sur le covoiturage
 categories: 
@@ -14,7 +14,6 @@ author: Fabrique_A
 ---
 
 # L’entrevue problème pour explorer et améliorer l’autopartage au Québec
-image: /contenu/articles/2021/images/Covoiturage_Tim_Mossholder-unsplash.jpg
 
 Dans le cadre de [Montréal en Commun](https://laburbain.montreal.ca/montreal-en-commun), un projet porté par la mairie de la métropole du Québec dont l’objectif est d’expérimenter des solutions en accès à l’alimentation, en mobilité et en réglementation municipale dans un désir de repenser la ville, Fabmob Québec a pour rôle d’accompagner des projets visant à améliorer la mobilité durable.
 
