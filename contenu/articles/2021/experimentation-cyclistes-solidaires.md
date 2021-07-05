@@ -21,7 +21,7 @@ En tant que mouvement citoyen sans but lucratif qui soutient la sécurité alime
 
 Vous avez probablement déjà entendu parler d'eux, un groupe de cyclistes enthousiastes qui ont apporté une grande contribution aux plus démunis de Montréal en temps de Covid. Mais, comment est né ce mouvement citoyen? Même si cela n'en a pas l'air, découvrez comment la démarche expérimentale de ce projet a permis de le consolider au fil du temps, s'imposant comme un outil de réponse qui s'inscrit dans la politique de sécurité alimentaire développée par la métropole du Québec.
 
-Le confinement décrété par le gouvernement en raison du covid mi-mars 2020 a forcé la fermeture des salles à manger populaires, laissant plusieurs bénéficiaires à la dérive. Face à cette situation, quelque 800 personnes se sont mobilisées pour former [Cyclistes solidaires](https://wiki.lafabriquedesmobilites.fr/wiki/Cyclistes_solidaires), un mouvement citoyen à but non lucratif composé de bénévoles voués à contribuer à la sécurité alimentaire des plus démunis.
+Le confinement décrété par le gouvernement en raison du covid mi-mars 2020 a forcé la fermeture des salles à manger populaires, laissant plusieurs bénéficiaires à la dérive. Face à cette situation, quelque 800 personnes se sont mobilisées pour former [Cyclistes solidaires](https://wiki.lafabriquedesmobilites.fr/wiki/Cyclistes_solidaires), un mouvement citoyen à but non lucratif composé de bénévoles voués à contribuer à la sécurité alimentaire des plus démunis. Ce projet est lié au commun [Gestion des bénévoles pour la livraison à vélo](https://wiki.lafabriquedesmobilites.fr/wiki/Gestion_des_b%C3%A9n%C3%A9voles_pour_la_livraison_%C3%A0_v%C3%A9lo).
 
 En effet, nous avons discuté avec l'une des cofondatrices, Agathe Lehel, représentante de Ouishare, l'un des organismes fondateurs de [Fabmob Québec](https://wiki.lafabriquedesmobilites.fr/wiki/Centre_d%E2%80%99excellence_des_technologiques_ouvertes_pour_la_mobilit%C3%A9), qui nous a donné des détails sur le fonctionnement de cette organisation.
 
@@ -32,7 +32,7 @@ Son premier « early adopter » a été la [cuisine Hochelaga-Maisonneuve](htt
 
 De façon intuitive, l'équipe de Cyclistes solidaires a appliqué à cette étape les outils d'expérimentation [entrevue problème](https://www.notion.so/fabriquea/Entrevue-probl-me-4b977381b5f04c3cbfd53791bbc86556) et [entrevue solution](https://www.notion.so/fabriquea/Entrevue-solution-23898c94cea74d178a9cf2c4804dc138), afin de valider qu'ils répondaient à un vrai problème et, également, que la solution proposée soulage la douleur du client.
 
-Ainsi, en vérifiant que la proposition génère de la valeur, Cyclistes solidaires est allé à la recherche de financements et de soutiens, sans avoir à convaincre qui que ce soit de leur octroyer ces ressources. Bref, Cyclistes solidaires a effectué un test de désirabilité de sa proposition de valeur sur le terrain même, obtenant une réponse positive du marché.
+Ainsi, en vérifiant que la proposition génère de la valeur, Cyclistes solidaires est allé à la recherche de financement et de soutien, sans avoir à convaincre qui que ce soit de leur octroyer ces ressources. Bref, Cyclistes solidaires a effectué un test de désirabilité de sa proposition de valeur sur le terrain même, obtenant une réponse positive du marché.
 
 ### Le fonctionnement à l'interne
 Comment gérer un mouvement de plus de 800 membres et le garder efficace? Pour Cyclistes solidaires, l'hypothèse est d'établir un modèle de fonctionnement horizontal dans lequel il n'y a pas de hiérarchies, mais un flux constant de communication (comité de coordination chaque semaine) qui permet de faire des ajustements si nécessaire, laissant place au développement de l'empathie entre les membres et avec l'utilisateur final. « Le fait que nous soyons tous bénévoles nous a poussés à nous orienter vers ce modèle de fonctionnement (modèle horizontal) », a expliqué Agathe.
@@ -41,12 +41,12 @@ En ce qui concerne le fonctionnement, Cyclistes solidaires a privilégié deux t
 
 Afin de conserver un mode de prise de décision simple, Cyclistes solidaires a opté pour la prise de décision par sollicitation d'avis, ce qui donne une dynamique décentralisée au mode de fonctionnement en interne. C'est-à-dire, si quelqu'un veut développer une idée, cet individu doit demander l'avis des personnes qui seront touchées par cette idée, ainsi que l'avis de ceux qui ont de l'expérience en la matière.
 
-Par le biais de cette démarche, Cyclistes solidaires poursuit deux objectifs. D'abord, faciliter l'action sur des démarches administratives lourdes qui limitent l'initiative des bénévoles. Et deuxièmement, s'appuyer sur les connaissances collectives des membres à la fois pour apporter des améliorations à la proposition de valeur et pour libérer le plein potentiel de ceux qui font partie de l'organisation.
+Par le biais de cette démarche, Cyclistes solidaires poursuit deux objectifs. D'abord, faciliter l'action sur des démarches administratives lourdes qui limitent l'initiative des bénévoles. Ensuite, s'appuyer sur les connaissances collectives des membres à la fois pour apporter des améliorations à la proposition de valeur et pour libérer le plein potentiel de ceux qui font partie de l'organisation.
 
 « Nous ne pouvons pas centraliser les informations en un seul endroit. Cela demanderait beaucoup de travail et serait très lourd. C'est pourquoi nous distribuons le pouvoir d'agir. Par cette approche, nous cherchons à créer un environnement inclusif dans le but de créer une communauté plus forte », explique Agathe, mettant en avant l'esprit agile au sein de l'organisation.
 
 ### Un modèle de livraison de valeur sociale
-Sans but lucratif, le projet Cyclistes solidaires repose sur un modèle de livraison de valeur sociale. Agathe, au nom des membres fondateurs, souligne que faire payer pour le service offert risque de dénaturer le mouvement. "Ne pas avoir d'individus rémunérés est une obligation de notre modèle, si nous voulons fonctionner il doit être réparti horizontalement."
+Sans but lucratif, le projet Cyclistes solidaires repose sur un modèle de livraison de valeur sociale. Agathe, au nom des membres fondateurs, souligne que faire payer pour le service offert risque de dénaturer le mouvement. « Ne pas avoir d'individus rémunérés est une obligation de notre modèle, si nous voulons fonctionner il doit être réparti horizontalement. »
 
 Au sein de l'équipe, Cyclistes solidaires est conscient que si le projet doit s'arrêter, alors il s'arrêtera. Cependant, la volonté du groupe est aussi d'évaluer les différentes options qui peuvent être offertes au mouvement, considérant qu'il répond à un besoin inscrit parmi les politiques de la ville de Montréal en matière de sécurité alimentaire.
 
@@ -74,7 +74,7 @@ Parmi les apprentissages, il en existe plusieurs et sous différents aspects que
 
 « Le fait que les gens ne soient pas limités dans un type de poste ou de tâches, mais plutôt avec la liberté d'agir. Le côté empathique et social est très important chez nous, et si nous passons à une organisation de type hiérarchique ou traditionnel, cela ne fonctionnera pas. L'un de nos principaux constats est que le facteur humain est très important et le fait d'en prendre soin nous fait bien travailler », a déclaré Agathe.
 
-**Adaptation de l'offre selon la zone :** Au départ, l'idée est d'offrir le service à la majorité des zones possibles, mais avec la pratique, l'on découvre les particularités de chacune d'elles. Cela a été un autre des grands apprentissages depuis qu'ils ont déployé le service. Par exemple, à Villeray, les distances, le réseau cyclable, et la façon dont le quartier a été conçu font que le nombre de bénévoles requis pour livrer 15 paniers repas est complètement différent de celui d'Hochelaga. Cela a conduit à des ajustements logistiques chez Cyclistes solidaires concernant le matériel à utiliser, le nombre de bénévoles requis, l'itinéraire à suivre, entre autres.
+**Adaptation de l'offre selon la zone :** Au départ, l'idée est d'offrir le service à la majorité des zones possibles, mais avec la pratique, l'on découvre les particularités de chacune d'elles. Cela a été un autre des grands apprentissages depuis qu'ils ont déployé le service. Par exemple, à Villeray, les distances, le réseau cyclable, et la façon dont le quartier a été conçu font que le nombre de bénévoles requis pour livrer 15 paniers repas est complètement différent de celui d'Hochelaga. Cela a conduit à des ajustements logistiques chez Cyclistes solidaires concernant le matériel à utiliser, le nombre de bénévoles requis et l'itinéraire à suivre, entre autres.
 
 Cela représente une autre trace d'expérimentation dans la dynamique de travail de Cyclistes Solidaires à travers l'outil de [session générative](https://www.notion.so/fabriquea/Session-g-n-rative-6588b777714a45eb854da945594548be). Cela consiste à ce que lors de la mise en œuvre d'un service, il est nécessaire de s'assurer que la réalité de chacun des quartiers est bien comprise, la manière dont ils fonctionnent dans leur contexte et les ressources disponibles afin d'intégrer plus fluidement tous ces éléments. De cette façon, le mouvement gagne en efficacité et en adéquation de l'offre.
 
@@ -83,7 +83,7 @@ Cela représente une autre trace d'expérimentation dans la dynamique de travail
 « La cuisine HOMA (Hochelaga-Maisonneuve) a offert aux bénévoles des pneus de vélo à crampons pour l'hiver dans le cadre d'un accord conclu auprès [Decathlon](https://www.decathlon.ca/en/). De nombreuses organisations nous offrent des dons en fonction du service que nous leur fournissons », a commenté Agathe.
 
 ### Organisation apprenante
-L'empreinte de l'expérimentation s'incarne dans Cyclistes solidaires. Selon Agathe, l'un des gains que cette approche a apporté à l'organisation est la capacité de déployer rapidement les choses. "On teste des choses à petite échelle et une fois qu'on voit que ça marche, on le réplique (gouvernance horizontale et prise de décision décentralisée, fonctionnement décentralisé et par quartier, et mutualisation de matériel de livraison)", a expliqué Agathe, soulignant que la méthode expérimentale permet d'accélérer la croissance du mouvement.
+L'empreinte de l'expérimentation s'incarne dans Cyclistes solidaires. Selon Agathe, l'un des gains que cette approche a apporté à l'organisation est la capacité de déployer rapidement les choses. « On teste des choses à petite échelle et une fois qu'on voit que ça marche, on le réplique (gouvernance horizontale et prise de décision décentralisée, fonctionnement décentralisé et par quartier, et mutualisation de matériel de livraison) », a expliqué Agathe, soulignant que la méthode expérimentale permet d'accélérer la croissance du mouvement.
 
 En ce sens, un autre outil d'expérimentation utilisé par ce mouvement est la [conciergerie](https://www.notion.so/fabriquea/La-conciergerie-f319f891f0e847c6a3bed2d73fce5934). Autrement dit, Cyclistes solidaires offre le service avec un minimum de technologie, avant d'adapter l'infrastructure technologique à mettre en place. L'équipe est en contact étroit avec les cuisines collectives qu'elle accompagne, mais est consciente que si, malgré ses efforts, le service n'est pas utilisé, ce serait le signe de l'adapter à un nouveau contexte.
 
@@ -94,18 +94,20 @@ De même, l'expérimentation a permis à Cyclistes solidaires de libérer le pot
 ### L'avenir proche
 Le rythme d'expérimentation au sein de Cyclistes solidaires est continu et il explore actuellement une meilleure façon de stocker les remorques de vélo. Dans cette initiative, il est accompagné de [Solon](https://solon-collectif.org/) afin de tester un système de cadenas à code afin de partager efficacement les remorques servant au transport des paniers alimentaires produits dans la cuisine collective d'Hochelaga-Maisonneuve.
 
-À ce moment, cette expérimentation est en phase préliminaire (premiers essais). Cependant, nous serons attentifs à connaître la portée de cette expérimentation. " Une fois les tests effectués (sur la façon de travailler avec ces cadenas à code), nous partagerons le mécanisme approprié pour qu'il soit utilisé par d'autres cyclistes", a déclaré Agathe.
+Cela s'inscrit dans le commun [Partageons plus de vélos](https://wiki.lafabriquedesmobilites.fr/wiki/Partageons_plus_de_v%C3%A9los), où [Evo Pods](https://www.evo-pods.eu/?l=en) développe également des solutions de cadenas à code en France.
+
+À ce moment, cette expérimentation est en phase préliminaire (premiers essais). Cependant, nous serons attentifs à connaître la portée de cette expérimentation. « Une fois les tests effectués (sur la façon de travailler avec ces cadenas à code), nous partagerons le mécanisme approprié pour qu'il soit utilisé par d'autres cyclistes », a déclaré Agathe.
 
 ### Envie de collaborer?
-Si vous souhaitez rejoindre ce mouvement et collaborer, il vous suffit de vous rendre sur le site internet ou d'écrire au mail [cyclistessolidaires@gmail.com](cyclistessolidaires@gmail.com). Cyclistes solidaires est toujours à la recherche de bénévoles pour rejoindre ses rangs.
+Si vous souhaitez rejoindre ce mouvement et collaborer, il vous suffit de vous rendre sur le site internet ou d'écrire au courriel [cyclistessolidaires@gmail.com](cyclistessolidaires@gmail.com). Cyclistes solidaires est toujours à la recherche de bénévoles pour rejoindre ses rangs.
 
 Si vous n'avez pas encore de compte créé, procédez comme suit :
 
 1. Cliquez sur le lien: https://cyclistes-solidaires-montreal.herokuapp.com/login
-2. Sélectionnez le texte ''créer un compte"
+2. Sélectionnez le texte « créer un compte »
 3. Une fois les infos complétées, vous recevrez un courriel de confirmation
 4. Lorsque vous entrez sur votre profil, sélectionnez le ou les quartiers qui vous intéressent. Vous verrez les livraisons qui sont prévues pour les semaines à venir.
-5. Si vous êtes intéressé.e.s par une des livraisons, cliquez sur ''me proposer''
+5. Si vous êtes intéressé.e.s par une des livraisons, cliquez sur « me proposer »
 
 Merci de votre intérêt. Cyclistes solidaires vous attend pour pédaler ensemble pour la sécurité alimentaire de Montréal.
 
