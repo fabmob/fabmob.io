@@ -23,11 +23,11 @@ Porté par le succès du registre de covoiturage adopté en France, utilisé dan
 
 Le covoiturage a beaucoup de valeur, puisque :
 
-* Le coût du voyage est partagé et permet donc d’économiser de l’argent
-* L’économie financière va de pair avec un acte écologique. Moins il y a de voitures en circulation, moins il y a de gaz à effet de serre au détriment de l’environnement
-* L’utilisation du covoiturage permet de dégager les rues et les parkings aux heures de pointe de la ville
-* Représente une alternative pour ceux qui n’ont pas de permis de conduire
-* Et cela permet également de créer un lien social, car cela donne l’opportunité de rencontrer de nouvelles personnes
+-  Le coût du voyage est partagé et permet donc d’économiser de l’argent
+-  L’économie financière va de pair avec un acte écologique. Moins il y a de voitures en circulation, moins il y a de gaz à effet de serre au détriment de l’environnement
+-  L’utilisation du covoiturage permet de dégager les rues et les parkings aux heures de pointe de la ville
+-  Représente une alternative pour ceux qui n’ont pas de permis de conduire
+-  Et cela permet également de créer un lien social, car cela donne l’opportunité de rencontrer de nouvelles personnes
 
 Pour toutes ces raisons, Fabmob Québec a accueilli favorablement l’idée de tester si ce registre pourrait offrir de la valeur aux organismes voués à la promotion des campagnes de covoiturage au Québec.
 
@@ -61,13 +61,13 @@ L’entrevue problème a été développée de façon virtuelle via la plateform
 ### Nos apprentissages
 Après le premier cycle d’expérimentation, dédié à la validation du problème, nous avons appris plusieurs choses. Entre eux, nous avons :
 
-* Il faut aller chercher les données sur les problématiques de chacun (selon le territoire et la cible, et la culture)
-* Montrer les évidences sur les succès au Québec sur le long distance et pourquoi cela ne marche pas pour la courte distance
-* Il y a des bloquants avant les incitatifs dont la régulation et la désirabilité d’une solution de covoiturage
-* Nous avons découvert d’autres opportunités grâce à cette démarche dont le rôle des opérateurs dans l’acceptation d’un registre
-* Beaucoup d’échecs, il y a donc peur de faire une autre campagne.
-* Incitatif monétaire pas très attractif pour les employés bien rémunérés. Stationnement et indemnité taxi semble plus porteur
-* Croyance que le manque de stationnement est le principal ‘’pain point’’ qui va inciter les automobilistes à covoiturer
+-  Il faut aller chercher les données sur les problématiques de chacun (selon le territoire et la cible, et la culture)
+-  Montrer les évidences sur les succès au Québec sur le long distance et pourquoi cela ne marche pas pour la courte distance
+-  Il y a des bloquants avant les incitatifs dont la régulation et la désirabilité d’une solution de covoiturage
+-  Nous avons découvert d’autres opportunités grâce à cette démarche dont le rôle des opérateurs dans l’acceptation d’un registre
+-  Beaucoup d’échecs, il y a donc peur de faire une autre campagne.
+-  Incitatif monétaire pas très attractif pour les employés bien rémunérés. Stationnement et indemnité taxi semble plus porteur
+-  Croyance que le manque de stationnement est le principal ‘’pain point’’ qui va inciter les automobilistes à covoiturer
 
 Ces informations nous permettent d’en savoir plus sur le contexte dans lequel évoluent nos clients potentiels et comment trouver des opportunités dans lesquelles la solution proposée peut être insérée.
 
@@ -76,8 +76,8 @@ Cet exercice nous permet de valider non seulement que nous sommes confrontés à
 ### Nos validations
 Parmi les points validés, nous avons les suivants :
 
-* Il y a un bloquant en terme de donnée (besoin en visualisation)
-* L’incitatif monétaire pour encourager le covoiturage n’est pas très attractif
+-  Il y a un bloquant en terme de donnée (besoin en visualisation)
+-  L’incitatif monétaire pour encourager le covoiturage n’est pas très attractif
 
 Comme vous pouvez le voir, dans ce cas, il est nécessaire de trouver un autre type d’incitatif pour promouvoir l’utilisation du covoiturage dans les différentes régions, car les données obtenues après l’entrevue problème ne permet pas de croire que l’incitatif monétaire est une bonne source de motivation pour faire du covoiturage.
 
@@ -92,10 +92,10 @@ Cet élément peut représenter la première étape pour générer de la valeur 
 
 Par conséquent, comme points en attente pour les étapes suivantes, nous énumérons les éléments suivants : 
 
-* Proposer un rapport écrit afin de faciliter la communication entre les gens responsables de mettre en place des campagnes de covoiturage et les différentes parties prenantes
-* Construire des cas d’usage selon la problématique de chaque acteur interviewé (territoire et cible)
-* Mieux répertorier les éléments de succès du covoiturage sur le courtes distances, afin de bonifier ce volet
-* Mieux creuser les opérateurs dans le but de leur faire comprendre la valeur du registre de covoiturage
+-  Proposer un rapport écrit afin de faciliter la communication entre les gens responsables de mettre en place des campagnes de covoiturage et les différentes parties prenantes
+-  Construire des cas d’usage selon la problématique de chaque acteur interviewé (territoire et cible)
+- Mieux répertorier les éléments de succès du covoiturage sur le courtes distances, afin de bonifier ce volet
+- Mieux creuser les opérateurs dans le but de leur faire comprendre la valeur du registre de covoiturage
 
 Voici le survol de l’approche de Fabmob Québec lors d’un processus d’exploration dans le but de trouver des pistes de solution à tester et à mettre en œuvre dans de futures expérimentations. Merci de votre intérêt.
 
