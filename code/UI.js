@@ -105,4 +105,11 @@ export const ArticleStyle = styled.div`
 		padding: 0.1rem 0.4rem;
 		border-radius: 0.3rem;
 	}
+
+	ul {
+		padding-left: 1rem;
+		list-style-type: disc;
+	}
+	li {
+	}
 `
