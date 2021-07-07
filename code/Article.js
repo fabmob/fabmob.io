@@ -125,7 +125,7 @@ export default ({ id: propId }) => {
 					{dateCool(date)} -{' '}
 					<a
 						css="font-weight: normal;color: inherit "
-						href={`https://github.com/${repo}/blob/master/articles/${id}.md`}
+						href={`https://github.com/${repo}/blob/master/contenu/articles/${year}/${id}.md`}
 					>
 						<OpenMoji id="270F" />
 						contribuer
