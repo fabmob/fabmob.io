@@ -52,6 +52,7 @@ Pour les images, à la fois l'image de couverture (`image: xxx` dans l'en-tête)
 
 Si vous choisissez d'héberger l'image ici dans le dossier contenu, alors vous devez le faire sur la branche que vous avez créé pour la publication de votre article .md. Si vous crééz deux branches différentes, donc deux `Pull requests`, vous ne verrez pas l'image sur le lien d'aperçu de votre article.
 
+> 💡 Pour travailler sur une branche, quand vous explorez les fichiers de ce dépôt (par exemple [ici](https://github.com/fabmob/fabmob.io)), assurez-vous que le sélecteur en haut à gauche indique le nom de la branche voulue, par exemple `master`. C'est la branche qui représente le code du site déployé sur lafabriquedesmobilites.fr. Votre branche de travail aura donc forcément un autre nom.
 
 Avec le contenu juste au-dessus (et si possible, un texte un peu plus intéressant de votre création), il vous suffit alors de cliquer tout en bas de la page sur le bouton vert "Commit changes". 
 
