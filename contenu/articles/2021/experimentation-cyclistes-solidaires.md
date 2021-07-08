@@ -21,7 +21,7 @@ En tant que mouvement citoyen sans but lucratif qui soutient la sécurité alime
 
 Vous avez probablement déjà entendu parler d'eux, un groupe de cyclistes enthousiastes qui ont apporté une grande contribution aux plus démunis de Montréal en temps de Covid. Mais, comment est né ce mouvement citoyen? Même si cela n'en a pas l'air, découvrez comment la démarche expérimentale de ce projet a permis de le consolider au fil du temps, s'imposant comme un outil de réponse qui s'inscrit dans la politique de sécurité alimentaire développée par la métropole du Québec.
 
-Le confinement décrété par le gouvernement en raison du covid mi-mars 2020 a forcé la fermeture des salles à manger populaires, laissant plusieurs bénéficiaires à la dérive. Face à cette situation, quelque 800 personnes se sont mobilisées pour former [Cyclistes solidaires](https://wiki.lafabriquedesmobilites.fr/wiki/Cyclistes_solidaires), un mouvement citoyen à but non lucratif composé de bénévoles voués à contribuer à la sécurité alimentaire des plus démunis.
+Le confinement décrété par le gouvernement en raison du covid mi-mars 2020 a forcé la fermeture des salles à manger populaires, laissant plusieurs bénéficiaires à la dérive. Face à cette situation, quelque 800 personnes se sont mobilisées pour former [Cyclistes solidaires](https://wiki.lafabriquedesmobilites.fr/wiki/Cyclistes_solidaires), un mouvement citoyen à but non lucratif composé de bénévoles voués à contribuer à la sécurité alimentaire des plus démunis. Ce projet est lié au commun [Gestion des bénévoles pour la livraison à vélo](https://wiki.lafabriquedesmobilites.fr/wiki/Gestion_des_b%C3%A9n%C3%A9voles_pour_la_livraison_%C3%A0_v%C3%A9lo).
 
 En effet, nous avons discuté avec l'une des cofondatrices, Agathe Lehel, représentante de Ouishare, l'un des organismes fondateurs de [Fabmob Québec](https://wiki.lafabriquedesmobilites.fr/wiki/Centre_d%E2%80%99excellence_des_technologiques_ouvertes_pour_la_mobilit%C3%A9), qui nous a donné des détails sur le fonctionnement de cette organisation.
 
@@ -93,6 +93,8 @@ De même, l'expérimentation a permis à Cyclistes solidaires de libérer le pot
 
 ### L'avenir proche
 Le rythme d'expérimentation au sein de Cyclistes solidaires est continu et il explore actuellement une meilleure façon de stocker les remorques de vélo. Dans cette initiative, il est accompagné de [Solon](https://solon-collectif.org/) afin de tester un système de cadenas à code afin de partager efficacement les remorques servant au transport des paniers alimentaires produits dans la cuisine collective d'Hochelaga-Maisonneuve.
+
+Cela s'inscrit dans le commun [Partageons plus de vélos](https://wiki.lafabriquedesmobilites.fr/wiki/Partageons_plus_de_v%C3%A9los), où [Evo Pods](https://www.evo-pods.eu/?l=en) développe également des solutions de cadenas à code en France.
 
 À ce moment, cette expérimentation est en phase préliminaire (premiers essais). Cependant, nous serons attentifs à connaître la portée de cette expérimentation. " Une fois les tests effectués (sur la façon de travailler avec ces cadenas à code), nous partagerons le mécanisme approprié pour qu'il soit utilisé par d'autres cyclistes", a déclaré Agathe.
 
