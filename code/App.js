@@ -59,6 +59,7 @@ const Container = () => (
 			<Nav />
 
 			<Switch>
+				{/* This part was made for the first version of the website, that included a way to get translated pages, as well as a differentiated page for France / Quebec. Disactivated until further developement. */}
 				{false && (
 					<>
 						<Route path="/france">
@@ -79,9 +80,6 @@ const Container = () => (
 						</Route>
 					</>
 				)}
-				<Route path="/feu-le-forum">
-					<TempForumDown />
-				</Route>
 				<Route path="/tracemob">
 					<Suspense fallback={null}>
 						<Tracemob />
@@ -124,20 +122,3 @@ const Container = () => (
 )
 
 export default Container
-
-const TempForumDown = ({}) => (
-	<div css="max-width: 750px; margin: 0 auto; text-align: center; margin-top: 2rem">
-		<img
-			src="https://img.phonandroid.com/2021/03/incendie-ovh-e1615372715610.jpg"
-			css="width: 20rem"
-		/>
-		<p>forum.fabmob.io est tombé avec le datacenter OVH. </p>
-		<p>
-			Nous publierons ici des nouvelles quand nous aurons avancé sur sa remise
-			en ligne.
-		</p>
-		<p>
-			Il était hébergé à <a href="http://92.222.85.102">cette adresse IP</a>.
-		</p>
-	</div>
-)
