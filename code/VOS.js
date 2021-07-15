@@ -75,7 +75,7 @@ export default () => (
 					<p>
 						Construisons ensemble une base hardware open source permettant d'explorer de
 						nouveaux modèles de conception et d'élaboration du véhicule et de
-						son environnement
+						son environnement.
 					</p>
 				</header>
 			</div>
@@ -141,7 +141,7 @@ const vehicules = [
 		redéfinir ce que seraient la place des acteurs historiques, leur modèle économique et la 
 		place de nouveaux entrants, l’impact réglementaire, les écosystèmes qui graviteraient autour…
 		Aujourd’hui, nous travaillons sur l’ouverture d’un châssis roulant électrique proposé
-		par Milla Group pour d'une explorer les cas d'usage que l'on pourrait imaginer sur une base 
+		par Milla Group afin d'explorer les cas d'usage que l'on pourrait imaginer sur une base 
 		roulante ouverte mais également pour réfléchir à de nouveaux modèles de conception et d’élaboration 
 		du véhicule.',
 		url: 'Lien vers une page wiki sur l'ouverture de la plateforme ?',
