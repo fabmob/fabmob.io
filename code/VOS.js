@@ -121,7 +121,7 @@ export default () => (
 const vehicules = [
 	{
 		nom: 'Vélolibre',
-		texte: 'Blabla',
+		texte: 'L'ambition de vélolibre, porté par la Fabrique des Mobilités est de créer un guide open source pour assembler un vélo. Ce guide est en cours de construction, les avancées sont régulièrement documentées.',
 		url: 'https://velolib.re',
 		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
 	},
@@ -133,7 +133,7 @@ const vehicules = [
 		nous essayons d’identifier des moyens concrets de répondre à des problématiques de mobilité 
 		que d’autres acteurs « historiques » de la mobilité ne sauraient pas adresser.',
 		url: 'https://forum.fabmob.io/t/gt1-experimentations-sur-un-premier-vehicule/26/22',
-		image: 'https://velolibre-images.netlify.app/enneigé.medium.webp',
+		image: 'https://imgur.com/bkKAfMk',
 	},
 	{
 		nom: 'Exploration de la faisabilité industrielle du Véhicule Open Source',
