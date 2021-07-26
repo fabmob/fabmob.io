@@ -76,6 +76,17 @@ export default () => (
 						Construisons ensemble une base hardware open source permettant d'explorer de
 						nouveaux modèles de conception et d'élaboration du véhicule et de
 						son environnement.
+						
+						Avec la transition vers l'électrique et de ce fait la simplification du véhicule,
+						nous partons du postulat que le rôle des différents acteurs du secteur de la 
+						mobilité et notamment celui de l'automobile va évoluer et se redéfinir, de nouveaux 
+						acteurs vont pouvoir intégrer ce marché aujourd'hui relativement fermé, la place
+						qu'occupent les acteurs historiques va changer.
+
+						Aussi, la Fabrique des Mobilités et le Movin'on Lab de Michelin s'unissent pour utiliser l'open source
+						(matériel et logiciel) comme un moyen d'explorer ces changements dans un premier temps
+						et de s'y préparer dans un second temps. Pour en faire un outil d'innovation vers une mobilité
+						plus durable et inclusive.
 					</p>
 				</header>
 			</div>
@@ -111,7 +122,7 @@ export default () => (
 					}
 				`}
 			>
-				<a href="#quoi">En savoir plus</a>
+				<a href="#quoi">Comment ?</a>
 			</div>
 		</div>
 		<Pourquoi />
