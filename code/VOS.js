@@ -73,10 +73,6 @@ export default () => (
 				<header>
 					<h1>Véhicules open source</h1>
 					<p>
-						Construisons ensemble une base hardware open source permettant d'explorer de
-						nouveaux modèles de conception et d'élaboration du véhicule et de
-						son environnement.
-						
 						Avec l'essor de l'électrique et de ce fait la simplification du véhicule,
 						nous partons du postulat que le mode de conception et de production du véhicule
 						va changer, que les opportunités pour les différents acteurs vont évoluer ainsi 
@@ -84,7 +80,7 @@ export default () => (
 						de valeur vont être redistribués.
 
 						La communauté du Véhicule Open Source créée et animée par la Fabrique des Mobilités 
-						et le Movin'on Lab de Michelin s'unissent pour utiliser l'open source (matériel et 
+						et le Movin'on Lab de Michelin s'engage à utiliser l'open source (matériel et 
 						logiciel) comme un moyen d'explorer ces mutations et de s'y préparer. Pour en faire 
 						un outil d'innovation vers une mobilité plus durable et inclusive.
 					</p>
