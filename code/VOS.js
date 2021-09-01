@@ -128,8 +128,8 @@ const vehicules = [
 	{
 		nom: 'Expérimentations Open Hardware',
 		texte: 'Nous explorons l’open hardware en testant et en documentant 
-		les modifications, les cas d'usage avec un véhicule simple et modulaire et 
-		une communauté d'acteurs locaux de la mobilité réunis à Rennes. Grâce à ce travail, 
+		les modifications, les cas d’usage avec un véhicule simple et modulaire et 
+		une communauté d’acteurs locaux de la mobilité réunis à Rennes. Grâce à ce travail, 
 		nous essayons d’identifier des moyens concrets de répondre à des problématiques de mobilité 
 		que d’autres acteurs « historiques » de la mobilité ne sauraient pas adresser.',
 		url: 'https://forum.fabmob.io/t/gt1-experimentations-sur-un-premier-vehicule/26/22',
