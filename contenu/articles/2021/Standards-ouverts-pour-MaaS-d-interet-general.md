@@ -2,7 +2,7 @@
 title: Standards ouverts pour des MaaS d'intérêt général
 date: 2021-09-15
 image: /contenu/articles/2021/images/photo_2021-09-15_18-21-21.jpg
-résumé: Le résumé est important pour la liste des articles qui s'affiche sur le site, sinon le premier paragraphe sera extrait.
+résumé: Nous pensons que le MaaS peut développer l’accès au transport public et partagé, et réduire l’usage de la voiture individuelle. Pour cela, les standards ouverts sont essentiels
 
 categories: 
   - articles
