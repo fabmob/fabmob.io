@@ -2,7 +2,7 @@
 title: Standards ouverts pour des MaaS d'intérêt général
 date: 2021-09-15
 image: 
-
+https://imgur.com/a/n8LArxF
 résumé: Le résumé est important pour la liste des articles qui s'affiche sur le site, sinon le premier paragraphe sera extrait.
 
 categories: 
@@ -37,6 +37,8 @@ La promotion de standard existants ou en devenir passe par leur mise en œuvre d
 *	Un déploiement de standards et de fonctionnalités de compte mobilité sur 2 ou 3 territoires pilotes en 2022 ;
 *	L’appui à la conception du MaaS, sa stratégie et sa roadmap, auprès de 3 à 5 territoires qui préparent le déploiement de leur MaaS à partir de 2023 ou 2024.
 
+[Les 10 bénéfices des standards ouverts](https://imgur.com/a/V7I0w0I)
+
 ## Les principes de notre action
 
 Le programme « standardisation du MaaS » est porté par plusieurs acteurs aux rôles distincts :
@@ -63,5 +65,8 @@ Notre proposition de coopération comporte trois niveaux :
 2. **Développer un MaaS d’intérêt général fondé sur des standards et des communs (en vue d’un déploiement post-2022)** : vous êtes en phase de planification et de conception de vos développements MaaS (y compris dans l’aspect contractuel - ex : DSP à renouveler ou consultation pour un éditeur de MaaS). Les développements auront lieu essentiellement sur la période 2023-2025. Notre coopération à travers une convention permet des échanges d’expertise réciproques. Le travail de conception que vous effectuez avec vos AMO et partenaires constitue une contribution à la définition des standards. En retour nous vous proposons des outils Open Source sur lesquels vous pourrez vous appuyer pour la mise en oeuvre des standards (outils de validation, de conversion, interfaces standardisées, implémentations ouvertes des standards), ceci afin d’accélérer vos projets et en abaisser le coût.
 3. **Lever les freins à la conception et au déploiement de MaaS d’intérêt général** : que vous ayez déjà déployé des fonctionnalités de MaaS ou soyez dans une réflexion de long terme sur l’évolution des outils numériques pour la mobilité sur votre territoire, nous vous proposerons des groupes de partage thématiques pour approfondir des questions qui ne trouvent pas de réponse bien établie aujourd’hui (ex : les montages contractuels et la méthode pour développer un MaaS, les choix d’architecture ou de fonctionnalité en fonction d’objectifs de politique publique). Nous mobiliserons des expertises complémentaires pour nourrir les travaux et ferons le lien avec des groupes de travail ou démarches existantes. Le résultat de ces travaux sera consolidé dans un guide de référence de la conception d’un MaaS d’intérêt général basé sur des standards d’avenir.
 
+Vous pouvez retrouver les détails de l'AMI [ici](https://cloud.fabmob.io/s/dtXPeyZnKYd8pjG)
+
+
 ### Un Webinaire de présentation 
-Nous invitons les acteurs du secteur à se joindre à nous lors de notre [webinaire](https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/standards-ouverts-pour-des-maas-d-interet-general) du 05 octobre
+Nous invitons les acteurs du secteur à se joindre à nous lors de notre [webinaire](https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/standards-ouverts-pour-des-maas-d-interet-general) du 05 octobre 2021
