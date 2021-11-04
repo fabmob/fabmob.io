@@ -1,7 +1,6 @@
 ---
 title: 'Le chaos et ses indicateurs'
 date: '2021-11-04'
-image: /contenu/articles/2021/images/La-fabrique-des-pandemies-Preserver-la-biodiversite-un-imperatif-pour-la-sante-planetaire.jpg
 résumé: Chambre d'échos des mobilités - Livres, Tribunes & Podcasts #4 
 categories:
   - 'articles'
