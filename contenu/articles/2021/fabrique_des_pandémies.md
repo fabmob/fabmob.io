@@ -12,7 +12,7 @@ tags:
 author: 'Bruno Marzloff'
 ---
 
-*Cette critique d’ouvrages reflète les préoccupations de notre équipe. Ainsi l’ignorance des alertes des scientifiques du monde entier sur ***La Fabrique des pandémies*** résonne avec celles que nous portons sur les excès de mobilités et nos propositions du côté des démobilités. Nous pensons résolument qu’il existe des issues à ***la Fabrique de l’impuissance*** qu’évoque Amitav Gosh. D’autres formes de mobilisations existent. De même que *La Fabrique des mobilités* fait sienne l’exigence de disposer d’indicateurs pertinents que défend également l’ouvrage ou encore les analyses de l’économiste Éloi Laurent. Car mesurer, c’est aussi choisir ce qu’on entend vivre. 
+Cette critique d’ouvrages reflète les préoccupations de notre équipe. Ainsi l’ignorance des alertes des scientifiques du monde entier sur ***La Fabrique des pandémies*** résonne avec celles que nous portons sur les excès de mobilités et nos propositions du côté des démobilités. Nous pensons résolument qu’il existe des issues à ***la Fabrique de l’impuissance*** qu’évoque Amitav Gosh. D’autres formes de mobilisations existent. De même que *La Fabrique des mobilités* fait sienne l’exigence de disposer d’indicateurs pertinents que défend également l’ouvrage ou encore les analyses de l’économiste Éloi Laurent. Car mesurer, c’est aussi choisir ce qu’on entend vivre. 
 
 
 # Quand la diversité garantit la santé
