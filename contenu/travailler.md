@@ -40,6 +40,8 @@ La FabMob vous accompagne pour Organiser, Plateformiser, Orienter ou Rediriger v
 
 En fonction du statut de l'organisation, un·e adhérent·e pourra également profiter de formations et conférences sur des sujets et problématiques spécifiques à l'organisation adhérente.
 
+[<button>Adhérez ! </button>](https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2021-2022)
+
 ## Le partenariat
 
 **Qui ?**
@@ -49,3 +51,7 @@ Le partenariat est ouvert à toute personne ou entité adhérente de la Fabrique
 Le partenariat est ouvert à toute personne ou entité adhérente de la Fabrique des Mobilités qui souhaiterait mobiliser plus intensément les ressources de la Fabrique des Mobilités pour explorer un sujet, une problématique précise sur un temps court (8 à 12 mois). Nous vous apportons alors du temps dédié.
 
 La Fabrique des Mobilités apportera alors des ressources dédiées, du temps pour repartir de vos besoins spécifiques. Nous identifierons les meilleures ressources, compétences, choisirons un territoire partenaire et vous accompagnerons pour expérimenter ou rediriger votre activité. Ce travail se fera en lien direct avec une équipe ou personne dédiée chez le partenaire et au sein de la Fabrique des Mobilités.
+
+[<button>Contactez nous ! </button>](mailto:contact@fabmob.io)
+
+[<button>Pour en savoir plus</button>](https://cloud.fabmob.io/s/YpNxorn5MjbbqCF)
