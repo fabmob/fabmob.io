@@ -21,13 +21,13 @@ Malgré les annonces et les discours, elles n’évoluent pas assez vite vers ce
 
 ### Organiser et Plateformiser 
 
-Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de transport, avec des approches en silos. Ce sont les **modes de vie, l’organisation des entreprises et des territoires, les temporalités ou encore la gestion de l’espace public** qui sont à dé-construire et ré-organiser. Nous vous permettons d'expérimenter dans des territoires partenaires en 10 mois.
+Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de transport, avec des approches en silos. Ce sont les **modes de vie, l’organisation des entreprises et des territoires, les temporalités ou encore la gestion de l’espace public** qui sont à dé-construire et ré-organiser. Nous vous permettons d'**expérimenter dans des territoires partenaires en 10 mois**.
 
-Pour faire face aux assauts des GAFA, nous pensons qu’il est essentiel de comprendre, maîtriser et mettre en œuvre les mécanismes de plateformes numériques, l’open source, l’open data et les standards dans le secteur de la mobilité pour produire des ressources utiles et fédératrices. Nous accompagnons la numérisation de votre chaîne de valeur et facilitons le passage à l'échelle par des standards.
+Pour faire face aux assauts des GAFA, nous pensons qu’il est essentiel de **comprendre, maîtriser et mettre en œuvre les mécanismes de plateformes numériques, l’open source, l’open data et les standards** dans le secteur de la mobilité pour produire des ressources utiles et fédératrices. Nous accompagnons la **numérisation de votre chaîne de valeur et facilitons le passage à l'échelle** par des standards.
 
 ### Orienter et Rediriger
 
-La Fabrique mobilise [son équipe, réseau d'adhérent·e·s, personnes et organisations](/à-propos/nous) qu'elle accompagne dans la réalisation de projets collectifs et en particulier la production de communs. Nous anticipons les transformations des marchés dans un contexte Volatil, Incertain, Complexe et Ambigu, pour vous permettre de mieux choisir vos alliés et rediriger vos activités.
+La Fabrique mobilise [son équipe, réseau d'adhérent·e·s, personnes et organisations](/à-propos/nous) qu'elle accompagne dans la réalisation de projets collectifs et en particulier la production de communs. Nous anticipons les transformations des marchés dans un contexte Volatil, Incertain, Complexe et Ambigu, pour vous permettre de **mieux choisir vos alliés et rediriger vos activités**.
 
 Nous confrontons des intérêts qui peuvent être divergents pour trouver le commun et construire une bibliothèque de ressources actionnables et de standards.
 
