@@ -5,7 +5,7 @@ description: Vous pouvez vous impliquer à la FabMob en contribuant bénévoleme
 
 # Travailler ensemble
 
-_À la Fabrique des Mobilités, nous faisons l’hypothèse que les processus d’innovation se construisent de plus en plus dans des écosystèmes fertiles impliquant toutes les parties prenantes. Cette fertilité se cultive notamment par la diversité des acteur·rice·s, leur complétude, leur capacité à échanger, la mise à disposition de communs, ressources ouvertes pour inviter à la sur-traitance et par le partage d’une culture commune. Il s'agit tout autant de changer les méthodes de travail que les modes de transport._
+_À la Fabrique des Mobilités, nous faisons l’hypothèse que les processus d’innovation se construisent de plus en plus dans des écosystèmes fertiles impliquant toutes les parties prenantes. Cette fertilité se cultive notamment par la diversité des acteur·rice·s, leur complétude, leur capacité à échanger, la mise à disposition de communs, ressources ouvertes pour inviter à la sur-traitance et par le partage d’une culture commune. Il s'agit tout autant de changer les [méthodes de travail](https://lafabriquedesmobilites.fr/blog/changer-mobilites-implique-de-nouvelles-facons-de-travailler-ensemble) que les modes de transport._
 
 Participer/contribuer à la Fabrique des Mobilités, c'est encourager le partage de ressources ouvertes et la production de communs pour créer une mobilité durable pour tou·te·s.
 
