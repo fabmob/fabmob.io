@@ -19,4 +19,4 @@ Malgré les annonces et les discours, nous n'observons que des évolutions très
 Les modèles d'aménagement du territoire des dernières décennies se sont basés sur le recours aux modes motorisés, généralement individuels, en raison des faibles densités de population résultantes. Ils ont participé à l'augmentation des distances parcourues et à la dévitalisation des centres-villes au profit de centres commerciaux à l'extérieur de celles-ci.
 Par ailleurs, ils ont renforcé les fractures territoriales, en reléguant les classes moyennes et populaires dans les espaces ruraux et périurbains.
 
-Aujourd'hui, les transitions nécessaires de ces modes de vie dépendant des modes individuels, pénalisent les habitant·e·s de ces zones. L'évolution de nos modèles de déplacement est pourtant essentielle.
+Aujourd'hui, les transitions nécessaires de nos activités quotidiennes dépendant des modes individuels, pénalisent les habitant·e·s de ces zones. L'évolution de nos modèles de déplacement est pourtant essentielle mais ne peut pas s'envisager sans élargir le système à faire évoluer.
