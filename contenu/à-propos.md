@@ -7,31 +7,29 @@ description: Réunir les acteurs de la mobilité pour construire ensemble une mo
 
 ## Qu'est-ce que la FabMob ?
 
-La FabMob est une association qui réunit tou·te·s les acteur·rice·s volontaires de la mobilité : territoires, industriels, laboratoires de recherche, start-up, pôles de compétitivité, universités et écoles, agences et ministères.
+La FabMob est une association qui réunit tou·te·s les acteur·rice·s volontaires de la mobilité : territoires, industriels, laboratoires de recherche, start-up, pôles de compétitivité, universités et écoles, agences et ministères. Nous vous accompagnons pour Organiser, Plateformiser, Orienter ou Rediriger vos activités en 10 mois dans des territoires.
 
 ## Pourquoi ?
 
-Nos façons de nous déplacer et d'organiser nos territoires **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat, nos objectifs de sobriété énergétique et de réduction de la pollution de l'air.
+Nos façons de nous déplacer et d'organiser nos territoires **ne sont pas compatibles** avec l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) sur le climat, nos objectifs de sobriété énergétique et de réduction de la pollution de l'air. Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de mobilité, testées dans un seul territoire, avec des approches cloisonnées.
 
 Malgré les annonces et les discours, elles n’évoluent pas assez vite vers ces objectifs, et laissent de côté une partie de la population.
 
-**Les effets des innovations dans le domaine des Mobilités** restent marginaux. Quand un « nouvel » acteur cherche à changer des choses, les acteurs en place font tout pour réduire son impact.
+**Les effets des innovations dans le domaine des Mobilités** restent marginaux. Il ne s’agit pas uniquement d’électrifier des voitures mais de construire de nouvelles industries et de nouveaux métiers, pour résoudre les problèmes quotidiens dans des territoires.
 
 ## Que faisons-nous ?
 
-### Prendre du recul
+### Organiser et Plateformiser 
 
-Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de transport, avec des approches en silos. Ce sont les **modes de vie, l’organisation des entreprises et des territoires, les temporalités ou encore la gestion de l’espace public** qui sont à dé-construire et ré-organiser.
+Les problèmes de mobilité ne seront pas résolus uniquement par des solutions de transport, avec des approches en silos. Ce sont les **modes de vie, l’organisation des entreprises et des territoires, les temporalités ou encore la gestion de l’espace public** qui sont à dé-construire et ré-organiser. Nous vous permettons d'expérimenter dans des territoires partenaires en 10 mois.
 
-La Fabrique décloisonne les secteurs et les métiers.
+Pour faire face aux assauts des GAFA, nous pensons qu’il est essentiel de comprendre, maîtriser et mettre en œuvre les mécanismes de plateformes numériques, l’open source, l’open data et les standards dans le secteur de la mobilité pour produire des ressources utiles et fédératrices. Nous accompagnons la numérisation de votre chaîne de valeur et facilitons le passage à l'échelle par des standards.
 
-Nous accompagnons le changement de culture de l'innovation des organisations publiques et privées pour transformer les pratiques et offres de mobilité.
+### Orienter et Rediriger
 
-### Ensemble
+La Fabrique mobilise [son équipe, réseau d'adhérent·e·s, personnes et organisations](/à-propos/nous) qu'elle accompagne dans la réalisation de projets collectifs et en particulier la production de communs. Nous anticipons les transformations des marchés dans un contexte Volatil, Incertain, Complexe et Ambigu, pour vous permettre de mieux choisir vos alliés et rediriger vos activités.
 
-La Fabrique mobilise [son équipe, réseau d'adhérent·e·s, personnes et organisations](/à-propos/nous) qu'elle accompagne dans la réalisation de projets collectifs et en particulier la production de communs.
-
-Nous confrontons des intérêts qui peuvent être divergents pour trouver le commun dont la production intéressera au moins ces deux parties.
+Nous confrontons des intérêts qui peuvent être divergents pour trouver le commun et construire une bibliothèque de ressources actionnables et de standards.
 
 > De quoi avez-vous besoin maintenant et que vous avez intérêt à faire ensemble ?
 
@@ -39,7 +37,7 @@ Pour y répondre, nous produisons ce que l'on appelle des communs. Un commun est
 
 Par exemple : un logiciel qui permet de calculer des itinéraires d'un point A à un point B, utilisé dans les applications de transport en commun de plusieurs villes en France ou dans le monde.
 
-## Et concrètement ?
+## Des exemples ?
 
 Découvrez [les communs](/communs) que nous développons aujourd'hui.
 
