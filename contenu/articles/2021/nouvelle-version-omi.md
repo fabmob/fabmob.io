@@ -1,5 +1,5 @@
 ---
-title: Standards ouverts pour des MaaS d'intérêt général
+title: Nouvelle version d'Open Mobility Indicators
 date: 2021-11-23
 image: /contenu/articles/2021/images/clapiers.png
 résumé: la nouvelle version de l'application [OpenMobilityIndicators](https://openmobilityindicators.org/) couvre désormais la France métropolitaine : commun développé via l'AAP Résilience des Territoires, il est conçu pour être adaptable à d'autres données et d'autres territoires.
@@ -20,7 +20,7 @@ author: Patrick Gendre
 
 ---
 
-# Nouvelle version d'Open Mobility Indicators, 
+# Nouvelle version d'Open Mobility Indicators 
 
 Après un démonstrateur couvrant la région Sud PACA l'an dernier avec le soutien du Conseil Régional et de l'Ademe, 
 la nouvelle version de l'application "mon quartier à pied" dans le cadre du [projet OpenMobilityIndicators](https://openmobilityindicators.org/) couvre désormais la France métropolitaine : elle a été développée grâce au travail de l'équipe de [Jailbreak](https://jailbreak.paris/fr-fr/) et au soutien du [programme "Résilience des territoires" de l'Ademe](https://wiki.resilience-territoire.ademe.fr/wiki/Mon_quartier_%C3%A0_pied).
