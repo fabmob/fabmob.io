@@ -142,7 +142,7 @@ const AutresFabriques = () => (
 const Surligné = styled.span`
 	background: yellow;
 	font-weight: normal;
-	color: black;
+	color: yellow;
 `
 const CTAButton = styled.button`
 	width: 250px;
@@ -153,7 +153,7 @@ const CTAButton = styled.button`
 	display: block;
 	padding: 0.6rem;
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 	margin: 0.6rem 0;
 `
 
