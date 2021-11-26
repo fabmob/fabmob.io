@@ -89,7 +89,7 @@ export default () => {
 								
 						<CTA
 							text="Rejoignez nous"
-							to="mailto:contact@fabmob.io?subject=Poste"
+							to="https://pad.fabmob.io/s/cudgcUGeG"
 							img={<CTAArrow />}
 						/>
 					</div>
