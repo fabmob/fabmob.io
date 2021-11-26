@@ -62,7 +62,7 @@ let Présentation = ({ filter }) => (
 		>
 			<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
 					<CTA
-						text="   Rejoignez nous  "
+						text="Rejoignez nous"
 						to="https://pad.fabmob.io/s/cudgcUGeG"
 						img={<CTAArrow />}
 					/>
@@ -145,6 +145,7 @@ const Surligné = styled.span`
 	color: black;
 `
 const CTAButton = styled.button`
+	width: 200px;
 	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
 	border: none;
 	border-radius: 0;
