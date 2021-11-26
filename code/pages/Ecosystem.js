@@ -144,7 +144,7 @@ const Surligné = styled.span`
 	background: yellow;
 	font-weight: normal;
 	color: black;
-
+`
 const CTAButton = styled.button`
 	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
 	border: none;
@@ -154,6 +154,8 @@ const CTAButton = styled.button`
 	display: flex;
 	justify-content: left;
 	margin: 0.6rem 0;
+`
+
 const CTAArrow = () => (
 	<img
 		src="/images/flèche-nord-est.svg"
