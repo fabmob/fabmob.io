@@ -8,6 +8,7 @@ import { shuffle } from '../utils'
 import Adhérents from 'Pages/Adhérents'
 import { ArticleStyle } from '../UI'
 import Meta from '../Meta'
+import styled from 'styled-components'
 
 export default () => {
 	const [filter, setFilter] = useState({})
@@ -60,13 +61,13 @@ let Présentation = ({ filter }) => (
 			`}
 		>
 			<h2>L'équipe</h2>
-					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
+				<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
 						<CTA
 							text="Rejoignez nous"
 							to="https://pad.fabmob.io/s/cudgcUGeG"
 							img={<CTAArrow />}
 						/>
-					</div>
+				</div>
 
 			<Members data={ecosystème["L'équipe"]} />
 			<h2>Le conseil d'administration</h2>
