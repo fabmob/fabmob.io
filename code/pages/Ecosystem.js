@@ -120,7 +120,7 @@ const AutresFabriques = () => (
 				<span>La FabMob Québec</span>
 			</a>
 			<a href="https://www.lafabriquedelalogistique.fr/">
-				<img src="https://www.lafabriquedelalogistique.fr/wp-content/uploads/2019/03/symbole-2-247x217.png"></img>
+				<img src="https://wiki.lafabriquedesmobilites.fr/images/fabmob/1/1c/Fablog.jpg"></img>
 				<span>La Fabrique de la Logistique</span>
 			</a>
 			<a href="https://fabsan.mystrikingly.com">
