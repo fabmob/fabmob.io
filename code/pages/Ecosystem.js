@@ -62,7 +62,7 @@ let Présentation = ({ filter }) => (
 		>
 			<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
 					<CTA
-						text="Rejoignez nous  "
+						text="   Rejoignez nous  "
 						to="https://pad.fabmob.io/s/cudgcUGeG"
 						img={<CTAArrow />}
 					/>
