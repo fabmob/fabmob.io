@@ -150,6 +150,16 @@ const AutresFabriques = () => (
 		</div>
 	</div>
 )
+
+const CTAButton = styled.button`
+	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 0;
+	display: block;
+	padding: 0.6rem;
+	display: flex;
+	justify-content: left;
+	margin: 0.6rem 0;
 const CTAArrow = () => (
 	<img
 		src="/images/flèche-nord-est.svg"
