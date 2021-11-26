@@ -146,6 +146,7 @@ const Surligné = styled.span`
 `
 const CTAButton = styled.button`
 	width: 200px;
+        height: 40px;
 	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
 	border: none;
 	border-radius: 0;
