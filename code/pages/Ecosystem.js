@@ -60,19 +60,7 @@ let Présentation = ({ filter }) => (
 			`}
 		>
 			<h2>L'équipe</h2>
-					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
-						<CTA
-							text="Découvrez nos communs"
-							to="/communs"
-							img={<CTAArrow />}
-						/>
-
-						<CTA
-							text="Adhérez à la Fabrique"
-							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2021-2022"
-							img={<CTAArrow />}
-						/>
-								
+					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
 						<CTA
 							text="Rejoignez nous"
 							to="https://pad.fabmob.io/s/cudgcUGeG"
