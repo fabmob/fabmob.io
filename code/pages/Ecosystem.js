@@ -60,15 +60,14 @@ let Présentation = ({ filter }) => (
 				}
 			`}
 		>
+			<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
+					<CTA
+						text="Rejoignez nous"
+						to="https://pad.fabmob.io/s/cudgcUGeG"
+						img={<CTAArrow />}
+					/>
+			</div>
 			<h2>L'équipe</h2>
-				<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
-						<CTA
-							text="Rejoignez nous"
-							to="https://pad.fabmob.io/s/cudgcUGeG"
-							img={<CTAArrow />}
-						/>
-				</div>
-
 			<Members data={ecosystème["L'équipe"]} />
 			<h2>Le conseil d'administration</h2>
 
