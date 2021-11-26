@@ -60,6 +60,26 @@ let Présentation = ({ filter }) => (
 			`}
 		>
 			<h2>L'équipe</h2>
+					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
+						<CTA
+							text="Découvrez nos communs"
+							to="/communs"
+							img={<CTAArrow />}
+						/>
+
+						<CTA
+							text="Adhérez à la Fabrique"
+							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2021-2022"
+							img={<CTAArrow />}
+						/>
+								
+						<CTA
+							text="Rejoignez nous"
+							to="https://pad.fabmob.io/s/cudgcUGeG"
+							img={<CTAArrow />}
+						/>
+					</div>
+
 			<Members data={ecosystème["L'équipe"]} />
 			<h2>Le conseil d'administration</h2>
 
@@ -130,3 +150,25 @@ const AutresFabriques = () => (
 		</div>
 	</div>
 )
+const CTAArrow = () => (
+	<img
+		src="/images/flèche-nord-est.svg"
+		css="width: 1rem; margin-right: 1rem; "
+	/>
+)
+const CTA = ({ to, text, img }) =>
+	to.includes('http') ? (
+		<a href={to}>
+			<CTAButton>
+				{img}
+				<span>{text}</span>
+			</CTAButton>
+		</a>
+	) : (
+		<Link to={to}>
+			<CTAButton>
+				{img}
+				<span>{text}</span>
+			</CTAButton>
+		</Link>
+	)
