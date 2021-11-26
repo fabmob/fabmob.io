@@ -175,4 +175,4 @@ const CTA = ({ to, text, img }) =>
 				<span>{text}</span>
 			</CTAButton>
 		</Link>
-	)
+)
