@@ -119,6 +119,10 @@ const AutresFabriques = () => (
 				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"></img>
 				<span>La FabMob Québec</span>
 			</a>
+			<a href="https://www.lafabriquedelalogistique.fr/">
+				<img src="http://www.lafabriquedelalogistique.fr/wp-content/uploads/2019/02/logo-retina,fl_lossy,h_1440,w_720,f_auto,q_100/3323786/137041_142635.jpg"></img>
+				<span>La Fabrique de la Logistique</span>
+			</a>
 			<a href="https://fabsan.mystrikingly.com">
 				<img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_100/3323786/137041_142635.png"></img>
 				<span>La Fabrique des Santés</span>
