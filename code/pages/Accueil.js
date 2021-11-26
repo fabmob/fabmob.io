@@ -86,6 +86,12 @@ export default () => {
 							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2021-2022"
 							img={<CTAArrow />}
 						/>
+								
+						<CTA
+							text="Rejoignez nous"
+							to="mailto:contact@fabmob.io?subject=Poste"
+							img={<CTAArrow />}
+						/>
 					</div>
 					<br />
 				</section>
