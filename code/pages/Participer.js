@@ -150,10 +150,10 @@ let Présentation = () => (
 					{/* <img src={require('./images/appli.svg').default}></img>*/}
 					<h3>Nos codes</h3>
 					<p>Explorer et construire des produits</p>
-					<a href="https://github.com/fabmob.fabmob.io">github.com/fabmob</a>
+					<a href="https://github.com/fabmob">github.com/fabmob</a>
 					<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
 					<p>
-						<a href="https://github.com/fabmob.fabmob.io">
+						<a href="https://github.com/fabmob">
 							<button>Coder</button>
 						</a>
 					</p>
