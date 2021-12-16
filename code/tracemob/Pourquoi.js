@@ -29,7 +29,7 @@ export default () => (
 		`}
 	>
 		<h2>
-			Vos données sont <em>à vous </em> !
+			Vos données sont <b>à vous</b> !
 		</h2>
 		<span className="illustration">🗺️</span>
 		<p>
@@ -39,8 +39,8 @@ export default () => (
 		</p>
 		<span className="illustration"> 🔒</span>{' '}
 		<p>
-			Jusqu'à présent, seuls Google, Apple ou votre opérateur téléphonique
-			disposent de vos traces de déplacements, et la clef de cet entrepôt privé
+			Jusqu'à présent, ce sont surtout Google, Apple ou votre opérateur téléphonique
+			qui disposent de vos traces de déplacements, et la clef de cet entrepôt privé
 			reste dans leur main.
 		</p>
 		<img
@@ -60,11 +60,10 @@ export default () => (
 		<span className="illustration">🧮🌱💸</span>
 		<p>
 			Suivez vos déplacements sur une carte annuelle - calculez l'empreinte
-			climat de vos déplacements - dans une prochaine version, gagnez de
-			l'argent pour chaque kilomètre fait en vélo.
+			climat de vos déplacements ou suivez vos kilomètres à pied, à vélo et en bus.
 		</p>
 		<h2>
-			Construire <em>ensemble</em> le futur du transport
+			Construire ensemble le futur du transport
 		</h2>
 		<p>
 			Si vous le désirez - et la décision vous revient - vous pourrez envoyer
@@ -72,31 +71,39 @@ export default () => (
 			pour participer à améliorer les transports et l'infrastructure publique.
 		</p>
 		<p>
-			<strong>Donnez aux collectivités</strong> la chance de mieux comprendre
-			vos déplacements du quotidien, pour que les nouvelles pistes cyclables,
-			lignes de bus, petites lignes de train, nouvelles routes, bornes de
-			recharge électrique, places de stationnement, et l’aménagement urbain en
-			général ne vous laissent plus de côté.
+			En 2021 et 2022, tracemob est développée avec le soutien de l'Agglo de la Rochelle
+			expérimentent <a href="https://agremob.com/self-data-accueil/">dans le cadre du projet Agremob</a>
+			un dispositif numérique unique permettant aux citoyens (500 testeurs) 
+			de mieux connaître leurs habitudes de déplacement et d’agir pour réduire leurs émissions de CO2.
+			Tracemob est l'application de recueil des traces de mobilité,
+			associée au cloud personnel cozycloud vers lequel les utilisateurs peuvent envoyer les données
+			pour alimenter <a href="https://agremob.com/self-data-les-outils/">une application "CoachCO2"</a>.
 		</p>
 		<h2>
-			<em>Comment</em> ça marche ?
+			Comment ça marche ?
 		</h2>
 		<p>Installez l'application, et ... rien de plus !</p>{' '}
 		<p>
 			{' '}
 			Elle enregistre et détecte vos déplacements à pied, en voiture, à vélo, en
-			bus, jour après jour.{' '}
+			bus, ou en métro jour après jour.{' '}
 		</p>
 		<p>
-			Ces données sont re-traitées pour notamment détecter le mode puis envoyées
-			sur votre <strong>entrepôt de données personnelles</strong>.
+			Ces données sont re-traitées pour notamment détecter le mode.
+			Dans le cadre du projet Agremob, les utilisateurs peuvent ensuite envoyer leurs données
+			sur leur <strong>entrepôt de données personnelles cozycloud</strong>.
 		</p>
-		<p>Puis seulement si vous le voulez, faites un don !</p>
+		<p>
+			Pour en savoir plus,
+				<a href="https://agremob.com/self-data-accueil/">consultez la documentation utilisateur</a>
+			ou ci-dessous
+				l'historique avec les livrables plus techniques produits lors de nos tests en 2019.
+		</p>
 		<h2>Des questions ?</h2>
 		<h3>Google les a déjà non ?</h3>
 		<p>
 			Tout à fait ! Dès lors que vous avez un téléphone dans votre poche et une
-			application comme Google Maps, vous êtes suivis.{' '}
+			application comme Google Maps, vous êtes suivis, même si en principe vous devriez avoir encore le contrôle.{' '}
 		</p>
 		<p>
 			Vos données sont l'or des GAFAM (Google, Apple, Facebook, Amazon,
@@ -112,14 +119,14 @@ export default () => (
 		<p>
 			Le code de l'application est entièrement libre, il est issu d'un{' '}
 			<a href="https://github.com/e-mission/e-mission-docs">logiciel libre</a>{' '}
-			développé et maintenu par un labo américain, tout le monde peut vérifier
+			développé et maintenu par <a href="https://www.nrel.gov/transportation/openpath.html">un labo fédéral américain</a>, tout le monde peut vérifier
 			que l'appli ne collecte pas les données sans autorisation. Voici le code
 			du <a href="https://github.com/fabmob/tracemob-server">serveur</a> et de{' '}
 			<a href="https://github.com/fabmob/tracemob-phone">l'interface</a>.
 		</p>
 		<h3>Et ma batterie 🔋 ? </h3>
 		<p>
-			Les versions récentes d'Android sont bien faites : suivre votre position
+			Les versions récentes d'Android ou d'IOS ont beaucoup profressé : suivre votre position
 			ne consomme que quelques petits % de batterie par jour.{' '}
 		</p>
 		<p>
@@ -128,13 +135,14 @@ export default () => (
 		</p>
 		<h3>Les données collectées seront-elles représentatives ?</h3>
 		<p>
-			Les données collectées ne viendront que compléter les enquêtes actuelles
-			sur la base desquelles les politiques de transport sont construites.
+			Les données collectées ne peuvent être qu'un complément des enquêtes actuelles
+			sur la base desquelles les politiques de transport sont construites,
+			et sont plutôt un outil de suivi individuel des vos pratiques de mobilité.
 		</p>
 		<p>
-			Plus de 90% de la population active possède un smartphone. Ces données
-			nous permettront au moins d'améliorer la connaissance des déplacements
-			domicile-travail.
+			Essayez, vous verrez qu'au fil des semaines vous aurez une meilleure compréhension de
+			vos habitudes déplacement et du temps passé dans les différents modes, par exemple,
+			même si le recueil n'est pas parfait à 100%...
 		</p>
 	</div>
 )
