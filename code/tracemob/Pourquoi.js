@@ -72,7 +72,7 @@ export default () => (
 		</p>
 		<p>
 			En 2021 et 2022, tracemob est développée avec le soutien de l'Agglo de la Rochelle
-			expérimentent <a href="https://agremob.com/self-data-accueil/">dans le cadre du projet Agremob</a>
+			expérimentent <a href="https://agremob.com/self-data-accueil/">dans le cadre du projet Agremob </a>
 			un dispositif numérique unique permettant aux citoyens (500 testeurs) 
 			de mieux connaître leurs habitudes de déplacement et d’agir pour réduire leurs émissions de CO2.
 			Tracemob est l'application de recueil des traces de mobilité,
@@ -95,7 +95,7 @@ export default () => (
 		</p>
 		<p>
 			Pour en savoir plus,
-				<a href="https://agremob.com/self-data-accueil/">consultez la documentation utilisateur</a>
+				<a href="https://agremob.com/self-data-accueil/"> consultez la documentation utilisateur </a>
 			ou ci-dessous
 				l'historique avec les livrables plus techniques produits lors de nos tests en 2019.
 		</p>
