@@ -1,7 +1,7 @@
 ---
 title: Nouvelle version d'Open Mobility Indicators
 date: 2021-11-23
-image: /contenu/articles/2021/images/plumealoup.jpg
+image: /contenu/articles/2021/images/clapiers2.png
 résumé: Nouvelle version de l'application OpenMobilityIndicators couvre désormais la France métropolitaine. Ce commun développé via l'AAP Résilience des Territoires.
 categories: 
   - articles
