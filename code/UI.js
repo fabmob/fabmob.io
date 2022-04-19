@@ -18,6 +18,7 @@ export const Card = styled.li`
 	width: 20rem;
 	height: 16rem;
 	padding: 1rem;
+	overflow: hidden;
 	img {
 		max-width: 10rem;
 		max-height: 5rem;,
