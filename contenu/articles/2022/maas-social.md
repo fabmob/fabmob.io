@@ -76,9 +76,17 @@ L’exploration de ce « MaaS social » fera l’objet de travaux et publication
 [^3]: Jean-Pierre Orfeuil (2010), [“La mobilité, nouvelle question sociale ?”, SociologieS](https://journals.openedition.org/sociologies/3321)
 [^4]: Voir à ce sujet les travaux de géographie féministe de Melissa R. Gilbert. 
 
-[^5]: https://www.francemobilites.fr/thematiques/mobilite-pour-tous 
+[^5]: [](https://www.francemobilites.fr/thematiques/mobilite-pour-tous)
 
-[^6]: https://www.cohesion-territoires.gouv.fr/competences-des-collectivites-locales 
+[^6]: [](https://www.cohesion-territoires.gouv.fr/competences-des-collectivites-locales)
 
-[^7]: https://www.mobiliteinclusive.com/%E2%80%89tous-mobiles%E2%80%89-lancement-du-site-dedie-a-la-mobilite-solidaire/ 
-[^8]: https://www.lemonde.fr/blog/transports/2016/10/30/merveilleuse-mobilite-connectee/
+[^7]: [](https://www.mobiliteinclusive.com/%E2%80%89tous-mobiles%E2%80%89-lancement-du-site-dedie-a-la-mobilite-solidaire/)
+[^8]: [](https://www.lemonde.fr/blog/transports/2016/10/30/merveilleuse-mobilite-connectee/)
+
+
+----
+#### Crédits photos
+1.
+2. [Photo by Dani C on Unsplash](https://unsplash.com/photos/RPkQ28PEZ3E?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+3. [Photo by Jan Huber on Unsplash ](
+  
