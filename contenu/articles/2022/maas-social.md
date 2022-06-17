@@ -65,7 +65,8 @@ Mais alors, un "MaaS social" serait-il possible, voire souhaitable ? À quelles 
 Il ne s’agit pas pour autant de surestimer les possibilités du numérique, de le hisser comme LA solution incontournable, et moins encore, de vanter les mérites d’une numérisation généralisée de la société. Il s’agit plutôt de **mettre en lumière, à l’aide d’exemples concrets, quels seraient les leviers qu’un MaaS pourrait activer au service de l’action sociale, et quelles seraient les conditions qui rendraient cela possible.**
 
 
-***L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : [yann@fabmob.io](yann@fabmob.io)*** <br/>
+<span style="color: #50F19E"> texte
+***L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : [yann@fabmob.io](yann@fabmob.io)*** </span>
 
 
 ----
