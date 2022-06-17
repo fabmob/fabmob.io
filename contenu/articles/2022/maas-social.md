@@ -1,5 +1,5 @@
 ---
-titre: '"MaaS social" : vers de nouvelles coopérations'
+titre: '"MaaS social" : vers de nouvelles coopérations dans le domaine de la mobilité'
 date: 2022-05-17
 image: https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_81b521195f250ded99e5dc9cc9bf9760.jpg
 
@@ -16,7 +16,7 @@ tags:
 author: Yann Bergamasschi & Marguerite Grandjean
 ---
 
-# "MaaS social" : vers de nouvelles coopérations dans le domaine des mobilités
+
 
 Après deux années d’immersion dans l’univers du MaaS et à l’heure où questions environnementales et sociales s’imposent à nous comme les deux faces d’une même pièce, la Fabrique des Mobilités s’engage dans l’exploration ce que pourrait être un "MaaS social", un MaaS au service de l’action sociale et de la réduction des inégalités face à la mobilité. <br/>
 
