@@ -13,9 +13,8 @@ tags:
   - MaaS
   - Mobilité inclusive
   - MaaS Social
-author: Yann Bergamasschi & Marguerite Grandjean
+author: Marguerite Grandjean & Yann Bergamasschi
 ---
-
 
 
 Après deux années d’immersion dans l’univers du MaaS et à l’heure où questions environnementales et sociales s’imposent à nous comme les deux faces d’une même pièce, la Fabrique des Mobilités s’engage dans l’exploration ce que pourrait être un "MaaS social", un MaaS au service de l’action sociale et de la réduction des inégalités face à la mobilité. <br/>
