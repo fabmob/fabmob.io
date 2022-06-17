@@ -64,9 +64,9 @@ Mais alors, un "MaaS social" serait-il possible, voire souhaitable ? À quelles 
 
 Il ne s’agit pas pour autant de surestimer les possibilités du numérique, de le hisser comme LA solution incontournable, et moins encore, de vanter les mérites d’une numérisation généralisée de la société. Il s’agit plutôt de **mettre en lumière, à l’aide d’exemples concrets, quels seraient les leviers qu’un MaaS pourrait activer au service de l’action sociale, et quelles seraient les conditions qui rendraient cela possible.**
 
-:::info
-L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : yann@fabmob.io <br/>
-:::
+
+***L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : [yann@fabmob.io](yann@fabmob.io)*** <br/>
+
 
 ----
 
@@ -78,12 +78,12 @@ L’exploration de ce « MaaS social » fera l’objet de travaux et publication
 [^3]: Jean-Pierre Orfeuil (2010), [“La mobilité, nouvelle question sociale ?”, SociologieS](https://journals.openedition.org/sociologies/3321)
 [^4]: Voir à ce sujet les travaux de géographie féministe de Melissa R. Gilbert. 
 
-[^5]: [](https://www.francemobilites.fr/thematiques/mobilite-pour-tous)
+[^5]: [France Mobilités | Les solutions de mobilité pour tous ](https://www.francemobilites.fr/thematiques/mobilite-pour-tous)
 
-[^6]: [](https://www.cohesion-territoires.gouv.fr/competences-des-collectivites-locales)
+[^6]: [Ministère de la Cohésion des territoires | Compétences des collectivités territoriales](https://www.cohesion-territoires.gouv.fr/competences-des-collectivites-locales)
 
-[^7]: [](https://www.mobiliteinclusive.com/%E2%80%89tous-mobiles%E2%80%89-lancement-du-site-dedie-a-la-mobilite-solidaire/)
-[^8]: [](https://www.lemonde.fr/blog/transports/2016/10/30/merveilleuse-mobilite-connectee/)
+[^7]: [Laboratoire de la Mobilité Inclusive](https://www.mobiliteinclusive.com/%E2%80%89tous-mobiles%E2%80%89-lancement-du-site-dedie-a-la-mobilite-solidaire/)
+[^8]: [Le Monde | "Le monde merveilleux de la « mobilité connectée"](https://www.lemonde.fr/blog/transports/2016/10/30/merveilleuse-mobilite-connectee/)
 
 
 ----
