@@ -64,14 +64,16 @@ Mais alors, un "MaaS social" serait-il possible, voire souhaitable ? À quelles 
 
 Il ne s’agit pas pour autant de surestimer les possibilités du numérique, de le hisser comme LA solution incontournable, et moins encore, de vanter les mérites d’une numérisation généralisée de la société. Il s’agit plutôt de **mettre en lumière, à l’aide d’exemples concrets, quels seraient les leviers qu’un MaaS pourrait activer au service de l’action sociale, et quelles seraient les conditions qui rendraient cela possible.**
 
-L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : yann@fabmob.io 
+L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : yann@fabmob.io <br/>
+
+----
 
 
-[^1]: Echantillon représentatif de 1003 personnes de 18 ans et plus, interrogées en ligne en décembre 2016 - https://elabe.fr/etude-mobilite-emploi-4emes-rencontres-de-mobilite-inclusive/
+[^1]: [Echantillon représentatif de 1003 personnes de 18 ans et plus, interrogées en ligne en décembre 2016](https://elabe.fr/etude-mobilite-emploi-4emes-rencontres-de-mobilite-inclusive/)
 
-[^2]: Enquête menée auprès de 13 000 Français entre octobre et décembre 2021 - https://www.fnh.org/133-millions-de-francais-en-situation-de-precarite-mobilite/ 
+[^2]: [Enquête menée auprès de 13 000 Français entre octobre et décembre 2021](https://www.fnh.org/133-millions-de-francais-en-situation-de-precarite-mobilite/) 
 
-[^3]: Jean-Pierre Orfeuil (2010), “La mobilité, nouvelle question sociale ?”, SociologieS - https://journals.openedition.org/sociologies/3321
+[^3]: Jean-Pierre Orfeuil (2010), [“La mobilité, nouvelle question sociale ?”, SociologieS](https://journals.openedition.org/sociologies/3321)
 [^4]: Voir à ce sujet les travaux de géographie féministe de Melissa R. Gilbert. 
 
 [^5]: https://www.francemobilites.fr/thematiques/mobilite-pour-tous 
