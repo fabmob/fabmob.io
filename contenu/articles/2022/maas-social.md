@@ -1,7 +1,7 @@
 ---
 titre: '"MaaS social" : vers de nouvelles coopérations dans le domaine de la mobilité'
 date: 2022-05-17
-image: https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_81b521195f250ded99e5dc9cc9bf9760.jpg
+image: https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_10db2bcc1244f5113d7f8a9b3905f0d6.jpg
 
 résumé: Après deux années d’immersion dans l’univers du MaaS, la Fabrique des Mobilités s’engage dans l’exploration ce que pourrait être un "MaaS social", au service de l’action sociale.
 
@@ -36,7 +36,7 @@ Or les années 2010 constituent aussi un tournant décisif au sein de l’ère n
 **Comment expliquer cette absence de lien entre ces deux mouvements, pourtant développés au même moment, dans le même domaine ?** Si l’on regarde de plus près la façon dont ils sont nés, **ce n’est pas une surprise : ils n’impliquent ni les mêmes acteurs, ni les mêmes régulateurs, ni les mêmes publics cibles.** <br/>
 
 ### Travail « dans la dentelle » et logique du « scale » 
-![](https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_c879b920d25d40a6d768de00ffa5cd5c.jpg)
+![](https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_a2b81fea092ca0ee1eebbce3b44ec604.jpg)
 
 Du côté des acteurs, de manière générale, les tenants de la "révolution numérique" (logiques Start-up Nation, capital-risque, "*there’s an app for everything*", "*winner takes all*", etc.) et ceux du "social" (tissu associatif et coopérativiste, logique de "remettre l’humain au centre", etc.) se côtoient finalement assez peu, et n’ont de fait pas l’habitude de collaborer ensemble, quand ils ne se rejettent pas mutuellement. Il en va de même pour le MaaS, qui s’est développé au sein d’une **culture numérique**, sous l’impulsion notamment d’acteurs privés (comme Uber par exemple) de manière plutôt centralisée, et plutôt dans de grosses métropoles, avec des moyens importants (quitte à financer de grosses plateformes relativement peu utilisées se cherchant une masse critique). La mobilité solidaire, elle, a émergé du secteur de l’**économie sociale et solidaire (ESS)**, de façon ultralocalisée, et par définition sur des territoires moins bien dotés, plus précaires et/ou peu denses, avec des moyens d’une moindre échelle, voire artisanaux. Ainsi, la différence entre mobilité solidaire et MaaS peut se résumer ainsi. **La mobilité solidaire est issue d’une approche plutôt orientée "territoire"**, très spécifique à chaque zone et ses besoins particuliers : **un travail "dans la dentelle"**, avec une offre territorialisée, diversifiée et foisonnante, mais peu coordonnée. **Le MaaS quant à lui procède plutôt d’une approche orientée "produit"**, venue du numérique, qui agrège des offres de manière plus verticale, suivant une **logique de "scale"** quête permanente de passage à l’échelle.
 
@@ -57,7 +57,7 @@ Mais alors, un "MaaS social" serait-il possible, voire souhaitable ? À quelles 
 
 ## Décloisonner les secteurs et les métiers
 
-![](https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_d116254aa33720f64f73148dae46d361.jpg)
+![](https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_2e2de3ab6571c54d4292b786e4c31ffb.jpg)
 
 
 **S’il permet de rapprocher les deux mondes séparés du numérique et du solidaire, à la fois en respectant leurs  fondamentaux et en libérant leur potentiel, le MaaS pourrait constituer un véritable outil** pour répondre à une préoccupation grandissante de l’acteur public et des populations autour des difficultés liées à la mobilité. À première vue, le MaaS pourrait rendre visibles des aides et des offres dispersées, et en les agrégeant, proposer des lignes de mobilité alternatives lisibles et accessibles.   
@@ -89,7 +89,7 @@ Il ne s’agit pas pour autant de surestimer les possibilités du numérique, de
 
 ----
 #### Crédits photos
-1.
-2. [Photo by Dani C on Unsplash](https://unsplash.com/photos/RPkQ28PEZ3E?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-3. [Photo by Jan Huber on Unsplash ](
+1. [Photo par Adam Nieścioruk sur Unsplash](https://unsplash.com/photos/9ChfwZzv4ys?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+2. [Photo Par Ji-Elle — Travail personnel, CC BY-SA 3.0,]( https://commons.wikimedia.org/w/index.php?curid=920505)
+3. [Photo par Waldemar Brandt sur Unsplash](https://unsplash.com/photos/7kSnMLGoR9w)
   
