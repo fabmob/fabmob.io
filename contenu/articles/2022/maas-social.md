@@ -1,6 +1,6 @@
 ---
 titre: '"MaaS social" : vers de nouvelles coopérations dans le domaine de la mobilité'
-date: 2022-05-17
+date: 2022-06-17
 image: https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_10db2bcc1244f5113d7f8a9b3905f0d6.jpg
 
 résumé: Après deux années d’immersion dans l’univers du MaaS, la Fabrique des Mobilités s’engage dans l’exploration ce que pourrait être un "MaaS social", au service de l’action sociale.
