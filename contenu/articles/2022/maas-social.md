@@ -31,23 +31,23 @@ Des mouvements dédiés à ces problématiques ont alors émergé, dits de « mo
 
 Or les années 2010 constituent aussi un tournant décisif au sein de l’ère numérique dans laquelle nous vivons, **avec le développement rapide d’un autre domaine de la mobilité : le "MaaS"**, pour "Mobility as a service" ou "mobilité servicielle". Le MaaS intègre des services numériques (via des plateformes) afin de simplifier l'usage des différentes offres de mobilité en donnant une information complète à l’usager-voyageur et en facilitant l'accès à chaque mode de transport (transports en commun, train, covoiturage, vélo en libre service, etc.). La promesse : utiliser le numérique pour faciliter l’accès à la mobilité. Une promesse doublée de celle de la réduction de l’empreinte carbone, grâce aux mobilités douces et partagées mises en évidence sur les plateformes MaaS. **Promesse plutôt écologique donc, et non sociale** : le mouvement semble s’être développé en parallèle à la mobilité solidaire, sans réel point de convergence. <br/>
 
-## Mobilité numérique et mobilité solidaire : deux mouvements 
+## Mobilité numérique et mobilité solidaire : deux mouvements qui s'ignorent
 
 **Comment expliquer cette absence de lien entre ces deux mouvements, pourtant développés au même moment, dans le même domaine ?** Si l’on regarde de plus près la façon dont ils sont nés, **ce n’est pas une surprise : ils n’impliquent ni les mêmes acteurs, ni les mêmes régulateurs, ni les mêmes publics cibles.** <br/>
 
-## Travail « dans la dentelle » et logique du « scale » 
+### Travail « dans la dentelle » et logique du « scale » 
 ![](https://hot-objects.liiib.re/pad-fabmob-io/uploads/upload_c879b920d25d40a6d768de00ffa5cd5c.jpg)
 
 Du côté des acteurs, de manière générale, les tenants de la "révolution numérique" (logiques Start-up Nation, capital-risque, "*there’s an app for everything*", "*winner takes all*", etc.) et ceux du "social" (tissu associatif et coopérativiste, logique de "remettre l’humain au centre", etc.) se côtoient finalement assez peu, et n’ont de fait pas l’habitude de collaborer ensemble, quand ils ne se rejettent pas mutuellement. Il en va de même pour le MaaS, qui s’est développé au sein d’une **culture numérique**, sous l’impulsion notamment d’acteurs privés (comme Uber par exemple) de manière plutôt centralisée, et plutôt dans de grosses métropoles, avec des moyens importants (quitte à financer de grosses plateformes relativement peu utilisées se cherchant une masse critique). La mobilité solidaire, elle, a émergé du secteur de l’**économie sociale et solidaire (ESS)**, de façon ultralocalisée, et par définition sur des territoires moins bien dotés, plus précaires et/ou peu denses, avec des moyens d’une moindre échelle, voire artisanaux. Ainsi, la différence entre mobilité solidaire et MaaS peut se résumer ainsi. **La mobilité solidaire est issue d’une approche plutôt orientée "territoire"**, très spécifique à chaque zone et ses besoins particuliers : **un travail "dans la dentelle"**, avec une offre territorialisée, diversifiée et foisonnante, mais peu coordonnée. **Le MaaS quant à lui procède plutôt d’une approche orientée "produit"**, venue du numérique, qui agrège des offres de manière plus verticale, suivant une **logique de "scale"** quête permanente de passage à l’échelle.
 
-## L’éclatement des compétences administratives
+### L’éclatement des compétences administratives
 Par ailleurs, du côté du régulateur ou donneur d’ordres public, **les compétences concernant le social et celles qui concernent la mobilité ne se situent pas toujours au même échelon** dans les administrations et les collectivités territoriales. Depuis la loi LOM de 2019, ce sont les Autorités Organisatrices de Mobilités, généralement agglomérations ou régions, qui sont compétentes pour la supervision de la mobilité sur leur territoire, y compris pour le développement de MaaS. L’action sociale (dont la mobilité solidaire), elle, relève plutôt de la responsabilité du département[^6]. Deux échelons et deux domaines qui ne se parlent que peu, alors même que le cadrage d’un projet de mobilité sociale comme de MaaS dépend en grande partie de l’entité publique qui le porte.
 
-## Mobilité, solidarité, numérique : la politique à trois temps
+### Mobilité, solidarité, numérique : la politique à trois temps
 
 Rajoutons encore une couche de complexité : ni la "mobilité numérique", ni la "mobilité solidaire" ne font l’objet de politiques structurées. **Opérer des croisements entre deux domaines eux-mêmes hétérogènes devient donc encore plus complexe**. Les politiques de transport se caractérisent historiquement par leur éclatement et leur dimension localisée : les compétences concernant la mobilité varient fortement selon les territoires, y compris entre échelons d’une même nature (intercommunalités par exemple). Des politiques de mobilité numérique ne sont pas non plus formalisées de façon cohérente et homogène, malgré les développements de MaaS publics (comme celui d’Île-de-France Mobilités par exemple). Côté social et solidaire, **l’émergence d’une politique publique de mobilité solidaire n’en est qu’à ses débuts**. Si l’acteur public a une volonté réelle de soutien à la mobilité solidaire, les soutiens restent dispersés et peu lisibles, malgré des initiatives comme la plateforme "Tous Mobiles", lancée en 2021 par le LMI et le Ministère de la Transition écologique pour aider les acteurs territoriaux à articuler une politique de mobilité solidaire au sein du foisonnement d’offres et de financements existants[^7].  
 
-## MaaS : qui est IN, qui est OUT ?
+### MaaS : qui est IN, qui est OUT ?
 
 Enfin, les publics cibles ou "usagers" sont, dans les faits, distincts. Une étude de TNS Sofres menée pour Keolis et Netexplo en 2016[^8] détaillait différentes catégories d’utilisateurs de la "mobilité numérique". **Les utilisateurs "cœur" du MaaS correspondent aux 10% de répondants nommés "hyperactifs"**, prompts à la fois à l’usage d’applications mobiles et de transports en commun (dont la moitié vivrait en Île-de-France). A l’inverse, **la mobilité solidaire vise les publics "isolés"** (revenus modestes qui empruntent peu les transports publics) ou **"fragiles"**(en situation de sous-mobilité profonde), deux publics que l’étude regroupe sous le nom de "offline" (30% des répondants), donc par définition en dehors du MaaS. En effet, **pour ces publics plus fragiles, l’outil numérique constitue plutôt une barrière qu’un moyen d’accès supplémentaire**, notamment lorsqu’à la complexité numérique s’ajoute un manque de compétences élémentaires dans la mobilité (savoir lire une carte, savoir comment se déplacer, etc.)
 
@@ -64,7 +64,9 @@ Mais alors, un "MaaS social" serait-il possible, voire souhaitable ? À quelles 
 
 Il ne s’agit pas pour autant de surestimer les possibilités du numérique, de le hisser comme LA solution incontournable, et moins encore, de vanter les mérites d’une numérisation généralisée de la société. Il s’agit plutôt de **mettre en lumière, à l’aide d’exemples concrets, quels seraient les leviers qu’un MaaS pourrait activer au service de l’action sociale, et quelles seraient les conditions qui rendraient cela possible.**
 
+:::info
 L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : yann@fabmob.io <br/>
+:::
 
 ----
 
