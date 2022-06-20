@@ -17,7 +17,7 @@ author: Marguerite Grandjean & Yann Bergamasschi
 ---
 
 
-Après deux années d’immersion dans l’univers du MaaS et à l’heure où questions environnementales et sociales s’imposent à nous comme les deux faces d’une même pièce, la Fabrique des Mobilités s’engage dans l’exploration ce que pourrait être un "MaaS social", un MaaS au service de l’action sociale et de la réduction des inégalités face à la mobilité. <br/>
+Après deux années d’immersion dans l’univers du MaaS et à l’heure où questions environnementales et sociales s’imposent comme les deux faces d’une même pièce, la Fabrique des Mobilités s’engage dans l’exploration ce que pourrait être un "MaaS social", un MaaS au service de l’action sociale et de la réduction des inégalités face à la mobilité. <br/>
 
 Dans cet article, nous posons d’abord le contexte. Un "MaaS social", s’il existait, s’inscrirait à la croisée de deux courants de la mobilité : la mobilité  numérique et la mobilité solidaire. Or ces deux courants sont restés et restent encore largement séparés, que ce soit au niveau des acteurs impliqués (et de leurs cultures et valeurs, perceptions et attentes), de leurs échelles et modalités d’intervention, des usagers ou bénéficiaires ciblés, des moyens et outils mobilisés. Résultat : la convergence entre MaaS et mobilité solidaire ne va pas de soi et les potentialités d’une telle rencontre restent à révéler. <br/>
 
@@ -65,7 +65,7 @@ Mais alors, un "MaaS social" serait-il possible, voire souhaitable ? À quelles 
 Il ne s’agit pas pour autant de surestimer les possibilités du numérique, de le hisser comme LA solution incontournable, et moins encore, de vanter les mérites d’une numérisation généralisée de la société. Il s’agit plutôt de **mettre en lumière, à l’aide d’exemples concrets, quels seraient les leviers qu’un MaaS pourrait activer au service de l’action sociale, et quelles seraient les conditions qui rendraient cela possible.**
 
 
-<span style="color: #50F19E"> ***L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez nous à l’adresse suivante : [yann@fabmob.io](yann@fabmob.io)*** </span>
+<span style="color: #50F19E"> ***L’exploration de ce « MaaS social » fera l’objet de travaux et publications ultérieures de la Fabrique des Mobilités. Si le sujet vous intéresse et que vous souhaitez rejoindre l’aventure, écrivez-nous à l’adresse suivante : [yann@fabmob.io](yann@fabmob.io)*** </span>
 
 
 ----
