@@ -63,11 +63,7 @@ export default () => {
 					width: 8rem;
 					${location.pathname === '/' ? 'display: none;' : ''}
 				}
-				> a {
-					width: 192px;
-					height: 54px;
-					${open ? 'display: none' : 'display: flex'}
-				}
+				
 
 				@media (max-width: 800px) {
 					justify-content: space-evenly;
@@ -76,6 +72,11 @@ export default () => {
 						flex-direction: column;
 						align-item: end;
 						${open ? 'display: flex' : 'display: none'}
+					}
+					> a {
+						width: 192px;
+						height: 54px;
+						${open ? 'display: none' : 'display: flex'}
 					}
 				}
 			`}
