@@ -23,21 +23,31 @@ export default `
   --width-content: 1080px;
 }
 
-/*
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color: #0097fc;
-        --color-accent: #0097fc4f;
-        --color-bg: #333;
-        --color-bg-secondary: #555;
-        --color-secondary: #e20de9;
-        --color-secondary-accent: #e20de94f;
-        --color-shadow: #bbbbbb20;
-        --color-text: #f7f7f7;
-        --color-text-secondary: #aaa;
-    }
+body.dark {
+  --color: #0097fc;
+  --color-accent: #0097fc4f;
+  --color-bg: #333;
+  --color-bg-secondary: #555;
+  // --color-secondary: #e20de9;
+  --color-secondary-accent: #e20de94f;
+  --color-shadow: #bbbbbb20;
+  --color-text: #f7f7f7;
+  --color-text-secondary: #aaa;
 }
-*/
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//         --color: #0097fc;
+//         --color-accent: #0097fc4f;
+//         --color-bg: #333;
+//         --color-bg-secondary: #555;
+//         // --color-secondary: #e20de9;
+//         --color-secondary-accent: #e20de94f;
+//         --color-shadow: #bbbbbb20;
+//         --color-text: #f7f7f7;
+//         --color-text-secondary: #aaa;
+//     }
+// }
+
 
 /* open-sans-regular - latin */
 @font-face {
@@ -211,7 +221,7 @@ h4,
 h5,
 h6 {
   line-height: var(--line-height);
-  color: black
+  color: var(--color-text)
 }
 
 mark {
@@ -280,6 +290,7 @@ button {
   line-height: var(--line-height);
   margin: 1.5rem 0 0.5rem 0;
   padding: 1rem 2rem;
+  color: var(--color-text);
 }
 
 button {
@@ -290,12 +301,20 @@ button {
 }
 
 button:hover {
-background: black;
+background: gray;
 color: white;
   cursor: pointer;
   filter: brightness(var(--hover-brightness));
 }
-
+nav button:hover {
+  background: transparent;
+}
+nav button {
+  height: 24px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
 
 /* Images */
 figure {
