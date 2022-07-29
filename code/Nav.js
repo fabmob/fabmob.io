@@ -61,9 +61,12 @@ export default () => {
 				img {
 					margin: 0rem 2rem;
 					width: 8rem;
+					${location.pathname === '/' ? 'display: none;' : ''}
 				}
 				> a {
-					${location.pathname === '/' ? 'display: none;' : ''}
+					width: 192px;
+					height: 54px;
+					${open ? 'display: none' : 'display: flex'}
 				}
 
 				@media (max-width: 800px) {

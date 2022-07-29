@@ -26,7 +26,6 @@ export default () => {
 			<header
 				css={`
 					> section {
-						height: 65vh;
 						display: flex;
 						flex-direction: column;
 						justify-content: center;

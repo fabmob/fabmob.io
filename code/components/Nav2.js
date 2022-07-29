@@ -24,6 +24,7 @@ export default ({ data, titre }) => (
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: center;
+					text-align: center;
 				}
 				li {
 					display: inline-block;
