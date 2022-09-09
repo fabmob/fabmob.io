@@ -1,7 +1,7 @@
 ---
 title: E-coop in Tanzania
 date: 2022-09-09
-image: https://i.imgur.com/OZEwzs5.jpg
+image: https://cloud.fabmob.io/s/aGkxykpNebSacxB
 résumé: Tanga moves towards the first worker-owned cooperative of electric transportation in Tanzania !
 categories: 
   - articles
@@ -11,7 +11,7 @@ tags:
 author: Partners of e-coop project 
 ---
 
-**The fourth city of Tanzania welcomes the establishment of an e-Boda cooperative, whose objective is to empower communities to take on production, operation, and services thanks to an open source software.**
+*The fourth city of Tanzania welcomes the establishment of an e-Boda cooperative, whose objective is to empower communities to take on production, operation, and services thanks to an open source software.*
 
 # Establishing a worker-owned cooperative
 
@@ -27,12 +27,14 @@ A cooperative is an autonomous association of persons united voluntarily to meet
 * 4.Autonomy and Independence
 * 5.Education, Training, and Information
 * 6.Cooperation among Cooperatives
-* 7. Concern for Community
+* 7.Concern for Community
 
 # E-Boda in Tanzania and Local Manufacturing
 
 In Tanzania, Bodas not only move people and goods around the city but also employ hundreds of thousands of riders. In Tanga, two main areas concentrate the trips : downtown Tanga and Muheza. The riders operate independently, they often start by renting the motorcycle from the owners and save up enough in a year or two to purchase his/her motorcycle, commonly used. There were efforts to facilitate the riders to be financed by SACCO (Savings and Credit Cooperative Organization) but the cooperative model as an organized enterprise can help to reduce the risk of financing. 
+
 The used motorcycles are often used beyond their warranty and are one of the contributing factors to traffic accidents. The collectively owned fleet of locally produced and maintained vehicles will help keep the motorcycles in better condition that could reduce traffic accidents. 
+
 The first contribution of the replacement of the current thermal motorbikes by electric motorbikes with interchangeable batteries is environmental. Electric power improves local air quality and reduces noise. Moreover, the technical simplification of the vehicles brought about by this technology allows the drivers to take control over the manufacturing and repairing process. The vehicles will be delivered in spare parts and training in the assembly of motorbike taxis will be provided on site. It will enable them to repair their vehicles themselves in the event of a breakdow and it allows the partners to lower the cooperative startup cost with cost-effective parts to be assembled in Tanga. The model also provides a gradual path to expand manufacturing with import substitutions as the numbers of coops increase to create enough demand for the parts to support local manufacturing.
 
 # Open Source digital Platform
