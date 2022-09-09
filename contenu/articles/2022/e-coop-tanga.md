@@ -1,7 +1,7 @@
 ---
 title: E-coop in Tanzania
 date: 2022-09-09
-image: https://cloud.fabmob.io/s/aGkxykpNebSacxB
+image: WhatsApp Image 2022-01-10 at 11.28.12.jpeg
 résumé: Tanga moves towards the first worker-owned cooperative of electric transportation in Tanzania !
 categories: 
   - articles
