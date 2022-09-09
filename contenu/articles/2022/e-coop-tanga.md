@@ -41,6 +41,6 @@ The first contribution of the replacement of the current thermal motorbikes by e
 
 Modern urban mobility is becoming more digital that are currently dominated by large platforms such as uberBoda. The platforms take a sizable chunk of the riders’ income. The coop will run on open-source fleet management and mobility services platforms such as [Coopcycle](https://coopcycle.org/en/) or [LibreTaxi](https://libretaxi.org/) operated locally instead of large proprietary platforms. The digital platform operation costs only 5-7% of the fare instead of 20-25% currently charged by large platforms. It will also give the drivers and contributors the opportunity to visualize and control the data that are collected through it. 
 
-# Experimenting ... To replicate !
+# Experimenting ... To replicate ?
 
 The project is an opportunity for the partners to understand how cooperatives can be created and developed in Tanzania and on a larger scale on the African continent. It will demonstrate the interest of this model to lead entrepreneurial projects in mobility and to share resources, such as the vehicle fleet or the digital platform. 
