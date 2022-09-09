@@ -21,13 +21,13 @@ The tanzanian makerspace [Robotech Labs](https://robotech.co.tz/), the tanzanian
 
 A cooperative is an autonomous association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly-owned and democratically-controlled enterprise. The coop operates with the seven principles defined in the Statement on the Cooperative Identity (Manchester, 1995) :  
 
-* 1.Voluntary and Open Membership
-* 2.Democratic Member Control
-* 3.Member Economic Participation
-* 4.Autonomy and Independence
-* 5.Education, Training, and Information
-* 6.Cooperation among Cooperatives
-* 7.Concern for Community
+ 1.Voluntary and Open Membership
+ 2.Democratic Member Control
+ 3.Member Economic Participation
+ 4.Autonomy and Independence
+ 5.Education, Training, and Information
+ 6.Cooperation among Cooperatives
+ 7.Concern for Community
 
 # E-Boda in Tanzania and Local Manufacturing
 
