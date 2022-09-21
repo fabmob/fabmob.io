@@ -66,7 +66,7 @@ export default ({ year }) => {
 					css={`
 						background: ${couleurImaginaires};
 						color: white;
-						width: 60%;
+						width: 70%;
 						margin: 0 auto;
 						display: block;
 						padding: 0.4rem 1rem;
@@ -131,7 +131,7 @@ const YearMenu = ({ year2 }) => (
 			@media (max-width: 800px) {
 				justify-content: flex-start;
 			}
-			overflow-x: scroll;
+			overflow-x: hidden;
 			height: 3.5rem;
 			li {
 				margin: 0 0.2rem;

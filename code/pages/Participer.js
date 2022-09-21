@@ -1,13 +1,71 @@
 import React from 'react'
 import { Link } from 'Components/Lang'
 import { CardList, Card, Title } from '../UI'
+import { Switch, Route, Redirect } from 'react-router-dom'
+import Page from '../Page'
 import colors from 'Components/colors'
 import Meta from '../Meta'
+import Nav2 from 'Components/Nav2'
+import pages from 'Code/getContent.js'
 
 export default () => (
+	<div
+		css={`
+			display: flex;
+			flex-wrap: wrap;
+		`}
+	>
+		<Nav2
+			titre="Rejoindre la Fabrique"
+			data={navData}
+		/>
+		<div
+			css={`
+				@media (min-width: 800px) {
+					margin-left: 300px;
+				}
+				padding: 2%;
+				width: calc(95% - 20rem);
+				@media (max-width: 800px) {
+					width: 100%;
+				}
+				h1,
+				h2,
+				h3,
+				h4,
+				h5 {
+					text-align: left;
+				}
+			`}
+		>
+			<Switch>
+				<Route exact path="/participer/pourquoiRejoindre">
+					<Content />
+				</Route>
+				<Route exact path="/participer/outils">
+					<Outils />
+				</Route>
+				<Route exact path="/participer/:id">
+					<Page articles={pages} />
+				</Route>
+				<Route path="/participer">
+					<Redirect to="/participer/pourquoiRejoindre" />
+				</Route>
+			</Switch>
+		</div>
+	</div>
+)
+export const navData = {
+	'/participer/pourquoiRejoindre': 'Pourquoi nous rejoindre',
+	'/participer/tarifs': 'Tarifs',
+	'/participer/commentRejoindreProjet': 'Comment rejoindre un projet ?',
+	'/participer/outils': 'Nos outils',
+}
+const Content = () => (
+	
 	<div>
 		<header>
-			<Title colors={[colors.jaune, colors.jauneVert]}>Passer à l'action</Title>
+			<Title colors={[colors.jaune, colors.jauneVert]}>Pourquoi nous rejoindre</Title>
 			<Meta
 				title="Participez en pratique !"
 				description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
@@ -56,15 +114,19 @@ export default () => (
 				</a>
 			</div>
 		</div>
-		<Présentation />
+		<div css="width: 650px; margin: auto">
+			<div>
+				<p>TODO</p>
+			</div>
+		</div>
 	</div>
 )
 
-let Présentation = () => (
+let Outils = () => (
 	<main>
-		<p css="text-align: center">
-			Ce compte centralisé vous permet d'accéder à tous nos outils :{' '}
-		</p>
+		<header>
+			<Title colors={[colors.jaune, colors.jauneVert]}>Nos outils</Title>
+		</header>
 		<section>
 			<CardList
 				css={`

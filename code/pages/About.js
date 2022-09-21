@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import { Link } from 'Components/Lang'
 import pages from 'Code/getContent.js'
 import { PageMain } from '../UI'
@@ -15,17 +15,14 @@ export default () => (
 		`}
 	>
 		<Nav2
-			data={{
-				'': 'À propos',
-				nous: 'Qui sommes nous ?',
-				urgence: "L'urgence",
-				travailler: 'Travailler ensemble',
-				'mentions-légales-et-données':
-					'Mentions légales & données personnelles',
-			}}
+			titre="À propos"
+			data={navData}
 		/>
 		<div
 			css={`
+				@media (min-width: 800px) {
+					margin-left: 300px;
+				}
 				padding: 2%;
 				width: calc(95% - 20rem);
 				@media (max-width: 800px) {
@@ -48,9 +45,21 @@ export default () => (
 					<Page articles={pages} />
 				</Route>
 				<Route path="/à-propos">
-					<Page articles={pages} id="à-propos" />
+					<Redirect to="/à-propos/manifeste" />
 				</Route>
 			</Switch>
 		</div>
 	</div>
 )
+
+export const navData = {
+	'/à-propos/manifeste': 'Manifeste',
+	'/à-propos/nous': 'Qui sommes nous ?',
+	'/à-propos/partenaires': 'Partenaires',
+	'/à-propos/statuts': 'Statuts et documents d’activité',
+	'/à-propos/reseaufabriques': 'Le réseau des fabriques',
+	'/blog': 'Blog'
+	// urgence: "L'urgence",
+	// 'mentions-légales-et-données':
+	// 	'Mentions légales & données personnelles',
+}
