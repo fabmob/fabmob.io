@@ -6,6 +6,7 @@ import LogoSansTexte from 'Images/fabmob_cmjn6.svg'
 import { useLocation } from 'react-router-dom'
 import { useContext } from 'react'
 import { WikiContext } from './App'
+import ColorSchemeToggle from './components/ColorSchemeToggle'
 
 const MenuLink = (setClosed) => ({ to, children }) => (
 	<RouterLink to={to} onClick={() => setClosed()}>
@@ -53,7 +54,7 @@ export default () => {
 					display: block;
 				}
 				ul > li > a {
-					color: black;
+					color: var(--color-text);
 				}
 				.emoji {
 					margin: 0;
@@ -116,6 +117,9 @@ export default () => {
 					`}
 				>
 					<Link to="/participer">Participer</Link>
+				</li>
+				<li>
+					<ColorSchemeToggle />
 				</li>
 				{false && (
 					<li>

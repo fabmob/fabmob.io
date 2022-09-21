@@ -18,6 +18,7 @@
 		"process": "^0.11.10",
 		"raw-loader": "^4.0.2",
 		"react": "17.0.1",
+		"react-dark-mode-toggle-2": "^2.0.5",
 		"react-dom": "17.0.1",
 		"react-helmet": "^6.1.0",
 		"react-highlight-words": "^0.17.0",
@@ -27,6 +28,7 @@
 		"remark-footnotes": "^3.0.0",
 		"twemoji": "^13.0.1",
 		"url-loader": "^4.1.1",
+		"use-persisted-state": "^0.3.3",
 		"yaml-loader": "^0.6.0"
 	},
 	"devDependencies": {
