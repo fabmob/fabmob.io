@@ -90,7 +90,7 @@ export default () => {
 
 						<CTA
 							text="Adhérez à la Fabrique"
-							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2021-2022"
+							to="/participer"
 							img={<CTAArrow />}
 						/>
 
@@ -104,7 +104,7 @@ export default () => {
 }
 
 
-const CTAButton = styled.button`
+export const CTAButton = styled.button`
 	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
 	border: none;
 	border-radius: 0;
@@ -118,13 +118,13 @@ const CTAButton = styled.button`
 	}
 `
 
-const CTAArrow = () => (
+export const CTAArrow = () => (
 	<img
 		src="/images/flèche-nord-est.svg"
 		css="width: 1rem; margin-right: 1rem; margin-top: 4px;"
 	/>
 )
-const CTA = ({ to, text, img }) =>
+export const CTA = ({ to, text, img }) =>
 	to.includes('http') ? (
 		<a href={to}>
 			<CTAButton>

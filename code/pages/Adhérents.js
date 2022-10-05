@@ -20,7 +20,7 @@ export default () => {
 	console.log(data)
 
 	return (
-		<div css="display:flex; justify-content: center; flex-wrap: wrap">
+		<div css="display:flex; justify-content: left; flex-wrap: wrap">
 			{data.map(
 				({
 					fullurl: url,

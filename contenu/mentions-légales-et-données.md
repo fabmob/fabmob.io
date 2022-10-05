@@ -4,10 +4,6 @@ Nom de l’association : La Fabrique des Mobilités.
 
 Adresse : 3 passage saint-pierre Amelot 75011 PARIS.
 
-Numéro de téléphone : 07.83.76.88.76
-
-Directrice de la publication : Amandine Richaud-Crambes, directrice.
-
 ### Hébergeur :
 
 Netlify

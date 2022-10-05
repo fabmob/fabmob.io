@@ -8,7 +8,7 @@ export const Socials = () => (
         <div css="width: 40px; display: inline-block; box-shadow: 8px 0px 9px -6px lightgrey; margin-right: 15px">
             <ul>
                 <li>
-                    <a href="https://twitter.com/fab_mob" title="twitter">
+                    <a href="https://twitter.com/fab_mob" title="twitter" target="_blank">
                         <img css="width: 1rem" src={TwitterLogoBlack} alt="twitter" />
                     </a>
                 </li>
@@ -16,6 +16,7 @@ export const Socials = () => (
                     <a
                         href="https://www.linkedin.com/company/fabmob/"
                         title="linkedin"
+                        target="_blank"
                     >
                         <img css="width: 1rem" src={LinkedinLogoBlack} alt="linkedin" />
                     </a>
@@ -24,6 +25,7 @@ export const Socials = () => (
                     <a
                         href="https://www.youtube.com/channel/UC7jt1WuLQbb15ois1PQ-clw"
                         title="YouTube"
+                        target="_blank"
                     >
                         <img
                             css="width: 1rem"

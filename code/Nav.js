@@ -60,6 +60,7 @@ export default () => {
 					.subnav {
 						margin-left: 40px;
 						position: fixed;
+						z-index: 10;
 					}
 					.subnavmobile {
 						display: none;
@@ -122,7 +123,7 @@ export default () => {
 				</div>
 			</div>
 			<ul className='ulleft'>
-				{location.pathname.indexOf("/à-propos") > -1  && <><Link to="/à-propos/manifeste">
+				{(location.pathname.indexOf("/à-propos") > -1 || location.pathname.indexOf("/blog") > -1)  && <><Link to="/à-propos/manifeste">
 					<li css="background-color: #FFFF38">
 						<b>À propos</b> de la fabrique
 					</li>
@@ -159,7 +160,7 @@ export default () => {
 			</ul>
 			
 			<ul className='ulright'>
-				{location.pathname.indexOf("/à-propos") === -1  && <><Link to="/à-propos/manifeste">
+				{(location.pathname.indexOf("/à-propos") === -1 && location.pathname.indexOf("/blog") === -1)  && <><Link to="/à-propos/manifeste">
 					<li css="background-color: #FFFF38">
 						<b>À propos</b> de la fabrique
 					</li>

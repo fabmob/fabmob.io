@@ -60,20 +60,10 @@ export const Title = styled.h1`
 		`}
 `
 export const ArticleStyle = styled.div`
-	${({ colors }) =>
-		colors &&
-		css`
-			h1 {
-				background: linear-gradient(to bottom left, ${colors[0]}, ${colors[1]});
-				display: inline-block;
-				padding: 0.1rem 1rem;
-			}
-		`}
+
 	max-width: 800px;
 	margin: 0 auto 4rem;
-	h1 {
-		text-align: center;
-	}
+
 	h2,
 	h3,
 	h4,
@@ -82,7 +72,6 @@ export const ArticleStyle = styled.div`
 	}
 	img {
 		max-width: 80%;
-		margin: 2rem auto;
 		display: block;
 	}
 	img + em {
