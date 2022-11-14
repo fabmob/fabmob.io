@@ -1,6 +1,6 @@
 ---
 titre: Statuts
-description: TODO
+description: Statuts et documents d'activité de la fabrique
 ---
 
-## TODO
+## Page en cours de rédaction...

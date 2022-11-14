@@ -3,4 +3,4 @@ titre: Partenaires de la fabrique
 description: TODO
 ---
 
-## TODO
+## Page en cours de rédaction...

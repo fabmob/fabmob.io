@@ -85,16 +85,50 @@ const AutresFabriques = () => (
 			`}
 		>
 			<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Centre_d’excellence_des_technologiques_ouvertes_pour_la_mobilité">
-				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"></img>
+				<img src="https://wiki.lafabriquedesmobilites.fr/images/fabmob/3/38/FabMob_Qu%C3%A9bec_logo_web.png"></img>
 				<span>La FabMob Québec</span>
 			</a>
 			<a href="https://www.lafabriquedelalogistique.fr/">
 				<img src="https://wiki.lafabriquedesmobilites.fr/images/fabmob/1/1c/Fablog.jpg"></img>
 				<span>La Fabrique de la Logistique</span>
 			</a>
-			<a href="https://fabsan.mystrikingly.com">
-				<img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_100/3323786/137041_142635.png"></img>
+			<a href="https://www.fabsan.cc/">
+				<img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_100/3323786/651536_218672.png"></img>
 				<span>La Fabrique des Santés</span>
+			</a>		
+		</div>
+		<div
+			css={`
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				> a {
+					width: 16rem;
+					padding: 0.6rem;
+					margin: 1rem;
+					font-weight: bold;
+					text-transform: uppercase;
+					border: none;
+					border-radius: 0.3rem;
+				}
+				img {
+					border-radius: 0.3rem;
+					height: 6rem;
+					display: block;
+				}
+			`}
+		>
+			<a href="https://fabpeda.org/">
+				<img src="/images/LogoFabpeda1.jpg"></img>
+				<span>La Fabrique des Communs Pédagogiques</span>
+			</a>
+			<a href="https://fabenergies.cc/">
+				<img src="/images/Logo_fabrique-des-energies.png"></img>
+				<span>La Fabrique des Bifurcations Énergétiques</span>
+			</a>
+			<a href="https://www.ign.fr/institut/la-fabrique-des-geocommuns-incubateur-de-communs-lign">
+				<img src="/images/logo_fabrique_geocommuns.jpg"></img>
+				<span>La Fabrique des géocommuns</span>
 			</a>
 		</div>
 	</ArticleStyle>

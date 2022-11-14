@@ -36,7 +36,6 @@ let Présentation = ({ filter, location }) => (
 					padding: 0.4rem;
 					display: flex;
 					align-items: center;
-					justify-content: center;
 					overflow: auto;
 				}
 				@media (max-width: 800px) {
@@ -51,7 +50,7 @@ let Présentation = ({ filter, location }) => (
 				}
 				aside img {
 					width: 10rem;
-					margin: 0.4rem;
+					margin: 0.4rem auto 0.4rem auto;
 					filter: grayscale(1);
 				}
 				aside p {
@@ -85,20 +84,13 @@ let Présentation = ({ filter, location }) => (
 			<Switch>
 				<Route exact path="/à-propos/nous">
 					<Members data={ecosystème["L'équipe"]} />
-					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
-						<CTAArrow
-							text="Rejoignez nous"
-							to="https://pad.fabmob.io/s/cudgcUGeG"
-							img={<CTAArrow />}
-						/>
-					</div>
 				</Route>
 				<Route exact path="/à-propos/nous/conseiladministration">
 					<Members data={ecosystème["Le conseil d'administration"]} />
 				</Route>
-				<Route exact path="/à-propos/nous/adherents">
+				{/* <Route exact path="/à-propos/nous/adherents">
 					<Adhérents />
-				</Route>
+				</Route> */}
 			</Switch>
 		</section>
 		
@@ -107,9 +99,12 @@ let Présentation = ({ filter, location }) => (
 
 const Members = ({ data }) => (
 	<div css="display:flex; justify-content: left;flex-wrap: wrap">
-		{shuffle(data).map(({ nom, image, rôle }) => (
+		{shuffle(data).map(({ nom, image, rôle, linkedin }) => (
 			<aside>
-				<img src={image} title={nom} />
+				{linkedin 
+					? <a href={linkedin} target="_blank"><img src={image} title={nom} /></a>
+					:<img src={image} title={nom} />
+				}
 				<h3>{nom}</h3>
 				<p>{rôle}</p>
 			</aside>
