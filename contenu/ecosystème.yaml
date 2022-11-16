@@ -43,17 +43,37 @@ Le conseil d'administration:
   - nom: Bruno Marzloff
     rôle: Président
     image: /images/nous/bruno.resized.jpg
-  - image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_1220_l.jpg?r=1586425010
-    nom: Fabien Gainier
-    rôle: Secrétaire
+    linkedin: https://www.linkedin.com/in/brunomarzloff
+  - nom: Fabien Gainier
+    rôle: Secrétaire général
+    image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_1220_l.jpg?r=1586425010
+    linkedin: https://www.linkedin.com/in/fabien-gainier-8261506
   - nom: Philippe Gicquel
     rôle: Trésorier
     image: /images/nous/J8mKTQC2_400x400.jpg
-  - nom: Bertil DE FOS
-    rôle: VP Thématique 
+    linkedin: https://www.linkedin.com/in/philippe-gicquel-0a1912a
+  - nom: Bertil De Fos
+    rôle: Membre
     image: /images/nous/bertil.resized.jpg
-  - nom: Erik GRAB
-    rôle: VP Thématique  
+    linkedin: https://www.linkedin.com/in/bertil-de-fos-1aaa4a3
+  - nom: Erik Grab
+    rôle: Membre
     image: /images/nous/erik.resized.jpg
-
+    linkedin: https://www.linkedin.com/in/erik-grab-553283132
+  - nom: Frédéric Laithier
+    rôle: Membre
+    image: /images/nous/frederic.jpg
+    linkedin: https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-laithier-155b9a57
+  - nom: Fadila Leturqc
+    rôle: Membre
+    image: /images/nous/fadila.jpg
+    linkedin: https://www.linkedin.com/in/fadilaleturcq/
+  - nom: Mathilde Bras
+    rôle: Membre
+    image: /images/nous/mathilde.jpg
+    linkedin: https://www.linkedin.com/in/mathildebras/
+  - nom: Nathalie Rey
+    rôle: Membre
+    image: /images/nous/nathalie.jpg
+    linkedin: https://www.linkedin.com/in/nathalie-rey-332a351a/
 

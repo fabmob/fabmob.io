@@ -78,8 +78,7 @@ let Présentation = ({ filter, location }) => (
 					}
 				`}>
 				<Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>L'équipe</Surligne> : <span>L'équipe</span>}</Link>
-				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Le conseil d'admin.</Surligne> : <span>Le conseil d'admin.</span>}</Link>
-				<Link to="/à-propos/nous/adherents">{location.pathname ===  "/à-propos/nous/adherents" ? <Surligne>Les derniers adhérent⸱e⸱s</Surligne> : <span>Les derniers adhérent⸱e⸱s</span>}</Link>
+				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Le conseil d'administration</Surligne> : <span>Le conseil d'administration</span>}</Link>
 			</div>
 			<Switch>
 				<Route exact path="/à-propos/nous">
