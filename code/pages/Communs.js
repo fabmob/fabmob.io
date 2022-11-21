@@ -20,24 +20,23 @@ export default ({}) => {
 		>
 			<header>
 				<Meta
-					title="Les communs FabMob"
+					title="Les communs et communautés FabMob"
 					description="Découvrez les communs, des projets ouverts que nous développons activement pour bousculer notre mobilité"
 				/>
-				<Title colors={[colors.vert, colors.jauneVert]}>Les communs </Title>
+				<Title colors={[colors.vert, colors.jauneVert]}>Les communs et communautés</Title>
 				<p>
-					Un commun c'est n'importe quelle ressource utile à quelqu'un (un site
+					{/* Un commun c'est n'importe quelle ressource utile à quelqu'un (un site
 					Web, un logiciel, les plans d'un objet, le process de fabrication d'un
 					objet), ayant la particularité d'
 					<strong>être ouverte et contributive</strong> : son code est lisible
 					et on peut, selon certaines conditions, se l'approprier pour
-					l'améliorer.{' '}
+					l'améliorer. */}
 					<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Communs">
-						En savoir plus
+						En savoir plus au sujet des communs sur notre wiki
 					</a>
-					.
 				</p>
 			</header>
-			<h2>Les communs et communautés FabMob</h2>
+			{/* <h2>Les communs et communautés FabMob</h2> */}
 			<CardList>
 				{communs.map((commun) => (
 					<Commun

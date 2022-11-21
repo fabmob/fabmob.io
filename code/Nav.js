@@ -6,6 +6,9 @@ import LogoSansTexte from 'Images/fabmob_cmjn6.svg'
 import { useLocation } from 'react-router-dom'
 import { useContext } from 'react'
 import { WikiContext } from './App'
+import { navData as aboutNavData } from './pages/About'
+import { navData as participerNavData } from './pages/Participer'
+import { EmailContact } from './components/Socials'
 
 const MenuLink = (setClosed) => ({ to, children }) => (
 	<RouterLink to={to} onClick={() => setClosed()}>
@@ -13,58 +16,59 @@ const MenuLink = (setClosed) => ({ to, children }) => (
 	</RouterLink>
 )
 export default () => {
-	let location = useLocation()
+	const location = useLocation()
 	const [open, setOpen] = useState(false)
 	const [eventData] = useContext(WikiContext)
 
 	const Link = MenuLink(() => setOpen(false))
-
 	return (
 		<nav
 			css={`
-				font-weight: bold;
-				margin: 0 auto;
-				width: 100%;
-				padding: 0.6rem 0;
-				box-shadow: var(--box-shadow) var(--color-bg-secondary);
-				border-bottom: 1px solid var(--color-bg-secondary);
-				display: flex;
-				align-items: center;
-				justify-content: center;
-
 				ul {
-					justify-content: center;
-					flex-wrap: wrap;
-					align-items: center;
-					display: flex;
-					list-style: none;
-					padding: 0;
-				}
-				ul > li {
-					display: inline-block;
-					margin: 0.4rem 0.6rem;
-					position: relative;
-					text-align: left;
-					text-transform: uppercase;
-					font-size: 110%;
-				}
-				/* Nav Dropdown */
-				ul li:hover ul {
-					display: block;
-				}
-				ul > li > a {
-					color: black;
-				}
-				.emoji {
+					text-align: center;
 					margin: 0;
 				}
-				img {
-					margin: 0rem 2rem;
-					width: 8rem;
-					${location.pathname === '/' ? 'display: none;' : ''}
+				li {
+					line-height: 40px;
+					color: black;
 				}
-				
-
+				li:hover {
+					box-shadow: -3px 0px 4px 0px #ababab;
+					margin-left: 3px;
+				}
+				a:hover {
+					filter: unset !important;
+					text-decoration: none;
+					
+				}
+				@media (min-width: 800px) {
+					ul {
+						writing-mode: vertical-rl;
+						position: fixed;
+						height: 100vh;
+						transform: rotate(-180deg);
+					}
+					.ulright {
+						right: 0;
+					}
+					.ulleft {
+						left: 0;
+					}
+					li {
+						width: 40px;
+					}
+					.subnav {
+						margin-left: 40px;
+						position: fixed;
+						z-index: 10;
+					}
+					.subnavmobile {
+						display: none;
+					}
+					.mobileSubMenu {
+						display: none
+					}
+				}
 				@media (max-width: 800px) {
 					justify-content: space-evenly;
 
@@ -78,72 +82,129 @@ export default () => {
 						height: 54px;
 						${open ? 'display: none' : 'display: flex'}
 					}
+					li {
+						text-align: left;
+						padding-left: 20px;
+					}
+					.mobileSubMenu {
+						font-size: 15px;
+					}
+					.subnav {
+						display: none;
+					}
 				}
 			`}
 		>
-			<Link to="/">
-				<img css="" src={LogoSansTexte} />
-			</Link>
-
-			<ul>
-				<li css="position: relative">
-					<Link to="/à-propos">À propos</Link>
-				</li>
-				<li>
-					<Link to="/communs">Communs</Link>
-				</li>
-				<li>
-					<Link to="/événements">Événements</Link>
-					<Notifications
-						count={
-							eventData.filter((e) => new Date(e.data.startDate) > Date.now())
-								.length
-						}
-					/>
-				</li>
-				<li>
-					<Link to="/blog">Blog</Link>
-					<Suspense fallback={null}>
-						<LazyBlogNotifications />
-					</Suspense>
-				</li>
-				<li
+			<div className="subnavmobile">
+				<Link to="/">
+					<img css="height: 50px" src={LogoSansTexte} />
+				</Link>
+				<div
+					title={open ? 'Fermer le menu' : 'Ouvrir le menu'}
 					css={`
-						padding: 0.2rem 0.3rem;
-						a {
-							color: ${colors.bleu} !important;
+						cursor: pointer;
+						border: none;
+						padding: 0;
+						margin: 8px;
+						svg {
+							width: 2rem;
+							height: 2rem;
+						}
+
+						display: none;
+						@media (max-width: 800px) {
+							display: block;
+							float: right
 						}
 					`}
+					onClick={() => setOpen(!open)}
 				>
-					<Link to="/participer">Participer</Link>
-				</li>
-				{false && (
-					<li>
-						<LangSwitch />
-					</li>
-				)}
-			</ul>
-			<div
-				title={open ? 'Fermer le menu' : 'Ouvrir le menu'}
-				css={`
-					cursor: pointer;
-					border: none;
-					padding: 0;
-					margin: 0;
-					svg {
-						width: 2rem;
-						height: 2rem;
-					}
-
-					display: none;
-					@media (max-width: 800px) {
-						display: block;
-					}
-				`}
-				onClick={() => setOpen(!open)}
-			>
-				{open ? <CloseMenuIcon /> : <MenuIcon />}
+					{open ? <CloseMenuIcon /> : <MenuIcon />}
+				</div>
 			</div>
+			<ul className='ulleft'>
+				{(location.pathname.indexOf("/à-propos") > -1 || location.pathname.indexOf("/blog") > -1)  && <><Link to="/à-propos/manifeste">
+					<li css="background-color: #FFFF38">
+						<b>À propos</b> de la fabrique
+					</li>
+					</Link>
+					{Object.entries(aboutNavData).map(([key, value]) => (
+						<Link to={key} key={key}>
+							<li className="mobileSubMenu" css="background-color: #FFFF78">
+								{value}
+							</li>
+						</Link>
+					))}
+					
+					</>
+				}
+				{location.pathname.indexOf("/communs") > -1  && <Link to="/communs">
+					<li css="background-color: #92E5FF">
+						<b>Les activités</b> de la fabrique
+					</li>
+				</Link>}
+				{location.pathname.indexOf("/participer") > -1  && <><Link to="/participer">
+					<li css="background-color: #50F19E">
+						<b>Rejoindre</b> la fabrique
+					</li>
+				</Link>
+				{Object.entries(participerNavData).map(([key, value]) => (
+					<Link to={key} key={key}>
+						<li className="mobileSubMenu" css="background-color: #98F9CE">
+							{value}
+						</li>
+					</Link>
+				))}
+				</>
+				}
+			</ul>
+			
+			<ul className='ulright'>
+				{(location.pathname.indexOf("/à-propos") === -1 && location.pathname.indexOf("/blog") === -1)  && <><Link to="/à-propos/manifeste">
+					<li css="background-color: #FFFF38">
+						<b>À propos</b> de la fabrique
+					</li>
+					</Link>
+					{Object.entries(aboutNavData).map(([key, value]) => (
+						<Link to={key} key={key}>
+							<li className="mobileSubMenu" css="background-color: #FFFF78">
+								{value}
+							</li>
+						</Link>
+					))}
+					
+					</>}
+				{location.pathname.indexOf("/communs") === -1  && <Link to="/communs">
+					<li css="background-color: #92E5FF">
+						<b>Les activités</b> de la fabrique
+					</li>
+				</Link>}
+				{location.pathname.indexOf("/participer") === -1  && <><Link to="/participer">
+					<li css="background-color: #50F19E">
+						<b>Rejoindre</b> la fabrique
+					</li>
+				</Link>
+				{Object.entries(participerNavData).map(([key, value]) => (
+					<Link to={key} key={key}>
+						<li className="mobileSubMenu" css="background-color: #98F9CE">
+							{value}
+						</li>
+					</Link>
+				))}
+				</>}
+			</ul>
+			<ul className="subnavmobile" css="border-bottom: 1px solid lightgray">
+				<li>
+					<a href='https://us12.list-manage.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341'>
+						Newsletter
+					</a> | <EmailContact /> | <Link to='/à-propos/mentions-légales-et-données'>Mentions légales</Link>
+                </li>
+			</ul>
+			{location.pathname !== "/" && <div className="subnav">
+				<Link to="/">
+					<img css="height: 50px" src={LogoSansTexte} />
+				</Link>
+			</div>}
 		</nav>
 	)
 }

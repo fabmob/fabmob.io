@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation, Link as OriginalLink } from 'react-router-dom'
 import { Link } from 'Components/Lang'
+import {Socials} from 'Components/Socials'
 import Emoji from 'Components/Emoji'
+import {Surligne} from 'Components/Surligne'
 import TwitterLogo from 'Images/Twitter_Logo_Blue.png'
 import FacebookLogo from 'Images/FacebookLogo.png'
 import LinkedinLogo from 'Images/LinkedinLogo.png'
 import YouTubeLogo from 'Images/YouTubeLogo.png'
+
 import Logo from 'Images/fabmob_cmjn1.svg'
 import { useInterval } from '../utils.js'
 import styled from 'styled-components'
@@ -22,7 +25,11 @@ const ReDe = () => {
 
 export default () => {
 	return (
-		<div>
+		<div css={`
+			a {
+				color:black
+			}
+		`}>
 			<header
 				css={`
 					> section {
@@ -34,7 +41,7 @@ export default () => {
 					}
 					> section > p {
 						margin-top: 2rem;
-						width: 20rem;
+						line-height: 35px;
 						text-align: left;
 					}
 					p em {
@@ -44,10 +51,10 @@ export default () => {
 					text-align: left;
 				`}
 			>
-				<section>
 					<div
 						css={`
 							width: 20rem;
+							padding-top: 40px;
 							img {
 								width: 200px;
 							}
@@ -57,10 +64,11 @@ export default () => {
 					>
 						<img src={Logo} css="" />
 					</div>
-					<p css="font-size: 130%">
+				<section>
+					<p css="font-size: 150%">
 						Face à l'
 						<Link to="/à-propos/urgence">
-							<Surligné>urgence</Surligné>
+							<Surligne>urgence</Surligne>
 						</Link>
 						,
 						<br />
@@ -69,7 +77,7 @@ export default () => {
 						brique par brique, <br />
 						ensemble via l'
 						<Link to="/blog/lopen-source-au-secours-du-secteur-des-transports">
-							<Surligné>open source</Surligné>
+							<Surligne>open source</Surligne>
 						</Link>
 						.
 					</p>
@@ -82,75 +90,21 @@ export default () => {
 
 						<CTA
 							text="Adhérez à la Fabrique"
-							to="https://www.helloasso.com/associations/la-fabrique-des-mobilites/adhesions/adhesions-2021-2022"
+							to="/participer"
 							img={<CTAArrow />}
 						/>
-								
-						<CTA
-							text="Rejoignez nous"
-							to="https://pad.fabmob.io/s/cudgcUGeG"
-							img={<CTAArrow />}
-						/>
+
 					</div>
 					<br />
 				</section>
-				<footer
-					css={`
-						ul {
-							padding: 0;
-							list-style-type: none;
-							display: flex;
-							align-items: center;
-							justify-content: center;
-							li {
-								display: inline-block;
-								margin: 1rem;
-							}
-						}
-					`}
-				>
-					<ul>
-						<li>
-							<a href="https://twitter.com/fab_mob" title="twitter">
-								<img css="width: 2.1rem" src={TwitterLogo} alt="twitter" />
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://www.linkedin.com/company/fabmob/"
-								title="linkedin"
-							>
-								<img css="width: 1.6rem" src={LinkedinLogo} alt="linkedin" />
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://www.youtube.com/channel/UC7jt1WuLQbb15ois1PQ-clw"
-								title="YoutUbe"
-							>
-								<img
-									css="width: 1.6rem"
-									src={YouTubeLogo}
-									alt="notre chaîne youtube"
-								/>
-							</a>
-						</li>
-						<li>
-							<EmailContact />
-						</li>
-					</ul>
-				</footer>
+				<Socials />
 			</header>
 		</div>
 	)
 }
 
-const Surligné = styled.span`
-	background: yellow;
-	font-weight: normal;
-	color: black;
-`
-const CTAButton = styled.button`
+
+export const CTAButton = styled.button`
 	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
 	border: none;
 	border-radius: 0;
@@ -159,15 +113,18 @@ const CTAButton = styled.button`
 	display: flex;
 	justify-content: left;
 	margin: 0.6rem 0;
+	&:hover img {
+		filter: invert(1);
+	}
 `
 
-const CTAArrow = () => (
+export const CTAArrow = () => (
 	<img
 		src="/images/flèche-nord-est.svg"
-		css="width: 1rem; margin-right: 1rem; "
+		css="width: 1rem; margin-right: 1rem; margin-top: 4px;"
 	/>
 )
-const CTA = ({ to, text, img }) =>
+export const CTA = ({ to, text, img }) =>
 	to.includes('http') ? (
 		<a href={to}>
 			<CTAButton>
@@ -184,12 +141,4 @@ const CTA = ({ to, text, img }) =>
 		</Link>
 	)
 
-export const EmailContact = () => (
-	<a
-		href="mailto:contact@fabmob.io"
-		title="courriel"
-		css="img {font-size: 120%}"
-	>
-		<Emoji emoji="✉" />
-	</a>
-)
+

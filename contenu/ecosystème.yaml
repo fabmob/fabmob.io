@@ -2,39 +2,78 @@ L'équipe:
   - image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_2_l.jpg?r=1556615593
     nom: Gabriel Plassat
     rôle: Explorateur FabMob
+    linkedin: https://www.linkedin.com/in/plassat
   - nom: Malou Charenton
     rôle: Démobilité & logistique
     image: /images/nous/malou.resized.png
+    linkedin: https://www.linkedin.com/in/malou-charenton-a3634b130
   - nom: Frédéric Nicolaïdis
     rôle: Responsable Mon Compte Mobilité
     image: /images/nous/fred.resized.jpg
+    linkedin: https://www.linkedin.com/in/fredericnicolaidis
   - nom: Maouèle Bouhraoua
     rôle: Gestionnaire administrative 
     image: /images/nous/Maouele.jpg
+    linkedin: https://www.linkedin.com/in/maou%C3%A8le-bouhraoua-7b25569b
   - nom: Julie Braka
     rôle: Projet MaaS 
     image: /images/nous/julie.resized.jpg
+    linkedin: https://www.linkedin.com/in/juliebraka
   - nom: Ghislain Delabie
     rôle: Dir. Projet MaaS
     image: /images/nous/ghislain.jpg
+    linkedin: https://www.linkedin.com/in/ghislaindelabie
   - nom: Yann Bergamaschi
     rôle: Communauté Projet MaaS 
     image: /images/nous/yann.jpg
+    linkedin: https://www.linkedin.com/in/yann-bergamaschi
+  - nom: Antoine Dupont
+    rôle: Directeur général 
+    image: /images/nous/antoine.jpeg
+    linkedin: https://www.linkedin.com/in/antoinedpnt
+  - nom: Alex Bourreau
+    rôle: Responsable technique 
+    image: /images/nous/alex.png
+    linkedin: https://www.linkedin.com/in/alexbourreau
+  - nom: Marguerite Grandjean
+    rôle: Directrice d'étude
+    image: /images/nous/marguerite.jpeg
+    linkedin: https://www.linkedin.com/in/margueritegrandjean
 Le conseil d'administration: 
   - nom: Bruno Marzloff
     rôle: Président
     image: /images/nous/bruno.resized.jpg
-  - image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_1220_l.jpg?r=1586425010
-    nom: Fabien Gainier
-    rôle: Secrétaire
+    linkedin: https://www.linkedin.com/in/brunomarzloff
+  - nom: Fabien Gainier
+    rôle: Secrétaire général
+    image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_1220_l.jpg?r=1586425010
+    linkedin: https://www.linkedin.com/in/fabien-gainier-8261506
   - nom: Philippe Gicquel
     rôle: Trésorier
     image: /images/nous/J8mKTQC2_400x400.jpg
-  - nom: Bertil DE FOS
-    rôle: VP Thématique 
+    linkedin: https://www.linkedin.com/in/philippe-gicquel-0a1912a
+  - nom: Bertil De Fos
+    rôle: Membre
     image: /images/nous/bertil.resized.jpg
-  - nom: Erik GRAB
-    rôle: VP Thématique  
+    linkedin: https://www.linkedin.com/in/bertil-de-fos-1aaa4a3
+  - nom: Erik Grab
+    rôle: Membre
     image: /images/nous/erik.resized.jpg
-
+    linkedin: https://www.linkedin.com/in/erik-grab-553283132
+  - nom: Frédéric Laithier
+    rôle: Membre
+    image: /images/nous/frederic.jpg
+    linkedin: https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-laithier-155b9a57
+  - nom: Fadila Leturqc
+    rôle: Membre
+    image: /images/nous/fadila.jpg
+    linkedin: https://www.linkedin.com/in/fadilaleturcq/
+  - nom: Mathilde Bras
+    rôle: Membre
+    image: /images/nous/mathilde.jpg
+    linkedin: https://www.linkedin.com/in/mathildebras/
+  - nom: Nathalie Rey
+    rôle: Membre
+    image: /images/nous/nathalie.jpg
+    linkedin: https://www.linkedin.com/in/nathalie-rey-332a351a/
 

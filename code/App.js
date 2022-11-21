@@ -57,66 +57,67 @@ const Container = () => (
 		<GlobalStyle />
 		<Router>
 			<Nav />
+			<div css="width: calc(100% - 120px); margin-left: 40px; padding-top: 20px">
+				<Switch>
+					{/* This part was made for the first version of the website, that included a way to get translated pages, as well as a differentiated page for France / Quebec. Disactivated until further developement. */}
+					{false && (
+						<>
+							<Route path="/france">
+								<France />
+							</Route>
+							<Route path="/en/france">
+								<FranceEn />
+							</Route>
+							<Route path="/québec">
+								<Québec />
+							</Route>
+							<Route path="/en/québec">
+								<QuébecEn />
+							</Route>
 
-			<Switch>
-				{/* This part was made for the first version of the website, that included a way to get translated pages, as well as a differentiated page for France / Quebec. Disactivated until further developement. */}
-				{false && (
-					<>
-						<Route path="/france">
-							<France />
-						</Route>
-						<Route path="/en/france">
-							<FranceEn />
-						</Route>
-						<Route path="/québec">
-							<Québec />
-						</Route>
-						<Route path="/en/québec">
-							<QuébecEn />
-						</Route>
-
-						<Route path="/en/">
-							<AccueilEn />
-						</Route>
-					</>
-				)}
-				<Route path="/tracemob">
-					<Suspense fallback={null}>
-						<Tracemob />
-					</Suspense>
-				</Route>
-				<Route path="/sidewalks">
-					<Sidewalks />
-				</Route>
-				<UtmFriendlyRedirect from="/blog/mentors" to="/blog" />
-				<UtmFriendlyRedirect from="/blog/articles" to="/blog" />
-				<UtmFriendlyRedirect from="/blog/home" to="/blog" />
-				<Route path="/blog">
-					<Blog />
-				</Route>
-				<Route path="/communs">
-					<Communs />
-				</Route>
-				<Route path="/ecosystem">
-					<Ecosystem />
-				</Route>
-				<route path="/participer">
-					<Participer />
-				</route>
-				<route path="/à-propos">
-					<About />
-				</route>
-				<route path="/événements">
-					<Événéments />
-				</route>
-				{/* Pour la migration vers le nouveau site*/}
-				<UtmFriendlyRedirect from="/articles/:category/:id" to="/blog/:id" />
-				<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
-				<UtmFriendlyRedirect from="/:category/:id" to="/blog/:id" />
-				<Route path="/">
-					<Accueil />
-				</Route>
-			</Switch>
+							<Route path="/en/">
+								<AccueilEn />
+							</Route>
+						</>
+					)}
+					<Route path="/tracemob">
+						<Suspense fallback={null}>
+							<Tracemob />
+						</Suspense>
+					</Route>
+					<Route path="/sidewalks">
+						<Sidewalks />
+					</Route>
+					<UtmFriendlyRedirect from="/blog/mentors" to="/blog" />
+					<UtmFriendlyRedirect from="/blog/articles" to="/blog" />
+					<UtmFriendlyRedirect from="/blog/home" to="/blog" />
+					<Route path="/blog">
+						<Blog />
+					</Route>
+					<Route path="/communs">
+						<Communs />
+					</Route>
+					<Route path="/ecosystem">
+						<Ecosystem />
+					</Route>
+					<Route path="/participer">
+						<Participer />
+					</Route>
+					<Route path="/à-propos">
+						<About />
+					</Route>
+					<Route path="/événements">
+						<Événéments />
+					</Route>
+					{/* Pour la migration vers le nouveau site*/}
+					<UtmFriendlyRedirect from="/articles/:category/:id" to="/blog/:id" />
+					<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
+					<UtmFriendlyRedirect from="/:category/:id" to="/blog/:id" />
+					<Route path="/">
+						<Accueil />
+					</Route>
+				</Switch>
+			</div>
 		</Router>
 	</WikiContextProvider>
 )

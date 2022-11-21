@@ -1,29 +1,28 @@
 import React, { useState } from 'react'
-import { Link } from 'Components/Lang'
+import { Switch, Route, useLocation } from 'react-router-dom'
 import colors from 'Components/colors'
 import ecosystème from 'Content/ecosystème.yaml'
-import Emoji from 'Components/Emoji'
-import Page from 'Components/Page'
 import { shuffle } from '../utils'
 import Adhérents from 'Pages/Adhérents'
 import { ArticleStyle } from '../UI'
 import Meta from '../Meta'
-import styled from 'styled-components'
+import { CTA, CTAArrow } from 'Pages/Accueil'
+import { Link } from 'Components/Lang'
+import {Surligne} from 'Components/Surligne'
 
 export default () => {
 	const [filter, setFilter] = useState({})
+	const location = useLocation()
 	return (
 		<ArticleStyle
 			colors={[colors.bleu, colors.bleuClair]}
-			css="max-width: 1000px"
 		>
-			<h1>L'ecosystème FabMob</h1>
-			<Présentation filter={filter} />
+			<Présentation filter={filter} location={location} />
 		</ArticleStyle>
 	)
 }
 
-let Présentation = ({ filter }) => (
+let Présentation = ({ filter, location }) => (
 	<main>
 		<Meta
 			title="La FabMob, c'est qui ?"
@@ -32,12 +31,11 @@ let Présentation = ({ filter }) => (
 		<section
 			css={`
 				aside {
-					width: 10rem;
+					width: 12rem;
 					text-align: center;
 					padding: 0.4rem;
 					display: flex;
 					align-items: center;
-					justify-content: center;
 					overflow: auto;
 				}
 				@media (max-width: 800px) {
@@ -52,7 +50,7 @@ let Présentation = ({ filter }) => (
 				}
 				aside img {
 					width: 10rem;
-					margin: 0.4rem;
+					margin: 0.4rem auto 0.4rem auto;
 					filter: grayscale(1);
 				}
 				aside p {
@@ -60,32 +58,52 @@ let Présentation = ({ filter }) => (
 				}
 			`}
 		>
-			<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">								
-					<CTA
-						text="Rejoignez nous"
-						to="https://pad.fabmob.io/s/cudgcUGeG"
-						img={<CTAArrow />}
-					/>
+			<div css={`
+					display: flex;
+					flex-direction: column;
+					margin-bottom: 20px;
+					line-height: 44px;
+					span {
+						padding: 10px;
+					}
+					@media (min-width: 1200px) {
+						flex-direction: row;
+						span {
+							margin-right: 30px;
+						}
+					}
+					a {
+						color: black;
+						text-transform: uppercase;
+					}
+				`}>
+				<Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>L'équipe</Surligne> : <span>L'équipe</span>}</Link>
+				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Le conseil d'administration</Surligne> : <span>Le conseil d'administration</span>}</Link>
 			</div>
-			<h2>L'équipe</h2>
-			<Members data={ecosystème["L'équipe"]} />
-			<h2>Le conseil d'administration</h2>
-
-			<Members data={ecosystème["Le conseil d'administration"]} />
-
-			<h2>Nos 10 derniers acteurs sur le wiki</h2>
-			<div css="text-align: center"></div>
-			<Adhérents />
+			<Switch>
+				<Route exact path="/à-propos/nous">
+					<Members data={ecosystème["L'équipe"]} />
+				</Route>
+				<Route exact path="/à-propos/nous/conseiladministration">
+					<Members data={ecosystème["Le conseil d'administration"]} />
+				</Route>
+				{/* <Route exact path="/à-propos/nous/adherents">
+					<Adhérents />
+				</Route> */}
+			</Switch>
 		</section>
-		<AutresFabriques />
+		
 	</main>
 )
 
 const Members = ({ data }) => (
-	<div css="display:flex; justify-content: center;flex-wrap: wrap">
-		{shuffle(data).map(({ nom, image, rôle }) => (
+	<div css="display:flex; justify-content: left;flex-wrap: wrap">
+		{shuffle(data).map(({ nom, image, rôle, linkedin }) => (
 			<aside>
-				<img src={image} title={nom} />
+				{linkedin 
+					? <a href={linkedin} target="_blank"><img src={image} title={nom} /></a>
+					:<img src={image} title={nom} />
+				}
 				<h3>{nom}</h3>
 				<p>{rôle}</p>
 			</aside>
@@ -93,89 +111,44 @@ const Members = ({ data }) => (
 	</div>
 )
 
-const AutresFabriques = () => (
-	<div>
-		<h2>Les autres fabriques</h2>
-		<p css="text-align: center">
-			Le modèle de la fabrique, initié en France sur la mobilité, se réplique
-			dans d'autres pays et domaines.
-		</p>
-		<div
-			css={`
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				> a {
-					width: 16rem;
-					padding: 0.6rem;
-					margin: 1rem;
-					font-weight: bold;
-					text-transform: uppercase;
-					background: ${colors.bleu};
-					border: none;
-					border-radius: 0.3rem;
-					text-align: center;
-				}
-				img {
-					border-radius: 0.3rem;
-					height: 6rem;
-					display: block;
-				}
-			`}
-		>
-			<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Centre_d’excellence_des_technologiques_ouvertes_pour_la_mobilité">
-				<img src="https://images.unsplash.com/photo-1558489580-faa74691fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"></img>
-				<span>La FabMob Québec</span>
-			</a>
-			<a href="https://www.lafabriquedelalogistique.fr/">
-				<img src="https://wiki.lafabriquedesmobilites.fr/images/fabmob/1/1c/Fablog.jpg"></img>
-				<span>La Fabrique de la Logistique</span>
-			</a>
-			<a href="https://fabsan.mystrikingly.com">
-				<img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_100/3323786/137041_142635.png"></img>
-				<span>La Fabrique des Santés</span>
-			</a>
-		</div>
-	</div>
-)
 
-const Surligné = styled.span`
-	background: yellow;
-	font-weight: normal;
-	color: black;
-`
-const CTAButton = styled.button`
-	width: 250px;
-        height: 40px;
-	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
-	border: none;
-	border-radius: 0;
-	display: block;
-	padding: 0.6rem;
-	display: flex;
-	justify-content: center;
-	margin: 0.6rem 0;
-`
+// const Surligné = styled.span`
+// 	background: yellow;
+// 	font-weight: normal;
+// 	color: black;
+// `
+// const CTAButton = styled.button`
+// 	width: 250px;
+//         height: 40px;
+// 	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+// 	border: none;
+// 	border-radius: 0;
+// 	display: block;
+// 	padding: 0.6rem;
+// 	display: flex;
+// 	justify-content: center;
+// 	margin: 0.6rem 0;
+// `
 
-const CTAArrow = () => (
-	<img
-		src="/images/flèche-nord-est.svg"
-		css="width: 1rem; margin-right: 1rem; "
-	/>
-)
-const CTA = ({ to, text, img }) =>
-	to.includes('http') ? (
-		<a href={to}>
-			<CTAButton>
-				{img}
-				<span>{text}</span>
-			</CTAButton>
-		</a>
-	) : (
-		<Link to={to}>
-			<CTAButton>
-				{img}
-				<span>{text}</span>
-			</CTAButton>
-		</Link>
-)
+// const CTAArrow = () => (
+// 	<img
+// 		src="/images/flèche-nord-est.svg"
+// 		css="width: 1rem; margin-right: 1rem; "
+// 	/>
+// )
+// const CTA = ({ to, text, img }) =>
+// 	to.includes('http') ? (
+// 		<a href={to}>
+// 			<CTAButton>
+// 				{img}
+// 				<span>{text}</span>
+// 			</CTAButton>
+// 		</a>
+// 	) : (
+// 		<Link to={to}>
+// 			<CTAButton>
+// 				{img}
+// 				<span>{text}</span>
+// 			</CTAButton>
+// 		</Link>
+// )
