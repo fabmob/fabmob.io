@@ -83,7 +83,7 @@ export default ({ id: propId }) => {
 			{!isImaginaire && coverImage && (
 				<img css="max-height: 30rem;" src={imageResizer('l')(coverImage)}></img>
 			)}
-			{title && <h1>{title}</h1>}
+			{title && <h1 css="text-align: center !important">{title}</h1>}
 			{isImaginaire && (
 				<Encart css="font-weight: 200;margin-bottom: 2rem;">
 					<div css="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">

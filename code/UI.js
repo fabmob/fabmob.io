@@ -63,7 +63,6 @@ export const ArticleStyle = styled.div`
 
 	max-width: 800px;
 	margin: 0 auto 4rem;
-
 	h2,
 	h3,
 	h4,
@@ -71,6 +70,7 @@ export const ArticleStyle = styled.div`
 		margin-top: 2rem;
 	}
 	img {
+		margin: auto;
 		max-width: 80%;
 		display: block;
 	}
@@ -86,7 +86,7 @@ export const ArticleStyle = styled.div`
 	blockquote {
 		border-left: 6px solid grey;
 		padding-left: 1rem;
-		margin-left: 0;
+		margin: auto;
 	}
 	code {
 		background: #eee;

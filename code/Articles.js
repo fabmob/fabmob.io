@@ -182,6 +182,7 @@ const ArticleVignette = ({
 					display: block;
 					text-decoration: none;
 					margin-bottom: 0.3rem;
+					text-align: center;
 				}
 				margin-bottom: 3rem;
 			`}
