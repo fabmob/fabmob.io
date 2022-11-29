@@ -116,7 +116,7 @@ const Content = () => (
 	
 	<div>
 		<header>
-			<Title colors={[colors.jaune, colors.jauneVert]}>Pourquoi adhérer</Title>
+			<Title colors={[colors.jaune, colors.jauneVert]}>Pourquoi adhérer ?</Title>
 			<Meta
 				title="Participez en pratique !"
 				description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
@@ -308,7 +308,7 @@ const Tarifs = () => (
 					<td>3 500 €</td>
 				</tr>
 				<tr>
-					<td>Collectivité territoriales</td>
+					<td>Collectivités territoriales</td>
 					<td className="tddesc"></td>
 					<td>3 000 €</td>
 				</tr>
