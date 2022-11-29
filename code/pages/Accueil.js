@@ -67,23 +67,17 @@ export default () => {
 				<section>
 					<p css="font-size: 150%">
 						Face à l'
-						<Link to="/à-propos/urgence">
+						<Link to="/à-propos/manifeste">
 							<Surligne>urgence</Surligne>
 						</Link>
 						,
 						<br />
 						<ReDe />
-						construisons les mobilités <br />
-						brique par brique, <br />
-						ensemble via l'
-						<Link to="/blog/lopen-source-au-secours-du-secteur-des-transports">
-							<Surligne>open source</Surligne>
-						</Link>
-						.
+						construisons les mobilités.
 					</p>
 					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
 						<CTA
-							text="Découvrez nos communs"
+							text="Découvrez nos activités"
 							to="/communs"
 							img={<CTAArrow />}
 						/>
