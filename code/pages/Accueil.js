@@ -77,7 +77,7 @@ export default () => {
 						brique par brique, <br />
 						ensemble via les <Link to="/communs">
 							<Surligne>communs</Surligne>
-						</Link>et l'
+						</Link> et l'
 						<Link to="/blog/lopen-source-au-secours-du-secteur-des-transports">
 							<Surligne>open source</Surligne>
 						</Link>
