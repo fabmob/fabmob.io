@@ -25,11 +25,11 @@ Pour diminuer l’empreinte carbone de nos mobilités, le premier levier à acti
 
 La réduction du volume des mobilités n’est donc pas seulement un levier concret de décarbonation des transports. C’est un thème qui vient **interroger profondément nos représentations et nos habitudes,** nos rapports au temps et à l’espace (vitesse croissante des déplacements et accélération plus générale[⁶](#footnote6)), nos imaginaires de liberté et de progrès.
 
-1. **Reporter ("Shift") :**
+2. **Reporter ("Shift") :**
 
 **La voiture individuelle représente encore 65% des déplacements, et 50% des déplacements inférieurs à 3 km dans les agglomérations[⁷](#footnote7)**. Lorsqu’une réduction de nos déplacements est impossible, une deuxième option est donc de se reporter vers des modes de transport moins carbonés que la voiture, à volume de déplacements égal : les mobilités individuelles actives (marche, vélo…), les mobilités individuelles motorisées (trottinettes, scooters électriques…), les mobilités partagées (covoiturage, autopartage, vélos en libre service…) ou encore les transports en commun.
 
-1. **Améliorer ("Improve") :**
+3. **Améliorer ("Improve") :**
 
 Enfin, en l’absence d’alternatives aux véhicules émetteurs, une troisième possibilité consiste à améliorer, voire optimiser l’efficience de ces véhicules, en jouant par exemple sur leur poids (ex. véhicules intermédiaires), leur vitesse, leur motorisation...
 
