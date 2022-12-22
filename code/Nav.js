@@ -125,7 +125,7 @@ export default () => {
 			<ul className='ulleft'>
 				{(location.pathname.indexOf("/à-propos") > -1 || location.pathname.indexOf("/blog") > -1)  && <><Link to="/à-propos/manifeste">
 					<li css="background-color: #FFFF38">
-						<b>À propos</b> de la fabrique
+						<b>À propos</b> de la Fabrique
 					</li>
 					</Link>
 					{Object.entries(aboutNavData).map(([key, value]) => (
@@ -140,12 +140,12 @@ export default () => {
 				}
 				{location.pathname.indexOf("/communs") > -1  && <Link to="/communs">
 					<li css="background-color: #92E5FF">
-						<b>Les activités</b> de la fabrique
+						<b>Les activités</b> de la Fabrique
 					</li>
 				</Link>}
 				{location.pathname.indexOf("/participer") > -1  && <><Link to="/participer">
 					<li css="background-color: #50F19E">
-						<b>Rejoindre</b> la fabrique
+						<b>Rejoindre</b> la Fabrique
 					</li>
 				</Link>
 				{Object.entries(participerNavData).map(([key, value]) => (
@@ -162,7 +162,7 @@ export default () => {
 			<ul className='ulright'>
 				{(location.pathname.indexOf("/à-propos") === -1 && location.pathname.indexOf("/blog") === -1)  && <><Link to="/à-propos/manifeste">
 					<li css="background-color: #FFFF38">
-						<b>À propos</b> de la fabrique
+						<b>À propos</b> de la Fabrique
 					</li>
 					</Link>
 					{Object.entries(aboutNavData).map(([key, value]) => (
@@ -176,12 +176,12 @@ export default () => {
 					</>}
 				{location.pathname.indexOf("/communs") === -1  && <Link to="/communs">
 					<li css="background-color: #92E5FF">
-						<b>Les activités</b> de la fabrique
+						<b>Les activités</b> de la Fabrique
 					</li>
 				</Link>}
 				{location.pathname.indexOf("/participer") === -1  && <><Link to="/participer">
 					<li css="background-color: #50F19E">
-						<b>Rejoindre</b> la fabrique
+						<b>Rejoindre</b> la Fabrique
 					</li>
 				</Link>
 				{Object.entries(participerNavData).map(([key, value]) => (
