@@ -11,9 +11,9 @@ Le hub joue un rôle clé en reliant les habitants et les territoires. Leur miss
 
 Cette démarche d’intérêt général vise la construction d’un nouveau commun que nous initions dans une [**communauté dédiée**](http://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_des_acteurs_des_Hubs_de_Mobilit%C3%A9). C’est beaucoup demander à tous les protagonistes, mais ce sont là les conditions d'une urbanité actuelle et de qualité dans tous les territoires. Dès lors, il est urgent de revoir leur conception, leur intégration urbaine et leur maillage pour s'orienter vers l'invention d'un concept à construire de "hubs de (dé)mobilité". Un manifeste a été rédigé pour présenter les principaux principes :
 
-\[pdf-embedder url="http://lafabriquedesmobilites.fr/wp-content/uploads/2019/03/Manifeste-démobilités\_VF211.pdf" title="Manifeste-démobilités"\]
+Pour [télécharger le fichier .pdf](https://cloud.fabmob.io/s/ZNQxBac4ywsnGbn)
 
-Pour [télécharger le fichier .pdf](https://cloud.fabmob.io/s/d4HceL9AZgjG7c7)
+
 
 Considérons que les Hubs de (Dé)Mobilités jouent un rôle majeur dans le quotidien des citoyen.ne.s. Nous pensons que les prochains Hubs doivent être légers (peu gourmands en moyen, versatiles, évolutifs), utiles (répondant aux besoins quotidiens de toutes les parties prenantes) et citoyen.ne.s (inscrits dans la vie quotidienne pour tous les territoires).
 
