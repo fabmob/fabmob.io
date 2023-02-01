@@ -76,4 +76,38 @@ Le conseil d'administration:
     rôle: Membre
     image: /images/nous/nathalie.jpg
     linkedin: https://www.linkedin.com/in/nathalie-rey-332a351a/
-
+Partenaires:
+ - nom : Ademe
+   siteweb : https://www.ademe.fr/
+   image: /images/partenaires/ademe-logo.png
+ - nom : Agence de l'Innovation pour les Transports
+   siteweb : https://www.ecologie.gouv.fr/agence-innovation-transports
+   image: /images/partenaires/AIT-logo-min.png
+ - nom : Département des Alpes-Maritimes
+   siteweb : https://www.departement06.fr/departement-des-alpes-maritimes-3.html
+   image: /images/partenaires/logo-departement06.png
+ - nom : Agence Française de Développement
+   siteweb : https://www.afd.fr/fr
+   image: /images/partenaires/AFD-logo.png
+ - nom : Communauté d'Agglomération de La Rochelle
+   image: /images/partenaires/Communaute_d_agglomeration_de_la_rochelle-logo.png
+   siteweb : https://www.agglo-larochelle.fr/
+Adherents:
+- nom : Kisio
+  siteweb : https://kisio.com/
+  image: /images/partenaires/kisio-logo.png
+- nom : Flowbird
+  siteweb : https://flowbird.fr/
+  image: /images/partenaires/flowbird-logo.jpg
+- nom : Département de l'Isère
+  siteweb : https://www.isere.fr/
+  image: /images/partenaires/Logo_Département_Isère_2015.png
+- nom : Michelin
+  siteweb : https://www.michelin.fr/
+  image: /images/partenaires/Michelin-logo.png
+- nom : Ekodev
+  siteweb : https://ekodev.com/
+  image: /images/partenaires/ekodev-logo.png
+- nom : France Quadricycle
+  siteweb : https://francequadricycle.fr/
+  image: /images/partenaires/francequadricycle-logo.png

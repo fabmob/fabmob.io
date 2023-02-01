@@ -8,6 +8,7 @@ import Nav2 from 'Components/Nav2'
 import Ecosystem from './Ecosystem'
 import colors from 'Components/colors'
 import { ArticleStyle } from 'Code/UI'
+import Partenaires from './Partenaires'
 
 export default () => (
 	<div
@@ -43,6 +44,9 @@ export default () => (
 				<Route path="/à-propos/nous">
 					<Ecosystem />
 				</Route>
+				<Route path="/à-propos/partenaires">
+					<Partenaires />
+				</Route>
 				<Route exact path="/à-propos/reseaufabriques">
 					<AutresFabriques/>
 				</Route>
@@ -59,10 +63,8 @@ export default () => (
 const AutresFabriques = () => (
 	<ArticleStyle>
 		<h2>Les autres fabriques</h2>
-		<p>
-			Le modèle de la fabrique, initié en France sur la mobilité, se réplique
-			dans d'autres pays et domaines.
-		</p>
+		<p>Les fabriques organisent et initient de la coopération dans la durée avec des acteurs hétérogènes volontaires autour de problématiques concrètes, avec l’ambition d’agir sur les transitions démocratiques & écologiques. 
+			Les fabriques s'appuient sur des communautés contributives ainsi que sur des ressources libres et open source.</p>
 		<div
 			css={`
 				display: flex;
