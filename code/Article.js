@@ -203,11 +203,11 @@ border-width: .6rem
 	)
 }
 
-const ImageRenderer = (year) => ({ src: rawSrc }) => {
+const ImageRenderer = (year) => ({ src: rawSrc, alt, title }) => {
 	const src = rawSrc.includes('http')
 		? imageResizer('l')(rawSrc)
 		: rawSrc.indexOf('images/') === 0
 		? `/contenu/articles/${year}/images/${rawSrc.split('images/')[1]}`
 		: rawSrc
-	return <img src={src} />
+	return <img src={src} alt={alt} title={title}/>
 }
