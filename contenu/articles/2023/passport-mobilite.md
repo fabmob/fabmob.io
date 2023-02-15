@@ -21,7 +21,6 @@ Alors que l'objet principal qui devait être travaillé devait être le support 
 - le titre de demain requiert en parallèle un saut qualitatif dans l'information des voyageurs (c'est à dire aller plus loin que ce que propose le Point d'Accès National actuel sur [transport.data.gouv](https://transport.data.gouv.fr/)) ; 
 - et puisque la diversité des supports ne disparaîtra pas (le projet lauréat a pour slogan "le titre de demain n'est pas un titre de transport") **le prérequis est de disposer d'un "compte mobilité national", d'un "compte unique", d'un "compte personnel de mobilité" ou d'un "passeport de mobilité"** (au choix selon les équipes).
 
-![Extrait des solutions proposées lors du Hackathon "Titre de transport de demain](/contenu/articles/2023/images/solutions-hackathon.png "Extrait des solutions proposées lors du Hackathon "Titre de transport de demain")
 
 Le consensus qui ressort de ces deux journées de travail qui ont associé des AOM, des opérateurs de mobilité, de MAS, de transport, des industriels de la billettique et des services résonne avec nos travaux à La Fabrique des Mobilités. 
 
