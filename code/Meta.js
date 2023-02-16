@@ -25,8 +25,14 @@ export default ({
 			<meta property="article:published_time" content={published} />
 		)}
 		{updated && <meta property="og:updated_time" content={updated} />}
-		<meta name="twitter:card" content="summary_large_image" />
 
 		<meta property="og:site_name" content="La fabrique des mobilités" />
+
+		{/* Twitter open-graph tags */}
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:image:alt" content={title}/>
+		<meta name="twitter:title" content={title}/>
+		<meta name="twitter:description" content={description}/>
+		<meta name="twitter:image" content={imageSrc} />
 	</Helmet>
 )}
