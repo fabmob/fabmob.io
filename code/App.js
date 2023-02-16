@@ -25,6 +25,7 @@ import Ecosystem from './pages/Ecosystem'
 import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
+import Meta from './Meta.js'
 const Tracemob = lazy(() => import('./tracemob/Tracemob'))
 
 const UtmFriendlyRedirect = (props) => (
@@ -56,6 +57,7 @@ const Container = () => (
 	<WikiContextProvider>
 		<GlobalStyle />
 		<Router>
+			<Meta />
 			<Nav />
 			<div css="width: calc(100% - 120px); margin-left: 40px; padding-top: 20px">
 				<Switch>
