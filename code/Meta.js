@@ -9,7 +9,7 @@ export default ({
 	url="https://lafabriquedesmobilites.fr", 
 	published, 
 	updated }) => {
-	const imageSrc = image.indexOf("/contenu") === 0 ? "https://lafabriquedesmobilites.fr/" + image : image
+	const imageSrc = image.indexOf("/contenu") === 0 ? "https://lafabriquedesmobilites.fr" + image : image
 	const type = url.indexOf("blog") >= 0 ? "article" : "website"
 	return (
 	<Helmet>
