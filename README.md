@@ -47,8 +47,10 @@ Blabla2
 Pour le contenu principal, c'est au format `markdown`. Sur github, l'éditeur ne propose pas de boutons (par exemple mettre un paragraphe en gras). Si vous préférez, vous pouvez créer votre contenu dans pad.fabmob.io ou un autre outil et copier coller cela dans l'éditeur github une fois terminé. Ctrl-a (sélectionner tout), Ctrl-c, Ctrl-v, modifier le contenu, puis pareil en sens inverse ;)
 
 Pour les images, à la fois l'image de couverture (`image: xxx` dans l'en-tête) et les images du corps de l'article, vous avez le choix : 
-- soit mettre des images via l'interface de github dans le dossier de l'année de l'article [contenu/articles/2021/images](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles/2021/images), puis référencer l'image avec un lien relatif comme ceci : `image: /contenu/articles/2021/images/monimage.jpg` ou dans le corps de l'article comme ceci : `![description de l'image](contenu/articles/2021/images/monimage.jpg)`
+- soit mettre des images via l'interface de github dans le dossier de l'année de l'article [/contenu/articles/2023/images](https://github.com/fabmob/fabmob.io/tree/master/contenu/articles/2023/images), puis référencer l'image avec un lien relatif comme ceci : `image: /contenu/articles/2023/images/monimage.jpg` ou dans le corps de l'article comme ceci : `![description de l'image](/contenu/articles/2023/images/monimage.jpg)`. Pensez à éviter les espaces dans le nom du fichier. Evitez aussi les guillements dans la description de l'image.
 - soit utiliser un service externe comme imgur.com ou piquer une belle image libre de droit sur unsplash.com et référencer l'URL complète 
+
+Les images de couverture (`image: xxx` dans l'en-tête) sont aussi utilisées pour les vignettes dans les réseaux sociaux. Twitter est particulièrement strict sur les dimensions d'image, elles doivent correspondre au ratio 1.9:1 (par exemple une largeur de 768px et une hauteur de 403px).
 
 Si vous choisissez d'héberger l'image ici dans le dossier contenu, alors vous devez le faire sur la branche que vous avez créé pour la publication de votre article .md. Si vous crééz deux branches différentes, donc deux `Pull requests`, vous ne verrez pas l'image sur le lien d'aperçu de votre article.
 
