@@ -92,6 +92,12 @@ Partenaires:
  - nom : Communauté d'Agglomération de La Rochelle
    image: /images/partenaires/Communaute_d_agglomeration_de_la_rochelle-logo.png
    siteweb : https://www.agglo-larochelle.fr/
+ - nom : Mobicoop
+   image: /images/partenaires/mobicoop-logo.jpg
+   siteweb : https://www.mobicoop.fr/
+ - nom : Ynstant
+   image: /images/partenaires/ynstant-logo.png
+   siteweb : https://www.ynstant.io/
 Adherents:
 - nom : Kisio
   siteweb : https://kisio.com/
