@@ -62,20 +62,6 @@ export default ({ year }) => {
 			<Header />
 			<section>
 				<YearMenu year2={year2} />
-				<Link
-					to="/blog/tag/imaginaires"
-					css={`
-						background: ${couleurImaginaires};
-						color: white;
-						width: 70%;
-						margin: 0 auto;
-						display: block;
-						padding: 0.4rem 1rem;
-					`}
-				>
-					Découvrez notre recueil de fictions "Imaginaires de la mobilité"
-				</Link>
-
 				<ul
 					css={`
 						display: flex;
