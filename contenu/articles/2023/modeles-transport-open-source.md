@@ -10,7 +10,7 @@ categories:
 tags: 
   - Aequilibrae
   - OpenSource
-author: Alex Bourreau
+author: Alex Bourreau, avec l'aide d'Arthur Evrard
 ---
 
 Un modèle de transport est un outil de travail qui permet par exemple d’évaluer les conséquences des projets d’infrastructure, de calculer le volume du trafic, de prévoir les modifications des liaisons de transport, les flux de trafic, la répartition modale et les éventuels goulets d’étranglement.
