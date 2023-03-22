@@ -15,7 +15,7 @@ tags:
 author: Alex Bourreau & Yann Bergamaschi
 ---
 
-Tracemob est une application mobile développée par la Fabrique des Mobilités. Elle permet de collecter vos traces de mobilité et donc de disposer de votre historique de déplacements.
+[Tracemob](https://lafabriquedesmobilites.fr/tracemob) est une application mobile développée par la Fabrique des Mobilités. Elle permet de collecter vos traces de mobilité et donc de disposer de votre historique de déplacements.
 
 Jusqu'à présent, ce sont surtout Google, Apple ou votre opérateur téléphonique qui disposent de vos traces de déplacements, et la clef de cet entrepôt privé reste dans leur main.
 
@@ -27,8 +27,8 @@ Jusqu’ici, le projet était développé avec le soutien de la communauté d'ag
 
 Tracemob est l'application de recueil des traces de mobilité, associée au cloud personnel CozyCloud vers lequel les utilisateurs peuvent, sur la base du volontariat, envoyer les données pour alimenter [une application "CoachCO2"](https://agremob.com/self-data-les-outils/).
 
-***Participez à l'expérimentation Agremob !**
-Que vous soyez Rochelais ou non, des places sont encore disponibles pour participer à l’expérimentation, inscrivez-vous gratuitement [ici](https://framaforms.org/experimentation-self-data-territorial-et-mobilites-durables-inscription-1613560399)*
+> **Participez à l'expérimentation Agremob !**
+> Que vous soyez Rochelais ou non, des places sont encore disponibles pour participer à l’expérimentation, inscrivez-vous gratuitement [ici](https://framaforms.org/experimentation-self-data-territorial-et-mobilites-durables-inscription-1613560399)
 
 
 En 2023, cette co-conception tripartite continue avec le soutien d’une collectivité supplémentaire : le département des Alpes-Maritimes. Dans une logique de communs, ces administrations publiques ont établi ensemble une liste de futurs cas d’usages et fonctionnalités pour cette ressource partagée.
@@ -43,9 +43,9 @@ Le premier cas d’usage, implémenté par les équipes de CozyCloud au sein du 
 
 ## Sociologie et données de mobilité : qui tracer ?
 
-Le programme Agremob accueille aussi des travaux du CNAM-GRICO sur une mise en perspective des enjeux et des difficultés liés à la "myriadisation" (ou crowdsourcing) des données de mobilité. La dernière publication, datant de fin janvier 2023, questionne les participants sur leur usage de Tracemob et du CoachCO2. Les rapports sont très complets et accessibles ici : [https://agremob.com/self-data-documentation-et-divers/#recherche](https://agremob.com/self-data-documentation-et-divers/#recherche). Voici quelques points intéressants à noter.
+Le programme Agremob accueille aussi des travaux du CNAM-GRICO sur une mise en perspective des enjeux et des difficultés liés à la "myriadisation" (ou crowdsourcing) des données de mobilité. La dernière publication, datant de fin janvier 2023, questionne les participants sur leur usage de Tracemob et du CoachCO2. Les rapports sont très complets et [accessibles ici](https://agremob.com/self-data-documentation-et-divers/#recherche). Voici quelques points intéressants à noter.
 
-- Le programme Rochelais porte un discours très engagé sur le self data et la protection des données personnelles. Les données récoltées appartiennent à l’utilisateur, sont stockées dans son espace personnel, et ne sont partagés à personne. Cette approche noble séduit les utilisateurs "concernés" ou initiés, mais elle entre en conflit avec la volonté d’utiliser une partie de ces données pour alimenter des politiques de mobilités. Concrètement, alors même que la communication et le recrutement de participants était toujours centré sur le self data, les utilisateurs sont assez ouverts à partager leurs traces si elles sont effectivement utilisées par la collectivité. Pour certain, c’est même indispensable pour continuer d’utiliser l’application, la dimension d’auto-mesure ([https://fr.wikipedia.org/wiki/Quantified_self](https://fr.wikipedia.org/wiki/Quantified_self)) n’étant pas une motivation suffisante, entraînant désintéressement et désinstallation de l’application. Cet effort individuel est perçu comme acceptable uniquement en contrepartie d'un effet positif sur le collectif.
+- Le programme Rochelais porte un discours très engagé sur le self data et la protection des données personnelles. Les données récoltées appartiennent à l’utilisateur, sont stockées dans son espace personnel, et ne sont partagés à personne. Cette approche noble séduit les utilisateurs "concernés" ou initiés, mais elle entre en conflit avec la volonté d’utiliser une partie de ces données pour alimenter des politiques de mobilités. Concrètement, alors même que la communication et le recrutement de participants était toujours centré sur le self data, les utilisateurs sont assez ouverts à partager leurs traces si elles sont effectivement utilisées par la collectivité. Pour certain, c’est même indispensable pour continuer d’utiliser l’application, la dimension d’auto-mesure ([Quantified self](https://fr.wikipedia.org/wiki/Quantified_self)) n’étant pas une motivation suffisante, entraînant désintéressement et désinstallation de l’application. Cet effort individuel est perçu comme acceptable uniquement en contrepartie d'un effet positif sur le collectif.
 
 - Les retours utilisateurs nous confirment aussi que la division en deux applications, Tracemob et le CoachCO2, combiné à l’inscription au formulaire de participation, ont créé un embarquement utilisateur complexe. Ce dernier représente un frein à l’usage, assez classique pour des applications en cours de développement.
 
@@ -100,4 +100,4 @@ C'est fort de ce constat et porté par l'envie d'impulser une nouvelle dynamique
 * *Comment s'impliquer dans l'aventure, sous quel(s) rôle(s) et selon quelle gouvernance ?*
 * *Etc.*
 
-Autant de questions que nous souhaiterions nous poser collectivement, et que la FabMob se propose dès lors de faciliter dans un cadre informel et convivial. Cette rencontre se tiendra en ligne et sera documentée en ligne afin d'en partager les principaux enseignements et de susciter l'intérêt au delà du petit cercle qu'elle réunira. Alors, affaire à suivre !
+Autant de questions que nous souhaiterions nous poser collectivement, et que la FabMob se propose dès lors de faciliter dans un cadre informel et convivial. Cette rencontre se tiendra en ligne et sera [documentée en ligne](https://lafabriquedesmobilites.fr/tracemob) afin d'en partager les principaux enseignements et de susciter l'intérêt au delà du petit cercle qu'elle réunira. Alors, affaire à suivre !

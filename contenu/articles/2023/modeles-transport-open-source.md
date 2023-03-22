@@ -23,8 +23,8 @@ Il peut prendre plusieurs formes, en fonction de la représentation des modes de
 
 Il est aussi caractérisé par sa portée géographique:
 
-* **Macroscopique** (modèle statique) : Échelle de représentation la plus agrégée et représentent le trafic comme un flux. Les résultats indiquent principales caractéristiques de flux sur chaque tronçon du réseau : débits, concentrations, vitesses, etc.
-* **Microscopique** (modèle dynamique) : Échelle de représentation la plus fine et modélisent les interactions entre les véhicules. Les résultats sont les trajectoires individuelles des véhicules : positions, vitesses, accélérations, temps inter véhiculaires, etc.
+* **Macroscopique** (modèle statique) : Échelle de représentation la plus agrégée et représentant le trafic comme un flux. Les résultats indiquent principales caractéristiques de flux sur chaque tronçon du réseau : débits, concentrations, vitesses, etc.
+* **Microscopique** (modèle dynamique) : Échelle de représentation la plus fine et modélisant les interactions entre les véhicules. Les résultats sont les trajectoires individuelles des véhicules : positions, vitesses, accélérations, temps inter véhiculaires, etc.
 * **Mésoscopique** : Échelle de représentation intermédiaire, par exemple en regroupant les véhicules par paquet homogène et en modélisant les interactions entre chaque paquet de véhicules.
 
 Plus de détails, y compris avantages et inconvénients : [https://www.cerema.fr/fr/activites/mobilites/systemes-transports-intelligents-trafics-regulation/bases#modeles-microscopiques](https://www.cerema.fr/fr/activites/mobilites/systemes-transports-intelligents-trafics-regulation/bases#modeles-microscopiques)
@@ -47,7 +47,7 @@ Plus de détails, y compris avantages et inconvénients : [https://www.cerema.fr
     * Dans cette étape, l’objectif sera de calculer pour chaque mode de déplacement l’itinéraire choisi. On obtiendra autant d’affectation de trafic au plus court chemin calculé sur une offre par mode.
     * Ex: La route 1 est empruntée par 90 voyages à moto, 200 voyages en voiture etc…
 
-A l’issue de cette dernière étape, un taux d’occupation et une congestion des voies peut être calculée. Cette nouvelle information sert d’entrée aux étapes précédente, et le trafic est redistribué plusieurs fois, jusqu’à convergence des résultats.
+A l’issue de cette dernière étape, un taux d’occupation et une congestion des voies peuvent être calculées. Cette nouvelle information sert d’entrée aux étapes précédente, et le trafic est redistribué plusieurs fois, jusqu’à convergence des résultats.
 
 Les données d’entrées pour ces étapes proviennent en général de données socio-économiques diverses (population, emplois, commerces, écoles, équipements publics, etc) dont les algorithmes de traitement sont calibrés à partir des resultats locaux d’**Enquêtes Ménage Déplacement (EMD)** (aussi appelées Enquêtes Mobilité Certifiées Cerema, EMC2) ou d'enquêtes terrain comme les cordons/enquêtes origine destination (OD). Ces enquêtes divisent un territoire en zones, et fournissent les informations de déplacements d’un échantillon réduit de voyageurs, redressé à la population totale. Ces premières données d’entrée sont complétées par une cartographie des routes (souvent via ressource ouverte [OpenStreetMap](openstreetmap.org/)) et de l’offre de transport en communs (souvient via une publication aux formats standards ([GTFS](https://gtfs.org/fr/)…) par les opérateurs de mobilité)
 
@@ -72,25 +72,25 @@ Alors que la recherche sur les sujets d’algorithmie associée à ces modèles 
 
 Ces problèmes sont amplifiés à l’international, alors que la France dispose de méthodes standards et de budgets pour ses enquêtes de mobilités, c’est assez rare dans d’autres pays, en particulier ceux en voie de développement. Cela résulte en une qualité de donnée faible, et **une expertise inaccessible par manque de financements**.
 
-# Une solution: L’open sourcing.
+# Une solution: l’open sourcing.
 
 Comme souvent sur les logiciels à haute valeur ajoutée, une alternative libre existe. Pour les modèles de transports, c’est [**Aequilibrae**](http://www.aequilibrae.com).
 
 **Aequilibrae** étant logiciel libre, il est aussi gratuit, libérant le blocage principal à la démocratisation de la modélisation des transports. Il est aussi [open source](https://github.com/AequilibraE/), permettant une participation collective à son développement, et une promesse de transparence sur ses méthodes de calculs.
 
-Un logiciel ouvert facilite aussi l’interaction avec d’autres logiciels, la fabrique porte par exemple un autre commun, le calculateur d’émission MYC, dont la donnée source provient justement de ces outils de modélisation des transports. Ces interactions entre logiciels ouvrent des portes à leurs usages, généralement ignorées lors de la conception.
+Un logiciel ouvert facilite aussi l’interaction avec d’autres logiciels, la Fabrique des Mobilités porte par exemple un autre commun, le [calculateur d’émission MYC](https://wiki.lafabriquedesmobilites.fr/wiki/MYC_GHG_Emissions_Calculator), dont la donnée source provient justement de ces outils de modélisation des transports. Ces interactions entre logiciels ouvrent des portes à leurs usages, généralement ignorées lors de la conception.
 
-La réduction des couts et l’ouverture des modèles fonctionne aussi en conjonction avec l’ouverture des données associées. Avec des initiatives comme OpenStreetMap ou le Point d'Accès National, la France dispose déjà d’un grand nombre de sources d’informations sur ses infrastructures. Les modèles de transports en sont une réutilisation comme une autre qu’il faut valoriser.
+La réduction des couts et l’ouverture des modèles fonctionnent aussi en conjonction avec l’ouverture des données associées. Avec des initiatives comme OpenStreetMap ou le Point d'Accès National, la France dispose déjà d’un grand nombre de sources d’informations sur ses infrastructures. Les modèles de transports en sont une réutilisation comme une autre qu’il faut valoriser.
 
 # Ce qu'il manque à Aequilibrae
 
-Alors que l’outil trouve assez bien ses cas d’usage à l’international, par exemple par [Egis en Indonésie](https://www.mobiliseyourcity.net/how-medan-metropolitan-area-indonesia-uses-mobile-phone-data-shape-mobility#_ftn1), il ne perce que peu en France. En effet, dans les pays européens, on peut diviser en deux les utilisateurs potentiels: Les grandes collectivités qui ont peu de problème pour financer des solutions propriétaires et l’accompagnement nécessaire, et les petites collectivités qui ne bénéficient très peu de ce genre d’outils. Pour ces petites collectivités, l’intérêt principal d’un modèle de transport, et ce qui justifie un potentiel financement, passe par l’impact écologique, et donc le report modal (passage de la mobilité carbonée vers une mobilité durable).
+Alors que l’outil trouve assez bien ses cas d’usage à l’international, par exemple par [Egis en Indonésie](https://www.mobiliseyourcity.net/how-medan-metropolitan-area-indonesia-uses-mobile-phone-data-shape-mobility#_ftn1), il ne perce que peu en France. En effet, dans les pays européens, on peut diviser en deux les utilisateurs potentiels: les grandes collectivités qui ont peu de problème pour financer des solutions propriétaires et l’accompagnement nécessaire, et les petites collectivités qui ne bénéficient très peu de ce genre d’outils. Pour ces petites collectivités, l’intérêt principal d’un modèle de transport, et ce qui justifie un potentiel financement, passe par l’impact écologique, et donc le report modal (passage de la mobilité carbonée vers une mobilité durable).
 
 Voici alors le challenge d’Aequilibrae en 2023, **le logiciel ne contenant pas à ce jour de modélisation des transports en commun**, ses usages se retrouvent grandement limités. Ce développement est prévu cette année, et c’est **une des raisons pour laquelle la fabrique a choisi de participer financièrement au projet cette année**.
 
 # Les modèles de transports comme outil de participation citoyenne
 
-L’affectation de ressources dans un outil de modélisation de transport open source ouvre aussi un sujet radical: l’opportunité de la participation citoyenne. En effet, **la démocratisation de ce type d’outil permet au citoyen de construire un argumentaire fort derrière ses opinions et revendications**. C’est le principe de la technologie civique.
+L’affectation de ressources dans un outil de modélisation de transport open source ouvre aussi un sujet radical: l’opportunité de la participation citoyenne. En effet, **la démocratisation de ce type d’outil permet au citoyen de construire un argumentaire fort derrière ses opinions et revendications**. C’est le principe de la [technologie civique](https://fr.wikipedia.org/wiki/Technologie_civique).
 
 Par exemple, un citoyen pourrait assister à un débat public sur la mise en place d’une rue aux écoles ou l’opposition manifeste un impact important sur la circulation dans le quartier. Un modèle de transport peut alors être utilisé pour comparer les flux avant et après fermeture de la voie, et donc juger rationnellement des conséquences.
 
@@ -117,7 +117,9 @@ Le modèle permet de calculer le temps moyen pour traverser ces axes, avec prise
 
 Il permet aussi de calculer l’impact sur l’ensemble du réseau, avec, par exemple, un calcul du nombre de km totaux parcourus par an (estimation prudente):
 
-* 27616 millions de km dans le premier scénario
-* 27656 millions de km dans le second
+* 27 616 millions de km dans le premier scénario
+* 27 656 millions de km dans le second
 * Cette différence de 40 millions de km est tout de même assez significative, en rappelant qu’elle résulte de la fermeture d’un seul axe.
-* Avec 250gCO2 émis par km ([404gCO2/mile](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle#driving)) en moyenne aux USA, notre décision de fermer un axe dépasse les **10000 tonnes** supplémentaires d’émissions de CO2e par an ! À cette échelle, la conséquence est d’intérêt public.
+* Avec 250gCO2 émis par km ([404gCO2/mile](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle#driving)) en moyenne aux USA, notre décision de fermer un axe dépasse les **10 000 tonnes** supplémentaires d’émissions de CO2e par an ! À cette échelle, la conséquence est d’intérêt public.
+
+Pour mieux comprendre ce que représente ces 10 000 000 kg de CO2, consultez le [calculateur d'impact co2 proposé par Datagir](https://impactco2.fr).
