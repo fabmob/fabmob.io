@@ -91,10 +91,41 @@ let Partenaires = ({ filter, location }) => (
 )
 
 const Members = ({ data }) => (
-	<div css="display:flex; justify-content: left;flex-wrap: wrap">
+	<div css={`
+			display:flex;
+			justify-content: left;
+			flex-wrap: wrap;
+			aside {
+				display: flow-root;
+			}
+			a {
+				width: 100%;
+			}
+			div {
+				position: relative;
+				height: 150px;
+				width: 80%;
+				margin: auto;
+			}
+			img {
+				position: absolute;
+				max-width: 100%;
+				top: 0;
+				bottom: 0;
+				margin: auto !important;
+			}
+			@media (max-width: 800px) {
+				h3 {
+					font-size: 90%;
+				}
+			}
+		`}>
 		{shuffle(data).map(({ nom, image, siteweb }) => (
 			<aside>
-                <a href={siteweb} target="_blank"><img src={image} title={nom} /><h3>{nom}</h3></a>
+                <a href={siteweb} target="_blank">
+					<div><img src={image} title={nom} /></div>
+					<h3>{nom}</h3>
+				</a>
 			</aside>
 		))}
 	</div>

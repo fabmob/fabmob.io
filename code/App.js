@@ -59,7 +59,7 @@ const Container = () => (
 		<Router>
 			<Meta />
 			<Nav />
-			<div css="width: calc(100% - 120px); margin-left: 40px; padding-top: 20px">
+			<div css="@media (min-width: 800px) { width: calc(100% - 120px); margin-left: 40px; padding-top: 20px}">
 				<Switch>
 					{/* This part was made for the first version of the website, that included a way to get translated pages, as well as a differentiated page for France / Quebec. Disactivated until further developement. */}
 					{false && (
