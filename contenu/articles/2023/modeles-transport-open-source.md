@@ -23,8 +23,7 @@ Il peut prendre plusieurs formes, en fonction de la représentation des modes de
 
 Il est aussi caractérisé par sa portée géographique:
 
-* **Macroscopique** (modèle statique) : Échelle de représentation la plus agrégée et représentant le trafic comme un flux. Les résultats indiquent les 
-* principales caractéristiques de flux sur chaque tronçon du réseau : débits, concentrations, vitesses, etc.
+* **Macroscopique** (modèle statique) : Échelle de représentation la plus agrégée et représentant le trafic comme un flux. Les résultats indiquent les principales caractéristiques de flux sur chaque tronçon du réseau : débits, concentrations, vitesses, etc.
 * **Microscopique** (modèle dynamique) : Échelle de représentation la plus fine et modélisant les interactions entre les véhicules. Les résultats sont les trajectoires individuelles des véhicules : positions, vitesses, accélérations, temps inter véhiculaires, etc.
 * **Mésoscopique** : Échelle de représentation intermédiaire, par exemple en regroupant les véhicules par paquet homogène et en modélisant les interactions entre chaque paquet de véhicules.
 
