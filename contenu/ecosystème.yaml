@@ -101,6 +101,9 @@ Partenaires:
   - nom : Autonomy
     image: /images/partenaires/Autonomy-logo.png
     siteweb: https://www.amwe.world/
+  - nom : Aveli
+    image: /images/partenaires/aveli-logo.png
+    siteweb : https://www.aveli.org/
 Adherents:
   - nom : Kisio
     siteweb : https://kisio.com/
