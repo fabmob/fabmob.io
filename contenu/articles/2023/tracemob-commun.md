@@ -101,3 +101,5 @@ C'est fort de ce constat et porté par l'envie d'impulser une nouvelle dynamique
 * *Etc.*
 
 Autant de questions que nous souhaiterions nous poser collectivement, et que la FabMob se propose dès lors de faciliter dans un cadre informel et convivial. Cette rencontre se tiendra en ligne et sera [documentée en ligne](https://lafabriquedesmobilites.fr/tracemob) afin d'en partager les principaux enseignements et de susciter l'intérêt au delà du petit cercle qu'elle réunira. Alors, affaire à suivre !
+
+> Mise à jour : cette réunion s'est déroulée le 29 mars 2023, un CR est accessible [ici](https://pad.fabmob.io/hX7MfMt5Ra2xdDkLwGa7rg?view).
