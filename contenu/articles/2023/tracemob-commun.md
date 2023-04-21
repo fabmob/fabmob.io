@@ -28,7 +28,7 @@ Jusqu’ici, le projet était développé avec le soutien de la communauté d'ag
 Tracemob est l'application de recueil des traces de mobilité, associée au cloud personnel CozyCloud vers lequel les utilisateurs peuvent, sur la base du volontariat, envoyer les données pour alimenter [une application "CoachCO2"](https://agremob.com/self-data-les-outils/).
 
 > **Participez à l'expérimentation Agremob !**
-> Que vous soyez Rochelais ou non, des places sont encore disponibles pour participer à l’expérimentation, inscrivez-vous gratuitement [ici](https://framaforms.org/experimentation-self-data-territorial-et-mobilites-durables-inscription-1613560399)
+> Que vous soyez Rochelais ou non, des places sont encore disponibles pour participer à l’expérimentation, inscrivez-vous gratuitement [ici](https://framaforms.org/inscription-cozy-cloud-self-data-territorial-1679421806)
 
 
 En 2023, cette co-conception tripartite continue avec le soutien d’une collectivité supplémentaire : le département des Alpes-Maritimes. Dans une logique de communs, ces administrations publiques ont établi ensemble une liste de futurs cas d’usages et fonctionnalités pour cette ressource partagée.
