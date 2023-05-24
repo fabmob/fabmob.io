@@ -138,7 +138,7 @@ const AutresFabriques = () => (
 export const navData = {
 	'/à-propos/manifeste': 'Manifeste',
 	'/à-propos/nous': 'Qui sommes nous ?',
-	'/à-propos/partenaires': 'Partenaires',
+	'/à-propos/partenaires': 'Partenaires et Adhérents',
 	'/à-propos/statuts': 'Statuts et documents d’activité',
 	'/à-propos/reseaufabriques': 'Le réseau des fabriques',
 	'/blog': 'Blog'
