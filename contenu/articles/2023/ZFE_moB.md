@@ -1,7 +1,7 @@
 ---
 title: Le guichet unique, un necessité pour une mise en place juste et acceptable des ZFE-m
 date: 2023-06-21
-image: contenu/articles/2023/images/vignette-critair.jpg
+image: /contenu/articles/2023/images/vignette-critair.jpg
 résumé: Le résumé est important pour la liste des articles qui s'affiche sur le site, sinon le premier paragraphe sera extrait.
 categories: 
   - articles
