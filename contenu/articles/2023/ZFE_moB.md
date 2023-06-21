@@ -12,35 +12,55 @@ tags:
 author: Ghislain Delabie
 ---
 
-> ** Résumé**
->
-> La mise en place des Zones à Faibles Émissions-Mobilité (ZFE-m) nécessite un accompagnement efficace et des dispositifs de financement pour les citoyens et les professionnels. Cependant, la diversité des actions publiques à différentes échelles territoriales rend ces dispositifs inefficients sans un guichet unique. Plusieurs rapports et recommandations soulignent l'importance d'un guichet unique régional pour cibler et renforcer le remplacement des véhicules anciens, ainsi que pour faciliter l'accès aux aides et conseils. Actuellement, aucun territoire ne dispose d'un guichet unique, malgré le consensus sur son utilité. Une solution prometteuse est le programme moB - Compte mobilité, qui offre un portail unifié d'information et d'accompagnement aux usagers, ainsi qu'une plateforme de gestion des demandes d'aide multi-financeurs. Déployé avec succès dans plusieurs régions et métropoles françaises, moB pourrait être rapidement utilisé pour créer des guichets uniques ZFE-m, simplifiant ainsi l'accès aux aides et aux informations pour les acteurs concernés
+<div style="background-color: rgb(217, 237, 247); padding: 20px; color: #31708f">
+<b>Résumé</b>
+<p>
+La mise en place des Zones à Faibles Émissions-Mobilité (ZFE-m) nécessite un accompagnement efficace et des dispositifs de financement pour les citoyens et les professionnels. Cependant, la diversité des actions publiques à différentes échelles territoriales rend ces dispositifs inefficients sans un guichet unique. Plusieurs rapports et recommandations soulignent l'importance d'un guichet unique régional pour cibler et renforcer le remplacement des véhicules anciens, ainsi que pour faciliter l'accès aux aides et conseils. Actuellement, aucun territoire ne dispose d'un guichet unique, malgré le consensus sur son utilité. Une solution prometteuse est le programme moB - Compte mobilité, qui offre un portail unifié d'information et d'accompagnement aux usagers, ainsi qu'une plateforme de gestion des demandes d'aide multi-financeurs. Déployé avec succès dans plusieurs régions et métropoles françaises, moB pourrait être rapidement utilisé pour créer des guichets uniques ZFE-m, simplifiant ainsi l'accès aux aides et aux informations pour les acteurs concernés
+</p>
+</div>
 
 
 
-
-<details>
-<summary>Sommaire</summary>
-
- 1. [**Le besoin & le contexte**](#besoincontexte)
-     - [ZFE-m et “guichets uniques territoriaux”](#guichetuniqueterritoriaux)
-     - [Le non-recours aux droits : les ZFE-m courrent à la catastrophe](#nonrecours)
-     - [Ce qu’il manque aujourd’hui](#manque)
-
- 2. [**Comment utiliser moB pour construire rapidement des guichets unique ZFE-m ?**](#construire)
-     - [moB comme portail unifié d’information & accompagnement pour les usagers du territoire](#portailunifie)
-     - [moB comme guichet unique de traitement des demandes d’aide](#traitement)
-     - [Une approche ouverte](#approcheouverte)
- 3. [**Quelles conditions de mise en oeuvre pour un projet de ZFE ?**](#conditions)
-     - [Conditions projet](#conditionsprojet)
-     - [Conditions matérielles et financières](#conditionsmateriellesfinancieres)
+<details open>
+    <summary>Sommaire</summary>
+    <div>
+        <ol>
+            <li>
+                <a href="#besoincontexte"><b>Le besoin & le contexte</b></a>
+                <ul>
+                    <li><a href="#guichetuniqueterritoriaux">ZFE-m et “guichets uniques territoriaux”</a></li>
+                    <li><a href="#nonrecours">Le non-recours aux droits : les ZFE-m courrent à la catastrophe</a></li>
+                    <li><a href="#manque">Ce qu’il manque aujourd’hui</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#construire"><b>Comment utiliser moB pour construire rapidement des guichets unique ZFE-m ?</b></a>
+                <ul>
+                    <li><a href="#portailunifie">moB comme portail unifié d’information & accompagnement pour les usagers du territoire</a></li>
+                    <li><a href="#traitement">moB comme guichet unique de traitement des demandes d’aide</a></li>
+                    <li><a href="#approcheouverte">Une approche ouverte</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#conditions"><b>Quelles conditions de mise en oeuvre pour un projet de ZFE ?</b></a>
+                <ul>
+                    <li><a href="#conditionsprojet">Conditions projet</a></li>
+                    <li><a href="#conditionsmateriellesfinancieres">Conditions matérielles et financières</a></li>
+                </ul>
+            </li>
+        </ol>
+</div>
 </details>
 
 
-## 1. Le besoin & le contexte <div id='besoincontexte'/>  
+<div id='besoincontexte'/>  
+
+## 1. Le besoin & le contexte 
 
 
-### ZFE-m et "guichets uniques territoriaux" <div id='guichetuniqueterritoriaux'/>  
+<div id='guichetuniqueterritoriaux'/>  
+
+### ZFE-m et "guichets uniques territoriaux" 
 
 La mise en oeuvre des ZFE-m suscite de nombreuses craintes quant aux conditions de sa mise en oeuvre, en particulier la manière dont celles-ci pourraient être à la fois saines et justes. Ce défi est l'objet d'un [rapport d'étude que nous publierons début juillet pour le comtpe des associations Respire et Clean Cities](https://respire-asso.org/lancement-par-respire-clean-cities-et-la-fabrique-des-mobilites-dun-livre-blanc-sur-la-zone-a-faibles-emissions/).
 Sans accompagnement et soutien financier massif et ciblé sur ceux qui en ont le plus besoin, les ZFE-m ne seront ni saines (parce qu'elles ne pourront pas réellement être mises en oeuvre) ni justes (parce qu'elles affecteront disproportionnellement les classes populaires et les habitants des zones rurales ou péri-urbaines, davantage dépendantes de la voiture). Ce constat fait consensus dans la vingtaine d'entretiens que nous avons réalisés, et il est surtout mis en avant par la [mission flash de l'Assemblée Nationale (octobre 2022)](https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/developpement-durable/missions-de-la-commission/zfem) aussi bien que par le [rapport d'information du Sénat (juin 2023)](https://www.senat.fr/notice-rapport/2022/r22-738-notice.html).
@@ -50,7 +70,9 @@ Le constat qui découle de cette diversité d'actions publiques, à toutes les �
 - **Le rapport sénatorial en fait sa recommandation n°6** ([lire p. 12 du rapport](https://www.senat.fr/rap/r22-738/r22-7381.pdf)) parmi les neuf formulées (la mesure est donc prioritaire à leurs yeux). Ils souhaitent qu'elle soit **mise en oeuvre dès 2024**. Les rapporteurs insistent sur l'intérêt d'une dimension régionale et territoriale pour ce guichet unique, dans sa mise en oeuvre
 - **Les "Fonds Vert"** mis en place par le gouvernement pour accompagner les territoires ZFE-m prévoit des financements pour la "mise en place d'un guichet d'information et de conseil sur. les modalités de mise en oeuvre des ZFE-m et les solutions de déplacement alternatives", ainsi que le "déploiement de services numériques", notamment "l'information et l'accès aux aides visant au verdissement des transports pour les usagers, ou encore le report modal vers des mobilités douces ou partagées" ([Source : DGEC, citée dans le rapport sénatorial, page 53](https://www.senat.fr/rap/r22-738/r22-7381.pdf))
 
-### Le non-recours aux droits : les ZFE-m courrent à la catastrophe <div id='nonrecours'/> 
+<div id='nonrecours'/> 
+
+### Le non-recours aux droits : les ZFE-m courrent à la catastrophe 
 Le constat, largement documenté par ailleurs, du non-recours aux droits (notamment des aides comme le RSA, la prime d'activité ou les tarifs sociaux des dans les TC) est le suivant :
 - Il y a des formes de renoncement volontaire :
     - "je ne souhaite pas être catalogué comme nécessitant une aide financière de l'état alors que je travaille et souhaite simplement en vivre"
@@ -63,7 +85,9 @@ Le constat, largement documenté par ailleurs, du non-recours aux droits (notamm
 Dans le cas de la mise en oeuvre des ZFE-m, l'accompagnement des citoyens et des professionnels coche toutes les cases ci-dessus, auxquelles se rajoutent des problèmes déjà rencontrés pour la rénovation énergétique : une diversité d'acteurs publics impliqués, des aides dont l'objet et le périmètre se recoupent partiellement, des outils numériques peu accessibles et compréhensibles du grand public.
 
 
-### Ce qu'il manque aujourd'hui <div id='manque'/> 
+<div id='manque'/> 
+
+### Ce qu'il manque aujourd'hui 
 #### Si le problème était réglé
 Les guichets uniques ZFE-m font consensus transpartisans, sur la base de constats partagés. Ils sont éligibles à des co-financements de l'Etat. Le problème est-il réglé ? 
 Si c'était le cas, nous pourrions annoncer dès maintenant que les 11 ZFE-m actuelles, ainsi que les 32 agglomérations de plus de 150 000 habitants qui les rejoindront au 1er janvier 2025, disposeront toutes d'ici fin 2024 d'un guichet unique territorial où l'on trouvera :
@@ -88,9 +112,13 @@ Cette outil moB - Compte mobilité a été déployé fin 2022 avec différents p
 **En 2023-24, moB est opéré par la Fabrique des Mobilités, avec des financements de l'ADEME et le soutien du Ministère des Transports. Il est mis à disposition des partenaires ci-dessus, ainsi que de nouveaux territoires et opérateurs. Il s'agit d'un service opéré comme un commun, une infrastructure numérique partagée, qui ne dépend pas du secteur marchand, sous pilotage de financeurs publics. Ce service est opérationnel et éprouvé en conditions réelles depuis un an. Il a été conçu pour un passage à l'échelle, un haut niveau de sécurité des données, des évolutions en fonction des besoins des territoires.**
 
 
-## Comment utiliser moB pour construire rapidement des guichets unique ZFE-m ? <div id='construire'/>
+<div id='construire'/>
 
-### moB comme portail unifié d'information & accompagnement pour les usagers du territoire <div id='portailunifié'/>
+## Comment utiliser moB pour construire rapidement des guichets unique ZFE-m ? 
+
+<div id='portailunifié'/>
+
+### moB comme portail unifié d'information & accompagnement pour les usagers du territoire 
 #### Le besoin
 Un guichet unique repose sur de l'information accessible en un lieu unique. Le guichet unique, on le verra, n'a pas besoin d'être centralisateur : les territoires, à différentes échelles (régionales, communautés d'agglo, voire communes) ont besoin de diffuser l'information de différentes façons, par différents canaux officiels (applications, sites webs, newsletters, magazines, etc). Toutefois, le recensement et le maintien à jour de l'information peut faire l'objet d'un guichet unique, c'est même indispensable. Il s'agit de recenser des dispositifs spécifiques aux ZFE (ex : primes à la conversion), des dispositifs publics existants pouvant y concourir (tarification sociale des transports publics, accompagnement "mobilité inclusive", aide à l'acquisition de vélos électriques, etc), des dispositifs privés pouvant m'accompagner (en particulier ceux mis en place par les employeurs avec leur politique FMD). Il faut présenter les informations à un utilisateur en fonction de son profil (où j'habite, mon employeur, etc).
 #### Déjà disponible dans moB en 2023
@@ -100,7 +128,9 @@ Un tel guichet unique d'information pourrait très bien être lancé en septembr
 L'outil moB permet déjà de filtrer / trier les dispositifs présentés à l'utilisateur selon son profil, principalement son lieu de résidence et son employeur. Il est possible, à la demande, d'utiliser d'autres critères, et plus globalement de perfectionner le moteur de présentation des résultats. La feuille de route du service moB prévoit d'utiliser des informations additionnelles de mon compte utilisateur : étudiant, chômage, CAF, RSA, etc.
 
 
-### moB comme guichet unique de traitement des demandes d'aide<div id='traitement'/>
+<div id='traitement'/>
+
+### moB comme guichet unique de traitement des demandes d'aide
 #### Le besoin
 
 Fournir une information claire est un prérequis. Toutefois, il est souvent pénible pour les utilisateurs de déposer des dossiers distincts, avec des pièces justificatives et des informations demandées redondantes (il faut les fournir plusieurs fois), et des critères parfois différents (ex : acquisition d'un vélo électrique avec des aides nationales, d'une agglomération et d'une commune). C'est un motif fréquent de non-recours aux aides publiques. L'exemple le plus marquant étant la rénovation énergétique.
@@ -120,7 +150,9 @@ Sur le plan technique, moB dispose largement des capacités nécessaires à la m
     - Cette approche peut être mise en place très rapidement, et permet de traiter quelques centaines ou milliers de dossiers par an, avec un surcoût.
 
 
-### Une approche ouverte <div id='approcheouverte'/>
+<div id='approcheouverte'/>
+
+### Une approche ouverte 
 Comme évoqué supra, il est difficile d'envisager un guichet unique ZFE-m "monolithique". Un outil national unifié sera difficile à mettre en place rapidement, car il y a une grande diversité de dispositifs locaux d'accompagnement et de financement. Par ailleurs, des acteurs publics divers (régions, métropoles et agglomérations, communes) ont besoin de communiquer sur les dispositifs, y compris en les intégrant à leurs propres canaux (applications mobiles, sites web, services de mobilité, etc). Il en va de même pour différents acteurs privés, qu'ils soient prestataires ou partenaires des collectivités (délégataires du transport public, opérateurs de mobilité subventionnés ou sous convention avec la collectivité) ou bien simplement des opérateurs privés qui peuvent promouvoir le recours aux dispositifs pour accompagner leurs clients, en accord avec la collectivité : les concessionnaires automobiles ou vendeurs de vélos et véhicules légers intermédiaires (VELI) afin qu'ils puissent avancer le montant de l'aide.
 Par conséquent, un guichet unique ZFE-m à l'échelle d'une région ou d'une métropole devrait proposer les fonctionnalités cœur suivantes : 
 - Permettre de se connecter à tout SI existant qui gère l'attribution d'aides publiques ou privées, afin d'automatiser et simplifier les parcours, sans remettre en cause les dispositifs existants,
@@ -135,14 +167,20 @@ moB met déjà en oeuvre l'ensemble du cahier des charges ci-dessus, avec des am
 #### Reste à faire - Evolutions souhaitables d'ici 2024
 En fonction des besoins spécifiques d'un territoire pour son guichet unique ZFE-m, il est possible de configurer moB pour répondre au besoin. moB est un outil mutualisé, qui met à disposition des méthodes et outils génériques utilisables par toutes les collectivités utilisatrices. Des évolutions pour répondre aux besoins d'une collectivité bénéficieront et seront pensées avec l'ensemble des partenaires collectivités.
 
-## Quelles conditions de mise en oeuvre pour un projet de ZFE ? <div id='conditions'/>
+<div id='conditions'/>
 
-### Conditions projet <div id='conditionsprojet'/>
+## Quelles conditions de mise en oeuvre pour un projet de ZFE ? 
+
+<div id='conditionsprojet'/>
+
+### Conditions projet 
 Les premières étapes de la mise en oeuvre d'un guichet unique ZFE-m basé sur moB peuvent être très rapides : en quelques semaines il est possible d'avoir un recensement exhaustif des aides du territoires (aides locales, régionale,s nationales) et de les mettre à disposition des citoyens. D'ici fin 2023, il est possible d'avoir un guichet opérationnel, qui s'enrichit en 2024 d'une automatisation et de services support pour effectuer des demandes de financement, en fonctionnement du calendrier de la collectivité partenaire.
 
 La Fabrique des Mobilités accompagne ses partenaires pour concevoir un guichet rapidement opérationnel, et évolutif dans le temps (2024-2025). Au-delà des spécifications de l'outil, il s'agit de travailler avec les partenaires locaux (publics ou privés) qui vont contribuer ou bénéficier du guichet unique.
 
-### Conditions matérielles et financières <div id='conditionsmateriellesfinancieres'/>
+<div id='conditionsmateriellesfinancieres'/>
+
+### Conditions matérielles et financières 
 La Fabrique des Mobilités bénéficie d'un financement de l'ADEME pour accompagner le développement de l'outil d'ici 2024, au service des territoires. Concrètement, ce financement permet de proposer aux territoires intéressés par la mise en oeuvre d'un guichet unique ZFE-m : 
 - L'accompagnement complet en 2023 (assistance à la conception, coopération avec les partenaires du territoire, lancement) d'un premier territoire partenaire sur ce cas d'usage "guichet unique ZFE-m". La principale contrepartie demandée par l'ADEME est une documentation ouverte, par la FabMob, de la conception, des conditions de déploiement et des résultats obtenus par le projet ;
 - Tout autre territoire qui travaille à la mise en oeuvre d'un guichet ZFE-m à partir de 2023 bénéficie
