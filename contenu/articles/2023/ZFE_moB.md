@@ -2,7 +2,7 @@
 title: Quel guichet unique pour des ZFE-m justes et acceptables ?
 date: 2023-06-21
 image: /contenu/articles/2023/images/vignette-critair.jpg
-résumé: La mise en place des Zones à Faibles Émissions-Mobilité (ZFE-m) nécessite un accompagnement efficace et des dispositifs de financement pour les citoyens et les professionnels. Cependant, la diversité des actions publiques à différentes échelles territoriales rend ces dispositifs inefficients sans un guichet unique. Plusieurs rapports et recommandations soulignent l'importance d'un guichet unique régional pour cibler et renforcer le remplacement des véhicules anciens, ainsi que pour faciliter l'accès aux aides et conseils. Actuellement, aucun territoire ne dispose d'un guichet unique, malgré le consensus sur son utilité. Une solution prometteuse est le programme moB - Compte mobilité, qui offre un portail unifié d'information et d'accompagnement aux usagers, ainsi qu'une plateforme de gestion des demandes d'aide multi-financeurs. Déployé avec succès dans plusieurs régions et métropoles françaises, moB pourrait être rapidement utilisé pour créer des guichets uniques ZFE-m, simplifiant ainsi l'accès aux aides et aux informations pour les acteurs concernés. 
+résumé: La mise en place des Zones à Faibles Émissions-Mobilité (ZFE-m) nécessite un accompagnement efficace et des dispositifs de financement pour les citoyens et les professionnels. Cependant, la diversité des actions publiques à différentes échelles territoriales rend ces dispositifs inefficients sans un guichet unique. 
 categories: 
   - articles
   - innovation
