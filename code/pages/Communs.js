@@ -13,8 +13,12 @@ export default ({}) => {
 	return (
 		<section
 			css={`
-				h2 {
-					text-align: center;
+				header {
+					max-width: 800px;
+				}
+				header p {
+					margin: 0;
+					text-align: left;
 				}
 			`}
 		>
@@ -23,7 +27,8 @@ export default ({}) => {
 					title="Les communs et communautés FabMob"
 					description="Découvrez les communs, des projets ouverts que nous développons activement pour bousculer notre mobilité"
 				/>
-				<Title colors={[colors.vert, colors.jauneVert]}>Les communs et communautés</Title>
+				{/* <Title colors={[colors.vert, colors.jauneVert]}>Les communs et communautés</Title> */}
+				<h2>Nos communs et communautés</h2>
 				<p>
 					{/* Un commun c'est n'importe quelle ressource utile à quelqu'un (un site
 					Web, un logiciel, les plans d'un objet, le process de fabrication d'un
@@ -50,7 +55,7 @@ export default ({}) => {
 				))}
 			</CardList>
 
-			<div
+			{/* <div
 				css={`
 					background: var(--color-secondary);
 					max-width: 400px;
@@ -65,7 +70,7 @@ export default ({}) => {
 				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Accueil#Nos_12_Communs_en_cours_de_production">
 					Explorer tous les communs sur le wiki
 				</a>
-			</div>
+			</div> */}
 		</section>
 	)
 }

@@ -138,7 +138,7 @@ export default () => {
 					
 					</>
 				}
-				{location.pathname.indexOf("/communs") > -1  && <Link to="/communs">
+				{location.pathname.indexOf("/activités") > -1  && <Link to="/activités/communs">
 					<li css="background-color: #92E5FF">
 						<b>Les activités</b> de la Fabrique
 					</li>
@@ -174,7 +174,7 @@ export default () => {
 					))}
 					
 					</>}
-				{location.pathname.indexOf("/communs") === -1  && <Link to="/communs">
+				{location.pathname.indexOf("/activités") === -1  && <Link to="/activités/communs">
 					<li css="background-color: #92E5FF">
 						<b>Les activités</b> de la Fabrique
 					</li>

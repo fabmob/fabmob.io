@@ -26,6 +26,7 @@ import About from './pages/About'
 import Événéments from './pages/Événements'
 import { fetchLastEvents } from './wikiAPI.js'
 import Meta from './Meta.js'
+import Activités from './pages/Activités.js'
 const Tracemob = lazy(() => import('./tracemob/Tracemob'))
 
 const UtmFriendlyRedirect = (props) => (
@@ -96,8 +97,8 @@ const Container = () => (
 					<Route path="/blog">
 						<Blog />
 					</Route>
-					<Route path="/communs">
-						<Communs />
+					<Route path="/activités">
+						<Activités />
 					</Route>
 					<Route path="/ecosystem">
 						<Ecosystem />
