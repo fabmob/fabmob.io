@@ -1,5 +1,5 @@
 ---
-titre: Pulications
+titre: Publications
 description: Publications de la fabrique
 ---
 
