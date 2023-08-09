@@ -23,13 +23,9 @@ Cette privatisation empêche l’utilisation des données pour un objectif plus 
 
 ## Où en est le projet ?
 
-Jusqu’ici, le projet était développé avec le soutien de la communauté d'agglomération de la Rochelle qui expérimente [dans le cadre du projet Agremob](https://agremob.com/self-data-accueil/) un dispositif numérique unique permettant aux citoyens de mieux connaître leurs habitudes de déplacement et d’agir pour réduire leurs émissions de CO2.
+Jusqu’ici, le projet était développé avec le soutien de la communauté d'agglomération de la Rochelle qui expérimente [dans le cadre du projet Agremob](https://www.agglo-larochelle.fr/vie-pratique/numerique?article=coach-co2-self-data) un dispositif numérique unique permettant aux citoyens de mieux connaître leurs habitudes de déplacement et d’agir pour réduire leurs émissions de CO2.
 
-Tracemob est l'application de recueil des traces de mobilité, associée au cloud personnel CozyCloud vers lequel les utilisateurs peuvent, sur la base du volontariat, envoyer les données pour alimenter [une application "CoachCO2"](https://agremob.com/self-data-les-outils/).
-
-> **Participez à l'expérimentation Agremob !**
-> Que vous soyez Rochelais ou non, des places sont encore disponibles pour participer à l’expérimentation, inscrivez-vous gratuitement [ici](https://framaforms.org/inscription-cozy-cloud-self-data-territorial-1679421806)
-
+Tracemob est l'application de recueil des traces de mobilité, associée au cloud personnel CozyCloud vers lequel les utilisateurs peuvent, sur la base du volontariat, envoyer les données pour alimenter une application "CoachCO2".
 
 En 2023, cette co-conception tripartite continue avec le soutien d’une collectivité supplémentaire : le département des Alpes-Maritimes. Dans une logique de communs, ces administrations publiques ont établi ensemble une liste de futurs cas d’usages et fonctionnalités pour cette ressource partagée.
 
@@ -43,7 +39,7 @@ Le premier cas d’usage, implémenté par les équipes de CozyCloud au sein du 
 
 ## Sociologie et données de mobilité : qui tracer ?
 
-Le programme Agremob accueille aussi des travaux du CNAM-GRICO sur une mise en perspective des enjeux et des difficultés liés à la "myriadisation" (ou crowdsourcing) des données de mobilité. La dernière publication, datant de fin janvier 2023, questionne les participants sur leur usage de Tracemob et du CoachCO2. Les rapports sont très complets et [accessibles ici](https://agremob.com/self-data-documentation-et-divers/#recherche). Voici quelques points intéressants à noter.
+Le programme Agremob accueille aussi des travaux du CNAM-GRICO sur une mise en perspective des enjeux et des difficultés liés à la "myriadisation" (ou crowdsourcing) des données de mobilité. La dernière publication, datant de fin janvier 2023, questionne les participants sur leur usage de Tracemob et du CoachCO2. Les rapports sont très complets et [accessibles ici](https://www.agglo-larochelle.fr/vie-pratique/numerique?article=coach-co2-self-data). Voici quelques points intéressants à noter.
 
 - Le programme Rochelais porte un discours très engagé sur le self data et la protection des données personnelles. Les données récoltées appartiennent à l’utilisateur, sont stockées dans son espace personnel, et ne sont partagés à personne. Cette approche noble séduit les utilisateurs "concernés" ou initiés, mais elle entre en conflit avec la volonté d’utiliser une partie de ces données pour alimenter des politiques de mobilités. Concrètement, alors même que la communication et le recrutement de participants était toujours centré sur le self data, les utilisateurs sont assez ouverts à partager leurs traces si elles sont effectivement utilisées par la collectivité. Pour certain, c’est même indispensable pour continuer d’utiliser l’application, la dimension d’auto-mesure ([Quantified self](https://fr.wikipedia.org/wiki/Quantified_self)) n’étant pas une motivation suffisante, entraînant désintéressement et désinstallation de l’application. Cet effort individuel est perçu comme acceptable uniquement en contrepartie d'un effet positif sur le collectif.
 
