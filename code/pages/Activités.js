@@ -1,15 +1,8 @@
 import React from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
-import { Link } from 'Components/Lang'
-import pages from 'Code/getContent.js'
-import { PageMain } from '../UI'
-import Page from '../Page'
+import { Switch, Route } from 'react-router-dom'
 import Nav2 from 'Components/Nav2'
-import Ecosystem from './Ecosystem'
-import colors from 'Components/colors'
-import { ArticleStyle } from 'Code/UI'
-import Partenaires from './Partenaires'
 import Communs from './Communs'
+import Publications from './Publications'
 
 export default () => (
 	<div
@@ -45,8 +38,8 @@ export default () => (
 				<Route path="/activités/communs">
 					<Communs />
 				</Route>
-				<Route exact path="/activités/:id">
-					<Page articles={pages} />
+				<Route path="/activités/publications">
+					<Publications />
 				</Route>
 			</Switch>
 		</div>
