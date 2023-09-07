@@ -34,9 +34,9 @@ export default ({}) => {
 			<header>
 				<Meta
 					title="Les publications FabMob"
-					description="Nos publications et rapports recents"
+					description="Nos publications et rapports récents"
 				/>
-				<h2>Nos publications et rapports recents</h2>
+				<h2>Nos publications et rapports récents</h2>
 			</header>
 			<CardList>
 				{publications.map((publication) => (
