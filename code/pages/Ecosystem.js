@@ -79,6 +79,7 @@ let Présentation = ({ filter, location }) => (
 				`}>
 				<Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>L'équipe</Surligne> : <span>L'équipe</span>}</Link>
 				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Le conseil d'administration</Surligne> : <span>Le conseil d'administration</span>}</Link>
+				<Link to="/à-propos/nous/cooperateurs">{location.pathname ===  "/à-propos/nous/cooperateurs" ? <Surligne>Coopérateurs</Surligne> : <span>Coopérateurs</span>}</Link>
 			</div>
 			<Switch>
 				<Route exact path="/à-propos/nous">
@@ -86,6 +87,9 @@ let Présentation = ({ filter, location }) => (
 				</Route>
 				<Route exact path="/à-propos/nous/conseiladministration">
 					<Members data={ecosystème["Le conseil d'administration"]} />
+				</Route>
+				<Route exact path="/à-propos/nous/cooperateurs">
+					<Members data={ecosystème["Coopérateurs"]} />
 				</Route>
 				{/* <Route exact path="/à-propos/nous/adherents">
 					<Adhérents />

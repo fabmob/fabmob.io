@@ -60,6 +60,23 @@ Le conseil d'administration:
     rôle: Membre
     image: /images/nous/nathalie.jpg
     linkedin: https://www.linkedin.com/in/nathalie-rey-332a351a/
+Coopérateurs:
+  - nom: Sonia Nazef
+    rôle: Office manager
+    image: /images/cooperateurs/sonia_nazef.png
+    linkedin: https://www.linkedin.com/in/sonia-nazef-a4bb5352/
+  - nom: Sarah Humeau
+    rôle: Graphiste
+    image: /images/cooperateurs/sarah_humeau.png
+    linkedin: https://www.sarah-humeau.com/
+  - nom: Charles Waubant
+    rôle: Consultant mobilité
+    image: /images/cooperateurs/charles_waubant.png
+    linkedin: "#"
+  - nom: Olivier Maffre
+    rôle: Consultant mobilité
+    image: /images/cooperateurs/olivier_maffre.png
+    linkedin: https://www.linkedin.com/in/omaffre/
 Partenaires:
   - nom : Ademe
     siteweb : https://www.ademe.fr/
