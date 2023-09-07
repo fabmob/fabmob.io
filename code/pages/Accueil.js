@@ -75,7 +75,7 @@ export default () => {
 						<ReDe />
 						construisons les mobilités <br />
 						brique par brique, <br />
-						ensemble via les <Link to="/communs">
+						ensemble via les <Link to="/activités/communs">
 							<Surligne>communs</Surligne>
 						</Link> et l'
 						<Link to="/blog/lopen-source-au-secours-du-secteur-des-transports">
@@ -86,7 +86,7 @@ export default () => {
 					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
 						<CTA
 							text="Découvrez nos activités"
-							to="/communs"
+							to="/activités/communs"
 							img={<CTAArrow />}
 						/>
 

@@ -44,6 +44,7 @@ const baseUrl = 'https://wiki.lafabriquedesmobilites.fr/api.php'
 const parseApiReply = (list) => {
 	const elements = list.query.pages
 	const parsed = Object.values(elements).map((e) => {
+		if (!e.revisions) return {...e, content: null, data: null}
 		const content = e.revisions[0]['*']
 		const dataPairs = content
 			.replaceAll('\n', '') // Remove all line returns, uneeded for data parsing
