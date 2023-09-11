@@ -45,9 +45,9 @@ export default () => (
 				<Route exact path="/participer/tarifs">
 					<Tarifs />
 				</Route>
-				<Route exact path="/participer/commentRejoindreProjet">
+				{/* <Route exact path="/participer/commentRejoindreProjet">
 					<CommentRejoindreProjet />
-				</Route>
+				</Route> */}
 				<Route exact path="/participer/outils">
 					<Outils />
 				</Route>
@@ -64,54 +64,54 @@ export default () => (
 export const navData = {
 	'/participer/pourquoiAdherer': 'Pourquoi adhérer ?',
 	'/participer/tarifs': 'Tarifs',
-	'/participer/commentRejoindreProjet': 'Comment rejoindre un projet ?',
+	// '/participer/commentRejoindreProjet': 'Comment rejoindre un projet ?',
 	'/participer/outils': 'Nos outils',
 }
-const CommentRejoindreProjet = () => (
-	<div>
-		<header>
-			<Title colors={[colors.jaune, colors.jauneVert]}>Comment rejoindre un projet ?</Title>
-			<Meta
-				title="Participez en pratique !"
-				description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
-			/>
-		</header>
-		<div
-			css={`
-				> div {
-					display: flex;
-					flex-wrap: wrap;
-					align-items: center;
-					justify-content: center;
-					margin-bottom: 1rem;
-				}
+// const CommentRejoindreProjet = () => (
+// 	<div>
+// 		<header>
+// 			<Title colors={[colors.jaune, colors.jauneVert]}>Comment rejoindre un projet ?</Title>
+// 			<Meta
+// 				title="Participez en pratique !"
+// 				description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
+// 			/>
+// 		</header>
+// 		<div
+// 			css={`
+// 				> div {
+// 					display: flex;
+// 					flex-wrap: wrap;
+// 					align-items: center;
+// 					justify-content: center;
+// 					margin-bottom: 1rem;
+// 				}
 
-				> div p {
-					margin: 0 1rem;
-					width: 20rem;
-				}
-				> div button {
-					margin-top: 0.6rem;
-					width: 20rem;
-				}
-			`}
-		>
-			<div>
-				<p>
-					En 2 minutes, accédez à la galaxie FabMob en créant votre compte
-					unique.
-				</p>
+// 				> div p {
+// 					margin: 0 1rem;
+// 					width: 20rem;
+// 				}
+// 				> div button {
+// 					margin-top: 0.6rem;
+// 					width: 20rem;
+// 				}
+// 			`}
+// 		>
+// 			<div>
+// 				<p>
+// 					En 2 minutes, accédez à la galaxie FabMob en créant votre compte
+// 					unique.
+// 				</p>
 
-				<a
-					href="https://id.indie.host/auth/realms/fabmob-io/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fwiki.lafabriquedesmobilites.fr%2Fwiki%2FSp%25C3%25A9cial%3AConnexion&client_id=wiki&scope=openid"
-					target="_blank"
-				>
-					<button>Créer un compte FabMobID</button>
-				</a>
-			</div>
-		</div>
-	</div>
-)
+// 				<a
+// 					href="https://id.indie.host/auth/realms/fabmob-io/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fwiki.lafabriquedesmobilites.fr%2Fwiki%2FSp%25C3%25A9cial%3AConnexion&client_id=wiki&scope=openid"
+// 					target="_blank"
+// 				>
+// 					<button>Créer un compte FabMobID</button>
+// 				</a>
+// 			</div>
+// 		</div>
+// 	</div>
+// )
 const Content = () => (
 	
 	<div>
