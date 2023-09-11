@@ -77,8 +77,8 @@ let Présentation = ({ filter, location }) => (
 						text-transform: uppercase;
 					}
 				`}>
-				<Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>L'équipe</Surligne> : <span>L'équipe</span>}</Link>
-				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Le conseil d'administration</Surligne> : <span>Le conseil d'administration</span>}</Link>
+				<Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>Équipe</Surligne> : <span>Équipe</span>}</Link>
+				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Conseil d'administration</Surligne> : <span>Conseil d'administration</span>}</Link>
 				<Link to="/à-propos/nous/cooperateurs">{location.pathname ===  "/à-propos/nous/cooperateurs" ? <Surligne>Coopérateurs</Surligne> : <span>Coopérateurs</span>}</Link>
 			</div>
 			<Switch>
