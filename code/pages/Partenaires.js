@@ -23,7 +23,7 @@ export default () => {
 let Partenaires = ({ filter, location }) => (
 	<main>
 		<Meta
-			title="Les partenaires de la fabrique"
+			title="Les adhérents et partenaires de la fabrique"
 			description="Découvrez les adhérents et les acteurs de la communauté"
 		/>
 		<section
@@ -74,15 +74,15 @@ let Partenaires = ({ filter, location }) => (
 						text-transform: uppercase;
 					}
 				`}>
-				<Link to="/à-propos/partenaires">{location.pathname ===  "/à-propos/partenaires" ? <Surligne>Partenaires</Surligne> : <span>Partenaires</span>}</Link>
-				<Link to="/à-propos/partenaires/adherents">{location.pathname ===  "/à-propos/partenaires/adherents" ? <Surligne>Adhérents</Surligne> : <span>Adhérents</span>}</Link>
+				<Link to="/à-propos/adherents_et_partenaires">{location.pathname ===  "/à-propos/adherents_et_partenaires" ? <Surligne>Adhérents</Surligne> : <span>Adhérents</span>}</Link>
+				<Link to="/à-propos/adherents_et_partenaires/partenaires">{location.pathname ===  "/à-propos/adherents_et_partenaires/partenaires" ? <Surligne>Partenaires</Surligne> : <span>Partenaires</span>}</Link>
 			</div>
 			<Switch>
-				<Route exact path="/à-propos/partenaires">
-					<Members data={ecosystème["Partenaires"]} />
-				</Route>
-				<Route exact path="/à-propos/partenaires/adherents">
+				<Route exact path="/à-propos/adherents_et_partenaires">
 					<Members data={ecosystème["Adherents"]} />
+				</Route>
+				<Route exact path="/à-propos/adherents_et_partenaires/partenaires">
+					<Members data={ecosystème["Partenaires"]} />
 				</Route>
 			</Switch>
 		</section>

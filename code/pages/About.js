@@ -44,7 +44,7 @@ export default () => (
 				<Route path="/à-propos/nous">
 					<Ecosystem />
 				</Route>
-				<Route path="/à-propos/partenaires">
+				<Route path="/à-propos/adherents_et_partenaires">
 					<Partenaires />
 				</Route>
 				<Route exact path="/à-propos/reseaufabriques">
@@ -138,7 +138,7 @@ const AutresFabriques = () => (
 export const navData = {
 	'/à-propos/manifeste': 'Manifeste',
 	'/à-propos/nous': 'Qui sommes nous ?',
-	'/à-propos/partenaires': 'Partenaires et Adhérents',
+	'/à-propos/adherents_et_partenaires': 'Adhérents et Partenaires',
 	'/à-propos/statuts': 'Statuts et documents d’activité',
 	'/à-propos/reseaufabriques': 'Le réseau des fabriques',
 	'/blog': 'Blog'
