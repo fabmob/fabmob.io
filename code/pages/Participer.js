@@ -270,7 +270,7 @@ const Tarifs = () => (
 					<td>1 500 €</td>
 				</tr>
 				<tr>
-					<td className="tddesc">251 à 1000 personnes</td>
+					<td className="tddesc">201 à 1000 personnes</td>
 					<td>2 500 €</td>
 				</tr>
 				<tr>
