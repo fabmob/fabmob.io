@@ -94,7 +94,7 @@ const Home = () => (
 				</header>
 				<SmartphoneScreen />
 			</div>
-			<div
+			{/* <div
 				css={`
 					img {
 						height: 40px;
@@ -113,19 +113,7 @@ const Home = () => (
 					<img src={require('./playstore-badge.png').default} />
 				</a>
 
-			</div>
-			<div
-				css={`
-					img {
-						height: 40px;
-					}
-
-					margin: 0 auto;
-					color: white;
-				`}
-			>
-			<p>Beta-testeurs, inscrivez-vous à l'expérimentation en cours <a href="https://framaforms.org/inscription-cozy-cloud-self-data-territorial-1679421806" target="_blank">ici</a>.</p>
-			</div>
+			</div> */}
 			<div
 				href="#quoi"
 				css={`
