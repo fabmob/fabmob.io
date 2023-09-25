@@ -126,7 +126,7 @@ export default () => (
 		</p>
 		<h3>Et ma batterie 🔋 ? </h3>
 		<p>
-			Les versions récentes d'Android ou d'IOS ont beaucoup profressé : suivre votre position
+			Les versions récentes d'Android ou d'IOS ont beaucoup progressé : suivre votre position
 			ne consomme que quelques petits % de batterie par jour.{' '}
 		</p>
 		<p>
