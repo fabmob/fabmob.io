@@ -109,7 +109,7 @@ De fait, le scénario choisi était radical, et très divergent de ce qui se pas
 Pourtant, **d’autres scénarios créés par les groupes pointaient les *mêmes risques*, de manière moins prononcée, mais jugés *plus probables* que le scénario repoussoir radical.** Ainsi, lorsqu’on considère les actions à mener face à un tel avenir projeté, le constat est le même. Un certain nombre de risques existent, bien réels et pas à très long terme, qui doivent être adressés : 
 - **Le cercle vicieux d’une disparition de l’engagement politique dans l’amélioration des transports** (tout courts, même avant de parler d’une mobilité douce et durable de proximité), accompagné d’une dégradation de la collaboration entre public et privé ; donc une baisse de la qualité, de la fréquence, donc de l’usage ; et petit à petit une disparition de l’offre publique de transport d’aujourd’hui. 
 	
-![](https://hot-objects.liiib.re/pad-fabmob-io/uploads/9f8246c3-6f87-40af-b5e4-9c0cec5c9a16.png)
+![](contenu/articles/2023/images/Cercle_vicieux_désengagement_ pouvoirs_publics.png)
 
 *Figure : Le cercle vicieux du désengagement des pouvoirs publics dans la mobilité*	
 	
