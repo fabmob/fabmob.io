@@ -1,7 +1,7 @@
 ---
 titre: "Déplacements domicile-travail en 2050 : Une journée pour sonder notre rapport à l’avenir"
 date: 2023-10-9
-image: contenu/articles/2023/images/variables_a_considérer.png
+image: /contenu/articles/2023/images/variables_a_considérer.png
 
 résumé: La FabMob était à Caen chez nos partenaires de Moho pour inaugurer, un nouveau jeu de prospective sur les déplacements domicile-travail. 
 
