@@ -14,11 +14,12 @@ author: Marguerite Grandjean
 >« J’ai vraiment beaucoup apprécié la matinée, l’organisation des ateliers, la réflexion autour d’un jeu et aussi la dynamique de réflexion donnée par le jeu. »* (Une participante)
 
 Le 20 septembre dernier, la FabMob était à Caen chez nos partenaires de [Moho](https://www.moho.co/fr/) pour inaugurer, avec une coalition d’acteurs locaux de la mobilité urbaine durable, un nouveau jeu de prospective sur les déplacements domicile-travail. 
+
 Après une matinée de jeu aboutissant à la création de 12 scénarios d'avenir possibles, les participant.e.s ont choisi 2 scénarios : 1 désirable et 1 repoussoir. L'après-midi, le groupe a imaginé des "unes de journaux" du futur pour chaque scénario ("Eau-est France", "Tesla Magazine"...) Puis les implications, les pistes d'action et les pistes de collaboration supposées par chacun de ces 2 scénarios opposés ont été explorées. [Le déroulé complet de la journée, la méthodologie d'animation, et le jeu de cartes sont disponibles en accès libre sur notre wiki.](https://wiki.lafabriquedesmobilites.fr/wiki/Atelier_%22Design_Fiction%22_Mobilit%C3%A9_Domicile-Travail) 
+
 La journée s'est clôturée par une intervention de [Nicolas Joyau](https://www.linkedin.com/in/nicolas-joyau-070114274), maire-adjoint en charge de l'urbanisme de la Ville de Caen et vice-président en charge des mobilités à Caen-la-Mer, qui a notamment abordé le Plan Local d'Urbanisme en cours d'élaboration sur le territoire pour une publication en 2026. 
 
 ## "Le tarot de la mobilité" 
-
  
 - 10 variables influençant les changements dans la mobilité domicile-travail, du coût de la mobilité des personnes au changement climatique local en passant par l’organisation du travail ; 
 - 3 possibilités distinctes d’évolution future pour chaque variable, appelées « hypothèses » ; 
