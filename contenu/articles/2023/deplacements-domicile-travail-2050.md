@@ -31,7 +31,7 @@ Comment faciliter l’appréhension de ce «système prospectif» par nos 40 par
 **C'est là qu'intervient notre "tarot de la mobilité"** ([disponible en accès libre sur notre wiki](https://wiki.lafabriquedesmobilites.fr/wiki/Atelier_%22Design_Fiction%22_Mobilit%C3%A9_Domicile-Travail)). 
 30 hypothèses, 30 cartes. 
 
-![](contenu/articles/2023/images/Visuel_tarot_mobilité.png)
+![](/contenu/articles/2023/images/Visuel_tarot_mobilité.png)
 Après un bref temps de présentation des 10 variables permettant d’appréhender notre thème du jour, les groupes ont d’abord apprivoisé nos 30 cartes en leur attribuant un quota de probabilité tout subjectif.
 
 Puis ils ont « joué le jeu » : chacun.e tire une carte « variable » au hasard et doit poser sur la table l’une des 3 hypothèses correspondantes. Le suivant fait pareil, jusqu’à épuisement des joueurs. Les cartes posées forment alors un scénario d’avenir complet sur la mobilité domicile – travail, qui pourra être exploré en détail plus tard. 
@@ -50,13 +50,12 @@ Revenons-en à notre thème du jour. La mobilité domicile-travail est un thème
 
 **En France, les mouvements domicile-travail représentent 15 % des émissions de GES à eux seuls (30 % pour les transports au total).** [Selon l'INSEE](https://www.insee.fr/fr/statistiques/5013868#titre-bloc-9), en 2017 en France, 74 % des actifs en emploi utilisaient la voiture pour se rendre au travail (pour rappel 84% des voyageurs-kilomètres totaux se font en voiture), contre 16 % les transports publics (métro, bus, tramway, RER ou train) et 8 % les modes doux (6 % la marche et 2 % le vélo). Les distances se sont considérablement rallongées comme le rappelait [Laura Foglia](https://www.linkedin.com/in/foglialaura/) du Shift Project (présente lors de la journée), du fait de l’utilisation prédominante de la voiture, qui va plus vite, plus loin. Et du fait de sa praticité, le taux d’occupation moyen d’une voiture individuelle est proche de… 1. 
 
-:::success
-*Encadré : Quelques données de cadrage plus spécifiques sur le territoire de Caen-la-Mer (48 communes, 270 000 résidents)* 
-
-Selon une récente enquête EMC2, dans le Calvados la distance moyenne entre domicile et travail est autour de 12,9 km pour une durée de 23 minutes. A Caen-la-Mer plus spécifiquement, 55 à 70% des déplacements se font en voiture, 20 à 30 % en marche, 3 à 5 % en vélo (en hausse ; 57% des résidents l’utilisent), 1 à 7 % en transports publics (53% des résidents les utilisent). 40 % des personnes de Caen la Mer disent covoiturer.
+<div style="background-color: rgb(217, 237, 247); padding: 20px; color: #31708f">
+<b>Quelques données de cadrage plus spécifiques sur le territoire de Caen-la-Mer (48 communes, 270 000 résidents)</b>
+<br/>Selon une récente enquête EMC2, dans le Calvados la distance moyenne entre domicile et travail est autour de 12,9 km pour une durée de 23 minutes. A Caen-la-Mer plus spécifiquement, 55 à 70% des déplacements se font en voiture, 20 à 30 % en marche, 3 à 5 % en vélo (en hausse ; 57% des résidents l’utilisent), 1 à 7 % en transports publics (53% des résidents les utilisent). 40 % des personnes de Caen la Mer disent covoiturer.
 La part modale de la voiture apparaît en baisse à Caen la Mer entre 2011 et 2022 (de 61% à 55%). Pour autant, 42,5% des répondants se disent défavorables à une réduction de la place de la voiture dans l’espace public (37,5% se disant favorables). 
-Contradictions classiques : prononcer des mots contre la voiture est plus tabou en France que ne pas s’en servir. 
-:::
+Contradictions classiques : prononcer des mots contre la voiture est plus tabou en France que ne pas s’en servir. 
+</div>
 
 Un certain nombre de pistes existent pour **« décarboner » les déplacements domicile-travail, autrement dit, pour y réduire la place de la voiture.** 
 
@@ -83,7 +82,7 @@ Sur le contenu, **les participant.e.s n’avaient jamais entendu parler des [VEL
 
 Plus étonnant pour nous : **les participant.e.s n’avaient jamais entendu aborder la question de la voiture individuelle sous la dimension « poids / taille des véhicules »**, avec ses conséquences (empiétement, pollution, accidentalité) et les possibilités qu’elle ouvre (privilégier de petits véhicules, taxer les gros véhicules…). 
 
-![](contenu/articles/2023/images/Hypothèses_Politiques_locales.png)
+![](/contenu/articles/2023/images/Hypothèses_Politiques_locales.png)
 
 *Figure : 3 hypothèses d’avenir possibles sur le thème des politiques locales d’urbanisme et de circulation.* 
 *1. A votre avis, laquelle de ces 3 hypothèses incarne [Laurent Wauquiez dans son intention (toute théorique) de bloquer la loi Zéro Artificialisation Nette](https://www.francetvinfo.fr/vrai-ou-fake/vrai-ou-faux-laurent-wauquiez-peut-il-retirer-la-region-auvergne-rhone-alpes-du-dispositif-zero-artificialisation-nette_6101511.html) dans la Région Auvergne Rhône-Alpes dont il a la présidence ?*
@@ -102,14 +101,14 @@ L’insistance sur les pouvoirs publics appelle donc à **interroger le rôle de
 2. **Comme toujours, il a été plus facile de se projeter sur le scénario désirable que le scénario pessimiste.** Autant il a été facile d’imaginer des titres de presse catastrophistes, autant il a été difficile de s’y projeter dans l’action. Un avenir non désirable, cela déprime ! Paradoxalement, le biais de négativité est le premier dont notre cerveau tient compte dans une prise de décision concrète (aversion au risque) ; mais le scénario repoussoir est aussi celui que nous aimons le moins regarder en face (biais de positivité). 
 De fait, le scénario choisi était radical, et très divergent de ce qui se passe aujourd'hui. L’action publique dans la mobilité y est pratiquement inexistante, la privatisation des transports y est sans contrainte, aboutissant à une offre de niche, inégalitaire et très chère. Un scénario aussi radical peut donc apparaître effrayant et paralysant.
 
-![](contenu/articles/2023/images/Scénario_repoussoir.png)
+![](/contenu/articles/2023/images/Scénario_repoussoir.png)
 
 *Figure : Le scénario repoussoir choisi.* 
 
 Pourtant, **d’autres scénarios créés par les groupes pointaient les *mêmes risques*, de manière moins prononcée, mais jugés *plus probables* que le scénario repoussoir radical.** Ainsi, lorsqu’on considère les actions à mener face à un tel avenir projeté, le constat est le même. Un certain nombre de risques existent, bien réels et pas à très long terme, qui doivent être adressés : 
 - **Le cercle vicieux d’une disparition de l’engagement politique dans l’amélioration des transports** (tout courts, même avant de parler d’une mobilité douce et durable de proximité), accompagné d’une dégradation de la collaboration entre public et privé ; donc une baisse de la qualité, de la fréquence, donc de l’usage ; et petit à petit une disparition de l’offre publique de transport d’aujourd’hui. 
 	
-![](contenu/articles/2023/images/Cercle_vicieux_désengagement_ pouvoirs_publics.png)
+![](/contenu/articles/2023/images/cercle_vicieux_politique_transports.png)
 
 *Figure : Le cercle vicieux du désengagement des pouvoirs publics dans la mobilité*	
 	
@@ -120,12 +119,12 @@ L’intérêt d’un scénario repoussoir paroxystique devient donc : **Comment
 
 Un autre intérêt réside dans la mise au jour de visions subjectives qui peuvent surprendre dans le cadre professionnel policé que l’on côtoie, et qui pourtant traversent notre société de manière parfois violente. 
 
-![](contenu/articles/2023/images/Survivalisme_révolution.png)
+![](/contenu/articles/2023/images/Survivalisme_révolution.png)
 *Figure : réflexions d'un groupe sur les implications du scénario repoussoir.* 
 
 3. **Dans le scénario désirable, tous les groupes ont souligné l'importance d'une approche systémique et différenciée de la transition écologique dans les transports.** 
 
-![](contenu/articles/2023/images/Scénario_désirable.png)
+![](/contenu/articles/2023/images/Scénario_désirable.png)
 
 *Figure : Le scénario désirable choisi.* 
 
