@@ -36,20 +36,20 @@ export default ({}) => {
 					<strong>être ouverte et contributive</strong> : son code est lisible
 					et on peut, selon certaines conditions, se l'approprier pour
 					l'améliorer. */}
-					<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Communs">
-						En savoir plus au sujet des communs sur notre wiki
-					</a>
+					Cette page rassemble les communs que nous portons ou auxquels nous contribuons. 
+					Pour mieux comprendre ce qu'est un commun, <a href="https://wiki.lafabriquedesmobilites.fr/wiki/Guide_m%C3%A9thodologique_des_Communs_Num%C3%A9riques_de_la_Mobilit%C3%A9">
+						consultez notre guide méthodologique des Communs Numériques de la Mobilité 
+					</a>.
 				</p>
 			</header>
 			{/* <h2>Les communs et communautés FabMob</h2> */}
 			<CardList>
 				{communs.map((commun) => (
 					<Commun
+						key={commun.title}
 						commun={{
 							...commun,
-							fullurl: commun.title.includes('Traceur')
-								? '/tracemob'
-								: commun.fullurl,
+							fullurl: commun.fullurl,
 						}}
 					/>
 				))}
@@ -77,13 +77,13 @@ export default ({}) => {
 
 const Commun = ({ commun }) => (
 	<Card css="height: 26rem">
-		<a href={commun.fullurl || '#'}>
+		<a href={commun.fullurl || '#'} target='_blank'>
 			<h3>{commun.title}</h3>
 		</a>
 		{commun.data.Tags && (
 			<Tags>
 				{commun.data.Tags.split(',').map((tag) => (
-					<li>{tag}</li>
+					<li key={tag}>{tag}</li>
 				))}
 			</Tags>
 		)}
