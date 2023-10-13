@@ -53,7 +53,7 @@ export default ({}) => {
 
 const Publication = ({ publication: publication }) => (
 	<Card css="height: 26rem">
-		<a href={publication.fullurl || '#'}>
+		<a href={publication.fullurl || '#'} target='_blank'>
 			<h3>{publication.title || publication.originalPublication.id_wiki.replaceAll("_", " ")}</h3>
 		</a>
 		<Tags>
