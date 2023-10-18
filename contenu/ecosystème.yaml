@@ -84,9 +84,6 @@ Partenaires:
   - nom : Agence de l'Innovation pour les Transports
     siteweb : https://www.ecologie.gouv.fr/agence-innovation-transports
     image: /images/partenaires/AIT-logo-min.png
-  - nom : Département des Alpes-Maritimes
-    siteweb : https://www.departement06.fr/departement-des-alpes-maritimes-3.html
-    image: /images/partenaires/logo-departement06.png
   - nom : Agence Française de Développement
     siteweb : https://www.afd.fr/fr
     image: /images/partenaires/AFD-logo.png
@@ -133,3 +130,18 @@ Adherents:
   - nom : Moho
     siteweb : https://www.moho.co/fr/
     image: /images/partenaires/moho-logo.png
+  - nom : CIL4Sys
+    siteweb : https://www.cil4sys.com/fr/
+    image: /images/partenaires/cil4sys-logo.png
+  - nom : floware
+    siteweb : https://www.floware.fr/accueil
+    image: /images/partenaires/floware-logo.jpg
+  - nom : Ecole des ponts - Formation Continue
+    siteweb : https://formation-continue.enpc.fr/
+    image: /images/partenaires/PFC_logo.jpeg
+  - nom : 1km à pied 
+    siteweb : https://www.1kmapied.com/
+    image: /images/partenaires/1kmapied-logo.gif
+  - nom : Conseil départemental des Alpes Maritimes
+    siteweb : https://www.departement06.fr/departement-des-alpes-maritimes-3.html
+    image: /images/partenaires/logo-departement06.png
