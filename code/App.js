@@ -28,6 +28,7 @@ import { fetchLastEvents } from './wikiAPI.js'
 import Meta from './Meta.js'
 import Activités from './pages/Activités.js'
 const Tracemob = lazy(() => import('./tracemob/Tracemob'))
+import TracemobNoisy from './tracemob/TracemobNoisy'
 
 const UtmFriendlyRedirect = (props) => (
 	<Redirect
@@ -87,6 +88,9 @@ const Container = () => (
 						<Suspense fallback={null}>
 							<Tracemob />
 						</Suspense>
+					</Route>
+					<Route path="/tracemobNoisy">
+						<TracemobNoisy />
 					</Route>
 					<Route path="/sidewalks">
 						<Sidewalks />
