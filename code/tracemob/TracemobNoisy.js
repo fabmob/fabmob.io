@@ -164,7 +164,7 @@ const Desc = () => (
 		<h2>Pour combien de temps ? </h2>
 		<span className="illustration">📆</span>
 		<p>
-			L’expérimentation se déroulera jusqu’au 31 Novembre 2024.
+			L’expérimentation se déroulera jusqu’au 31 Mai 2024.
 			Libre à vous de rejoindre ou quitter la récolte à votre guise. 
 			Sachez que toute donnée est précieuse !
 		</p>
@@ -205,10 +205,6 @@ const Desc = () => (
 		<p>
 			Analysez et visualisez vos déplacements
 		</p>
-		<div style={{textAlign: "center"}}><img style={{height: "120px"}} src={require('./illustration-co2.png').default} /></div>
-		<p>
-			Calculez l'empreinte carbone de ces derniers et identifiez quelles en sont les sources (voiture, avion etc..) et raisons (domicile/travail, courses, loisirs etc..)
-		</p>
 		<div css={`
 				text-align: center;
 				img {
@@ -218,6 +214,10 @@ const Desc = () => (
 				<img style={{marginRight: "20px"}} src={require('./illustration-trajet.png').default} />
 				<img src={require('./illustration-type-transport.png').default} />
 		</div>
+		<p>
+			Calculez l'empreinte carbone de ces derniers et identifiez quelles en sont les sources (voiture, avion etc..) et raisons (domicile/travail, courses, loisirs etc..)
+		</p>
+		<div style={{textAlign: "center"}}><img style={{height: "120px"}} src={require('./illustration-co2.png').default} /></div>
 		<p>
 			Comparez, si vous le souhaitez, vos résultats avec la moyenne des autres participants
 		</p>
