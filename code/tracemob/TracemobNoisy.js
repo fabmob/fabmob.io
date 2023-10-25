@@ -111,12 +111,14 @@ const Desc = () => (
 			Cette technologie civique vous permet aussi de partager des données statistiques avec votre ville, 
 			tout en respectant votre vie privée. En effet, vos données personnelles ne sortent jamais de 
 			votre espace sécurisé. Le traitement, l’anonymisation et les calculs statistiques sont réalisés 
-			dans votre coffre, sous votre contrôle. Seuls les résultats statistiques sont transmis à votre ville.
+			dans votre coffre numérique, sous votre contrôle. Seuls les résultats statistiques, 
+			comme par exemple les types de véhicule les plus utilisés ou les temps de parcours moyens, sont transmis à votre ville.
 		</p>
 		<p>
-			Cette nouvelle méthode de participation citoyenne facilite l’élaboration de politique de mobilité 
+			Cette nouvelle forme de participation citoyenne facilite l’élaboration de politiques de mobilité 
 			au plus proche de vos besoins réels. Elle innove dans sa méthode de calcul décentralisée, 
-			plus respectueuse de la vie privée.
+			plus respectueuse de la vie privée. Effectivement, au lieu d'agréger les données sur un serveur et de les traiter en bloc par un algorithme,
+			c'est l'algorithme qui vient à vous et est exécuté dans votre coffre numérique, seuls les résultats anonymisés sont transmis au serveur statistique central.
 		</p>
 
 		<h2>
@@ -185,7 +187,7 @@ const Desc = () => (
 		<p>
 			<b><a href="https://lafabriquedesmobilites.fr/" target='_blank'>La Fabrique des Mobilités</a></b> est une association loi 1901 qui encourage les nouvelles mobilités, 
 			plus sociales et décarbonées, et rassemble l'écosystème des acteurs volontaires pour travailler en commun sur cette thématique.
-			Elle est régulièrement soutenue par des organismes étatiques comme l'ADEME, l'AIT ou encore l'AFD.
+			Elle est financée principalement par des organismes étatiques comme l'ADEME, l'AIT et l'AFD ainsi que divers acteurs associatifs.
 		</p>
 		<p>
 			Dans le cadre de l'expérimentation à Noisy-le-Grand, l'association est assistée techniquement par <b><a href="https://cozy.io" target='_blank'>Cozy Cloud</a></b>,
@@ -197,7 +199,7 @@ const Desc = () => (
 			L'utilisation d'un cloud personnel permet en effet une décentralisation des calculs, ce qui élimine la nécessité de transmission de données personnelles.
 		</p>
 		<p>
-			Cette volonté de transparence et d'ouverture est partagé par les acteurs de l'expérimentation et la ville de <a href="https://www.noisylegrand.fr/" target='_blank'>Noisy-le-Grand</a>.
+			Cette volonté de transparence et d'ouverture est partagée par les acteurs de l'expérimentation et la ville de <a href="https://www.noisylegrand.fr/" target='_blank'>Noisy-le-Grand</a>.
 			En effet, cette dernière est en avance de phase sur l'utilisation et le partage de données sur le territoire, 
 			comme en témoigne <a href="https://opendata.noisylegrand.fr/" target='_blank'>sa plateforme d'Open Data</a>.
 		</p>
@@ -299,7 +301,7 @@ const TableFinalites = () => (
 			<td>
 				<ul>
 					<li>Adresse mail de l’utilisateur - afin que l’utilisateur puisse être contacté si besoin (et renouveler en autonomie son mot de passe en cas d’oubli)</li>
-					<li>Le code postal de l’utilisateur - afin de gérer son éligibilité aux options du Cozy et donc à cette expérimentation</li>
+					<li>Le code postal de l’utilisateur - afin de valider son éligibilité à cette expérimentation</li>
 				</ul>
 			</td>
 			<td>Uniquement ce que l’utilisateur demandera explicitement lui-même de transmettre durant son usage</td>
