@@ -1,14 +1,19 @@
 ---
-title: Les VELI : un élargissement de la gamme de véhicules à intégrer dans le leasing social
-date: 2023-10-26
+titre: "Les VELI : un élargissement de la gamme de véhicules à intégrer dans le leasing social"
+
+date: 2023-11-26
 image: /contenu/articles/2023/images/VELIs.png
-résumé: En plus de la justice sociale, accompagner ceux qui roulent le plus au quotidien, en particulier pour des raisons professionnelles, est une mesure pragmatique de décarbonation.
+
+résumé: La proposition de la Fabmob : Utiliser les VELI dans la massification du leasing social
+
 categories: 
   - articles
-  - innovation
 tags: 
+  - leasing social
   - VELI
-  - Leasing Social
+  - ZFE
+  - Vélo Cargo
+  - Véhicule intermédiare
 author: Ghislain Delabie & Marguerite Grandjean
 ---
 
