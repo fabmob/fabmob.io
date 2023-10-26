@@ -1,5 +1,5 @@
 ---
-title: Les VELI : un élargissement de la gamme de véhicules à intégrer dans le leasing social
+title: "Les VELI: un élargissement de la gamme de véhicules à intégrer dans le leasing social"
 date: 2023-10-26
 image: /contenu/articles/2023/images/VELIs.png
 résumé: En plus de la justice sociale, accompagner ceux qui roulent le plus au quotidien, en particulier pour des raisons professionnelles, est une mesure pragmatique de décarbonation.
