@@ -21,6 +21,9 @@ export default () => {
 	const [eventData] = useContext(WikiContext)
 
 	const Link = MenuLink(() => setOpen(false))
+	if (location.pathname.match(/tracemobNoisy/)) {
+		return <div></div>
+	}
 	return (
 		<nav
 			css={`
