@@ -13,6 +13,7 @@ export default () => {
 	const location = useLocation()
 	return (
 		<ArticleStyle
+			css={'max-width: 990px'}
 			colors={[colors.bleu, colors.bleuClair]}
 		>
 			<Partenaires filter={filter} location={location} />

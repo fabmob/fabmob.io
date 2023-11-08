@@ -16,6 +16,7 @@ export default () => {
 	return (
 		<ArticleStyle
 			colors={[colors.bleu, colors.bleuClair]}
+			css={'max-width: 990px'}
 		>
 			<Présentation filter={filter} location={location} />
 		</ArticleStyle>
