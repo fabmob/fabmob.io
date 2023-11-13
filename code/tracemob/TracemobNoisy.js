@@ -4,7 +4,7 @@ import Meta from '../Meta'
 export default () => (
 	<div>
 		<header>
-			<img src={require('./tracemob.svg').default} css="width: 200px" />
+			<img src={require('./coachCO2.svg').default} css="width: 200px" />
 			<h1>Tracemob, l'expérimentation pour mieux comprendre les mobilités du quartier du Marnois</h1>
 			<p css="max-width: 60rem">
 				
@@ -126,42 +126,16 @@ const Desc = () => (
 		</h2>
 		<img
 			className="illustration"
-			src={require('./tracemob.svg').default}
+			src={require('./coachCO2.svg').default}
 			css="width: 60px"
 		/>
 		<div>
-			<p><b>Première étape</b> - créer votre espace personnel - 3 solutions :</p>
-			<ul style={{listStyleType: "initial", paddingLeft: "40px"}}>
-				<li>soit scannez avec votre mobile le QR Code suivant (…)</li>
-				<li>soit cliquez sur l’URL suivante (…)</li>
-				<li>soit installer l’app mobile “Cozy - cloud personnel” sur le store Mobile (Android ou Apple) et fournissez votre code postal (Noisy-le-Grand)</li>
-				<div
-				css={`
-					img {
-						height: 40px;
-					}
-
-					margin: 0 auto;
-					color: white;
-					text-align: center;
-				`}
-			>
-				<a href="">
-					<img src={require('./appstore-badge.png').default} />
-				</a>
-				<a href="">
-					<img src={require('./playstore-badge.png').default} />
-				</a>
-
-			</div>
-			</ul>	
-			<p><b>Seconde étape</b> - activer la mémorisation de vos déplacements</p>
-			<ol>
-				<li>dans l’app mobile “Cozy - cloud personnel” </li>
-				<li>ouvrez le CoachCO2 préinstallé</li>
-				<li>suivez les instructions proposées</li>
-			</ol>
-        
+			<p>Scannez ou cliquez sur le QR code ci-dessous et suivez les étapes pour créer votre espace personnel et télécharger l'application Cozy.</p>
+			<a href="https://manager.cozycloud.cc/landings/noisylegrand"><img 
+				className="illustration"
+				src={require('./QRCodeOnboardingCozyNoisy.png').default}
+				css="width: 200px"
+			></img></a>    
 		</div>
 		<h2>Pour combien de temps ? </h2>
 		<span className="illustration">📆</span>
