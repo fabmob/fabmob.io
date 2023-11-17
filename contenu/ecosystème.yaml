@@ -101,7 +101,11 @@ Partenaires:
     siteweb: https://www.amwe.world/
   - nom : Aveli
     image: /images/partenaires/aveli-logo.png
-    siteweb : https://www.aveli.org/
+    siteweb : https://www.aveli.org
+  - nom : Paris & co
+    image : /images/partenaires/logo-parisandco-bleu.svg
+    siteweb : https://www.parisandco.com/
+    
 Adherents:
   - nom : Kisio
     siteweb : https://kisio.com/
