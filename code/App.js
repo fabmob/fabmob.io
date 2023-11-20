@@ -61,8 +61,16 @@ const Container = () => (
 		<Router>
 			<Meta />
 			<Nav />
-			<div css="@media (min-width: 800px) { width: calc(100% - 120px); margin-left: 40px; padding-top: 20px}">
-				<Switch>
+			<Switch>
+				<Route path="/tracemobNoisy/:step">
+					<TracemobNoisy />
+				</Route>
+
+				<Route path="/tracemobNoisy">
+					<TracemobNoisy />
+				</Route>
+				<div css="@media (min-width: 800px) { width: calc(100% - 120px); margin-left: 40px; padding-top: 20px}">
+					<Switch>
 					{/* This part was made for the first version of the website, that included a way to get translated pages, as well as a differentiated page for France / Quebec. Disactivated until further developement. */}
 					{false && (
 						<>
@@ -88,9 +96,6 @@ const Container = () => (
 						<Suspense fallback={null}>
 							<Tracemob />
 						</Suspense>
-					</Route>
-					<Route path="/tracemobNoisy">
-						<TracemobNoisy />
 					</Route>
 					<Route path="/sidewalks">
 						<Sidewalks />
@@ -124,7 +129,8 @@ const Container = () => (
 						<Accueil />
 					</Route>
 				</Switch>
-			</div>
+				</div>
+			</Switch>
 		</Router>
 	</WikiContextProvider>
 )
