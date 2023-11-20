@@ -144,6 +144,6 @@ Certains leviers fonctionnent pour inverser la norme sociale (comme rappelé pa
 
 ## Conclusion
 
-En bref, il me semble que cette journée de prospective sur la mobilité a une fois de plus mis au jour la nécessité de **passer d’une gestion massive à une gestion dans la dentelle : c’est de la haute couture que requiert la transition écologique, bien plus délicate, inventive, exigeante, à la fois techniquement et humainement, car elle requiert des connaissances et des capacités relationnelles qui adressent les interdépendances entre différents secteurs et différents acteurs.**
+En bref, il me semble que cette journée de prospective sur la mobilité a une fois de plus mis au jour la nécessité de **passer d’une gestion massive à une gestion dans la dentelle. [Comme le dit Philippe Bihouix, c’est de la haute couture que requiert la transition écologique](https://bonpote.com/philippe-bihouix-pour-construire-mieux-nous-naurons-dautres-choix-que-de-construire-moins/), bien plus délicate, inventive, exigeante, à la fois techniquement et humainement, car elle requiert des connaissances et des capacités relationnelles qui adressent les interdépendances entre différents secteurs et différents acteurs.**
 Sans cela, le risque est réel, souligné durant cette journée par le scénario repoussoir et les réactions émotionnelles fortes face à celui-ci, de considérablement perdre en qualité de vie et en liberté de mouvement. 
 
