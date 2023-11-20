@@ -17,7 +17,9 @@ export default () => {
 		step = parseInt(step)
 		return (
 			<div css={"background-color: " + ((step===1) ? '#0080fa' : '#ebeff1') + "; text-align: center; height: 100svh"}>
-				<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
+				<a href={nextStep(step)} css="filter: none !important">
+					<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
+				</a>
 				<div>
 					<a href={prevStep(step)} css="margin-right: 20px"><button>Précédent</button></a>
 					<a href={nextStep(step)}><button>Suivant</button></a>
