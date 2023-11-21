@@ -1,11 +1,10 @@
 import SmartphoneScreen from 'Components/SmartphoneScreen'
 import Meta from '../Meta'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 const illustrationCozy = require('./illustration-cozy.png').default
 
 const nextStep = (step) => {
-	if (step < 4) return "/tracemobNoisy/" + (step + 1)
-	return "https://manager.cozycloud.cc/landings/noisylegrand"
+	return "/tracemobNoisy/" + (step + 1)
 }
 const prevStep = (step) => {
 	if (step > 1) return "/tracemobNoisy/" + (step - 1)
@@ -17,12 +16,20 @@ export default () => {
 		step = parseInt(step)
 		return (
 			<div css={"background-color: " + ((step===1) ? '#0080fa' : '#ebeff1') + "; text-align: center; height: 100svh"}>
-				<a href={nextStep(step)} css="filter: none !important">
-					<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
-				</a>
+				{step < 4 
+					? <Link to={nextStep(step)} css="filter: none !important">
+						<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
+					</Link>
+					: <a href="https://manager.cozycloud.cc/landings/noisylegrand" css="filter: none !important">
+						<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
+					</a>
+					}
 				<div>
-					<a href={prevStep(step)} css="margin-right: 20px"><button>Précédent</button></a>
-					<a href={nextStep(step)}><button>Suivant</button></a>
+					<Link to={prevStep(step)} css="margin-right: 20px"><button>Précédent</button></Link>
+					{step < 4 
+					? <Link to={nextStep(step)}><button>Suivant</button></Link>
+					: <a href="https://manager.cozycloud.cc/landings/noisylegrand"><button>Suivant</button></a>
+					}
 				</div>
 			</div>
 		)
@@ -158,13 +165,13 @@ const Desc = () => (
 			css="width: 60px"
 		/>
 		<div>
-			<p><b>Scannez le QR code</b> ci-dessous ou <b><a href="/tracemobNoisy/1">cliquez ici</a></b> et suivez le parcours sur mesure pour créer votre coffre-fort personnel et 
+			<p><b>Scannez le QR code</b> ci-dessous ou <b><Link to="/tracemobNoisy/1">cliquez ici</Link></b> et suivez le parcours sur mesure pour créer votre coffre-fort personnel et 
 			télécharger l'application <span css="white-space: nowrap"><img css="height: 25px; border-radius: 6px; vertical-align: bottom; margin-right: 3px;"src={illustrationCozy} /><b>Cozy</b></span>.</p>
-			<a href="/tracemobNoisy/1"><img 
+			<Link to="/tracemobNoisy/1"><img 
 				className="illustration"
 				src={require('./QRCodeOnboardingCozyNoisy.png').default}
 				css="width: 200px"
-			></img></a>
+			></img></Link>
 			<p>Ou bien, téléchargez directement l'application sur les stores et entrez le code postal de Noisy-le-Grand lors de la création de votre compte.</p>
 			<div
 				css={`
