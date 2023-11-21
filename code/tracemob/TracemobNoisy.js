@@ -1,7 +1,14 @@
 import SmartphoneScreen from 'Components/SmartphoneScreen'
 import Meta from '../Meta'
+import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 const illustrationCozy = require('./illustration-cozy.png').default
+const onboardingImages = [
+	require('./onboarding/1.png').default,
+	require('./onboarding/2.png').default,
+	require('./onboarding/3.png').default,
+	require('./onboarding/4.png').default,
+]
 
 const nextStep = (step) => {
 	return "/tracemobNoisy/" + (step + 1)
@@ -12,16 +19,23 @@ const prevStep = (step) => {
 }
 export default () => {
 	let {step} = useParams()
+	useEffect(() => {
+		//preloading images
+		onboardingImages.forEach((image) => {
+			const img = new Image();
+			img.src = image;
+		});
+	}, [])
 	if (step) {
 		step = parseInt(step)
 		return (
 			<div css={"background-color: " + ((step===1) ? '#0080fa' : '#ebeff1') + "; text-align: center; height: 100svh"}>
 				{step < 4 
 					? <Link to={nextStep(step)} css="filter: none !important">
-						<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
+						<img src={onboardingImages[step-1]} css="height: calc(100% - 100px)"></img>
 					</Link>
 					: <a href="https://manager.cozycloud.cc/landings/noisylegrand" css="filter: none !important">
-						<img src={require('./onboarding/' + step + '.png').default} css="height: calc(100% - 100px)"></img>
+						<img src={onboardingImages[step-1]} css="height: calc(100% - 100px)"></img>
 					</a>
 					}
 				<div>
