@@ -60,12 +60,14 @@ const Publication = ({ publication: publication }) => (
 			<li>{publication.originalPublication.date}</li>
 		</Tags>
 		{publication?.data?.Main_Picture && (
-			<img
-				src={
-					'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
-					publication.data.Main_Picture
-				}
-			/>
+			<a href={publication.fullurl || '#'} target='_blank'>
+				<img
+					src={
+						'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
+						publication.data.Main_Picture
+					}
+				/>
+			</a>
 		)}
 		<p>{publication.originalPublication.description}</p>
 	</Card>
