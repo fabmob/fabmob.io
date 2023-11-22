@@ -5,7 +5,7 @@ description: La feuille de route définit pour un temps donné, généralement 2
 
 # Feuille de route 2023-2024
 
-La feuille de route définit pour un temps donné, généralement 2 ans (durée du mandat des administrateur.rices), les thématiques de travail de l'association et de son équipe dans le cadre de sa mission, décrite dans le [Manifeste](https://lafabriquedesmobilites.fr/%C3%A0-propos/manifeste).
+La feuille de route définit pour un temps donné, généralement 2 ans (durée du mandat des administrateur.rices), les thématiques de travail de l'association et de son équipe dans le cadre de sa mission, décrite dans le [Manifeste](/%C3%A0-propos/manifeste).
 
 La feuille de route est validée idéalement en début de mandat des administrateurs.rices de La Fabrique des Mobilités, sur proposition de l'équipe opérationnelle par la voix de son ou sa représentant.e au Conseil d'Administration et du ou de la Directeur.rice général.e.
 
@@ -48,7 +48,7 @@ La structuration d'une filière de production et maintenance de ces véhicules l
 
 La question de la taille et du poids des véhicules s'applique aussi au ferroviaire. La SNCF a ainsi lancé un programme d'innovation autour des trains très légers (TTL), répondant à deux problématiques à la fois : la conception de véhicules beaucoup plus légers que le matériel roulant actuel pour répondre à la desserte de territoires peu denses ne nécessitant pas le déploiement de transports lourds, et la réhabilitation de petites lignes existantes pour proposer une offre de transport adaptée et efficiente. L'innovation dans le cadre de cette demarche se situe à plusieurs niveaux : dans le matériel roulant, mais aussi dans l'infrastructure réseaux et dans la communication entre les deux. [⁶](#velifootnote6)
 
-La FabMob est ainsi activement impliquée dans le développement de nouveaux véhicules légers. Nous expérimentons autour du déploiement de VELI (Véhicules Electriques Légers Intermédiaires), véhicules individuels situés entre le vélo et la voiture, notamment dans le cadre de la démarche de création de filière impulsée par l'ADEME et de nombreux constructeurs. Nous animons des communautés autour des trains très légers (TTL) à l'initiative de la SNCF. 
+La FabMob est ainsi activement impliquée dans le développement de nouveaux véhicules légers. Nous expérimentons autour du déploiement de VELI (Véhicules Electriques Légers Intermédiaires), véhicules individuels situés entre le vélo et la voiture, notamment dans le cadre de la démarche de création de filière impulsée par l'ADEME et de nombreux constructeurs [⁷](#velifootnote7). Nous animons des communautés autour des trains très légers (TTL) à l'initiative de la SNCF. 
 
 **La FabMob vise ainsi à :** 
 - **Favoriser les expérimentations in-situ**, 
