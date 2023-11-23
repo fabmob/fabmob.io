@@ -179,14 +179,16 @@ const Desc = () => (
 			css="width: 60px"
 		/>
 		<div>
+			<h4>Option 1:</h4>
 			<p><b>Scannez le QR code</b> ci-dessous ou <b><Link to="/tracemobNoisy/1">cliquez ici</Link></b> et suivez le parcours sur mesure pour créer votre coffre-fort personnel et 
 			télécharger l'application <span css="white-space: nowrap"><img css="height: 25px; border-radius: 6px; vertical-align: bottom; margin-right: 3px;"src={illustrationCozy} /><b>Cozy</b></span>.</p>
 			<Link to="/tracemobNoisy/1"><img 
 				className="illustration"
 				src={require('./QRCodeOnboardingCozyNoisy.png').default}
-				css="width: 200px"
+				css="width: 200px; margin-top: 1.6rem !important"
 			></img></Link>
-			<p>Ou bien, téléchargez directement l'application sur les stores et entrez le code postal de Noisy-le-Grand lors de la création de votre compte.</p>
+			<h4>Option 2:</h4>
+			<p>Téléchargez directement l'application <span css="white-space: nowrap"><img css="height: 25px; border-radius: 6px; vertical-align: bottom; margin-right: 3px;"src={illustrationCozy} /><b>Cozy</b></span> sur les stores et entrez le code postal de Noisy-le-Grand lors de la création de votre compte.</p>
 			<div
 				css={`
 					img {
