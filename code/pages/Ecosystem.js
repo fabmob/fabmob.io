@@ -103,13 +103,14 @@ let Présentation = ({ filter, location }) => (
 
 const Members = ({ data }) => (
 	<div css="display:flex; justify-content: left;flex-wrap: wrap">
-		{shuffle(data).map(({ nom, image, rôle, linkedin }) => (
+		{shuffle(data).map(({ nom, image, rôle, linkedin, structure, lienstructure }) => (
 			<aside>
 				{linkedin 
 					? <a href={linkedin} target="_blank"><img src={image} title={nom} /></a>
 					:<img src={image} title={nom} />
 				}
-				<h3>{nom}</h3>
+				<a css="color: black" href={linkedin} target="_blank"><h3>{nom}</h3></a>
+				{structure && <b><a css="color: black" href={lienstructure} target="_blank">{structure}</a></b>}
 				<p>{rôle}</p>
 			</aside>
 		))}
