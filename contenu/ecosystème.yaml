@@ -1,8 +1,4 @@
 L'équipe:
-  - image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_2_l.jpg?r=1556615593
-    nom: Gabriel Plassat
-    rôle: Explorateur FabMob
-    linkedin: https://www.linkedin.com/in/plassat
   - nom: Julie Braka
     rôle: Cheffe de projet 
     image: /images/nous/julie.resized.jpg
@@ -24,42 +20,57 @@ L'équipe:
     image: /images/nous/marguerite.jpeg
     linkedin: https://www.linkedin.com/in/margueritegrandjean
 Le conseil d'administration: 
-  - nom: Bruno Marzloff
+ - nom: Philippe Bihouix
     rôle: Président
-    image: /images/nous/bruno.resized.jpg
-    linkedin: https://www.linkedin.com/in/brunomarzloff
-  - nom: Fabien Gainier
-    rôle: Secrétaire général
-    image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/avatars/mediawiki_wikifabmob_1220_l.jpg?r=1586425010
-    linkedin: https://www.linkedin.com/in/fabien-gainier-8261506
-  - nom: Philippe Gicquel
-    rôle: Trésorier
-    image: /images/nous/J8mKTQC2_400x400.jpg
-    linkedin: https://www.linkedin.com/in/philippe-gicquel-0a1912a
-  - nom: Bertil De Fos
+    image: /images/nous/AREP-Philippe Bihouix.jpg
+    linkedin: https://www.linkedin.com/in/philippe-bihouix-141a13240/
+    structure: AREP
+    lienstructure: https://www.arep.fr/
+- nom: Sigrid Claviéras
+    rôle: Trésorière
+    image: /images/nous/sigrid.PNG
+    linkedin: https://www.linkedin.com/in/sigridclavieras/
+    structure: UTP
+    lienstructure: https://www.utp.fr/
+- nom: Bertrand Billoud
     rôle: Membre
-    image: /images/nous/bertil.resized.jpg
-    linkedin: https://www.linkedin.com/in/bertil-de-fos-1aaa4a3
-  - nom: Erik Grab
+    image: /images/nous/Bertrand Billoud.jpeg
+    linkedin: https://www.linkedin.com/in/bertrand-billoud-7059981/
+    structure: SNCF
+    lienstructure: https://www.sncf.fr/
+- nom: Erik Grab
     rôle: Membre
     image: /images/nous/erik.resized.jpg
     linkedin: https://www.linkedin.com/in/erik-grab-553283132
-  - nom: Frédéric Laithier
+    structure: Michelin
+    lienstructure: https://www.michelin.fr/
+- nom: Hélène Jacquemin
     rôle: Membre
-    image: /images/nous/frederic.jpg
-    linkedin: https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-laithier-155b9a57
-  - nom: Fadila Leturqc
-    rôle: Membre
-    image: /images/nous/fadila.jpg
-    linkedin: https://www.linkedin.com/in/fadilaleturcq/
-  - nom: Mathilde Bras
-    rôle: Membre
-    image: /images/nous/mathilde.jpg
-    linkedin: https://www.linkedin.com/in/mathildebras/
-  - nom: Nathalie Rey
-    rôle: Membre
-    image: /images/nous/nathalie.jpg
-    linkedin: https://www.linkedin.com/in/nathalie-rey-332a351a/
+    image: /images/nous/Helene Jacquemin.jpeg
+    linkedin: https://www.linkedin.com/in/heleneboniface/
+    structure: In'VD
+    lienstructure: https://invd.fr/
+- nom: Marguerite Grandjean
+    rôle: Membre 
+    image: /images/nous/Helene Jacquemin.jpeg
+    linkedin: https://www.linkedin.com/in/margueritegrandjean/
+    structure: Fabmob
+    lienstructure: https://fabmob.io/
+- nom: Gabriel Plassat
+    rôle: Membre d'honneur
+    image: /images/nous/Plassat-Gabriel.jpg
+    linkedin: https://www.linkedin.com/in/plassat
+    structure: Fondateur Fabmob
+    lienstructure: https://wikixd.fabmob.io/wiki/XD:Accueil
+- nom: Laure Wagner
+    rôle: Membre 
+    image: /images/nous/Laure Wagner.jpeg
+    linkedin: https://www.linkedin.com/in/laurewagner/
+    structure: 1km à Pied
+    lienstructure: https://www.1kmapied.com/    
+
+
+
 Coopérateurs:
   - nom: Sonia Nazef
     rôle: Office manager
@@ -161,4 +172,12 @@ Adherents:
   - nom : Humbird SAS
     siteweb : https://www.humbird.fr/
     image: /images/partenaires/HumbirdL.png
+  - nom : AREP
+    siteweb : https://www.arep.fr/
+    image: /images/partenaires/HumbirdL.png
+  - nom: In'VD Innovation Véhicules Doux
+    siteweb: https://invd.fr/
+    image: /images/partenaires/logo in'VD.jpg
+    
+    
     
