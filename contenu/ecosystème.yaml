@@ -20,49 +20,49 @@ L'équipe:
     image: /images/nous/marguerite.jpeg
     linkedin: https://www.linkedin.com/in/margueritegrandjean
 Le conseil d'administration: 
- - nom: Philippe Bihouix
+  - nom: Philippe Bihouix
     rôle: Président
     image: /images/nous/AREP-Philippe Bihouix.jpg
     linkedin: https://www.linkedin.com/in/philippe-bihouix-141a13240/
     structure: AREP
     lienstructure: https://www.arep.fr/
-- nom: Sigrid Claviéras
+  - nom: Sigrid Claviéras
     rôle: Trésorière
     image: /images/nous/sigrid.PNG
     linkedin: https://www.linkedin.com/in/sigridclavieras/
     structure: UTP
     lienstructure: https://www.utp.fr/
-- nom: Bertrand Billoud
+  - nom: Bertrand Billoud
     rôle: Membre
     image: /images/nous/Bertrand Billoud.jpeg
     linkedin: https://www.linkedin.com/in/bertrand-billoud-7059981/
     structure: SNCF
     lienstructure: https://www.sncf.fr/
-- nom: Erik Grab
+  - nom: Erik Grab
     rôle: Membre
     image: /images/nous/erik.resized.jpg
     linkedin: https://www.linkedin.com/in/erik-grab-553283132
     structure: Michelin
     lienstructure: https://www.michelin.fr/
-- nom: Hélène Jacquemin
+  - nom: Hélène Jacquemin
     rôle: Membre
     image: /images/nous/Helene Jacquemin.jpeg
     linkedin: https://www.linkedin.com/in/heleneboniface/
     structure: In'VD
     lienstructure: https://invd.fr/
-- nom: Marguerite Grandjean
+  - nom: Marguerite Grandjean
     rôle: Membre 
-    image: /images/nous/Helene Jacquemin.jpeg
+    image: /images/nous/marguerite.jpeg
     linkedin: https://www.linkedin.com/in/margueritegrandjean/
     structure: Fabmob
     lienstructure: https://fabmob.io/
-- nom: Gabriel Plassat
+  - nom: Gabriel Plassat
     rôle: Membre d'honneur
     image: /images/nous/Plassat-Gabriel.jpg
     linkedin: https://www.linkedin.com/in/plassat
     structure: Fondateur Fabmob
     lienstructure: https://wikixd.fabmob.io/wiki/XD:Accueil
-- nom: Laure Wagner
+  - nom: Laure Wagner
     rôle: Membre 
     image: /images/nous/Laure Wagner.jpeg
     linkedin: https://www.linkedin.com/in/laurewagner/
