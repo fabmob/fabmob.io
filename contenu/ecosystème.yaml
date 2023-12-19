@@ -174,10 +174,13 @@ Adherents:
     image: /images/partenaires/HumbirdL.png
   - nom : AREP
     siteweb : https://www.arep.fr/
-    image: /images/partenaires/HumbirdL.png
+    image: /images/partenaires/LOGO_AREP_CMJN.png
   - nom: In'VD Innovation Véhicules Doux
     siteweb: https://invd.fr/
     image: /images/partenaires/logo in'VD.jpg
+  - nom: Union des Transports Publics et Ferroviares
+    siteweb: https://utp.fr/
+    image: /images/partenaires/LOGO seul UTP Evolution 2016 CMJN.jpg
     
     
     
