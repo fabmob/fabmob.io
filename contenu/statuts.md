@@ -8,3 +8,5 @@ description: Statuts et documents d'activité de la fabrique
 
 ## Documents d'activité
 [Rapport du commissaire aux comptes sur les comptes annuels 2021-2022](/documents/FABMOB_RCA_06-2022.pdf)
+
+[Rapport du commissaire aux comptes sur les comptes annuels 2022-2023](/documents/FABMOB_RCA_06-2023.pdf)
