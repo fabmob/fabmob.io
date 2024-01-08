@@ -49,6 +49,7 @@ const parseApiReply = (list) => {
 		const dataPairs = content
 			.replaceAll('\n', '') // Remove all line returns, uneeded for data parsing
 			.match(/[^{]*{{(.*)}}[^}]*/)[1] // extract everything between the first '{{' and the last '}}'
+			.replaceAll('}}', '') // strip any remaining '}}'
 			.split('|') // Split the text in an array of fields
 			.map((el) => el.split('=')) // Left side of "=" is the name of the field, right side is the content
 		const data = Object.fromEntries(dataPairs)
@@ -114,7 +115,7 @@ export const fetchSelectedCommuns = (selection) => (then) => {
 		.then((res) => res.json())
 		.then((list) => {
 			const parsed = parseApiReply(list)
-			then(parsed.filter(Boolean))
+						then(parsed.filter(Boolean))
 		})
 		.catch((e) => console.log(e))
 }

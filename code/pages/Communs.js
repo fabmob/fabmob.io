@@ -99,5 +99,9 @@ const Commun = ({ commun }) => (
 			commun.data.shortDescription.trim() !== commun.title && (
 				<p>{commun.data.shortDescription}</p>
 			)}
+		{!commun.data.shortDescription && 
+			commun.data.description.trim() !== commun.title && (
+				<p>{commun.data.description}</p>
+			)}
 	</Card>
 )
