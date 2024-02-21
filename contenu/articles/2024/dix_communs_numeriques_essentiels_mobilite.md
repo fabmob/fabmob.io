@@ -51,7 +51,7 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
         <p>
             <b>Vigilo</b> est l'appli collaborative citoyenne pour améliorer les déplacements des cyclistes, des piétons et de toutes les mobilités actives. A destination de tous, ce commun existe grâce aux contributions diverses d'associations, de développeurs et de citoyens, sans structure formalisée.
         </p>
-        <a target="_blank" href=""> (TODO) Documentation sur notre Wiki</a>
+        <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/Vigilo"> Documentation sur notre Wiki</a>
     </div>
 </div>
 
