@@ -31,7 +31,7 @@ Plus de détails, y compris avantages et inconvénients : [https://www.cerema.fr
 
 *Cet article porte sur les modèles multimodaux et mésoscopiques.*
 
-**La démarche classique de modélisation se déroule en [4 étapes]((http://www.morelli.fr/4%20étapes.html)):**
+**La démarche classique de modélisation se déroule en [4 étapes](http://www.morelli.fr/4%20étapes.html):**
 ![](https://wiki.lafabriquedesmobilites.fr/images/fabmob/5/59/4etapes.png)
 
 * La première étape : **Génération**
@@ -49,7 +49,7 @@ Plus de détails, y compris avantages et inconvénients : [https://www.cerema.fr
 
 A l’issue de cette dernière étape, un taux d’occupation et une congestion des voies peuvent être calculées. Cette nouvelle information sert d’entrée aux étapes précédente, et le trafic est redistribué plusieurs fois, jusqu’à convergence des résultats.
 
-Les données d’entrées pour ces étapes proviennent en général de données socio-économiques diverses (population, emplois, commerces, écoles, équipements publics, etc) dont les algorithmes de traitement sont calibrés à partir des resultats locaux d’**Enquêtes Ménage Déplacement (EMD)** (aussi appelées Enquêtes Mobilité Certifiées Cerema, EMC2) ou d'enquêtes terrain comme les cordons/enquêtes origine destination (OD). Ces enquêtes divisent un territoire en zones, et fournissent les informations de déplacements d’un échantillon réduit de voyageurs, redressé à la population totale. Ces premières données d’entrée sont complétées par une cartographie des routes (souvent via ressource ouverte [OpenStreetMap](openstreetmap.org/)) et de l’offre de transport en communs (souvent via une publication aux formats standards ([GTFS](https://gtfs.org/fr/)…) par les opérateurs de mobilité)
+Les données d’entrées pour ces étapes proviennent en général de données socio-économiques diverses (population, emplois, commerces, écoles, équipements publics, etc) dont les algorithmes de traitement sont calibrés à partir des resultats locaux d’**Enquêtes Ménage Déplacement (EMD)** (aussi appelées Enquêtes Mobilité Certifiées Cerema, EMC2) ou d'enquêtes terrain comme les cordons/enquêtes origine destination (OD). Ces enquêtes divisent un territoire en zones, et fournissent les informations de déplacements d’un échantillon réduit de voyageurs, redressé à la population totale. Ces premières données d’entrée sont complétées par une cartographie des routes (souvent via ressource ouverte [OpenStreetMap](https://wiki.lafabriquedesmobilites.fr/wiki/OpenStreetMap)) et de l’offre de transport en communs (souvent via une publication aux formats standards ([GTFS](https://gtfs.org/fr/)…) par les opérateurs de mobilité)
 
 # Quelques cas d’application des modèles
 
