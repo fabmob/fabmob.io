@@ -283,6 +283,7 @@ button {
 }
 
 button {
+  color: black;
   font-family: var(--font);
   border: none;
   border: 2px solid black;

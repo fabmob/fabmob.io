@@ -187,6 +187,13 @@ const Desc = () => (
 				src={require('./QRCodeOnboardingCozyNoisy.png').default}
 				css="width: 200px; margin-top: 1.6rem !important"
 			></img></Link>
+			<p>
+				Des tutoriels d'installation vidéo sont disponibles pour vous guider sur <a href="https://www.youtube.com/watch?v=0kZbBFLnKhc" target="_blank">iPhone</a> et sur <a href=" https://www.youtube.com/watch?v=1CfB9KulYf0" target='blank'>Android</a>.
+			</p>
+			<div style={{textAlign: "center"}}>
+			<iframe style={{width: "40%"}} width="560" height="315" src="https://www.youtube.com/embed/0kZbBFLnKhc?si=hOidhJGkwQXkqjIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<iframe style={{width: "40%", marginLeft: "20px"}} width="560" height="315" src="https://www.youtube.com/embed/1CfB9KulYf0?si=lCE1SCCACq5FSTvS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
 			<h4>Option 2:</h4>
 			<p>Téléchargez directement l'application <span css="white-space: nowrap"><img css="height: 25px; border-radius: 6px; vertical-align: bottom; margin-right: 3px;"src={illustrationCozy} /><b>Cozy</b></span> sur les stores et entrez le code postal de Noisy-le-Grand lors de la création de votre compte.</p>
 			<div
@@ -277,7 +284,9 @@ const Desc = () => (
 			Ce dernier peut en effet vous aider à sécuriser l'ensemble de vos données.
 		</p>
 		<div style={{textAlign: "center"}}><img style={{height: "80px"}} src={illustrationCozy} /></div>
-
+		<div style={{textAlign: "center"}}>	
+			<iframe style={{maxWidth: "100%"}} width="560" height="315" src="https://www.youtube.com/embed/u37h-mWAJrg?si=7D7bZ-yKMY1dTPTK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
 		<h2>
 			Quels traitements des données pour quelles finalités ?
 		</h2>
