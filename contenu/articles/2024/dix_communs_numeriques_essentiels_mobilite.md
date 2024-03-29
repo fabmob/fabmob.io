@@ -31,6 +31,18 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
+#### OpenTripPlanner
+
+<div style="display: flex; align-items: center;">
+    <img src="/contenu/articles/2024/images/OTPlogo.png" width="100px" style="margin: 10px"/>
+    <div>
+        <p>
+            <b>OpenTripPlanner (OTP)</b> est un logiciel open-source conçu pour la planification d’itinéraires multimodaux qui intègre les transports en commun, le vélo, la marche, et la voiture. Il est fortement basé sur des données ouvertes, notamment OpenStreetMap pour les données cartographiques et le GTFS pour les horaires de transports en commun. 
+        </p>
+        <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/OpenTripPlanner"> Documentation sur notre Wiki</a>
+    </div>
+</div>
+
 #### Le Registre de Preuve de Covoiturage
 
 <div style="display: flex; align-items: center;">
@@ -40,6 +52,18 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
             <b>Le Registre de Preuve de Covoiturage (RPC)</b> est l'outil pour aider les territoires à inciter à la pratique du covoiturage en toute confiance, dont l'usage est obligatoire pour distribuer les financements nationaux aux opérateurs de covoiturage. Hébergé au sein de l'Etat, l'outil est pourtant géré de façon collective par les opérateurs de covoiturage, les collectivités membres, et le Ministère des Transports. C'est donc un commun où la présence de l'Etat est plus forte que chez OpenStreetMap par exemple, mais pour autant pas dominante, avec une communauté active.
         </p>
         <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/Registre_de_Preuve_de_Covoiturage_(RPC)"> Documentation sur notre Wiki</a>
+    </div>
+</div>
+
+#### DiaLog
+
+<div style="display: flex; align-items: center;">
+    <img src="/contenu/articles/2024/images/DIALOGlogo.jpeg" width="100px" style="margin: 10px"/>
+    <div>
+        <p>
+            <b>DiaLog</b> permet aux gestionnaires de voirie des collectivités de numériser leurs arrêtés de circulation et de stationnement. Ce commun a un modèle proche du RPC : il est hébergé au sein du Ministère des Transports, avec cependant la démarche assumée d’être au plus proche de ses utilisateurs et contributeurs, impliquant ainsi fortement les collectivités et les logisticiens dans les décisions.
+        </p>
+        <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/DiaLog"> Documentation sur notre Wiki</a>
     </div>
 </div>
 
@@ -55,7 +79,17 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
+#### Aequilibrae
 
+<div style="display: flex; align-items: center;">
+    <img src="/contenu/articles/2024/images/AEQUILIBRAElogo.jpeg" width="100px" style="margin: 10px"/>
+    <div>
+        <p>
+            <b>Aequilibrae</b> est un projet open source de modélisation statique des transports. Contributif et gratuit, ce logiciel se destine notamment à de petites collectivités n’ayant pas les moyens de financer l’utilisation de modèles de transport souvent propriétaires. 
+        </p>
+        <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/Commun_Aequilibrae"> Documentation sur notre Wiki</a>
+    </div>
+</div>
 
 #### Tracemob
 <div style="display: flex; align-items: center;">
@@ -81,7 +115,7 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
-**Cinq autres communs seront ajoutés à cet article au fil de l'eau. Suivez les publications de La Fabrique des Mobilités (LinkedIn, newsletter) pour être tenu au courant. 
+**Deux autres communs seront ajoutés à cet article au fil de l'eau. Suivez les publications de La Fabrique des Mobilités (LinkedIn, newsletter) pour être tenu au courant. 
 Partagez-nous aussi vos idées de communs qui auraient une place dans cette liste !**
 
 ## Notre méthode et nos critères
