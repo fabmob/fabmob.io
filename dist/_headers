@@ -1,0 +1,2 @@
+/.well-known/matrix/*
+  Access-Control-Allow-Origin: *
