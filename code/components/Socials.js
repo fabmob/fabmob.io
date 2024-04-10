@@ -1,4 +1,3 @@
-import TwitterLogoBlack from 'Images/Twitter_Logo_Black.png'
 import LinkedinLogoBlack from 'Images/LinkedinLogoBlack.png'
 import YouTubeLogoBlack from 'Images/YouTubeLogoBlack.png'
 import React from 'react'
@@ -7,11 +6,6 @@ export const Socials = () => (
 	<div css="width: 200px; margin-left: 11px;">
         <div css="width: 40px; display: inline-block; box-shadow: 8px 0px 9px -6px lightgrey; margin-right: 15px">
             <ul>
-                <li>
-                    <a href="https://twitter.com/fab_mob" title="twitter" target="_blank">
-                        <img css="width: 1rem" src={TwitterLogoBlack} alt="twitter" />
-                    </a>
-                </li>
                 <li>
                     <a
                         href="https://www.linkedin.com/company/fabmob/"
