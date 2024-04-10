@@ -83,13 +83,13 @@ export default () => {
 						</Link>
 						.
 					</p>
-					<div css="margin: 0 auto; width: 20rem; margin-top: 3vh">
+					<div css="margin: 0 auto; margin-top: 3vh; @media (min-width: 800px) {display: flex;}">
 						<CTA
 							text="Découvrez nos activités"
 							to="/activités/communs"
 							img={<CTAArrow />}
 						/>
-
+						<div css="width: 0.6rem"></div>
 						<CTA
 							text="Adhérez à la Fabrique"
 							to="/participer"
@@ -97,6 +97,20 @@ export default () => {
 						/>
 
 					</div>
+					<p>
+						La Fabrique des Mobilités est une association qui réunit tou·te·s les acteur·rice·s volontaires 
+						pour <Link to="/à-propos/manifeste">
+							<Surligne>construire des coopérations ouvertes autours des enjeux concrets posés par la transition écologique des mobilités.</Surligne>
+						</Link>
+					</p>
+					<p>
+						Elle est soutenue par l'<a href="https://www.ademe.fr/" target='_blank'><Surligne>ADEME</Surligne></a>, 
+						la <a href="https://www.ecologie.gouv.fr/direction-generale-des-infrastructures-des-transports-et-des-mobilites-dgitm" target="_blank">
+							<Surligne>DGITM</Surligne>
+						</a> ainsi qu'un ensemble d'<Link to="/à-propos/adherents_et_partenaires">
+							<Surligne>adhérents</Surligne>
+						</Link> et <Link to="à-propos/adherents_et_partenaires/partenaires"><Surligne>partenaires</Surligne></Link>.
+					</p>
 					<br />
 				</section>
 				<Socials />
