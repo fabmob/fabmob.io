@@ -1,3 +1,5 @@
-/.well-known/matrix/* https://matrix.fabmob.io/.well-known/matrix/:splat 301
+/.well-known/matrix/* https://matrix.fabmob.io/.well-known/matrix/:splat 301!
+http://fabmob.io/*  http://lafabriquedesmobilites.fr/:splat  301  Host=http://fabmob.io
+https://fabmob.io/* https://lafabriquedesmobilites.fr/:splat 301  Host=https://fabmob.io
 /qc    https://wiki.lafabriquedesmobilites.fr/wiki/Centre_d’excellence_des_technologiques_ouvertes_pour_la_mobilité
 /*    /index.html   200
