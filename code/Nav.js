@@ -198,7 +198,7 @@ export default () => {
 			</ul>
 			<ul className="subnavmobile" css="border-bottom: 1px solid lightgray">
 				<li>
-					<a href='https://us12.list-manage.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341'>
+					<a href='https://9fb3d644.sibforms.com/serve/MUIFAOQnFNyyn5Kfp1XK5ABDzukRh5tKyEbrTQB6dOdyfYuuF16pfrR-fjQufFYb54qVx7OqaIRBObnP9XBEdusublka34mZZI3Acb5rgABffvu8v_nSLhgje1HvyLFKMzNI6oYvm8hw1VKkS4lQoNaNW5N9rS1BYmSZYNXV609gQB0OtlOihK245-CPP3umEORQf5A46z-HVWWC'>
 						Newsletter
 					</a> | <EmailContact /> | <Link to='/à-propos/mentions-légales-et-données'>Mentions légales</Link>
                 </li>
