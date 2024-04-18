@@ -91,6 +91,18 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
+#### Keyple
+
+<div style="display: flex; align-items: center;">
+    <img src="/contenu/articles/2024/images/KEYPLElogo.png" width="100px" style="margin: 10px"/>
+    <div>
+        <p>
+            <b>Keyple</b> est un logiciel open source facilitant la réalisation des transactions sans contact Calypso. Il répond au besoin des collectivités d’avoir des systèmes billettiques basés sur des solutions ouvertes, évolutives et interopérables.
+        </p>
+        <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/Keyple"> Documentation sur notre Wiki</a>
+    </div>
+</div>
+
 #### Tracemob
 <div style="display: flex; align-items: center;">
     <img src="/contenu/articles/2024/images/TRACEMOBlogo.png" width="100px" style="margin: 10px"/>
