@@ -51,62 +51,41 @@ export default () => {
 					text-align: left;
 				`}
 			>
-					<div
-						css={`
-							width: 20rem;
-							padding-top: 40px;
-							img {
-								width: 200px;
-							}
-						`}
-						animate={{ scale: [1.5, 1] }}
-						transition={{ duration: 0.6, ease: 'easeOut' }}
-					>
-						<img src={Logo} css="" />
-					</div>
+				<div
+					css={`
+						width: 20rem;
+						padding-top: 40px;
+						img {
+							width: 200px;
+						}
+					`}
+					animate={{ scale: [1.5, 1] }}
+					transition={{ duration: 0.6, ease: 'easeOut' }}
+				>
+					<img src={Logo} css="" />
+				</div>
 				<section>
 					<p css="font-size: 150%">
-						Face à l'
-						<Link to="/à-propos/manifeste">
-							<Surligne>urgence</Surligne>
-						</Link>
-						,
-						<br />
-						<ReDe />
-						construisons les mobilités <br />
-						brique par brique, <br />
-						ensemble via les <Link to="/activités/communs">
-							<Surligne>communs</Surligne>
-						</Link> et l'
-						<Link to="/blog/lopen-source-au-secours-du-secteur-des-transports">
-							<Surligne>open source</Surligne>
-						</Link>
-						.
+						Coopérons autour des enjeux concrets posés par la transition écologique des mobilités
 					</p>
 					<div css="margin: 0 auto; margin-top: 3vh; @media (min-width: 800px) {display: flex;}">
 						<CTA
-							text="Découvrez nos activités"
-							to="/activités/communs"
+							text="Manifeste"
+							to="/à-propos/manifeste"
 							img={<CTAArrow />}
 						/>
 						<div css="width: 0.6rem"></div>
 						<CTA
-							text="Adhérez à la Fabrique"
-							to="/participer"
+							text="Feuille de route"
+							to="/à-propos/feuille_de_route"
 							img={<CTAArrow />}
 						/>
 
 					</div>
-					<p>
-						La Fabrique des Mobilités est une association qui réunit tou·te·s les acteur·rice·s volontaires 
-						pour <Link to="/à-propos/manifeste">
-							<Surligne>construire des coopérations ouvertes autours des enjeux concrets posés par la transition écologique des mobilités.</Surligne>
-						</Link>
-					</p>
-					<p>
-						Elle est soutenue par l'<a href="https://www.ademe.fr/" target='_blank'><Surligne>ADEME</Surligne></a>, 
-						la <a href="https://www.ecologie.gouv.fr/direction-generale-des-infrastructures-des-transports-et-des-mobilites-dgitm" target="_blank">
-							<Surligne>DGITM</Surligne>
+					<p css="font-size: 80%; font-style: italic">
+						La Fabrique des Mobilités est une association loi de 1901 soutenue par l'<a href="https://www.ademe.fr/" target='_blank'><Surligne>ADEME</Surligne></a>, 
+						l'<a href="" target="_blank">
+							<Surligne>AIT</Surligne>
 						</a> ainsi qu'un ensemble d'<Link to="/à-propos/adherents_et_partenaires">
 							<Surligne>adhérents</Surligne>
 						</Link> et <Link to="à-propos/adherents_et_partenaires/partenaires"><Surligne>partenaires</Surligne></Link>.
