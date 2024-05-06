@@ -32,7 +32,9 @@ export const Socials = () => (
         </div>
         <div css="display: inline-block; font-size: 12px; width: 130px; line-height: 17px;">
             <ul>
-                <li css="font-weight: bold"><a href='https://us12.list-manage.com/subscribe?u=7e792185ad77b9a84eaaa62e9&id=7c902a8341' target="_blank">Recevez notre newsletter !</a></li>
+                <li css="font-weight: bold">
+                    <a href='https://9fb3d644.sibforms.com/serve/MUIFAOQnFNyyn5Kfp1XK5ABDzukRh5tKyEbrTQB6dOdyfYuuF16pfrR-fjQufFYb54qVx7OqaIRBObnP9XBEdusublka34mZZI3Acb5rgABffvu8v_nSLhgje1HvyLFKMzNI6oYvm8hw1VKkS4lQoNaNW5N9rS1BYmSZYNXV609gQB0OtlOihK245-CPP3umEORQf5A46z-HVWWC' target="_blank">Recevez notre newsletter !</a>
+                </li>
                 <li><EmailContact /></li>
                 <li><a href='/à-propos/mentions-légales-et-données'>Mentions légales</a></li>
             </ul>
