@@ -50,11 +50,13 @@ export default () => {
 	}
 	return (
 		<div>
+			<div css={"background-color: #92E5FF; text-align: center; padding: 8px"}>
+				Démarrage rapide : <b><a href="https://manager.cozycloud.cc/landings/noisylegrand">cliquez ici</a></b> pour créer votre espace personnel et installer l'application.
+			</div>
 			<header>
 				<img src={require('./coachCO2.svg').default} css="width: 200px" />
 				<h1>Tracemob, l'expérimentation pour mieux comprendre les mobilités du quartier du Marnois</h1>
 				<p css="max-width: 60rem">
-					
 				</p>
 				<p css="max-width: 60rem">
 					Portée par la ville de <a href="https://www.noisylegrand.fr/" target='_blank'>Noisy-le-grand</a> et 
