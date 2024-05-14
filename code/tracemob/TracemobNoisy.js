@@ -179,7 +179,7 @@ const Desc = () => (
 			css="width: 60px"
 		/>
 		<div>
-			<h4>Option 1:</h4>
+			{/* <h4>Option 1:</h4> */}
 			<p><b>Scannez le QR code</b> ci-dessous ou <b><Link to="/tracemobNoisy/1">cliquez ici</Link></b> et suivez le parcours sur mesure pour créer votre coffre-fort personnel et 
 			télécharger l'application <span css="white-space: nowrap"><img css="height: 25px; border-radius: 6px; vertical-align: bottom; margin-right: 3px;"src={illustrationCozy} /><b>Cozy</b></span>.</p>
 			<Link to="/tracemobNoisy/1"><img 
@@ -194,7 +194,7 @@ const Desc = () => (
 			<iframe style={{width: "40%"}} width="560" height="315" src="https://www.youtube.com/embed/0kZbBFLnKhc?si=hOidhJGkwQXkqjIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			<iframe style={{width: "40%", marginLeft: "20px"}} width="560" height="315" src="https://www.youtube.com/embed/1CfB9KulYf0?si=lCE1SCCACq5FSTvS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			</div>
-			<h4>Option 2:</h4>
+			{/* <h4>Option 2:</h4>
 			<p>Téléchargez directement l'application <span css="white-space: nowrap"><img css="height: 25px; border-radius: 6px; vertical-align: bottom; margin-right: 3px;"src={illustrationCozy} /><b>Cozy</b></span> sur les stores et entrez le code postal de Noisy-le-Grand lors de la création de votre compte.</p>
 			<div
 				css={`
@@ -212,7 +212,7 @@ const Desc = () => (
 				<a href="https://play.google.com/store/apps/details?id=io.cozy.flagship.mobile">
 					<img src={require('./playstore-badge.png').default} />
 				</a>
-			</div>
+			</div> */}
 		</div>
 		<h2>Pour combien de temps ? </h2>
 		<span className="illustration">📆</span>
