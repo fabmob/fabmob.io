@@ -190,5 +190,8 @@ Adherents:
   - nom: Someware
     siteweb: https://www.someware.fr/ 
     image: /images/partenaires/Logo Someware.svg
+  - nom : Multi
+    siteweb: https://www.multi.coop/
+    image: /images/partenaires/logo_multi.svg
     
     
