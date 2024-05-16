@@ -19,9 +19,8 @@ export default () => {
 	const location = useLocation()
 	const [open, setOpen] = useState(false)
 	const [eventData] = useContext(WikiContext)
-
 	const Link = MenuLink(() => setOpen(false))
-	if (location.pathname.match(/tracemobNoisy/)) {
+	if (location.pathname.toLowerCase().match(/tracemobnoisy/)) {
 		return <div></div>
 	}
 	return (
