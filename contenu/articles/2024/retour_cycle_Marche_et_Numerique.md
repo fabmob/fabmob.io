@@ -150,14 +150,16 @@ Emerge alors la nécessité de recourir à des critères de qualité, des indica
 A l'échelle nationale, la Coordination interministérielle au vélo et à la marche a fait remonter un besoin spécifique : Quels indicateurs agrégés utiliser pour une connaissance et un suivi du sujet à grande échelle ? Que mesurer si les linéaires de trottoirs semblent insuffisants pour un domaine multidimensionnel : surface de l'espace piéton, distance aux services (commerces ou loisirs), temps passé à marcher... ? 
 
 <div style="background-color: rgb(217, 237, 247); padding: 20px; color: #31708f">
-<b>Idées d'indicateurs de marche à cartographier (recensées lors de l'atelier collectif)</b><br/>
-Les aménagements urbains piétons : passages piétons, passage avec feu, trottoir... En indiquant la localisation, l'accessibilité, la co-visibilité ...<br/>
-Les nuisances à la marche, au niveau de la voirie : trafic automobile (bruit et pollution), insécurité, luminosité, mauvais trottoir... <br/>
-L'état de circulation des chemins et trottoirs en temps réel, avec la présence d'obstacles ponctuels : travaux, voitures, poubelles...<br/>
-La fréquentation et la sécurité des lieux en fonction du temps : saisons, heures, notamment pour certains espaces sujets aux fluctuations jour/nuit (gare, parc, tunnel souterrain...) <br/>
-Les itinéraires piétons empruntés par les individus <br/>
-Comprendre le choix d'itinéraires (ex. pourquoi cette rue et pas une autre, via ce passage piéton, avec ou sans feu)<br/>
-Mieux comprendre et définir les cas où la marche a été choisie comme une meilleure alternative que les autres modes<br/>
+<b>Idées d'indicateurs de marche à cartographier (recensées lors de l'atelier collectif)</b>
+<ul>
+<li>Les aménagements urbains piétons : passages piétons, passage avec feu, trottoir... En indiquant la localisation, l'accessibilité, la co-visibilité ...</li>
+<li>Les nuisances à la marche, au niveau de la voirie : trafic automobile (bruit et pollution), insécurité, luminosité, mauvais trottoir... </li>
+<li>L'état de circulation des chemins et trottoirs en temps réel, avec la présence d'obstacles ponctuels : travaux, voitures, poubelles...</li>
+<li>La fréquentation et la sécurité des lieux en fonction du temps : saisons, heures, notamment pour certains espaces sujets aux fluctuations jour/nuit (gare, parc, tunnel souterrain...) </li>
+<li>Les itinéraires piétons empruntés par les individus </li>
+<li>Comprendre le choix d'itinéraires (ex. pourquoi cette rue et pas une autre, via ce passage piéton, avec ou sans feu)</li>
+<li>Mieux comprendre et définir les cas où la marche a été choisie comme une meilleure alternative que les autres modes</li>
+</ul>
 </div>
 
 Ces indicateurs doivent remplir 2 conditions : 
