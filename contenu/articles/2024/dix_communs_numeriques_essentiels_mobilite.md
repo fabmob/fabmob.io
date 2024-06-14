@@ -91,6 +91,7 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
+
 #### Keyple
 
 <div style="display: flex; align-items: center;">
@@ -103,12 +104,24 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
+#### Diagnostic Mobilité
+
+<div style="display: flex; align-items: center;">
+    <img src="/contenu/articles/2024/images/DIAGNOSTICMOBILITElogo.png" width="100px" style="margin: 10px"/>
+    <div>
+        <p>
+            <b>Diagnostic Mobilité</b> est un outil pour comprendre les enjeux et construire une mobilité du quotidien durable dans les territoires.
+        </p>
+        <a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/Diagnostic_Mobilit%C3%A9"> Documentation sur notre Wiki</a>
+    </div>
+</div>
+
 #### Tracemob
 <div style="display: flex; align-items: center;">
     <img src="/contenu/articles/2024/images/TRACEMOBlogo.png" width="100px" style="margin: 10px"/>
     <div>
         <p>
-            <b>Tracemob</b> est l'application mobile open source permettant aux citoyens de tracer automatiquement leurs déplacements, en respectant leurs données personnelles, et de les partager avec leurs territoires. D'abord testé au sein d'une collectivité (La Rochelle), Tracemob fédère aujourd'hui plusieurs territoires, à la fois utilisateurs et contributeurs de l'outil, ainsi que d'autres parties prenantes (entreprises, développeurs...)
+            <b>Tracemob</b> est l'application mobile open source permettant aux citoyens de tracer automatiquement leurs déplacements, en respectant leurs données personnelles, et de les partager avec leurs territoires. D'abord testé au sein d'une collectivité (La Rochelle), Tracemob fédère aujourd'hui plusieurs territoires, à la fois utilisateurs et contributeurs de l'outil, ainsi que d'autres parties prenantes (entreprises, développeurs...).
         </p>
         <p><a target="_blank" href="https://wiki.lafabriquedesmobilites.fr/wiki/Tracemob_-_Kit_Minimal_pour_cr%C3%A9er_g%C3%A9rer_et_partager_des_traces_de_Mobilit%C3%A9"> Documentation sur notre Wiki</a></p>
         <p><i>Note: Tracemob est un commun en partie porté par la Fabrique des Mobilités</i></p>
@@ -127,8 +140,7 @@ Cette année, la Fabrique des Mobilités propose de mettre en avant 10 communs n
     </div>
 </div>
 
-**Deux autres communs seront ajoutés à cet article au fil de l'eau. Suivez les publications de La Fabrique des Mobilités (LinkedIn, newsletter) pour être tenu au courant. 
-Partagez-nous aussi vos idées de communs qui auraient une place dans cette liste !**
+**Partagez-nous aussi vos idées de communs qui auraient une place dans cette liste !**
 
 ## Notre méthode et nos critères
 
