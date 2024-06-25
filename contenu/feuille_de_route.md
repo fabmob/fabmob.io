@@ -1,11 +1,11 @@
 ---
-titre: Feuille de route 2023-2024
+titre: Feuille de route 2023-2025
 description: La feuille de route définit pour un temps donné, généralement 2 ans (durée du mandat des administrateur.rices), les thématiques de travail de l’association et de son équipe dans le cadre de sa mission
 ---
 
-# Feuille de route 2023-2024
+# Feuille de route 2023-2025
 
-La feuille de route définit pour un temps donné, généralement 2 ans (durée du mandat des administrateur.rices), les thématiques de travail de l'association et de son équipe dans le cadre de sa mission, décrite dans le [Manifeste](/%C3%A0-propos/manifeste).
+La feuille de route définit pour un temps donné, généralement 2 ans (durée du mandat des administrateur.rices), les thématiques de travail de l'association et de son équipe dans le cadre de sa mission, décrites dans le [Manifeste](https://lafabriquedesmobilites.fr/%C3%A0-propos/manifeste).
 
 La feuille de route est validée idéalement en début de mandat des administrateurs.rices de La Fabrique des Mobilités, sur proposition de l'équipe opérationnelle par la voix de son ou sa représentant.e au Conseil d'Administration et du ou de la Directeur.rice général.e.
 
@@ -13,82 +13,116 @@ Ce document engage l'association et son équipe à mettre en oeuvre les moyens n
 
 La feuille de route peut être amendée uniquement par les administrateurs, dans le cadre d'un conseil d'administration.
 
-Sur la période 2023-2024, la Fabrique des Mobilités travaille, dans le cadre de sa feuille de route, sur 3 axes thématiques : 
+La feuille de route fixe des axes de travail mais n'est en aucun cas exhaustive. L'équipe de la Fabrique des Mobilités s'autorise, conformément à l'ADN de l'association, d'explorer toutes les pistes de projets ou de collaborations qu'elle juge intéressantes en accord avec le Manifeste.
+
+## Thématiques
+
+### AXE 1 : Structuration d'une filière des véhicules intermédiaires
+
+#### Enjeux 
+
+Les véhicules électriques sont d’autant plus bénéfiques pour l'environnement qu’ils sont légers, et se substituent aux véhicules thermiques. En effet, un véhicule individuel électrique plus petit et léger consomme moins de ressources à la production, produit moins d'émissions de GES et de polluants, et prend moins de place sur l'espace public. 
+
+Les véhicules intermédiaires sont quant à eux moins chers qu'une voiture à l'achat (notamment qu'un véhicule électrique, actuellement onéreux y compris d'occasion) et à la maintenance (moins de pièces), tout en répondant à des usages qui ne nécessitent pas un gros véhicule [¹](#footnote1).
+
+De plus, la structuration d'une filière de production et maintenance de ces véhicules légers est également une opportunité de souveraineté industrielle et de créations d'emplois. [²](#footnote2)
+
+#### Objectifs 
+
+- mieux faire connaître les véhicules intermédiaires auprès des décideurs publics et des acteurs de la mobilité
+- favoriser les expérimentations de véhicules intermédiaires
+- participer aux travaux de la filière en construction, en lien avec l'[eXtrême Défi de l'ADEME](https://xd.ademe.fr) et l'[association des véhicules électriques légers intermédiaires](https://www.aveli.org)
+
+#### Exemples
+
+- pilotage de l'[expérimentation "30 VELI"](https://cloud.fabmob.io/s/aX5BEytgYC7iD3m)
+- mise en lumière des enjeux de la filière auprès des décideurs publics par l'organisation d'événements et des communications dédiées
+- participation à la construction de coopérations entre acteurs de la filière
+
+### AXE 2 : Faire de la démobilité un levier de transition
+
+#### Enjeux 
+
+L'objectif de décarbonation complète du secteur des transports à horizon 2050 fixé par la Stratégie Nationale Bas Carbone semble difficilement atteignable sans réduction importante du volume de déplacements. [³](#footnote3) Or celle-ci apparaît comme un repoussoir pour une majorité de décideurs publics et de citoyens, considérant que cela entrave la liberté de se déplacer et constitue ainsi une régression sociale.
+
+Le concept de [démobilité](https://cloud.fabmob.io/s/2jKKoLpPxsRMDjQ), entendu comme la réduction des distances parcourues, est régulièrement confondu avec celui de la sobriété. Afin d'en faire un levier attractif et crédible de décarbonation, il est nécessaire de donner de la visibilité à ce concept, au travers de projets concrets, et fédérer des acteurs hétérogènes moteurs sur le sujet.
+
+#### Objectifs 
+
+- contribuer à clarifier la notion de démobilité
+- mettre en lumière des inititatives et projets concrets permettant la réduction du volume de déplacement
+- participer au déploiement de projets de démobilité
+
+#### Exemples
+
+- [webinaire portant sur les outils numériques permettant de favoriser la marche](https://www.youtube.com/watch?v=gdpvxz5N_lw)
+- [manifeste pour les hubs de démobilité](https://wiki.lafabriquedesmobilites.fr/wiki/Manifeste_pour_les_hubs_de_démobilité)
+- organisation d'événements autour de cette thématique à l'instar du [Tribunal des générations futures sur la necessité ou non d'arrêter de déplacer](https://www.youtube.com/watch?v=lPdkNpH1YL8) 
 
 
-## Les infrastructures et services numériques 
+### AXE 3 : Développement d'un numérique d'intérêt général
 
-La transformation numérique de la mobilité ces dix dernières années, rapide et profonde, implique une reconnaissance du rôle des infrastructures numériques de mobilité et de l'ensemble des services numériques qui en découlent, comme les applications de « Mobilité par Association de Services » (MAS) par exemple [¹](#infrafootnote1). Les nouvelles infrastructures critiques de la mobilité sont numériques (internet, cloud, GPS, données) - tout autant que les infrastructures "classiques" de transport (routes, carburants) [²](#infrafootnote2). 
+#### Enjeux 
 
-Une infrastructure numérique désigne un outil numérique dont de très nombreux acteurs dépendent pour fournir leurs propres services numériques, que ce soit une machine physique (ex. serveurs) ou un service virtuel (ex. un protocole ou une base de données). [³](#infrafootnote3)
+La majorité des services de mobilité intègre une dimension numérique, d'autant plus présente que les offres de mobilité se complexifient et s'individualisent. Toutefois, cela crée des risques d’exclusion sociale et d’effets rebond néfastes pour l’environnement. Ainsi, l’emploi du numérique dans la mobilité doit viser l’intérêt général, à savoir la simplification d’accès à des services de mobilité dont l’impact environnemental est minimisé et la finalité sociale importante (accès à l’emploi, à des services publics, etc.). Les solutions numériques utilisées doivent être nourries de coopérations intégrant l'ensemble des parties prenantes d'un service de mobilité (usagers compris).
 
-Dans la mobilité, on peut distinguer les infrastructures numériques de portée nationale et transverse (ex. Point d'Accès National, normes de données ou d'interfaces, Compte mobilité, Open Street Maps), celles de portée régionale (ex. référentiels de données, calculateurs d'itinéraires), et celles qui concernent une verticale métier (ex. standard covoiturage, Registre de preuve du covoiturage). 
-
-Le prisme des communs se révèle utile pour aborder les multiples enjeux liés aux infrastructures numériques de mobilité : souveraineté (qualité, propriété, pérennité), gouvernance et rôle de l'acteur public, massification de services (ex. permettre le report modal via l'accès numérique simplifié à l'information voire aux titres). 
-
-**Désormais reconnus comme un acteur non marchand de référence sur les infrastructures et les services numériques de mobilité, en particulier la MAS, la Fabrique des Mobilités est investie depuis 2020 dans plusieurs projets**, du co-portage d'infrastructures numériques comme le Compte mobilité, à l'animation de groupes de travail pour les standards techniques de la MAS (covoiturage, identité, nouvelles mobilités), en passant par l’étude de préfiguration d’une stratégie nationale MAS pour le Ministère des Transports, ou encore l'implication dans le “titre unique de demain” auprès de l'AIT (hackathon). Ainsi, **la Fabrique des Mobilités continue ses activités dans le domaine de la mobilité numérique en cherchant à :** 
-- **Etudier et transmettre les dynamiques sous-jacentes à la numérisation de la mobilité et aux infrastructures et services numériques de mobilité ;**
-- **Impulser et accompagner des infrastructures et services numériques sous forme de communs.**
-
----
-
-* <a name="infrafootnote1"/> [1] "Les services dits "Mobilité par Association de Services" (ou "MaaS" pour "Mobility as a Service" en anglais) consistent en l’utilisation d’une interface numérique unifiée qui offre à un utilisateur des services répondant de manière intégrée et personnalisée à ses besoins de mobilité" ([Ministère des Transports, juin 2023](https://www.ecologie.gouv.fr/services-numeriques-mobilite)). Il s'agit des applications mobiles (et toutes les infrastructures et services sous-jacents), locales (MAS urbains ou régionaux) ou privées (ex. Citymapper), qui rassemblent l'accès à plusieurs modes de transport : transport public, covoiturage, free-floating... Voir [Fabrique des Mobilités, Etat des lieux des MAS en France : recommandations en vue d'une stratégie nationale, mars 2023](https://www.francemobilites.fr/outils/ressources/etat-des-lieux-des-mas-en-france)
-* <a name="infrafootnote2"/> [2] [Nicolas Colin, "The state as a platform: Public policy in the digital age", in "New Routes to Social Justice", 2017 : p. 17](https://policynetwork.progressivebritain.org/wp-content/uploads/2017/08/New-Routes-to-Social-Justice.pdf)
-* <a name="infrafootnote3"/> [3] Longtemps cantonnées dans la réglementation aux réseaux de communication électroniques (fibre, 4G, etc.), les infrastructures numériques sont reconnues depuis la nouvelle directive européenne CER de décembre 2022 comme recouvrant un large panel de machines et services numériques : des data centers aux fournisseurs de DNS, en passant par les tiers de confiance (signature électronique) ou encore l'ensemble des services liés au "cloud computing" (machines, plateformes, applications). [Directive européenne sur la résilience des entités critiques CER, décembre 2022](https://eur-lex.europa.eu/eli/dir/2022/2557/oj)
-
-## Les véhicules légers 
-
-Lorsque les déplacements ne peuvent être supprimés ou reportés sur d'autres modes qu'un véhicule (motorisé), l'efficience des véhicules doit être améliorée (voir notre Manifeste, "Améliorer"). En ce sens, le poids et la taille des voitures et des utilitaires est une question encore trop peu prise en compte dans le débat politique et industriel, aujourd'hui focalisé sur l'électrification du parc automobile. 
-
-Les véhicules électriques sont incontestablement bénéfiques pour l'environnement, la qualité de l'air, et la réduction du bruit et de la chaleur [¹](#velifootnote1). Cependant, pour avoir un impact significatif à la fois sur la décarbonation des mobilités et plus largement sur la transition des mobilités vers plus de modes doux et moins de déplacements contraints, les véhicules qui circuleront encore demain devront impérativement être non seulement électriques, mais aussi plus légers. [²](#velifootnote2) 
-
-En effet, un véhicule individuel électrique plus petit et léger consomme moins de ressources à la production, produit moins d'émissions de GES et de polluants, et prend moins de place sur l'espace public, permettant aux mobilités douces d'avoir leur espace. Ceci tout en coûtant moins cher qu'une voiture à l'achat (notamment qu'un véhicule électrique, actuellement onéreux y compris d'occasion [³](#velifootnote3)) et à la maintenance (moins de pièces), et en répondant à des usages qui ne nécessitent pas un gros véhicule [⁴](#velifootnote4). 
-
-La structuration d'une filière de production et maintenance de ces véhicules légers est une opportunité de souveraineté industrielle et de créations d'emplois [⁵](#velifootnote5). 
-
-La question de la taille et du poids des véhicules s'applique aussi au ferroviaire. La SNCF a ainsi lancé un programme d'innovation autour des trains très légers (TTL), répondant à deux problématiques à la fois : la conception de véhicules beaucoup plus légers que le matériel roulant actuel pour répondre à la desserte de territoires peu denses ne nécessitant pas le déploiement de transports lourds, et la réhabilitation de petites lignes existantes pour proposer une offre de transport adaptée et efficiente. L'innovation dans le cadre de cette demarche se situe à plusieurs niveaux : dans le matériel roulant, mais aussi dans l'infrastructure réseaux et dans la communication entre les deux. [⁶](#velifootnote6)
-
-La FabMob est ainsi activement impliquée dans le développement de nouveaux véhicules légers. Nous expérimentons autour du déploiement de VELI (Véhicules Electriques Légers Intermédiaires), véhicules individuels situés entre le vélo et la voiture, notamment dans le cadre de la démarche de création de filière impulsée par l'ADEME et de nombreux constructeurs [⁷](#velifootnote7). Nous animons des communautés autour des trains très légers (TTL) à l'initiative de la SNCF. 
-
-**La FabMob vise ainsi à :** 
-- **Favoriser les expérimentations in-situ**, 
-- **Animer des dynamiques de coopération dans la production d'innovations visant à alléger différents véhicules,** 
-- **Documenter les apprentissages sur ces nouveaux terrains.** 
-
----
-
-* <a name="velifootnote1"/> [1] [Carbone 4, “Les idées reçues sur la voiture électrique”, février 2022, p. 7](https://www.carbone4.com/analyse-faq-voiture-electrique) : "Un mix décarboné (France, électricité renouvelable) permet les meilleures performances, mais même un véhicule électrique vendu aujourd’hui en Allemagne, voire en Pologne, reste moins émissif qu’un véhicule thermique." 
-* <a name="velifootnote2"/> [2] Voir un schéma récapitulatif des avantages apportés par des véhicules légers ET électriques : [FabMob, Pour des ZFE-m saines et justes : Anticiper la transition des mobilités, août 2023, p.26](https://wiki.lafabriquedesmobilites.fr/wiki/Pour_des_ZFE-m_saines_et_justes_-_Anticiper_la_transition_des_mobilit%C3%A9s). Voir également [l'analyse de Laurent Castaignède](https://reporterre.net/Apres-le-dieselgate-nous-nous-dirigeons-tout-droit-vers-un-electric-gate)
-* <a name="velifootnote3"/> [3] [Jusqu'à 30 000 € pour une voiture électrique d'occasion en 2023 d'après une étude LeBonCoin](https://www.mercipourlinfo.fr/actualites/conso/les-prix-se-stabilisent-en-2023-le-bon-moment-pour-acheter-une-voiture-doccasion-966714), [40 000 € pour une voiture électrique neuve en 2023 selon Intelligence Auto](https://www.aaa-data.fr/actualites/intelligence-auto-57-mars-2023-difficile-transition-vers-electrique-pour-les-femmes/#:~:text=Dans%20le%20contexte%20inflationniste%20actuel,voiture%20neuve%20(hors%20option))
-* <a name="velifootnote4"/> [4] Par exemple : « La ruralité est la grande oubliée du marché des constructeurs [...] À la campagne, il y a bien souvent trois enjeux à combiner, la distance à parcourir, le dénivelé à grimper et la durée de trajet. Si j’ai 20 km à faire avec 200 mètres de dénivelé et 30 min maximum pour le parcourir, il me faut une solution qui corresponde. » Hélène Jacquemin, fondatrice d'[InVD](https://invd.fr/) dans [Reporterre](https://reporterre.net/Viree-a-bord-d-un-veloto-une-voiture-electrique-a-pedales)
-* <a name="velifootnote5"/> [5] [Aurélien Bigo, "Les véhicules intermédiaires, l’avenir de la mobilité ?", janvier 2022](https://bonpote.com/les-vehicules-intermediaires-lavenir-de-la-mobilite/)
-* <a name="velifootnote6"/> [6] [CEREMA, "Un train léger innovant pour développer le transport de voyageurs sur les petites lignes ferroviaires", juillet 2022](https://www.cerema.fr/fr/actualites/train-leger-innovant-developper-transport-voyageurs-petites)
-* <a name="velifootnote7"/> [7] [Extrême Défi](https://xd.ademe.fr/approche-integrale)
-
-## La sobriété dans la mobilité
-
-De plus en plus utilisée depuis les années 2000 [¹](#sobrietefootnote1), la notion de sobriété désigne la "[réduction] du besoin « à la source »" [²](#sobrietefootnote2). Elle traite donc de la demande en mobilité, là où la plupart des actions de décarbonation tendent d'abord à proposer des alternatives sur l'offre à volume égal de demande (sobriété matérielle ou modale). Elle permet d'envisager la question du *volume* et des *origines* de la demande en déplacements. 
-
-**Contrairement à une idée reçue, la notion de sobriété ne vise pas à réduire tous les déplacements, mais à réduire les mobilités *subies* en optimisant et en réorganisant le système de mobilité dans son ensemble** ("réduire les consommations superflues par une hiérarchisation des besoins") [³](#sobrietefootnote3). Il s'agit in fine de modifier nos modes de vie pour atteindre davantage d'apaisement. Dans la mobilité, cela se traduit par un "refus des mobilités subies, [...] plus de mobilités choisies et de meilleures accessibilités" [⁴](#sobrietefootnote4). 
-
-Les acteurs publics et les observateurs s'accordent sur le fait que sans cette maîtrise de la demande (sobriété), la neutralité carbone est impossible. Ainsi, mieux comprendre les déterminants de la demande en déplacements et envisager les leviers de réduction de cette demande est essentiel. 
-
-Or la demande de mobilité n'est pas déterminée que par des usages individuels. Elle s'inscrit dans des conditions structurelles qui incitent à plus ou moins de mobilité, de telle ou telle façon ("sobriété structurelle" [⁵](#sobrietefootnote5)). Ces conditions sont par exemple la façon dont l'espace public, la cité, le travail sont organisés (étalement urbain, télétravail...), ou encore le façonnage des imaginaires et valeurs liés à la mobilité par des cultures dominantes et leurs canaux de transmission (ex. publicité automobile). 
-
-Ce type de réflexion replace la mobilité au sein du tissu complexe de nos modes de vie : non comme un secteur isolé, mais comme une variable ou un outil parmi d'autres dont nous avons besoin pour vivre nos vies. 
-
-**Avec l'axe de travail "sobriété", nous souhaitons donc :**
-- **Etudier les déterminants des mobilités ;**
-- **Elargir le périmètre de nos coopérations et nos actions au-delà du secteur de la mobilité, vers des domaines connexes comme l'urbanisme et l'aménagement du territoire.** 
-
----
-
-* <a name="sobrietefootnote1"/> [1] A la fois dans le secteur associatif (ex. Négawatt, acteurs des circuits courts, "sobriété heureuse" de Pierre Rabhi...) et au sein des institutions publiques (plans de "sobriété énergétique", ADEME, et plus récemment France Stratégie, SGPE). 
-* <a name="sobrietefootnote2"/> [2] [Site web de Négawatt](https://negawatt.org/sobriete-efficacite)
-* <a name="sobrietefootnote3"/> [3] ["Qu'est-ce que la sobriété ? Négawatt, 2016](https://negawatt.org/telechargement/Presse/1601_Fil-dargent_Qu-est-ce-que-la-sobriete.pdf)
-* <a name="sobrietefootnote4"/> [4] [Bruno Marzloff, "Démobilité", dans "Le Tour du monde de la mobilité durable en 80 mots : Abécédaire du GART", 2021 (p. 46)](https://www.gart.org/wp-content/uploads/2021/11/Abe%CC%81cedaire-du-GART_Tour-de-la-mobilite-durable-en-80-mots_Septembre-2021.pdf) 
-* <a name="sobrietefootnote5"/> [5] L'un des 4 types de sobriété identifiés par Négawatt et repris par l'ADEME : ["Qu'est-ce que la sobriété ? Négawatt, 2016](https://negawatt.org/telechargement/Presse/1601_Fil-dargent_Qu-est-ce-que-la-sobriete.pdf)
+C'est dans ce but que la Fabrique des Mobilités oeuvre à faire émerger des communs numériques visant à combler des besoins partagés par différents acteurs sans que ni le privé, ni le public ne puissent y répondre seuls.
 
 
+#### Objectifs 
+
+- Pédagogique : faire connaître et comprendre les enjeux du numérique dans la mobilité, son rôle et ses limites
+- Technique : faciliter la coopération équilibrée entre acteurs publics, privés, associatifs et citoyens autour de services numériques, et notamment des infrastructures numériques[⁴](#footnote4), socles de base conditionnant l'existence de ces services, à solidifier notamment au niveau national
+- Applicatif : jouer un rôle de catalyseur afin de faire émerger des communs numériques via des coopérations entre acteurs différents
+
+#### Exemples
+
+- [Webinaire d'initiation aux communs numériques de la mobilité](https://www.youtube.com/watch?v=0_ecbsUUzQc)
+- Travaux autour des [Standards du MAAS](https://wiki.lafabriquedesmobilites.fr/wiki/Standards_Ouverts_pour_des_MaaS_d%27intérêt_général) et de la feuille de route numérique du Secrétariat général à la planification écologique ([co-pilotage du volet "Se déplacer" de la feuille de route](https://www.info.gouv.fr/france-nation-verte/a-proposfeuille-de-route-numerique-donnees) et [organisation d'un webinaire "numérique et planification écologique"](https://www.youtube.com/watch?v=PwA7Gzj-alE))
+- Participation au développement du commun numérique [Tracemob](https://lafabriquedesmobilites.fr/blog/tracemob-commun)
+
+## Méthodes
+
+### AXE 4 : Accompagnement de communs
+
+#### Enjeux 
+
+Un commun est une ressource physique ou numérique (espace, machine, usine, document, logiciel, base de données…) utilisée par plusieurs acteurs hétérogènes (territoires, citoyens, entreprises…) qui ont un intérêt partagé à la perpétuer et la développer, et qui le font grâce à des règles communes.[⁵](#footnote5) Aujourd'hui la logique de communs se révèle particulièrement pertinente dans un contexte de décollage du numérique et de contraintes sur notre environnement nécessitant une mutualisation et une coopération accrue entre organisations. Les communs, par leur approche multi-acteurs décentralisée, apportent des réponses opérationnelles et territorialisées aux enjeux de décarbonation de la mobilité.[⁶](#footnote6)
+
+Or la grande majorité des communs de la mobilité, faute de moyens techniques, humains et financiers suffisants, n'arrivent pas à se développer. Ainsi la Fabrique des Mobilités s'attache à donner de la visibilité, accompagner, et porter avec d'autres, différents types de communs numériques et non numériques.
+
+#### Objectifs 
+- Donner de la visibilité à des communs de la mobilité
+- Faire de la pédogagie sur les communs
+- Accompagner le développement de communs de la mobilité
+
+#### Exemples
+- [Centre de documentation des communs numériques essentiels pour la mobilité](https://lafabriquedesmobilites.fr/blog/dix_communs_numeriques_essentiels_mobilite)
+- Accompagnement de [Coloc'Auto](https://www.colocauto.org) et de [Diagnostic Mobilité](https://diagnostic-mobilite.fr/)
+- [Guide méthodologique des communs numériques de la mobilité](https://wiki.lafabriquedesmobilites.fr/wiki/Guide_méthodologique_des_Communs_Numériques_de_la_Mobilité)
 
 
+### AXE 5 : Pérennisation financière de l'association à moyen-long terme
+
+#### Enjeux
+
+La Fabrique des Mobilités est aujourd'hui majoritairement structurée, financièrement et humainement, autour de conventions projets avec des partenaires historiques comme l'ADEME avec qui elle a su nouer une relation partenariale pertinente et fructueuse. L'association doit cependant, pour limiter sa dépendance à quelques acteurs et assurer sa pérennité financière, développer de nouvelles sources de recettes. En effet diversier ses ressources tout en limitant sa dépendance aux fonds publics permettra à l'association de mieux se projeter à long terme, tout en ouvrant la possibilité de financer de nouveaux projets non encore explorés.
+
+#### Objectifs
+- Garantir l'indépendance financière de l'association
+- Donner davantage de visibilité à l'association 
+- Assurer le déroulement d'une stratégie pluriannuelle cohérente, en lien avec le [Manifeste](https://lafabriquedesmobilites.fr/%C3%A0-propos/manifeste)
+
+#### Exemples
+- Co-portage de projets avec des industriels et des fondations
+- Elargissement de l'écosystème des [partenaires](https://lafabriquedesmobilites.fr/%C3%A0-propos/adherents_et_partenaires/partenaires) et des [adhérents](https://lafabriquedesmobilites.fr/%C3%A0-propos/adherents_et_partenaires)
+- Signature de conventions de partenariat pluriannuelles
+
+----
+
+* <a name="footnote1"/> [1] « La ruralité est la grande oubliée du marché des constructeurs [...] À la campagne, il y a bien souvent trois enjeux à combiner, la distance à parcourir, le dénivelé à grimper et la durée de trajet. Si j’ai 20 km à faire avec 200 mètres de dénivelé et 30 min maximum pour le parcourir, il me faut une solution qui corresponde. » Hélène Jacquemin, fondatrice d'[InVD](https://invd.fr/) dans [Reporterre](https://reporterre.net/Viree-a-bord-d-un-veloto-une-voiture-electrique-a-pedales)
+* <a name="footnote2"/> [2] [Aurélien Bigo, "Les véhicules intermédiaires, l’avenir de la mobilité ?", janvier 2022](https://bonpote.com/les-vehicules-intermediaires-lavenir-de-la-mobilite/)
+* <a name="footnote3"/> [3] "La stratégie vise une réduction de 28 % des émissions du secteur en 2030 par rapport à 2015. [Cela]] implique une décarbonation complète des transports terrestres, maritimes (domestiques) et fluviaux, soit par le passage à des motorisations électriques peu émettrices (sur leur cycle de vie), soit par le passage aux carburants alternatifs fortement décarbonés (en analyse du cycle de vie). [...] Toutefois ces deux chantiers ne constituent qu’un volet de la transition du secteur. En effet, pour contenir les impacts sur la demande en énergie décarbonée, sont aussi nécessaires des progrès très substantiels en matière d’efficacité et de sobriété énergétique." [Stratégie Nationale Bas Carbone, 2020](https://www.ecologie.gouv.fr/sites/default/files/2020-03-25_MTES_SNBC2.pdf)
+* <a name="footnote4"/> [4] une infrastructure numérique est un outil, matériel (ex : data centers) ou logiciel (ex : code, base de données), dont de très nombreux acteurs dépendent pour fournir leurs propres services numériques.
+* <a name="footnote5"/> [5] Voir notre [Manifeste](https://lafabriquedesmobilites.fr/%C3%A0-propos/manifeste)
+* <a name="footnote6"/> [6] [Socle de compréhension des Communs Numériques de la Mobilité](https://cloud.fabmob.io/s/oNLcJz89Z293tDJ/)
