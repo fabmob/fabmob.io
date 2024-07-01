@@ -116,6 +116,12 @@ Partenaires:
   - nom : Paris & co
     image : /images/partenaires/logo-parisandco-bleu.svg
     siteweb : https://www.parisandco.com/
+  - nom : Bordeaux Métropole
+    image : /images/partenaires/Logo_Bordeaux_metropole.png
+    siteweb : https://www.bordeaux-metropole.fr/
+  - nom : Métropole Européenne de Lille
+    image : /images/partenaires/Logo - Metropole Europenne de Lille.png
+    siteweb : https://www.lillemetropole.fr/
     
 Adherents:
   - nom : Kisio
