@@ -1,6 +1,6 @@
 ---
 titre: "Les communs numériques en vogue : Vers une politique publique ambitieuse ?"
-date: 2024-05-10
+date: 2024-07-19
 image: /contenu/articles/2024/images/communs_numeriques_politique.svg
 
 résumé: Nos observations sur les évolutions des politiques publiques autour des communs numériques
