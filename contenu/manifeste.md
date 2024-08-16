@@ -51,7 +51,7 @@ Voir aussi [le centre de documentation des 10 communs numériques essentiels pou
     - Explorations de thématiques nouvelles : recherches préliminaires, entretiens avec l'écosystème, partage de connaissances inédites
         - Voir par exemple [notre cycle de travail sur la marche](https://wiki.lafabriquedesmobilites.fr/wiki/Marche)
     - Animation de communautés thématiques dans la mobilité : nombreux échanges bilatéraux, animation ou participation à des groupes de travail, événements, ateliers collectifs... 
-        - Voir par exemple [la communauté des standards MaaS](https://wiki.lafabriquedesmobilites.fr/wiki/Standards_Ouverts_pour_des_MaaS_d%27int%C3%A9r%C3%AAt_g%C3%A9n%C3%A9ral), et [la communauté sur le partage de données](https://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_Partage_de_la_donn%C3%A9e_mobilit%C3%A9) 
+        - Voir par exemple [la communauté des standards MaaS](https://wiki.lafabriquedesmobilites.fr/wiki/Standards_Ouverts_pour_des_MaaS_d%27int%C3%A9r%C3%AAt_g%C3%A9n%C3%A9ral), et [la communauté sur le partage de données](https://wiki.lafabriquedesmobilites.fr/wiki/Partage_de_la_donn%C3%A9e_mobilit%C3%A9) 
 
 Voir aussi [notre réseau de partenaires et d'adhérents](https://lafabriquedesmobilites.fr/%C3%A0-propos/adherents_et_partenaires) 
 
