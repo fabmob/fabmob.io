@@ -106,7 +106,7 @@ Or la grande majorité des communs de la mobilité, faute de moyens techniques, 
 
 #### Enjeux
 
-La Fabrique des Mobilités est aujourd'hui majoritairement structurée, financièrement et humainement, autour de conventions projets avec des partenaires historiques comme l'ADEME avec qui elle a su nouer une relation partenariale pertinente et fructueuse. L'association doit cependant, pour limiter sa dépendance à quelques acteurs et assurer sa pérennité financière, développer de nouvelles sources de recettes. En effet diversier ses ressources tout en limitant sa dépendance aux fonds publics permettra à l'association de mieux se projeter à long terme, tout en ouvrant la possibilité de financer de nouveaux projets non encore explorés.
+La Fabrique des Mobilités est aujourd'hui majoritairement structurée, financièrement et humainement, autour de conventions projets avec des partenaires historiques comme l'ADEME avec qui elle a su nouer une relation partenariale pertinente et fructueuse. L'association doit cependant, pour limiter sa dépendance à quelques acteurs et assurer sa pérennité financière, développer de nouvelles sources de recettes. En effet diversifer ses ressources tout en limitant sa dépendance aux fonds publics permettra à l'association de mieux se projeter à long terme, tout en ouvrant la possibilité de financer de nouveaux projets non encore explorés.
 
 #### Objectifs
 - Garantir l'indépendance financière de l'association
