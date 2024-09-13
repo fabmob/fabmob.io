@@ -77,7 +77,7 @@ Enfin, les traces de mobilités sont perçues comme un élément majeur pour nou
 ### Échelle ville
 À la plus petite échelle d'une ville, les données permettent une observation des effets des décisions d'urbanisme ou de plan de mobilité. Par exemple, la ville de Noisy-le-Grand expérimente un nouveau plan de circulation dans un quartier et utilise, entre-autres, les données GPS pour isoler le changement de comportement. 
 
-Nous vous invitons à lire notre [article complet](https://pad.fabmob.io/ITB6q_mFRoqS6XgA3ZPbtA#) à ce sujet, où dix indicateurs ont été évalués et priorisés par les experts mobilité de la ville.
+Nous vous invitons à lire notre [article complet](blog/traces-mobilite-territoires) à ce sujet, où dix indicateurs ont été évalués et priorisés par les experts mobilité de la ville.
 
 
 ![](/contenu/articles/2024/images/illustration_dossier_trace_extrait_atelier_finalites.png)
