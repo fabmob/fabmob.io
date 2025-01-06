@@ -118,9 +118,6 @@ const Container = () => (
 					<Route path="/à-propos">
 						<About />
 					</Route>
-					<Route path="/événements">
-						<Événéments />
-					</Route>
 					{/* Pour la migration vers le nouveau site*/}
 					<UtmFriendlyRedirect from="/articles/:category/:id" to="/blog/:id" />
 					<UtmFriendlyRedirect from="/articles/:id" to="/blog/:id" />
