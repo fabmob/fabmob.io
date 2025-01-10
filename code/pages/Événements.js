@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useContext } from 'react'
-import colors from 'Components/colors'
-import { fetchLastEvents } from '../wikiAPI'
 import { sortBy } from '../utils'
-import styled from 'styled-components'
 import { Title, Tags, Card, CardList } from '../UI'
-import { WikiContext } from '../App'
+import events from 'Content/evenements-fabmob.yaml'
 import Meta from '../Meta'
+
+let yesterday = new Date()
+yesterday.setDate(yesterday.getDate() - 1)
+const futureEvents = events.filter(event => new Date(event.date) > yesterday)
+const pastEvents = events.filter(event => new Date(event.date) <= yesterday)
 
 export const Newsletter = () => (
 	<p>
@@ -16,80 +18,67 @@ export const Newsletter = () => (
 	</p>
 )
 
+export const EvtCard = ({ event, index, showRegister }) => (
+	<Card key={index} css="height: 30rem; width: 30rem; position: relative">
+		{new Date(event.date).toLocaleString('fr-FR', {
+			weekday: 'long',
+			month: 'long',
+			day: 'numeric',
+			year: 'numeric',
+		})}
+		<a href={event.url || '#'}>
+			<h3>{event.title}</h3>
+		</a>
+		{event.picture && (
+			<img
+				src={event.picture}
+			/>
+		)}
+		{event.description && <p>{event.description}</p>}
+		{showRegister && <div css="position: absolute; bottom: 0;">
+			<a href={event.url || '#'}><button>S'inscrire</button></a>
+		</div>}
+	</Card>
+)
+
 export default ({}) => {
-	const [data] = useContext(WikiContext)
 	return (
 		<section
 			css={`
-				h2 {
-					text-align: center;
+				header {
+					max-width: 800px;
 				}
-				h3 {
-					margin: 0.4rem 0;
+				header p {
+					margin: 0;
+					text-align: left;
 				}
 			`}
 		>
-			<header>
+			<header css="max-width: 66rem !important">
 				<Meta
 					title="Nos événements"
 					description="Découvrez nos événements à venir : ateliers, conférences, discussions techniques, etc."
 				/>
-				<Title colors={[colors.jaune, colors.jauneVert]}>Les événements </Title>
+				<h2>Les événements</h2>
 				<Newsletter />
 			</header>
+
 			<CardList>
-				{sortBy('data.startDate')(data)
-					.reverse()
-					.map((data) => (
-						<Card>
-							{new Date(data.data.startDate).toLocaleString('fr-FR', {
-								weekday: 'long',
-								month: 'long',
-								day: 'numeric',
-								year: 'numeric',
-							})}
-							<a href={data.fullurl || '#'}>
-								<h3>{data.title}</h3>
-							</a>
-							{data.data.Tags && (
-								<Tags>
-									{data.data.Tags.split(',').map((tag) => (
-										<li>{tag}</li>
-									))}
-								</Tags>
-							)}
-							{data.data.Main_Picture && (
-								<img
-									src={
-										'https://wiki.lafabriquedesmobilites.fr/wiki/Special:Filepath/' +
-										data.data.Main_Picture
-									}
-								/>
-							)}
-							{/* 
-						data.data.shortDescription &&
-							data.data.shortDescription.trim() !== data.title && (
-								<p>{data.data.shortDescription}</p>
-							)*/}
-						</Card>
+				{sortBy('date')(futureEvents)
+					.map((event, index) => (
+						<EvtCard event={event} index={index} showRegister={true}></EvtCard>
 					))}
 			</CardList>
-
-			<div
-				css={`
-					background: var(--color-secondary);
-					max-width: 400px;
-					margin: 0 auto;
-					padding: 1rem 4rem;
-					a {
-						color: black;
-					}
-				`}
-			>
-				<a href="https://wiki.lafabriquedesmobilites.fr/wiki/Evénements">
-					Explorer tous les événements sur le wiki
-				</a>
+			<div css="max-width: 66rem; margin: auto;">
+				<h2>Événements passés</h2>
 			</div>
+			<CardList>
+				{sortBy('date')(pastEvents)
+					.reverse()
+					.map((event, index) => (
+						<EvtCard event={event} index={index} showRegister={false}></EvtCard>
+					))}
+			</CardList>
 		</section>
 	)
 }

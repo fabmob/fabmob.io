@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import Nav2 from 'Components/Nav2'
 import Communs from './Communs'
 import Publications from './Publications'
+import Événéments from './Événements'
 
 export default () => (
 	<div
@@ -41,11 +42,15 @@ export default () => (
 				<Route path="/activités/publications">
 					<Publications />
 				</Route>
+				<Route path="/activités/événements">
+					<Événéments />
+				</Route>
 			</Switch>
 		</div>
 	</div>
 )
 export const navData = {
 	'/activités/communs': 'Nos communs',
-	'/activités/publications': 'Nos publications'
+	'/activités/publications': 'Nos publications',
+	'/activités/événements': 'Nos événements'
 }
