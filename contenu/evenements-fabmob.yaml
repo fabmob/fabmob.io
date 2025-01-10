@@ -1,6 +1,9 @@
 - date: 2025-02-04
   title: Webinaire Mécénat
-  description: La Fabrique des Mobilités est désormais d'intérêt général, parlons mécénat.
+  description: L'association La Fabrique des Mobilités a été reconnue d'intérêt général en novembre 2024. 
+    Venez découvrir les nouvelles possibilités de collaboration avec vous que ce statut ouvre ! 
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-mecenat-via-la-fabmob
+  picture: https://cdn.helloasso.com/img/photos/evenements/croppedimage-f0634ac1d706450783843c5c83cf6627.png?resize=fit:500:360
 
 - date: 2024-12-19
   title: Webinaire Restitution Baromètre des MAS 2024
@@ -9,16 +12,40 @@
     Venez découvrir les résultats 2024 et les évolutions d'adoption des standards depuis 2022.
   picture: https://cdn.helloasso.com/img/photos/evenements/croppedimage-aa6f4d053aea432d84fd1b9025c964e0.png?resize=fit:500:360
 
+- date: 2024-12-11
+  title: Cocktail de fin d'année de l'écosystème Fabmob 2024
+  description: L’ensemble de l’équipe de La Fabrique des Mobilités a le plaisir de vous inviter à son cocktail de fin d'année.
+    Cet évènement sera l’occasion pour nous de vous présenter le bilan de l’année 2024, nos projets et perspectives tout en vous permettant d'échanger entre acteurs de la mobilité.
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/cocktail-de-fin-d-annee-de-l-ecosysteme-fabmob-2024
+  picture: https://cdn.helloasso.com/img/photos/11%20decembre%202024%20-%20a%20partir%20de%2018h00%20aux%20arches%20citoyennes%203%20place%20de%20l%20hotel%20de%20ville%201-2e389045c72c43449259d1f30af223f7.gif
+
 - date: 2024-10-17
   title: Webinaire Panoramax
   url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-panoramax
   description: La Fabrique des Mobilités organise, en partenariat avec la DGTIM, un cycle de webinaire sur la thématique "Numérique & Mobilité". Pour cette première édition, nous avons choisi de présenter Panoramax, la ressource numérique développée par l'IGN & OpenStreetMap permettant la mise en commun et l'utilisation de photos de terrain.
   picture: https://cdn.helloasso.com/img/photos/vignette%20panoramax%205%20-3e44bd19e75e4557ba456cb7bf635ff8.png
 
-
 - date: 2024-11-13
   title: Webinaire Keyple
   url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-keyple-et-opensource
   description: Outil d’implémentation Open Source d’un standard - L’expérience de Keyple au service des utilisateurs du standard Calypso
   picture: https://cdn.helloasso.com/img/photos/vignette%20keyple%202%202%20-36ef748ea41349d3b6af940e1bcf7ea5.png
+
+- date: 2024-08-30
+  title: Comment déployer un système MaaS sur un territoire ?
+  description: Quelques débats d'actualité tirés de la formation ENPC - FabMob
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/comment-deployer-un-systeme-maas-sur-un-territoire
+  picture: https://cdn.helloasso.com/img/photos/webinaire%20vignette%20maas-5d9879f843634955be3e5b0fc23e5851.png
+
+- date: 2024-07-02
+  title: Cocktail de l'été des adhérents et partenaires Fabmob 2024
+  description: Cet évènement sera l’occasion pour nous de vous présenter un bilan de l’année 2023-2024, nos projets en cours ainsi que les perspectives de l’association. Ces présentations seront suivies d’un cocktail.
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/cocktail-de-l-ete-des-adherents-et-partenaires-fabmob-2024
+  picture: https://cdn.helloasso.com/img/photos/2%20juillet-f3ff015efc1b4fe4a2588740b96f42ac.png
+
+- date: 2024-06-18
+  title: Numérique et Mobilité
+  description: La Fabrique des mobilités organise un événement de restitution des différents travaux qu'elle a menés ces derniers mois sur les infrastructures numériques de mobilité, la marche et les espaces publics.
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/planification-ecologique-marche-espaces-publics-et-infras-numeriques
+  picture: https://cdn.helloasso.com/img/photos/numerique%20mobilite-f178d4799fee4fa4a8329c2ad26f8690.png
 
