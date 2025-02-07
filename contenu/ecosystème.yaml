@@ -95,6 +95,7 @@ Partenaires:
   - nom : Agence de l'Innovation pour les Transports
     siteweb : https://www.ecologie.gouv.fr/agence-innovation-transports
     image: /images/partenaires/AIT-logo-min.png
+    interview: /blog/partenaire_ait
   - nom : Agence Française de Développement
     siteweb : https://www.afd.fr/fr
     image: /images/partenaires/AFD-logo.png
@@ -113,6 +114,7 @@ Partenaires:
   - nom : Aveli
     image: /images/partenaires/aveli-logo.png
     siteweb : https://www.aveli.org
+    interview: /blog/partenaire_aveli
   - nom : Paris & co
     image : /images/partenaires/logo-parisandco-bleu.svg
     siteweb : https://www.parisandco.com/
@@ -131,9 +133,11 @@ Adherents:
   - nom : Kisio
     siteweb : https://kisio.com/
     image: /images/partenaires/kisio-logo.png
+    interview: /blog/adherent_kisio
   - nom : Flowbird
     siteweb : https://flowbird.fr/
     image: /images/partenaires/flowbird-logo.jpg
+    interview: /blog/adherent_flowbird
   - nom : Département de l'Isère
     siteweb : https://www.isere.fr/
     image: /images/partenaires/Logo_Département_Isère_2015.png
@@ -152,12 +156,14 @@ Adherents:
   - nom : Moho
     siteweb : https://www.moho.co/fr/
     image: /images/partenaires/moho-logo.png
+    interview: /blog/adherent_moho
   - nom : CIL4Sys
     siteweb : https://www.cil4sys.com/fr/
     image: /images/partenaires/cil4sys-logo.png
   - nom : floware
     siteweb : https://www.floware.fr/accueil
     image: /images/partenaires/floware-logo.jpg
+    interview: /blog/adherent_floware
   - nom : Ecole des ponts - Formation Continue
     siteweb : https://formation-continue.enpc.fr/
     image: /images/partenaires/PFC_logo.jpeg
@@ -185,15 +191,18 @@ Adherents:
   - nom : AREP
     siteweb : https://www.arep.fr/
     image: /images/partenaires/LOGO_AREP_CMJN.png
+    interview: /blog/adherent_arep
   - nom: In'VD Innovation Véhicules Doux
     siteweb: https://invd.fr/
     image: /images/partenaires/logo in'VD.jpg
+    interview: /blog/adherent_invd
   - nom: Union des Transports Publics et Ferroviares
     siteweb: https://www.utpf-mobilites.fr/
     image: /images/partenaires/UTPF_Logo_Signature_Orange_RVB(1).png
   - nom : SNCF
     siteweb: https://ressources.data.sncf.com/pages/accueil/
     image: /images/partenaires/Logo_SNCF_2011.svg.png
+    interview: /blog/adherent_sncf
   - nom: Orbimob
     siteweb: https://www.orbimob.org/
     image: /images/partenaires/Logo Orbimob V1.jpg
@@ -201,6 +210,7 @@ Adherents:
   - nom: Someware
     siteweb: https://www.someware.fr/ 
     image: /images/partenaires/Logo Someware.svg
+    interview: /blog/adherent_someware
   - nom : Multi
     siteweb: https://www.multi.coop/
     image: /images/partenaires/logo_multi.svg

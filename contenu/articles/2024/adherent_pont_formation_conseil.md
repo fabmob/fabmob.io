@@ -3,7 +3,7 @@ titre: "[Parole d'adhérent] École des ponts - Formation Continue"
 date: 2024-07-25
 image: "/images/partenaires/PFC_logo.jpeg"
 
-résumé: "Entretien avec Ponts Formation Conseil collaborateur depuis 2 ans pour proposer des formations sur les sujets du MaaS"
+résumé: "Entretien avec Ponts Formation Conseil, collaborateur depuis 2 ans pour proposer des formations sur les sujets du MaaS"
 
 categories: 
   - articles
