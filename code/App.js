@@ -4,7 +4,7 @@ import React, {
 	Suspense,
 	createContext,
 	useEffect,
-	useState,
+	useState
 } from 'react'
 import { createGlobalStyle } from 'styled-components'
 import {
@@ -13,6 +13,7 @@ import {
 	Route,
 	Link,
 	Redirect,
+	useLocation
 } from 'react-router-dom'
 import Nav from './Nav'
 import Footer from './Footer'
@@ -53,12 +54,23 @@ export const WikiContextProvider = (props) => {
 	)
 }
 
+const ScrollToTop = () => {
+	const { pathname } = useLocation();
+  
+	useEffect(() => {
+	  window.scrollTo(0, 0);
+	}, [pathname]);
+  
+	return null;
+  }
+
 // is this a good idea ? Would it be quicker for the user to load as .css in index.html ?
 const GlobalStyle = createGlobalStyle`${css}`
 const Container = () => (
 	<WikiContextProvider>
 		<GlobalStyle />
 		<Router>
+			<ScrollToTop/>
 			<Meta />
 			<Nav />
 			<Switch>
