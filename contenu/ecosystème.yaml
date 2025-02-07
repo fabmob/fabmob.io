@@ -161,9 +161,11 @@ Adherents:
   - nom : Ecole des ponts - Formation Continue
     siteweb : https://formation-continue.enpc.fr/
     image: /images/partenaires/PFC_logo.jpeg
+    interview: /blog/adherent_pont_formation_conseil
   - nom : 1km à pied 
     siteweb : https://www.1kmapied.com/
     image: /images/partenaires/1kmapied-logo.gif
+    interview: /blog/adherent_1km_a_pied
   - nom : Département des Alpes Maritimes
     siteweb : https://www.departement06.fr/departement-des-alpes-maritimes-3.html
     image: /images/partenaires/logo-departement06.png
@@ -173,6 +175,7 @@ Adherents:
   - nom : Compagnie Française des Transports Régionaux
     siteweb : https://www.reseaux-cftr.com/
     image: /images/partenaires/CFTR - LOGO.png
+    interview: /blog/adherent_cftr
   - nom : Birò France
     siteweb : https://birofrance.net/
     image: /images/partenaires/Birò_black logo.jpg
@@ -194,6 +197,7 @@ Adherents:
   - nom: Orbimob
     siteweb: https://www.orbimob.org/
     image: /images/partenaires/Logo Orbimob V1.jpg
+    interview: /blog/adherent_orbimob
   - nom: Someware
     siteweb: https://www.someware.fr/ 
     image: /images/partenaires/Logo Someware.svg

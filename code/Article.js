@@ -11,6 +11,7 @@ import { EmailContact } from './components/Socials'
 import imaginairesIntroduction from 'Content/imaginaires-introduction.md'
 import Emoji from 'Components/Emoji'
 import OpenMoji from 'Components/OpenMoji'
+import { Link } from 'react-router-dom'
 
 export const couleurImaginaires = '#073dff'
 
@@ -61,7 +62,8 @@ export default ({ id: propId }) => {
 		author = auteur || article.attributes.author,
 		title = titre || article.attributes.title,
 		year = new Date(date).getFullYear(),
-		isImaginaire = tags && tags.includes('imaginaires')
+		isImaginaire = tags && tags.includes('imaginaires'),
+		isParoleAdherent = tags && tags.includes('parole_adherent')
 
 	const [lastEditDate, setLastEditDate] = useState(null)
 	getLastEdit(id, year, setLastEditDate)
@@ -183,6 +185,15 @@ border-width: .6rem
 					escapeHtml={false}
 				/>
 			</div>
+			{isParoleAdherent && (
+				<div>
+					<hr css="width: 100% !important;" />
+					<div css="display: flex; justify-content: space-evenly; flex-wrap: wrap; row-gap: 20px; button {margin: 0}">
+						<Link to="/à-propos/adherents_et_partenaires"><button>Découvrez nos autres adhérents</button></Link>
+						<Link to="/participer/pourquoiAdherer"><button>Découvrez comment nous rejoindre</button></Link>
+					</div>
+				</div>
+			)}
 		</ArticleStyle>
 	)
 }

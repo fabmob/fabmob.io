@@ -22,6 +22,7 @@ export default ({}) => (
 				width: calc(95% - 20rem);
 				@media (max-width: 800px) {
 					width: 100%;
+					box-sizing: border-box;
 				}
 				h1,
 				h2,
@@ -48,7 +49,7 @@ export default ({}) => (
 						<Articles />
 					</Route>
 					<Route path="/blog/">
-						<Articles year="2024" />
+						<Articles year="2025" />
 					</Route>
 				</Switch>
 			</Suspense>

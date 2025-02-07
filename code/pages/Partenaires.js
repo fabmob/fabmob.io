@@ -94,39 +94,49 @@ let Partenaires = ({ filter, location }) => (
 const Members = ({ data }) => (
 	<div css={`
 			display:flex;
-			justify-content: left;
+			justify-content: space-evenly;
 			flex-wrap: wrap;
 			aside {
-				display: flow-root;
-			}
-			a {
-				width: 100%;
+				display: flex;
+				width: 16rem;
 			}
 			div {
-				position: relative;
+				display: flex;
 				height: 150px;
-				width: 80%;
-				margin: auto;
 			}
 			img {
-				position: absolute;
-				max-width: 100%;
-				top: 0;
-				bottom: 0;
+				max-width: 80%;
+				max-height: 80%;
+				width: auto !important;
 				margin: auto !important;
 			}
-			@media (max-width: 800px) {
-				h3 {
-					font-size: 90%;
-				}
+			footer {
+				margin-top: auto !important;
+				display: flex;
+				justify-content: space-evenly;
+				padding: 0;
+				width: 100%;
+			}
+			button {
+				padding: 0.5rem;
+				margin: 0.5rem;
+				font-weight: normal;
+			}
+			h3 {
+				font-size: 100%;
+				text-transform: capitalize;
 			}
 		`}>
-		{shuffle(data).map(({ nom, image, siteweb }) => (
+		{shuffle(data).map(({ nom, image, siteweb, interview }) => (
 			<aside>
                 <a href={siteweb} target="_blank">
 					<div><img src={image} title={nom} /></div>
 					<h3>{nom}</h3>
 				</a>
+				<footer>
+					{siteweb && <a href={siteweb} target="_blank"><button>🌐 Site web</button></a>}
+					{interview && <Link to={interview}><button>💬 Interview</button></Link>}
+				</footer>
 			</aside>
 		))}
 	</div>
