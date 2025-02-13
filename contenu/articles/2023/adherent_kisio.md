@@ -1,7 +1,7 @@
 ---
 titre: "[Parole d'adhérent] Kisio"
 date: 2023-04-06
-image: "/images/partenaires/kisio-logo.png"
+image: "/images/partenaires/LOGO-KISIO_2_.png"
 
 résumé: "Entretien avec Kisio, adhérent FabMob."
 
