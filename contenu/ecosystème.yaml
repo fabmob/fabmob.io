@@ -7,10 +7,6 @@ L'équipe:
     rôle: Directeur projets
     image: /images/nous/ghislain.jpg
     linkedin: https://www.linkedin.com/in/ghislaindelabie
-  - nom: Antoine Dupont
-    rôle: Directeur général 
-    image: /images/nous/antoine.jpeg
-    linkedin: https://www.linkedin.com/in/antoinedpnt
   - nom: Alex Bourreau
     rôle: Responsable technique 
     image: /images/nous/alex.png
@@ -68,6 +64,12 @@ Le conseil d'administration:
     linkedin: https://www.linkedin.com/in/laurewagner/
     structure: 1km à Pied
     lienstructure: https://www.1kmapied.com/    
+   - nom: Maxime Siret
+    rôle: Membre 
+    image: /images/nous/Maxime_siret.jpg
+    linkedin: https://www.linkedin.com/in/maximesiret/?originalSubdomain=fr
+    structure: intrapreneur beta.gouv
+    lienstructure: https://transport.data.gouv.fr/ 
 
 
 
