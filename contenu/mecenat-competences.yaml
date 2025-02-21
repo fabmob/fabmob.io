@@ -1,0 +1,149 @@
+- titre: Mission de developpement pour Aequilibrae
+  description:
+    "* Automatisation des tests
+
+    * Documentation technique
+
+    * Documentation d’exemples d’utilisation de l’outil : sur le site ou par vidéo ; pour répondre aux 2 cas rencontrés le plus souvent parmi ceux qui découvrent l’outil (les « impatients » et les « timides »)"
+  poste: Développeur·se
+  commun: Aequilibrae
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/e/e1/Aequilibrae.PNG
+  dateDebut: 2025-02-04
+  dateFin: '' 
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Commun_Aequilibrae
+
+- titre: Missions projet pour Aequilibrae
+  description:
+    "* Accompagnement juridique
+
+    * Veille sur les opportunités de financement (ex. Appels à commun et financement ADEME, caisse des dépôts,
+    collectivités, ...)
+
+    * Présentation/publicité auprès de collectivités ou dautres bureaux d’études (de façon plus neutre)
+
+    * Support au contact avec les labos de recherche"
+  poste: Contributeur·trice polyvalent·e
+  commun: Aequilibrae
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/e/e1/Aequilibrae.PNG
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Commun_Aequilibrae
+
+- titre: Missions produit pour Panoramax
+  description:
+    "* Développement d’un plugin Panoramax pour QGIS —> besoin de préfiguration (préciser les besoins exacts)
+
+    * Compétences UX/UI design pour appli mobile et web - notamment inclusion et accessibilité
+    
+    * Détections d’objets par IA :
+    
+    \t* détection et localisation des panneaux
+      
+    \t* affichage/visualisation depuis l’interface
+      
+    \t* ajout d’autres thématiques (exemple : nids de poule pour les collectivités)"
+  poste: Développeur·se
+  commun: Panoramax
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/3/38/Vues-immersives-libres.png
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Panoramax
+
+- titre: Communication pour Panoramax
+  description:
+    "* Graphisme : créer une identité visuelle, une charte graphique, refonte logo, templates, visuels, flyers, etc.
+
+    * Création de tutos vidéos (prise de photos et versement, etc.)"
+  poste: Chargé·e de communication
+  commun: Panoramax
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/3/38/Vues-immersives-libres.png
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Panoramax
+
+- titre: Missions projet pour Panoramax
+  description:
+    "* Approfondissement de notre mesure d’impact, état des lieux et suivi, repérage de nouveaux indicateurs
+
+    * Ceci ne demanderait pas seulement de l’accompagnement mais aussi potentiellement du temps de dev"
+  poste: Développeur·se
+  commun: Panoramax
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/3/38/Vues-immersives-libres.png
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Panoramax
+
+- titre: Chargé·e d'étude mobilité pour Starling
+  description: "* Documentation d’un cas démo d'application de Starling, proche de besoins des territoires"
+  poste: Chargé·e d'étude mobilité
+  commun: Starling
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/8/86/Starling-viz.gif
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Starling
+
+- titre: Mission de développement pour Starling
+  description: "* améliorer les tests
+
+    * améliorer la modularité du code
+
+    * améliorer le code globalement"
+  poste: Développeur·se
+  commun: Starling
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/8/86/Starling-viz.gif
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Starling
+
+- titre: Data analyst pour Eqasim
+  description: 
+    "* Analyse des données de sortie
+
+    * Comparaison avec d'autres données
+
+    * Validation des algorithmes"
+  poste: Data analyst
+  commun: Eqasim
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/a/a3/Eqasim.jpg
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Eqasim
+
+- titre: Mission de modélisation pour Eqasim
+  description: "* travailler sur les algorithmes afin de résoudre les points détectés par l'analyse des données de sortie du model actuel"
+  poste: Développeur·se
+  commun: Eqasim
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/a/a3/Eqasim.jpg
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Eqasim
+
+
+- titre: Missions projet et gouvernance pour le Diagnostic Mobilité
+  description: "* Aide sur le modèle économique et la structure : à partir des enjeux identifiés et acteurs intéressés, quelles options sont cohérentes ? Quelle structuration du projet associée ? Quelle articulation entre acteurs privés et acteurs publics ?
+
+    * Aide pour structurer la gouvernance : anticiper des potentiels points bloquants, lister les situations qui appellent à un processus de décision, par qui, comment ? comment mettre en œuvre la gouvernance concrètement ?
+
+    * Aide au choix de licence : selon le modèle économique identifié, quelle licence est adaptée ?"
+  poste: Contributeur·trice polyvalent·e
+  commun: Diagnostic Mobilité
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/c/cd/Outil1l.jpg
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Diagnostic_Mobilit%C3%A9
+
+
+- titre: Mission produit pour Coloc'Auto
+  description: "
+    * Design du process d’onboarding : créer la page de log-in, permettre la création d’un compte personnel
+    
+    * Rédaction de documentation technique
+    
+    * Rédaction de documentation d’usage"
+  poste: Développeur·se, Designer, Rédacteur·trice technique
+  commun: Coloc'Auto
+  image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/c/c1/Capture-decran-2023-09-29-a-17.09.53-870x435.png
+  dateDebut: 2025-02-04
+  dateFin: ''
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Coloc%27Auto
+

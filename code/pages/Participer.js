@@ -7,6 +7,7 @@ import colors from 'Components/colors'
 import Meta from '../Meta'
 import Nav2 from 'Components/Nav2'
 import pages from 'Code/getContent.js'
+import MecenatCompetences from './MecenatCompetences'
 
 export default () => (
 	<div
@@ -45,6 +46,9 @@ export default () => (
 				<Route exact path="/participer/tarifs">
 					<Tarifs />
 				</Route>
+				<Route exact path="/participer/mecenat">
+					<MecenatCompetences />
+				</Route>
 				{/* <Route exact path="/participer/commentRejoindreProjet">
 					<CommentRejoindreProjet />
 				</Route> */}
@@ -64,6 +68,7 @@ export default () => (
 export const navData = {
 	'/participer/pourquoiAdherer': 'Pourquoi adhérer ?',
 	'/participer/tarifs': 'Tarifs',
+	'/participer/mecenat': 'Mécenat de compétences',
 	// '/participer/commentRejoindreProjet': 'Comment rejoindre un projet ?',
 	'/participer/outils': 'Nos outils',
 }
