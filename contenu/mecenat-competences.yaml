@@ -135,12 +135,10 @@
 
 - titre: Mission produit pour Coloc'Auto
   description: "
-    * Design du process d’onboarding : créer la page de log-in, permettre la création d’un compte personnel
-    
     * Rédaction de documentation technique
     
     * Rédaction de documentation d’usage"
-  poste: Développeur·se, Designer, Rédacteur·trice technique
+  poste: Rédacteur·trice technique
   commun: Coloc'Auto
   image: https://wiki.lafabriquedesmobilites.fr/images/fabmob/c/c1/Capture-decran-2023-09-29-a-17.09.53-870x435.png
   dateDebut: 2025-02-04
