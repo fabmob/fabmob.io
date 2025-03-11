@@ -265,7 +265,7 @@ const Tarifs = () => {
 						<th>Type</th>
 						<th>Taille</th>
 						<th>Tarif</th>
-						{showFullPrice && <th>Tarif sans réduction d'impôts</th>}
+						{showFullPrice && <th>Tarif avant réduction d'impôts</th>}
 					</tr>
 					<tr>
 						<td rowSpan="5">Entreprises</td>
@@ -338,7 +338,7 @@ const Tarifs = () => {
 				<p><b>* Entreprises de 11 personnes et plus : Explications</b></p>
 				<p>La FabMob est reconnue d’intérêt général depuis novembre 2024 au titre de ses activités d’innovation ouverte envers la mobilité durable.</p>
 				<p>A ce titre, toute organisation soumise à l’impôt sur le revenu (IR) ou sur les sociétés (IS) est éligible à une <b>réduction d’impôt de 60% sur le montant de leur adhésion</b>. Cette réduction d’impôt est applicable à la fin de l’année fiscale. Elle est à justifier auprès de l’administration fiscale par un reçu fiscal, émis par la FabMob.</p>
-				<p>Pour les entreprises, <i>le tarif indiqué est le tarif après réduction d’impôt.</i> <a onClick={() => setShowFullPrice(true)} href='#'>Cliquez ici pour afficher les tarifs sans réduction.</a></p>
+				<p>Pour les entreprises, <i>le tarif indiqué est le tarif après réduction d’impôt.</i> <a onClick={() => setShowFullPrice(true)} href='#'>Cliquez ici pour afficher les tarifs avant réduction.</a></p>
 				<p>Cette réduction est valable pour toute organisation quel que soit son statut. En pratique, cependant, seules les entreprises de 11 personnes et plus sont soumises à l’impôt parmi nos adhérents. C’est pourquoi, pour tous les autres adhérents (hors entreprises de 11 personnes et plus), les tarifs affichés ne tiennent pas compte d’une réduction d’impôt.</p>
 			</div>
 			<div
