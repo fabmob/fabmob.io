@@ -235,132 +235,150 @@ const Content = () => (
 		</div>
 	</div>
 )
-const Tarifs = () => (
-	
-	<div>
-		<header>
-			<Title colors={[colors.jaune, colors.jauneVert]}>Tarifs</Title>
-			<Meta
-				title="Participez en pratique !"
-				description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
-			/>
-		</header>
-		
+const Tarifs = () => {
+	const [showFullPrice, setShowFullPrice] = React.useState(false)
+	return (
 		<div css={`
-			table {
-				margin: auto
-			}
-			table, tr, td, th {
-				border: 1px solid var(--color-bg-secondary);
-			}
-			.tddesc { text-align: left }
-		`}>
-			<table>
-				<tr>		
-					<th>Type</th>
-					<th>Taille</th>
-					<th>Tarif*</th>
-				</tr>
-				<tr>
-					<td rowSpan="5">Entreprises</td>
-					<td className="tddesc">1 à 10 personnes</td>
-					<td>300 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">11 à 50 personnes</td>
-					<td>700 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">51 à 200 personnes</td>
-					<td>1 500 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">201 à 1000 personnes</td>
-					<td>2 500 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">1000+ personnes</td>
-					<td>4 000 €</td>
-				</tr>
-				<tr>
-					<td rowSpan="5">Associations et fondations</td>
-					<td className="tddesc">1 à 10 personnes</td>
-					<td>240 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">11 à 50 personnes</td>
-					<td>560 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">51 à 200 personnes</td>
-					<td>1 200 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">201 à 1000 personnes</td>
-					<td>2 000 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">1000+ personnes</td>
-					<td>3 200 €</td>
-				</tr>
-				<tr>
-					<td rowSpan="2">Etablissements d'enseignement et organismes de recherche</td>
-					<td className="tddesc">individuel</td>
-					<td>1 500 €</td>
-				</tr>
-				<tr>
-					<td className="tddesc">groupement</td>
-					<td>3 500 €</td>
-				</tr>
-				<tr>
-					<td>Collectivités territoriales</td>
-					<td className="tddesc"></td>
-					<td>3 000 €</td>
-				</tr>
-				<tr>
-					<td>Agences d'état et ministères</td>
-					<td className="tddesc"></td>
-					<td>4 000 €</td>
-				</tr>
-			</table>
-		</div>
-		<div css="margin: 0.4rem; text-align: center; font-style: italic">
-			<p>*toute structure adhérente à une autre fabrique bénéficie d'une réduction de 20% sur son adhésion à la Fabrique des Mobilités</p>
-			<p>Une adhésion est valable 12 mois</p>
-		</div>
-		<div
-			css={`
-				> div {
-					display: flex;
-					flex-wrap: wrap;
-					align-items: center;
-					justify-content: center;
-					margin-bottom: 1rem;
+				@media (min-width: 900px) {
+					width: 80%;
+					margin: auto;
 				}
-
-				> div p {
-					margin: 0 1rem;
-					width: 20rem;
+			`}>
+			<header>
+				<Title colors={[colors.jaune, colors.jauneVert]}>Tarifs</Title>
+				<Meta
+					title="Participez en pratique !"
+					description="Nous mettons à disposition de nos adhérents et de notre communauté tous les meilleurs outils open source pour échanger et travailler efficacement."
+				/>
+			</header>
+			
+			<div css={`
+				table {
+					margin: auto;
+					width: 100%;
 				}
-				> div button {
-					margin-top: 0.6rem;
-					width: 20rem;
+				table, tr, td, th {
+					border: 1px solid var(--color-bg-secondary);
 				}
-			`}
-		>
-			<div css="">
-				<p>La Fabrique est une association 1901.</p>
-				<a
-					href="mailto:contact@fabmob.io?subject=Demande d'adhésion à la fabrique"
-					target="_blank"
-				>
-					<button>Adhérer à FabMob France</button>
-				</a>
+				.tddesc { text-align: left }
+				.price {
+					white-space: nowrap;
+				}
+			`}>
+				<table>
+					<tr>		
+						<th>Type</th>
+						<th>Taille</th>
+						<th>Tarif</th>
+						{showFullPrice && <th>Tarif avant réduction d'impôts</th>}
+					</tr>
+					<tr>
+						<td rowSpan="5">Entreprises</td>
+						<td className="tddesc">1 à 10 personnes</td>
+						<td class="price">300 €</td>
+					</tr>
+					<tr>
+						<td className="tddesc">11 à 50 personnes</td>
+						<td class="price">665 €*</td>
+						{showFullPrice && <td class="price">1 662,5 €</td>}
+					</tr>
+					<tr>
+						<td className="tddesc">51 à 200 personnes</td>
+						<td class="price">1 440 €*</td>
+						{showFullPrice && <td class="price">3 600 €</td>}
+					</tr>
+					<tr>
+						<td className="tddesc">201 à 1000 personnes</td>
+						<td class="price">2 400 €*</td>
+						{showFullPrice && <td class="price">6 000 €</td>}
+					</tr>
+					<tr>
+						<td className="tddesc">1000+ personnes</td>
+						<td class="price">3 800 €*</td>
+						{showFullPrice && <td class="price">9 500 €</td>}
+					</tr>
+					<tr>
+						<td rowSpan="5">Associations et fondations</td>
+						<td className="tddesc">1 à 10 personnes</td>
+						<td class="price">240 €</td>
+					</tr>
+					<tr>
+						<td className="tddesc">11 à 50 personnes</td>
+						<td class="price">745 €</td>
+					</tr>
+					<tr>
+						<td className="tddesc">51 à 200 personnes</td>
+						<td class="price">1 600 €</td>
+					</tr>
+					<tr>
+						<td className="tddesc">201 à 1000 personnes</td>
+						<td class="price">2 600 €</td>
+					</tr>
+					<tr>
+						<td className="tddesc">1000+ personnes</td>
+						<td class="price">4 200 €</td>
+					</tr>
+					<tr>
+						<td rowSpan="2">Etablissements d'enseignement et organismes de recherche</td>
+						<td className="tddesc">individuel</td>
+						<td class="price">1 995 €</td>
+					</tr>
+					<tr>
+						<td className="tddesc">groupement</td>
+						<td class="price">4 600 €</td>
+					</tr>
+					<tr>
+						<td>Collectivités territoriales</td>
+						<td className="tddesc"></td>
+						<td class="price">3 900 €</td>
+					</tr>
+					<tr>
+						<td>Agences d'état et ministères</td>
+						<td className="tddesc"></td>
+						<td class="price">5 300 €</td>
+					</tr>
+				</table>
 			</div>
+			<div css="margin: 0.4rem;">
+				<p><b>* Entreprises de 11 personnes et plus : Explications</b></p>
+				<p>La FabMob est reconnue d’intérêt général depuis novembre 2024 au titre de ses activités d’innovation ouverte envers la mobilité durable.</p>
+				<p>A ce titre, toute organisation soumise à l’impôt sur le revenu (IR) ou sur les sociétés (IS) est éligible à une <b>réduction d’impôt de 60% sur le montant de leur adhésion</b>. Cette réduction d’impôt est applicable à la fin de l’année fiscale. Elle est à justifier auprès de l’administration fiscale par un reçu fiscal, émis par la FabMob.</p>
+				<p>Pour les entreprises, <i>le tarif indiqué est le tarif après réduction d’impôt.</i> <a onClick={() => setShowFullPrice(true)} href='#'>Cliquez ici pour afficher les tarifs avant réduction.</a></p>
+				<p>Cette réduction est valable pour toute organisation quel que soit son statut. En pratique, cependant, seules les entreprises de 11 personnes et plus sont soumises à l’impôt parmi nos adhérents. C’est pourquoi, pour tous les autres adhérents (hors entreprises de 11 personnes et plus), les tarifs affichés ne tiennent pas compte d’une réduction d’impôt.</p>
+			</div>
+			<div
+				css={`
+					> div {
+						display: flex;
+						flex-wrap: wrap;
+						align-items: center;
+						justify-content: center;
+						margin-bottom: 1rem;
+					}
 
+					> div p {
+						margin: 0 1rem;
+						width: 20rem;
+					}
+					> div button {
+						margin-top: 0.6rem;
+						width: 20rem;
+					}
+				`}
+			>
+				<div css="">
+					<a
+						href="mailto:contact@fabmob.io?subject=Demande d'adhésion à la fabrique"
+						target="_blank"
+					>
+						<button>Nous contacter pour adhérer</button>
+					</a>
+				</div>
+
+			</div>
 		</div>
-	</div>
-)
+	)
+}
 let Outils = () => (
 	<main>
 		<header>
