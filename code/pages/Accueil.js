@@ -83,7 +83,7 @@ export default () => {
 
 					</div>
 					<p css="font-size: 80%; font-style: italic">
-						La Fabrique des Mobilités est une association loi de 1901 soutenue par l'<a href="https://www.ademe.fr/" target='_blank'><Surligne>ADEME</Surligne></a>, 
+						La Fabrique des Mobilités est une association loi de 1901, reconnue d'intérêt général et soutenue par l'<a href="https://www.ademe.fr/" target='_blank'><Surligne>ADEME</Surligne></a>, 
 						l'<a href="https://www.ecologie.gouv.fr/agence-innovation-transports" target="_blank">
 							<Surligne>AIT</Surligne>
 						</a> ainsi qu'un ensemble d'<Link to="/à-propos/adherents_et_partenaires">
