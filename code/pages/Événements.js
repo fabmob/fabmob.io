@@ -18,14 +18,28 @@ export const Newsletter = () => (
 	</p>
 )
 
-export const EvtCard = ({ event, index, showRegister }) => (
-	<Card key={index} css="height: 30rem; width: 30rem; position: relative">
-		{new Date(event.date).toLocaleString('fr-FR', {
+export const EvtCard = ({ event, index, showRegister }) => {
+	let dateFmt
+	if (event.date.length > 10) { // Contains hours
+		dateFmt = new Date(event.date).toLocaleString('fr-FR', {
 			weekday: 'long',
 			month: 'long',
 			day: 'numeric',
 			year: 'numeric',
-		})}
+			hour: 'numeric',
+			minute: 'numeric'
+		})
+	} else {
+		dateFmt = new Date(event.date).toLocaleString('fr-FR', {
+			weekday: 'long',
+			month: 'long',
+			day: 'numeric',
+			year: 'numeric'
+		})
+	}
+	return (
+	<Card key={index} css="height: 30rem; width: 30rem; position: relative">
+		{dateFmt}
 		<a href={event.url || '#'}>
 			<h3>{event.title}</h3>
 		</a>
@@ -35,11 +49,11 @@ export const EvtCard = ({ event, index, showRegister }) => (
 			/>
 		)}
 		{event.description && <p>{event.description}</p>}
-		{showRegister && <div css="position: absolute; bottom: 0;">
+		{showRegister && event.url && <div css="position: absolute; bottom: 0;">
 			<a href={event.url || '#'}><button>S'inscrire</button></a>
 		</div>}
 	</Card>
-)
+)}
 
 export default ({}) => {
 	return (

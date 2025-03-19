@@ -1,3 +1,39 @@
+- date: 2025-04-15T09:00:00
+  title: "Webinaire - IA dans la Mobilité : Générative, Prédictive, et Opérationnelle"
+  description: Un webinaire proposé avec le soutien de la DGITM, pour établir un panorama des différents usages de l'IA dans la mobilité en 2025.
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/ia-dans-la-mobilite-generative-predictive-et-operationnelle
+  picture: /images/illustrations_evenements/2025-04-15-webinaire-IA.png
+
+- date: 2025-05-12
+  title: Webinaire Standards - NeTEx GTFS
+  description: Un webinaire proposé avec le soutien de la DGITM, pour y voir plus clair dans ces deux grand standards décrivant les offres de transports.
+  picture: /images/illustrations_evenements/2025-05-12-webinaire-standards-gtfs-netex.png
+
+- date: 2025-05-23
+  title: Webinaire Standards - Information en gares routières 	
+  description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'information voyageur en gares routières.
+  picture: /images/illustrations_evenements/2025-05-23-webinaire-standards-gares-routieres.png
+
+- date: 2025-06-10
+  title: Webinaire Standards - Transport en commun	
+  description: Un webinaire proposé avec le soutien de la DGITM sur la thématique de la standardisation des transports en commun.
+  picture: /images/illustrations_evenements/2025-06-10-webinaire-standards-TC.png
+
+- date: 2025-06-17
+  title: Webinaire - Indicateurs de marchabilité
+  description: Un webinaire intéractif, proposé avec le soutien de l'ADEME, pour réflechir ensemble aux indicateurs pour mesurer la marchabilité des territoires.
+  picture: /images/illustrations_evenements/2025-06-17-webinaire-indicateurs-marchabilite.png
+
+- date: 2025-06-24
+  title: Cocktail d'été FabMob
+  description: Cet évènement sera l'occasion de présenter les grandes actions de l'association et de ses membre au cours de ce premier semestre, ainsi que les perspectives de l'association. Ces présentations seront suivies d'un moment convivial autour d'un cocktail.
+  picture: /images/illustrations_evenements/2025-06-24-cocktail-ete.png
+
+- date: 2025-07-07
+  title: Webinaire Standards - Autopartage
+  description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'autopartage.
+  picture: /images/illustrations_evenements/2025-07-07-webinaire-standards-autopartage.png
+
 - date: 2025-02-04
   title: Webinaire Mécénat
   description: L'association La Fabrique des Mobilités a été reconnue d'intérêt général en novembre 2024. 
