@@ -140,9 +140,6 @@ Adherents:
     siteweb : https://flowbird.fr/
     image: /images/partenaires/flowbird-logo.jpg
     interview: /blog/adherent_flowbird
-  - nom : Département de l'Isère
-    siteweb : https://www.isere.fr/
-    image: /images/partenaires/Logo_Département_Isère_2015.png
   - nom : Michelin
     siteweb : https://www.michelin.fr/
     image: /images/partenaires/Michelin-logo.png
@@ -175,9 +172,6 @@ Adherents:
   - nom : Département des Alpes Maritimes
     siteweb : https://www.departement06.fr/departement-des-alpes-maritimes-3.html
     image: /images/partenaires/logo-departement06.png
-  - nom : Université de Pau et des Pays de l'Adour
-    siteweb : https://tree.univ-pau.fr/fr/collaborations/partenariats/chaires/chaire-move.html
-    image: /images/partenaires/LogoUPPAcouleurRVB.png
   - nom : Compagnie Française des Transports Régionaux
     siteweb : https://www.reseaux-cftr.com/
     image: /images/partenaires/CFTR - LOGO.png
