@@ -143,9 +143,6 @@ Adherents:
   - nom : Michelin
     siteweb : https://www.michelin.fr/
     image: /images/partenaires/Michelin-logo.png
-  - nom : France Quadricycle
-    siteweb : https://francequadricycle.fr/
-    image: /images/partenaires/francequadricycle-logo.png
   - nom : La Fabrique de la logistique
     siteweb : https://www.lafabriquedelalogistique.fr/
     image: /images/partenaires/fablog-logo.png
@@ -157,10 +154,6 @@ Adherents:
   - nom : CIL4Sys
     siteweb : https://www.cil4sys.com/fr/
     image: /images/partenaires/cil4sys-logo.png
-  - nom : floware
-    siteweb : https://www.floware.fr/accueil
-    image: /images/partenaires/floware-logo.jpg
-    interview: /blog/adherent_floware
   - nom : Ecole des ponts - Formation Continue
     siteweb : https://formation-continue.enpc.fr/
     image: /images/partenaires/PFC_logo.jpeg
