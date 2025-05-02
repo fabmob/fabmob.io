@@ -1,16 +1,17 @@
 - date: 2025-04-15T09:00:00
   title: "Webinaire - IA dans la Mobilité : Générative, Prédictive, et Opérationnelle"
   description: Un webinaire proposé avec le soutien de la DGITM, pour établir un panorama des différents usages de l'IA dans la mobilité en 2025.
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/ia-dans-la-mobilite-generative-predictive-et-operationnelle
+  url: https://www.youtube.com/watch?v=caBqibcuFSE
   picture: /images/illustrations_evenements/2025-04-15-webinaire-IA.png
 
-- date: 2025-05-12
-  title: Webinaire Standards - NeTEx GTFS
-  description: Un webinaire proposé avec le soutien de la DGITM, pour y voir plus clair dans ces deux grand standards décrivant les offres de transports.
+- date: 2025-05-12T09:00:00
+  title: "Webinaire - De GTFS à NeTEx : quel avenir pour les standards de l'information voyageur"
+  description: Un webinaire proposé avec le soutien de la DGITM, pour décortiquer les cas d'usages qui peuvent justifier un investissement dans l'évolution des SI vers NeTEx/SIRI, et les bonnes pratiques pour mener un tel projet.
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/de-gtfs-a-netex-quel-avenir-pour-les-standards-de-l-information-voyageur
   picture: /images/illustrations_evenements/2025-05-12-webinaire-standards-gtfs-netex.png
 
-- date: 2025-05-23
-  title: Webinaire Standards - Information en gares routières 	
+- date: 2025-05-23T09:00:00
+  title: Webinaire - Information multimodale dans les gares routières et dans la poche des voyageurs, améliorer l'expérience des services de car
   description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'information voyageur en gares routières.
   picture: /images/illustrations_evenements/2025-05-23-webinaire-standards-gares-routieres.png
 
