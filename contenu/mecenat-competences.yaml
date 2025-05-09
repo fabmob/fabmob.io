@@ -1,4 +1,44 @@
+- titre: Mission d'UI/UX pour La Fabrique des Mobilités
+  id: 12
+  description:
+    "
+    La Fabrique des Mobilités est une association d'intérêt général agissant sur les verrous de la décarbonation de la mobilité.
+
+
+    Nous travaillons en ce moment sur le sujet des cohortes de mobilités, qui permettent un suivi longitudinal des déplacements pour mieux comprendre l'effet des politiques publiques de décarbonation de la mobilité.
+
+
+    Dans ce contexte, nous explorons l'apport que peuvent avoir apps mobiles géolocalisées pour faciliter la réalisation de ces cohortes.
+
+
+    Nous ouvrons donc une courte mission d'UI/UX, sous forme de bénévolat ou mécénat de compétence, avec pour objectifs:
+
+    - Explorer avec nous les freins aux cohortes actuelles et les apports possibles des apps mobiles et des capteurs intégrés (GPS).
+
+    - Maquetter un parcours mobile idéal et respectueux des données personnelles pour enquêter les participants au sein d'applications mobiles existantes. En s'inspirant des parcours existants dans les apps de mobilité (Partenaires Fabmob: [NREL OpenPath](https://play.google.com/store/apps/details?id=gov.nrel.cims.openpath&hl=fr), [Moovance](https://www.moovance.fr/), [CozyCloud](https://cozy.io/). Autres Apps: Idfm, Google Maps, Apps d'enquête, etc.).
+
+    - Partager ces rendus et apprentissages sous licence libre (Creative Commons) pour en faire bénéficier le plus grand nombre possible d'acteurs.
+
+
+    Dans le cadre d'un mécénat de compétences, la mission est éligible à une réduction d'impôt de 60% du montant estimé de la prestation. Nous estimons la missions à quelques jours de travail, mais c'est au répondant de proposer un chiffre adapté.
+
+
+    Pour en savoir plus:
+
+    - [Notre état des lieux sur les cohortes de mobilités](https://wiki.lafabriquedesmobilites.fr/wiki/Cohorte_de_mobilit%C3%A9_:_%C3%A9tat_de_l'art).
+
+    - [Notre programme 'Connaissance des Mobilités', qui intègre ces travaux, avec le soutien de l'ADEME](https://wiki.lafabriquedesmobilites.fr/wiki/Programme_%E2%80%9CConnaissance_des_mobilit%C3%A9s%E2%80%9D).
+
+    - [Notre commun 'Tracemob' visant à utiliser les smartphones pour mieux comprendre l'impact des déplacements](https://wiki.lafabriquedesmobilites.fr/wiki/Tracemob).
+    "
+  poste: Designer UI/UX
+  commun: La Fabrique des Mobilités
+  image: /images/fabmob_cmjn1.svg
+  dateDebut: 2025-05-01
+  dateFin: 2025-06-30 
+
 - titre: Mission de developpement pour Aequilibrae
+  id: 1
   description:
     "* Automatisation des tests
 
@@ -13,6 +53,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Commun_Aequilibrae
 
 - titre: Missions projet pour Aequilibrae
+  id: 2
   description:
     "* Accompagnement juridique
 
@@ -30,6 +71,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Commun_Aequilibrae
 
 - titre: Missions produit pour Panoramax
+  id: 3
   description:
     "* Développement d’un plugin Panoramax pour QGIS —> besoin de préfiguration (préciser les besoins exacts)
 
@@ -50,6 +92,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Panoramax
 
 - titre: Communication pour Panoramax
+  id: 4
   description:
     "* Graphisme : créer une identité visuelle, une charte graphique, refonte logo, templates, visuels, flyers, etc.
 
@@ -62,6 +105,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Panoramax
 
 - titre: Missions projet pour Panoramax
+  id: 5
   description:
     "* Approfondissement de notre mesure d’impact, état des lieux et suivi, repérage de nouveaux indicateurs
 
@@ -74,6 +118,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Panoramax
 
 - titre: Chargé·e d'étude mobilité pour Starling
+  id: 6
   description: "* Documentation d’un cas démo d'application de Starling, proche de besoins des territoires"
   poste: Chargé·e d'étude mobilité
   commun: Starling
@@ -83,6 +128,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Starling
 
 - titre: Mission de développement pour Starling
+  id: 7
   description: "* améliorer les tests
 
     * améliorer la modularité du code
@@ -96,6 +142,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Starling
 
 - titre: Data analyst pour Eqasim
+  id: 8
   description: 
     "* Analyse des données de sortie
 
@@ -110,6 +157,7 @@
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Eqasim
 
 - titre: Mission de modélisation pour Eqasim
+  id: 9
   description: "* travailler sur les algorithmes afin de résoudre les points détectés par l'analyse des données de sortie du model actuel"
   poste: Développeur·se
   commun: Eqasim
@@ -120,6 +168,7 @@
 
 
 - titre: Missions projet et gouvernance pour le Diagnostic Mobilité
+  id: 10
   description: "* Aide sur le modèle économique et la structure : à partir des enjeux identifiés et acteurs intéressés, quelles options sont cohérentes ? Quelle structuration du projet associée ? Quelle articulation entre acteurs privés et acteurs publics ?
 
     * Aide pour structurer la gouvernance : anticiper des potentiels points bloquants, lister les situations qui appellent à un processus de décision, par qui, comment ? comment mettre en œuvre la gouvernance concrètement ?
@@ -134,6 +183,7 @@
 
 
 - titre: Mission produit pour Coloc'Auto
+  id: 11
   description: "
     * Rédaction de documentation technique
     
@@ -144,4 +194,3 @@
   dateDebut: 2025-02-04
   dateFin: ''
   url: https://wiki.lafabriquedesmobilites.fr/wiki/Coloc%27Auto
-
