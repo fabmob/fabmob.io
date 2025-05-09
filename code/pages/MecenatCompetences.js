@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { Title } from '../UI'
 import Meta from '../Meta'
@@ -86,7 +87,7 @@ const MecenatVignette = ({missionMecenat}) => {
 					<ReactMarkdown source={description} />
 				</div>
 				<div>
-					<a href={url}><button>🔍 Plus d'informations</button></a>
+					{url && <a href={url}><button>🔍 Plus d'informations</button></a>}
 					<a href={`mailto:contact@fabmob.io?subject=Mission mécénat: ${titre}`}><button>📧 Nous contacter</button></a> 
 				</div>
 			</div>
@@ -97,6 +98,9 @@ const MecenatVignette = ({missionMecenat}) => {
 export default () => {
 	const [posteFilter, setPosteFilter] = useState({})
 	const [communFilter, setCommunFilter] = useState({})
+	const location = useLocation()
+	const params = new URLSearchParams(location.search)
+	const paramId = params.get("id")
 
 	useEffect(() => {
 		let postes = {}
@@ -109,6 +113,10 @@ export default () => {
 		setCommunFilter(communs)
 	}, [])
 	const filterMissions = (mission) => {
+		// If a specific mission is in query param, only display this one
+		if (paramId) {
+			return mission.id == paramId
+		}
 		// Check if all values are false
 		const allFalsePosts = Object.values(posteFilter).every(v => v === false)
 		const allFalseCommuns = Object.values(communFilter).every(v => v === false)
@@ -141,7 +149,7 @@ export default () => {
 						Liste de missions de mécénat de compétences au service de la décarbonation de la mobilité. 
 						Pour plus d'informations, consultez <a href="https://cloud.fabmob.io/s/mn4NLE2GgMcArTG">notre présentation sur les différents types de mécénat possibles à la Fabrique des Mobilités</a>.
 					</p>
-					<div css={`
+					{!paramId && <div css={`
 						button {
 							margin: 0.1rem;
 							padding: 0.1rem 0.6rem;
@@ -161,6 +169,19 @@ export default () => {
 						>{commun}</button>)}
 
 					</div>
+					}
+					{paramId && <div css={`
+						button {
+							margin: 0.1rem;
+							padding: 0.1rem 0.6rem;
+						}
+					`}>
+						<div>Filtre par mission</div>
+						<button disabled>{missionsMecenat.find(mission => mission.id == paramId).titre}</button>
+						<div>
+							<a href="/participer/mecenat">Afficher l'ensemble des missions</a>
+						</div>
+					</div>}
 			</div>
 			<div
 				css={`
