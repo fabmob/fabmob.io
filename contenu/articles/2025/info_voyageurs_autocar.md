@@ -1,5 +1,5 @@
 ---
-title: '''Pas de "cars à haut niveau de service" sans données à la hauteur'''
+title: 'Pas de "cars à haut niveau de service" sans données à la hauteur'
 date: 2025-06-11
 image: /contenu/articles/2025/images/car-express.png
 résumé: Où en est l’information voyageurs pour les autocars ? Enjeux, cas d’usage, données en temps réel, bonnes pratiques en France et en Europe. État des lieux.
@@ -89,11 +89,32 @@ Dans la pratique :
 #### Les services de car interurbains disponibles sur le PAN
 Les services "interurbains" ne sont pas isolés sur le Point d'Accès National (PAN), ils sont rangés dans la catégorie "transport public collectif". J'ai donc fait une rapide recherche - forcément incomplète - avec le mot-clé "interurbain" pour isoler quelques jeux de données et me faire une idée de la situation. La plupart des réseaux régionaux interurbains sont inclus dans le décompte ci-dessous.
 
-| Type de données                     | Nombre total | GTFS/GTFS-RT | Transmodel (NeTEx / SIRI) |
-|:------------------------------------|:------------:|:------------:|:------------------------:|
-| Statique (GTFS ou NeTEx)            |      64      |      64      |           33             |
-| Temps réel (GTFS-RT ou SIRI)        |      11      |      11      |            3             |
-> **Légende** : Jeux de données pour des réseaux "interurbains" disponibles sur le PAN au 4 juin 2025
+<table>
+<thead>
+  <tr>
+    <th>Type de données</th>
+    <th>Nombre total</th>
+    <th>GTFS/GTFS-RT</th>
+    <th>Transmodel (NeTEx / SIRI)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Statique (GTFS ou NeTEx)</td>
+    <td>64</td>
+    <td>64</td>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td>Temps réel (GTFS-RT ou SIRI)</td>
+    <td>11</td>
+    <td>11</td>
+    <td>3</td>
+  </tr>
+</tbody>
+</table>
+
+*Légende : Jeux de données pour des réseaux "interurbains" disponibles sur le PAN au 4 juin 2025*
 
 Il faut ajouter au décompte ci-dessus les données d'IDFM qui incluent des services de bus et de cars à l'échelle de toute la région, une partie relevant bien de service d'autocar, et même de "cars express". IDFM diffuse les données statiques avec NeTEx et les données temps réel par des flux SIRI Lite (pour les prochains passages et les perturbations uniquement), en fonction de l'équipement effectif des lignes concernées pour produire cette donnée (une carte / table de l'ensemble des arrêts équipés est fournie, après inscription sur le protail Open Data). La couverture est plutôt large et comprend plusieurs lignes d'autocar.
 
@@ -122,25 +143,79 @@ Conséquence : le fichier NeTEx daté du 6 mai 2025 (qui comporte 375 erreurs et
 **Conclusion** : le [site web Aerobus de l’opérateur de transport](https://www.aerobus.fr/) reste aujourd’hui le seul point d’accès à des informations (espérons-le) à jour sur les horaires des bus.
 
 
-| Départs annoncés NeTEx | Départs réservables sur le site web |
-|:----------------------:|:-----------------------------------:|
-|                        | 08h30                               |
-|       09h00            | 09h00                               |
-|                        | 09h15                               |
-|       09h30            | 09h30                               |
-|                        | 09h45                               |
-|       10h00            | 10h00                               |
-|       10h30            | 10h30                               |
-|       11h30            | 11h30                               |
-|       12h30            | 12h30                               |
-|       13h30            | 13h30                               |
-|       14h30            | 14h30                               |
-|                        | 21h00                               |
-|                        | 22h00                               |
-|                        | 22h30                               |
-|                        | 23h30                               |
+<table>
+<thead>
+  <tr>
+    <th>Départs annoncés NeTEx</th>
+    <th>Départs réservables sur le site web</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td>08h30</td>
+  </tr>
+  <tr>
+    <td>09h00</td>
+    <td>09h00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>09h15</td>
+  </tr>
+  <tr>
+    <td>09h30</td>
+    <td>09h30</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>09h45</td>
+  </tr>
+  <tr>
+    <td>10h00</td>
+    <td>10h00</td>
+  </tr>
+  <tr>
+    <td>10h30</td>
+    <td>10h30</td>
+  </tr>
+  <tr>
+    <td>11h30</td>
+    <td>11h30</td>
+  </tr>
+  <tr>
+    <td>12h30</td>
+    <td>12h30</td>
+  </tr>
+  <tr>
+    <td>13h30</td>
+    <td>13h30</td>
+  </tr>
+  <tr>
+    <td>14h30</td>
+    <td>14h30</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>21h00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>22h00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>22h30</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>23h30</td>
+  </tr>
+</tbody>
+</table>
 
 **Comparaison des trajets publiés (fichier NeTEx) et des trajets réservables (la veille), pour la journée du vendredi 6 juin 2025**
+
 ##### FlixBus
 
 FlixBus est le leader européen du transport par autocar longue distance. Inutile de présenter davantage cette entreprise, connue de tous, dont beaucoup ont déjà utilisé les services au moins une fois. Sa stratégie en matière de données est on ne peut plus classique pour un grand opérateur : satisfaire de manière minimale aux exigences réglementaires, tout en réservant les services à valeur ajoutée à son propre écosystème applicatif.
@@ -378,11 +453,28 @@ Publier de la donnée de qualité pour les services d'autocar dépasse des enjeu
 
 L’expérience menée par **ADP** et l’espace de données **EONA-X** durant les Jeux Olympiques de Paris 2024 illustre un **usage opérationnel** (et non voyageur) des données temps réel d’autocar : coordonner l’arrivée et le départ de **60 000 membres de délégations** sans perturber les 330 000 passagers quotidiens d’Orly et Roissy-CDG.
 
-| Objectif | En quoi les données d’autocar étaient critiques ? |
-|----------|--------------------------------------------------|
-| *Répartir en temps réel 600 véhicules dédiés aux délégations* | Connaître **minute par minute** la position des bus, leur temps d’approche, les retards éventuels, pour attribuer dynamiquement les quais de dépose et éviter les goulots.«  |
-| *Alimenter le jumeau numérique des aéroports* | Simuler, puis ajuster **en direct** les flux de délégations, repérer les points de congestion et rediriger les bus avant qu’ils ne bloquent l’accès aux terminaux. |
-| *Sécuriser et partager l’information entre acteurs* | Mettre à disposition des forces de police, compagnies aériennes, volontaires et équipes d’exploitation une **vue unique** des bus (statut, heure estimée d’arrivée, identité de la délégation). |
+<table>
+<thead>
+  <tr>
+    <th>Objectif</th>
+    <th>En quoi les données d’autocar étaient critiques ?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>Répartir en temps réel 600 véhicules dédiés aux délégations</strong></td>
+    <td>Connaître <strong>minute par minute</strong> la position des bus, leur temps d’approche, les retards éventuels, pour attribuer dynamiquement les quais de dépose et éviter les goulots.</td>
+  </tr>
+  <tr>
+    <td><strong>Alimenter le jumeau numérique des aéroports</strong></td>
+    <td>Simuler, puis ajuster <strong>en direct</strong> les flux de délégations, repérer les points de congestion et rediriger les bus avant qu’ils ne bloquent l’accès aux terminaux.</td>
+  </tr>
+  <tr>
+    <td><strong>Sécuriser et partager l’information entre acteurs</strong></td>
+    <td>Mettre à disposition des forces de police, compagnies aériennes, volontaires et équipes d’exploitation une <strong>vue unique</strong> des bus (statut, heure estimée d’arrivée, identité de la délégation).</td>
+  </tr>
+</tbody>
+</table>
 
 **Principaux enseignements**
 
@@ -433,14 +525,14 @@ En Allemagne, l'approche est un peu différente, davantage "industrielle", comme
 
 La question de l’organisation des référentiels et de l’accès aux données dynamiques ne concerne pas uniquement le transport par autocar. Mais ce mode — **géographiquement dispersé, opéré par une pluralité d’acteurs, fortement intermodal** — se prête particulièrement bien à des expérimentations innovantes.
 
-> Reproduire le modèle norvégien n’est sans doute ni faisable ni souhaitable en France, même s’il reste une source d’inspiration :
-> - Le territoire français est plus vaste et son organisation institutionnelle plus complexe ;
-> - Les capacités financières, techniques et humaines de l’État ne permettent pas aujourd’hui d’envisager une infrastructure centralisée, à haut niveau de service, intégralement portée par les pouvoirs publics ;
-> - En revanche, centraliser **l’accès** aux données temps réel via une API unique, accompagnée de services utiles pour les producteurs comme pour les réutilisateurs, reste une piste pertinente.
+Reproduire le modèle norvégien n’est sans doute ni faisable ni souhaitable en France, même s’il reste une source d’inspiration :
+- Le territoire français est plus vaste et son organisation institutionnelle plus complexe ;
+- Les capacités financières, techniques et humaines de l’État ne permettent pas aujourd’hui d’envisager une infrastructure centralisée, à haut niveau de service, intégralement portée par les pouvoirs publics ;
+- En revanche, centraliser **l’accès** aux données temps réel via une API unique, accompagnée de services utiles pour les producteurs comme pour les réutilisateurs, reste une piste pertinente.
 
-> Le modèle expérimenté en Rhénanie-du-Nord-Westphalie peut également nourrir la réflexion. Il repose sur une approche régionale, mais relativement fermée, qui ne répond ni aux exigences de la loi LOM ni à l’esprit du cadre français :
-> - Aucune diffusion en Open Data : seules les entités habilitées et enregistrées peuvent accéder aux données ;
-> - Ce modèle de diffusion restreinte, dans lequel les producteurs conservent la maîtrise des flux sensibles et les bénéficiaires principaux participent au financement de la plateforme, a néanmoins du sens — et il est mis en œuvre depuis 2025.
+Le modèle expérimenté en Rhénanie-du-Nord-Westphalie peut également nourrir la réflexion. Il repose sur une approche régionale, mais relativement fermée, qui ne répond ni aux exigences de la loi LOM ni à l’esprit du cadre français :
+- Aucune diffusion en Open Data : seules les entités habilitées et enregistrées peuvent accéder aux données ;
+- Ce modèle de diffusion restreinte, dans lequel les producteurs conservent la maîtrise des flux sensibles et les bénéficiaires principaux participent au financement de la plateforme, a néanmoins du sens — et il est mis en œuvre depuis 2025.
 
 Une alternative à explorer : **s’appuyer sur une architecture de type "dataspace"**, à l’image d’initiatives comme **[EONA-X](https://www.eona-x.eu/)** pour la mobilité. Cela permettrait de :
 
