@@ -28,13 +28,52 @@ En creusant le sujet, j’ai réalisé que les enjeux dépassaient largement le 
 - et parfois même pour alimenter des politiques publiques ou permettre aux citoyens de demander des comptes sur le service rendu.
 
 À travers ce billet, je vous propose un état des lieux — forcément partiel — et des pistes concrètes issues de cet atelier (merci à tous les participants !), enrichies d'échanges et recherches ultérieurs.
-N’hésitez pas à partager vos retours ou idées : ce sujet mérite, je crois, d’être travaillé et approfondi.
+N’hésitez pas à partager vos retours ou idées : ce sujet mérite, je crois, d’être encore travaillé et approfondi.
 
 
 ⸻
+## Table des matières
+- [Autocar et information voyageurs : où en est-on vraiment ?](#autocar-info-voyageurs)
+- [1. Produire des données fiables : passer massivement au temps réel](#produire-des-donnees-fiables-passer-massivement-au-temps-reel)
+  - [1.1 Une attente forte des usagers](#11-une-attente-forte-des-usagers)
+  - [Des RER métropolitains aux SERM : l'arrivée des "cars express" change l'ambition… et les exigences](#des-rer-metropolitains-aux-serm-larrivee-des-cars-express-change-lambition-et-les-exigences)
+- [1.2 Des standards prêts à l’emploi](#12-des-standards-prets-a-lemploi)
+- [Les services de car interurbains disponibles sur le PAN](#les-services-de-car-interurbains-disponibles-sur-le-pan)
+- [Quelques services de cars emblématiques, et les données mises à disposition](#quelques-services-de-cars-emblematiques-et-les-donnees-mises-a-disposition)
+  - [Le Car ligne 50 Aix - Marseille](#le-car-ligne-50-aix---marseille)
+  - [Navette Paris - Beauvais](#navette-paris---beauvais)
+- [FlixBus](#flixbus)
+- [BlaBlaCar Bus](#blablacar-bus)
+- [Et en Europe](#et-en-europe)
+  - [Royaume-Uni](#royaume-uni)
+  - [Suisse](#suisse)
+  - [Norvège](#norvege)
+- [2. Produire de la donnée temps réel de qualité implique d'équiper toute la chaîne](#2-produire-de-la-donnee-temps-reel-de-qualite-implique-dequiper-toute-la-chaine)
+  - [2.1 Des véhicules connectés pour des services plus fiables](#21-des-vehicules-connectes-pour-des-services-plus-fiables)
+    - [Tout part de la position GPS](#tout-part-de-la-position-gps)
+    - [Les régions organisent l'équipement et la production de données](#les-regions-organisent-lequipement-et-la-production-de-donnees)
+    - [Une complexité pour les transporteurs multi-réseaux](#une-complexite-pour-les-transporteurs-multireseaux)
+  - [2.2 Quel référentiel ? À quelle échelle territoriale ?](#22-quel-referentiel-a-quelle-echelle-territoriale)
+    - [Une approche régionale, mais pas uniquement](#une-approche-regionale-mais-pas-uniquement)
+    - [Données statiques : des progrès, mais encore des défis](#donnees-statiques-des-progres-mais-encore-des-defis)
+    - [Données dynamiques : difficilement accessibles et peu centralisées](#donnees-dynamiques-difficilement-accessibles-et-peu-centralisees)
+  - [2.3 Multiplier les canaux : écran, appli, QR code… et assurer une cohérence](#23-multiplier-les-canaux-ecran-appli-qr-code-et-assurer-une-coherence)
+    - [Une grande diversité de publics et de contextes](#une-grande-diversite-de-publics-et-de-contextes)
+    - [Une multiplicité d'acteurs impliqués…](#une-multiplicite-dacteurs-impliquees)
+    - [Exige des standards et infrastructures numériques performants](#exige-des-standards-et-infrastructures-numeriques-performants)
+    - [La prochaine frontière : l'occupation des autocars, en temps réel et prévisionnelle](
+    #prochaine-frontiere)
+  - [2.4 Au-delà de l'information voyageurs](#24-au-dela-de-linformation-voyageurs)
+    - [Jeux olympiques 2024 : ADP orchestre les délégations…](#jeux-olympiques-2024-adp-orchestre-les-delegations)
+    - [Des services d’autocar plus performants grâce aux données…](#des-services-dautocar-plus-performants-grace-aux-donnees)
+    - [À l’étranger, la donnée temps réel devient une ressource stratégique](#etranger-donne-ressource-strategique)
+- [Vers une fédération des données d'autocar en temps réel ?](#vers-une-federation-des-donnees-dautocar-en-temps-reel)
 
+
+⸻
+<a name="produire-des-donnees-fiables-passer-massivement-au-temps-reel"></a>
 ## 1. Produire des données fiables : passer massivement au temps réel
-
+<a name="11-une-attente-forte-des-usagers"></a>
 ### 1.1 Une attente forte des usagers
 
 Le dernier [rapport Cerema/ART sur l'évolution des gares routières](https://www.cerema.fr/fr/actualites/evolution-gares-routieres-publication-du-rapport-conclusions) souligne que seuls 41 % des gares routières françaises disposent d’un affichage dynamique, alors même que la demande de ponctualité perçue augmente avec l’essor des « cars express ».
@@ -46,6 +85,7 @@ Les attentes des usagers en matière d’information multimodale de qualité et 
 - Sur des trajets longue distance, traversant des territoires variés — zones rurales, reliefs montagneux — les aléas, notamment climatiques, sont plus fréquents : l’information en temps réel devient alors indispensable ;
 - L’autocar est souvent utilisé en correspondance avec d’autres modes de transport. Cela renforce le besoin d’une **information multimodale** fluide, pour garantir une expérience de voyage cohérente et prévisible.
 
+<a name="des-rer-metropolitains-aux-serm-larrivee-des-cars-express-change-lambition-et-les-exigences"></a>
 #### Des RER métropolitains aux SERM : l'arrivée des "cars express" change l'ambition... et les exigences
 
 Les **Services Express Régionaux Métropolitains (SERM)** ont émergé initialement sous la forme de « RER métropolitains », dans un [premier rapport du **Conseil d’Orientation des Infrastructures (COI)** publié en 2018](https://www.ecologie.gouv.fr/sites/default/files/documents/2018.02.01_synthese_rapport_conseil_d_orientation_des_infrastructures_0.pdf). Mais la loi sur les SERM de 2023 est venue élargir considérablement le périmètre du concept. Elle intègre désormais la mise en œuvre de **services de transport routier à haut niveau de service**, de réseaux cyclables, et, le cas échéant, de services fluviaux, de covoiturage, d’autopartage ou de transports guidés, ainsi que la création ou l’adaptation de gares et pôles d’échanges multimodaux ([article L.1215-6 du code des transports](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048682247)).
@@ -72,10 +112,11 @@ Dans les cas étudiés, peu de réseaux ont encore atteint un niveau satisfaisan
 
 Les "cars express" semblent avoir de l'avenir, car ils sont rapidement "déployables", avec des investissements modérés sur l'infrastructure routière et dans l'information voyageur. Ils ne sont pas soumis à de longs et lourds cycles d'investissement et d'autorisations comme le volet ferroviaire des SERM. Ils sont une réponse pragmatique à la volonté de développer l'offre de transport public dans une période de disette budgétaire. Pour cela, la donnée produite va devoir "élever son niveau de jeu", en qualité et en quantité, pour répondre aux besoins des voyageurs, des exploitants et des autorités organisatrices.
 
-Les "cars express" ont clairement le vent en poupe : ils présentent l’avantage d’être rapidement "déployables", avec des investissements relativement modestes, que ce soit pour les aménagements routiers ou pour l’information voyageurs. Contrairement au ferroviaire, leur mise en œuvre *échappe aux cycles longs et complexes d’autorisations et de financement. Ils constituent ainsi une réponse pragmatique au besoin de développement rapide de l’offre de transport public en péri-urbain et rual, dans un contexte de disette budgétaire.
+Les "cars express" ont clairement le vent en poupe : ils présentent l’avantage d’être rapidement "déployables", avec des investissements relativement modestes, que ce soit pour les aménagements routiers ou pour l’information voyageurs. Contrairement au ferroviaire, leur mise en œuvre *échappe aux cycles longs et complexes d’autorisations et de financement. Ils constituent ainsi une réponse pragmatique au besoin de développement rapide de l’offre de transport public en péri-urbain et rural, dans un contexte de disette budgétaire.
 
 Mais pour que cette promesse se concrétise, la donnée produite devra "hausser son niveau de jeu" : en qualité, en fréquence de mise à jour, en richesse, pour répondre aux attentes des voyageurs, outiller les exploitants dans la gestion opérationnelle, et permettre aux autorités organisatrices de piloter et d’évaluer efficacement ces services.
 
+<a name="12-des-standards-prets-a-lemploi"></a>
 ### 1.2 Des standards prêts à l’emploi
 
 GTFS (pour les données statiques) et GTFS-RT (pour les données dynamiques) sont deux standards matures et largement utilisés pour décrire les lignes de transport public (en particulier les services d'autocar). Ils fonctionnent ensemble pour couvrir l’ensemble de la chaîne d’information.
@@ -86,8 +127,9 @@ Dans la pratique :
 - **NeTEx** permet de décrire les réseaux de transport et l’offre planifiée (informations statiques) ;
 - **SIRI**, avec ses différentes déclinaisons (comme **SIRI-Lite**), permet de transmettre des informations en temps réel, les perturbations, les estimations d’horaires, ou encore la position des véhicules.
 
+<a name="les-services-de-car-interurbains-disponibles-sur-le-pan"></a>
 #### Les services de car interurbains disponibles sur le PAN
-Les services "interurbains" ne sont pas isolés sur le Point d'Accès National (PAN), ils sont rangés dans la catégorie "transport public collectif". J'ai donc fait une rapide recherche - forcément incomplète - avec le mot-clé "interurbain" pour isoler quelques jeux de données et me faire une idée de la situation. La plupart des réseaux régionaux interurbains sont inclus dans le décompte ci-dessous.
+Les services "interurbains" ne sont pas isolés sur le Point d'Accès National (PAN), ils sont classés dans la catégorie "transport public collectif". J'ai donc fait une rapide recherche - forcément incomplète - avec le mot-clé "interurbain" pour isoler quelques jeux de données et me faire une idée de la situation. La plupart des réseaux régionaux interurbains sont inclus dans le décompte ci-dessous.
 
 <table>
 <thead>
@@ -116,10 +158,13 @@ Les services "interurbains" ne sont pas isolés sur le Point d'Accès National (
 
 *Légende : Jeux de données pour des réseaux "interurbains" disponibles sur le PAN au 4 juin 2025*
 
-Il faut ajouter au décompte ci-dessus les données d'IDFM qui incluent des services de bus et de cars à l'échelle de toute la région, une partie relevant bien de service d'autocar, et même de "cars express". IDFM diffuse les données statiques avec NeTEx et les données temps réel par des flux SIRI Lite (pour les prochains passages et les perturbations uniquement), en fonction de l'équipement effectif des lignes concernées pour produire cette donnée (une carte / table de l'ensemble des arrêts équipés est fournie, après inscription sur le protail Open Data). La couverture est plutôt large et comprend plusieurs lignes d'autocar.
+Il faut ajouter au décompte ci-dessus les données d'IDFM qui incluent des services de bus et de cars à l'échelle de toute la région, une partie relevant bien de service d'autocar, et même de "cars express". IDFM diffuse les données statiques avec NeTEx et les données temps réel par des flux SIRI Lite (pour les prochains passages et les perturbations uniquement), en fonction de l'équipement effectif des lignes concernées pour produire cette donnée (une carte / table de l'ensemble des arrêts équipés est fournie, après inscription sur le portail Open Data). La couverture est plutôt large et comprend plusieurs lignes d'autocar.
 
+
+<a name="quelques-services-de-cars-emblematiques-et-les-donnees-mises-a-disposition"></a>
 #### Quelques services de cars emblématiques, et les données mises à disposition
 
+<a name="le-car-ligne-50-aix---marseille"></a>
 ##### Le Car ligne 50 Aix - Marseille
 
 Cette ligne d’autocar, qui emprunte l’autoroute et des voies réservées pour relier rapidement Aix et Marseille avec une bonne qualité de service, peut proposer jusqu’à 100 trajets par jour — c’est davantage que le TER sur la même liaison. Un effort a été mené sur l’information aux voyageurs, mais l’absence de SAEIV ou de système de production de données temps réel à l’échelle de la métropole limite les possibilités. L’information se résume à des alertes sur le site web et par email/SMS en cas de perturbation, via le service [easylecar](https://www.lecaraixmarseille.com/easylecar).
@@ -128,6 +173,8 @@ Les fiches horaires sont diffusées uniquement en [GTFS](https://transport.data.
 
 Globalement, tout reste à faire en matière d’information voyageurs sur cette ligne. Cela illustre qu’un service d’autocar s’insère dans un réseau et dans ses infrastructures — y compris numériques. Une ligne comme Le Car ligne 50 ne peut pas proposer plus de services que ce que permet l’écosystème numérique dans lequel elle évolue. C’est la refonte (en cours) de l’infrastructure de données et services numériques à Aix-Marseille qui permettra sans doute d’améliorer l’information voyageurs et le pilotage de cette ligne — qui est, par ailleurs, un véritable succès en termes de fréquentation.
 
+
+<a name="navette-paris---beauvais"></a>
 ##### Navette Paris - Beauvais
 
 Cette navette dessert l’aéroport de Beauvais depuis [cinq points de départ en Île-de-France](https://www.aeroportparisbeauvais.com/acces-et-parking/navette-aerobus-paris-aeroport) (La Défense, Saint-Denis, La Villette, Disneyland et Porte Maillot). Ces lignes se distinguent par des fréquences élevées (jusqu’à 150 allers-retours quotidiens) et une adaptation de l’offre à la saisonnalité. Les horaires ne sont donc pas figés, et la diffusion d’une information claire aux voyageurs est essentielle.
@@ -216,6 +263,7 @@ Conséquence : le fichier NeTEx daté du 6 mai 2025 (qui comporte 375 erreurs et
 
 **Comparaison des trajets publiés (fichier NeTEx) et des trajets réservables (la veille), pour la journée du vendredi 6 juin 2025**
 
+<a name="flixbus"></a>
 ##### FlixBus
 
 FlixBus est le leader européen du transport par autocar longue distance. Inutile de présenter davantage cette entreprise, connue de tous, dont beaucoup ont déjà utilisé les services au moins une fois. Sa stratégie en matière de données est on ne peut plus classique pour un grand opérateur : satisfaire de manière minimale aux exigences réglementaires, tout en réservant les services à valeur ajoutée à son propre écosystème applicatif.
@@ -232,6 +280,7 @@ Dans le cas de FlixBus, il n’y a donc pas débat sur l’équipement des véhi
 - la publication des données statiques en NeTEx (la [Suisse a d’ailleurs converti les données FlixBus en NeTEx pour son territoire](https://data.opentransportdata.swiss/dataset/netex-fernbus)) ;
 - et la publication des données temps réel, normalement en SIRI — ce qui est techniquement possible ici, puisque FlixBus produit bien ces données pour ses outils internes.
 
+<a name="blablacar-bus"></a>
 ##### BlaBlaCar Bus
 
 Que peut-on attendre de BlaBlaCar Bus ? Eh bien, c’est plutôt bien — et même un peu la “classe à la française”.
@@ -259,8 +308,10 @@ En l’occurrence, tous les arrêts sont décrits comme accessibles (ce qui sera
 
 Suggestion au passage pour l’outil d’analyse du PAN (bien pratique pour une analyse rapide) : lorsqu’un champ comme `wheelchair_accessible` est vide, il ne devrait pas être compté comme “présent”. Cela m'aurait évité de croire, de prime abord, que BlaBlaCar avait fourni une information détaillée pour chaque bus — ce qui n’est pas encore le cas.
 
+<a name="et-en-europe"></a>
 #### Et en Europe
 
+<a name="royaume-uni"></a>
 ##### Royaume-Uni
 
 Au Royaume-Uni, le [Bus Open Data Service](https://www.gov.uk/government/collections/bus-open-data-service) (l'équivalent de notre PAN) impose déjà la diffusion de données **SIRI-VM** (Vehicle Monitoring) pour chaque service de bus urbain. Quant aux services de **coaches** (autocars interurbains et nationaux), ils publient massivement leurs données — y compris en temps réel. Ainsi, **[259 flux SIRI-VM relatifs à des services interurbains ou longue distance sont disponibles à l’échelle nationale](https://data.bus-data.dft.gov.uk/avl/?q=coach)** (données vérifiées en juin 2025).
@@ -268,6 +319,7 @@ Si autant de jeux de données sont aujourd’hui disponibles — y compris pour 
 
 [Le changement a été un peu difficile au départ](https://www.route-one.net/features/bus-open-data-service-good-and-bad-but-it-is-here-to-say/), mais la pratique est désormais bien installée. Mieux : elle génère des co-bénéfices pour les petits opérateurs, qui peuvent désormais accéder à des outils d’analyse de l’exploitation de leur service (comme le suivi de la régularité), proposés gratuitement par le BODS.
 
+<a name="suisse"></a>
 ##### Suisse
 
 La Suisse dispose d’un point d’accès national centralisé : [SKI](https://data.opentransportdata.swiss/fr/organization/oevch), où l’ensemble des données de transport public — y compris celles des services interurbains — sont accessibles de façon consolidée. Ainsi, l’offre nationale est disponible dans un [fichier GTFS unique](https://data.opentransportdata.swiss/fr/dataset/timetable-2025-gtfs2020), mais aussi au format [NeTEx (profil suisse)](https://data.opentransportdata.swiss/fr/dataset/timetablenetex_2025).
@@ -278,6 +330,7 @@ Cette initiative suisse est encore en phase **bêta**, et la question centrale r
 
 > Pour les curieux : la Suisse propose aussi un [jeu de données NeTEx expérimental sur les téléphériques et téléskis](https://data.opentransportdata.swiss/fr/dataset/seilbahnen-netex). Ce n’est plus vraiment de l’autocar, mais c’est tout de même original… Et ce n’est qu’un exemple parmi d’autres des pépites de données disponibles dans ce pays.
 
+<a name="norvege"></a>
 ##### Norvège
 
 En Norvège, c’est **Entur** — une entreprise publique — qui pilote la consolidation des données de transport et la mise à disposition des services associés. On en parlait déjà [l’an passé dans un webinaire](https://youtu.be/RvHMmdKz4Nk?si=Na1Xa2URMH5STpgl).
@@ -300,9 +353,12 @@ Enfin, Entur propose une **infrastructure numérique intégrée à l’échelle 
 
 > C’était justement l’objet du [webinaire mentionné ci-dessus](https://youtu.be/RvHMmdKz4Nk?si=Na1Xa2URMH5STpgl).
 
+<a name="2-produire-de-la-donnee-temps-reel-de-qualite-implique-dequiper-toute-la-chaine"></a>
 ## 2. Produire de la donnée temps réel de qualité implique d'équiper toute la chaîne
 
+<a name="21-des-vehicules-connectes-pour-des-services-plus-fiables"></a>
 ### 2.1 Des véhicules connectés pour des services plus fiables
+<a name="tout-part-de-la-position-gps"></a>
 #### Tout part de la position GPS
 Pour fournir une information temps réel réellement utile — tant aux usagers qu’aux exploitants — il faut s’appuyer sur **des données précises et continues en provenance des véhicules eux-mêmes**. Or les cars parcourent de **longues distances**, empruntent **des routes très diverses** (de l’autoroute à la petite départementale) et traversent **des zones parfois mal couvertes** par les réseaux mobiles.
 
@@ -317,6 +373,8 @@ L’information brute de base est simple : la **position GPS** du car. Mais cett
 👉 C’est précisément le **rôle d’un SAEIV** ([Système d’Aide à l’Exploitation et à l’Information Voyageurs](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27aide_%C3%A0_l%27exploitation_et_%C3%A0_l%27information_voyageurs)) de produire et de structurer cette information, à destination du gestionnaire du réseau — et, par extension, de l’usager.
 
 ---
+
+<a name="les-regions-organisent-lequipement-et-la-production-de-donnees"></a>
 #### Les régions organisent l'équipement et la production de données
 Lors de l’atelier, Tristan Boursicot (Région Grand Est) a présenté un retour d’expérience concret : la Région a mutualisé l’achat d’un SAEIV unique pour ses dix réseaux « **Fluo** » (issus de la fusion des anciens réseaux départementaux désormais gérés au niveau régional). Ce système permet :
 - La **géolocalisation des véhicules en temps réel** ;
@@ -325,7 +383,7 @@ Lors de l’atelier, Tristan Boursicot (Région Grand Est) a présenté un retou
 Le **financement initial** du système a été assuré par la Région, mais la **diffusion des données** (notamment les positions temps réel) fait désormais **partie des obligations contractuelles** dans les différentes DSP (délégations de service public) passées avec les transporteurs.
 
 ---
-
+<a name="une-complexite-pour-les-transporteurs-multireseaux"></a>
 #### Une complexité pour les transporteurs multi-réseaux
 
 Pour les opérateurs, cela peut parfois signifier **équiper un même véhicule avec plusieurs systèmes distincts**, notamment si le car est exploité dans plusieurs régions ou pour plusieurs AOM (autorités organisatrices), chacune avec son propre SAEIV. Cela peut engendrer une **cohabitation de dispositifs embarqués**, qui, bien que gérable techniquement, **soulève des questions de gouvernance des données**.
@@ -333,8 +391,10 @@ Pour les opérateurs, cela peut parfois signifier **équiper un même véhicule 
 Un point reste en suspens : **quelle place laisse-t-on aux opérateurs dans ces dispositifs techniques ?**
 Ont-ils accès, eux aussi, aux données consolidées issues du SAEIV ? Peuvent-ils les exploiter pour **mieux piloter leur service, anticiper les dysfonctionnements, améliorer la régularité** ? L’implication active des transporteurs dans ces systèmes est un **levier encore sous-exploité** pour améliorer la performance globale du service rendu.
 
+<a name="22-quel-referentiel-a-quelle-echelle-territoriale"></a>
 ### 2.2 Quel référentiel ? À quelle échelle territoriale ?
 
+<a name="une-approche-regionale-mais-pas-uniquement"></a>
 #### Une approche régionale, mais pas uniquement
 
 En France, **les régions ont naturellement un rôle central** pour proposer et gérer les référentiels de l’offre de transport par autocar, pour plusieurs raisons :
@@ -364,6 +424,7 @@ Il faut donc faire des choix : quels réseaux intégrer dans le **référentiel 
 
 ---
 
+<a name="donnees-statiques-des-progres-mais-encore-des-defis"></a>
 #### Données statiques : des progrès, mais encore des défis
 
 L’accès aux données statiques ne pose plus de problème majeur en France — à condition qu’elles existent. Les enjeux portent désormais sur des sujets bien connus dans le domaine du transport public :
@@ -379,6 +440,7 @@ L’accès aux données statiques ne pose plus de problème majeur en France —
 
 ---
 
+<a name="donnees-dynamiques-difficilement-accessibles-et-peu-centralisees"></a>
 #### Données dynamiques : difficilement accessibles et peu centralisées
 
 L’accès aux données en temps réel reste plus complexe pour les réutilisateurs :
@@ -394,8 +456,9 @@ De plus :
 - Ils sont souvent limités à des **mises à jour horaires** (trip_updates en GTFS-RT ou SIRI-ET), et **n’incluent pas systématiquement la position des véhicules**.
 
 ---
-
+<a name="23-multiplier-les-canaux-ecran-appli-qr-code-et-assurer-une-coherence"></a>
 ### 2.3 Multiplier les canaux : écran, appli, QR code… et assurer une cohérence
+<a name="une-grande-diversite-de-publics-et-de-contextes"></a>
 #### Une grande diversité de publics et de contextes
 Les cars desservent une grande variété de territoires : centres-villes, zones périurbaines, campagnes, secteurs de montagne… Les arrêts sont eux aussi hétérogènes : gare routière indépendante, intégrée à une gare TGV ou à un aéroport, Pôle d’Échange Multimodal (PEM), simple arrêt isolé avec ou sans abri. Le public est tout aussi divers : écoliers, lycéens, étudiants, catégories populaires, cadres (notamment pour les dessertes vers les aéroports ou quartiers d’affaires), touristes français ou étrangers, avec ou sans bagages, avec ou sans paire de skis 🎿, avec ou sans vélo 🚲️.
 
@@ -403,6 +466,7 @@ Les canaux d’information disponibles ne sont pas identiques selon les lieux d�
 
 ---
 
+<a name="une-multiplicite-dacteurs-impliquees"></a>
 #### Une multiplicité d'acteurs impliqués...
 Aucun acteur, public ou privé, ne peut à lui seul garantir une information complète, accessible à tous, en toute circonstance. Quelques exemples :
 
@@ -411,7 +475,7 @@ Aucun acteur, public ou privé, ne peut à lui seul garantir une information com
 - Les supports numériques (applications, QR codes…) sont pilotés par des acteurs variés : régions, collectivités locales, services comme Google Maps ou Mappy. Et même sous une marque unique, les solutions techniques peuvent être développées par des prestataires différents.
 
 ---
-
+<a name="exige-des-standards-et-infrastructures-numeriques-performants"></a>
 #### Exige des standards et infrastructures numériques performants
 Dans ce contexte, assurer une information homogène, cohérente et de qualité sur l’ensemble des canaux est un enjeu majeur. Cela ne peut reposer que sur l’usage rigoureux de standards bien appliqués, ainsi que sur des référentiels partagés qui garantissent la découvrabilité et la bonne réutilisation des données.
 Encore une fois, les données temps réel qui sont mises à jour chaque minute (et les voyageurs ont réellement besoin de cette fréquence de mise à jour) ne peuvent pas être correctement diffusées, à un coût acceptable, sans erreur, s'il n'y a pas le bon cadre, les bonnes infrastructures, la bonne rigueur. Collecter, corriger, nettoyer, redresser et mettre en cohérence des fichiers de données statiques publiés tous les 3 à 6 mois n'impose pas les mêmes contraintes que des flux temps réel.
@@ -421,12 +485,12 @@ Encore une fois, les données temps réel, mises à jour chaque minute — et ce
 La collecte, la correction, le nettoyage, le redressement et la mise en cohérence de fichiers de données statiques publiés tous les 3 à 6 mois n’impliquent pas les mêmes exigences que le traitement de flux en temps réel. Ces derniers nécessitent une architecture technique adaptée, des processus robustes et une attention constante à la qualité. Le passage à l’instantané impose donc un véritable changement d’échelle dans l’organisation des données.
 
 ---
-
+<a name="prochaine-frontiere"></a>
 #### La prochaine frontière : l'occupation des autocars, en temps réel et prévisionnelle
-Ce n'est pas de la science-fiction, il est bien possible de fournir en temsp réel de l'information sur le taux de remplissage d'un autocar, ou fournir une information prédictive. En France, ce type d'informations est rarement disponible en-dehors de certains réseaux urbains (c'est une autre histoire à raconter). Plusieurs pays s'intéressent au sujet et ont déjà préparé l'infrastructure, comme l'Allemagne, les Pays-Bas, la Suisse ou l'Angleterre.
-Je voudrais faire une brève introduction sur la manière de connaître (ou au moins estimer) le taux de remplissage d'un autocar (c'est bien sûr valable pour des bus, trams, métros voire trains, dans une large mesure). Le sujet n'est pas trivial, il y a forément uen marge d'erreurs et des difficultés à recouper le données, mais au moins 3 méthodes sont disponibles (et une méthode complémentaire) :
+Ce n'est pas de la science-fiction, il est bien possible de fournir en temps réel de l'information sur le taux de remplissage d'un autocar, ou fournir une information prédictive. En France, ce type d'informations est rarement disponible en-dehors de certains réseaux urbains (c'est une autre histoire à raconter). Plusieurs pays s'intéressent au sujet et ont déjà préparé l'infrastructure, comme l'Allemagne, les Pays-Bas, la Suisse ou l'Angleterre.
+Je voudrais faire une brève introduction sur la manière de connaître (ou au moins estimer) le taux de remplissage d'un autocar (c'est bien sûr valable pour des bus, trams, métros voire trains, dans une large mesure). Le sujet n'est pas trivial, il y a forcément une marge d'erreurs et des difficultés à recouper le données, mais au moins 3 méthodes sont disponibles (et une méthode complémentaire) :
 - **Analyse temps réel des usagers de smartphone** : cette méthode est réservée à un nombre restreint d'acteurs qui peuvent accéder en temps réel à la localisation d'une large part de la population de voyageurs (nettement supérieure à 10% idéalement). C'est la méthode Google Maps typiquement, qui leur permet de reconstituer la fréquentation de lieux publics, de magasins... et de transports publics, avec une vision temps réel et une comparaison à des historiques. Les données historiques permettent aussi de réaliser des prévisions sur le taux d'occupation ;
-- **Comptage par la billettique - Automated Fare Collection (AFC)** : le gestionnaire dela billetique, normalement l'opérateur, peut compter les montées à bord, parfois identifier les sorties du réseau, effectuer des redressements. Cette méthode nécessite de nombreux redressementes et est rarement possible en temps réel ;
+- **Comptage par la billettique - Automated Fare Collection (AFC)** : le gestionnaire de la billettique, normalement l'opérateur, peut compter les montées à bord, parfois identifier les sorties du réseau, effectuer des redressements. Cette méthode nécessite de nombreux redressementes et est rarement possible en temps réel ;
 - **Comptage direct des passagers - Automated Passenger Counting (APC)** : cela consiste à équiper les véhicules de capteurs divers (WiFi, Bluetooth, traitement d'images vidéo). [Un panorama des méthodes dans cet article d'un fournisseur de solutions allemand](https://www.isarsoft.com/article/automatic-passenger-counting-systems-an-overview) (eux préfèrent utiliser les caméras de vidéosurveillance). Chaque méthode a ses avantages et inconvénients, ses limites, mais cela donne accès à des données comparables au cours du temps, disponibles en temps réel. Cette méthode peut être combinée à AFC, et elle fait l'objet de [travaux normatifs en Allemagne sur la méthode à adopter, la VDV 457](https://www.vdv.de/457-v2.1-ses.pdfx) ;
 - **Reconstitution de la fréquentation à partir de comptages partiels** : il est fréquent que des opérateurs équipent une partie seulement de leurs véhicules pour des comptages. Par rotation des véhicules sur le réseau, il est possible d'avoir une vision partielle de la fréquentation sur l'ensemble du réseau, puis d'appliquer des traitements pour reconstituer un ***"unified occupancy"*** qui tienne compte d'autres redressements comme la prise en compte de la fraude ([Amir Dib et al. ont étudié le sujet en profondeur sur des réseaux français](https://arxiv.org/pdf/2403.05546) dans une étude publiée l'an passée). D'après cette étude, avec seulement 20% d'équipement des véhicules, l'erreur dépasse à peine 10% (en-dessous, l'erreur se dégrade rapidement).
 
@@ -441,14 +505,14 @@ Dans la pratique, ces dispositifs sont donc déployés en France sur un nombre l
 En Allemagne, l'approche de l'Open Data est différente, et surtout plus restreinte. Les données temps réel sont peu disponibles en Open Data pour le grand public, mais des efforts sont faits pour des plateformes de consolidation nationale ou régionale. Le land de Rhénanie propose ainsi sur sa plateforme de [l'information temps réel sur l'occupation des modes de transports, sous réserve de disponibilité](https://ckan.mdd.gorheinland.com/de/dataset/landesweites-hintergrundsystem-fur-fahrgastinformation-nrw).
 [La Suisse agrège un flux unique de données temps réel, y compris sur le "occupancy forecast"](https://data.opentransportdata.swiss/fr/dataset/occupancy-forecast-siri-dataset). L'information est disponible [en SIRI ou en JSON](https://opentransportdata.swiss/de/cookbook/realtime-prediction-cookbook/belegungsprognose/). À ce jour les 4 flux disponibles concernent uniquement les trains de la SBB, mais l'infrastructure est présente pour accueillir à l'avenir les données des opérateurs de car.
 En Norvège, Entur publie un flux agrégé [SIRI ET qui peut supporter l'attribut OccupancyLevel](https://enturas.atlassian.net/wiki/spaces/PUBLIC/pages/637370392/SIRI-ET?utm_source=chatgpt.com#SIRI-ET-VehicleOccupancyStructure). SIRI ET est déjà supporté par la grande majorité des transporteurs par autocar du pays. Je n'ai pas pu vérifier si certains opérateurs diffusaient déjà cette information.
-En Angleterre, le BODS supporte à la fois vehicle_occupancy dans GTFS-RT et OccupancyLevel dans SIRI ET, avec de nombreux opérateurs de bus. Toutefois la publication de cette info spécifique ne sembmle pas obligatoire et il faudrait vérifier dans quelle mesure certains oéprateurs l'auraient déjà adopée.
+En Angleterre, le BODS supporte à la fois vehicle_occupancy dans GTFS-RT et OccupancyLevel dans SIRI ET, avec de nombreux opérateurs de bus. Toutefois la publication de cette info spécifique ne semble pas obligatoire et il faudrait vérifier dans quelle mesure certains opérateurs l'auraient déjà adopée.
 
 ---
-
+<a name="24-au-dela-de-linformation-voyageurs"></a>
 ### 2.4 Au-delà de l'information voyageurs
 Publier de la donnée de qualité pour les services d'autocar dépasse des enjeux de conformité réglementaire ou de bonne information des usagers (c'est déjà beaucoup). La session de travail, et des recherches complémentaires, ont permis d'identifier des exemples inspirants et des pistes de travail pour tirer pleinement parti de ces données. Sans surprise, les données temps réel sont absolument critiques.
 
-
+<a name="jeux-olympiques-2024-adp-orchestre-les-delegations"></a>
 #### Jeux olympiques 2024 : ADP orchestre les délégations en temps réel grâce aux données des autocars et un dataspace
 
 L’expérience menée par **ADP** et l’espace de données **EONA-X** durant les Jeux Olympiques de Paris 2024 illustre un **usage opérationnel** (et non voyageur) des données temps réel d’autocar : coordonner l’arrivée et le départ de **60 000 membres de délégations** sans perturber les 330 000 passagers quotidiens d’Orly et Roissy-CDG.
@@ -480,7 +544,7 @@ L’expérience menée par **ADP** et l’espace de données **EONA-X** durant l
 
 * **Interconnexion des sources** : les données temps réel des autocars ont été croisées avec celles des compagnies aériennes, de la SNCF et du Comité d’organisation, via le *data space* EONA-X.
 * **Technologie low-code / no-code** : une application de régulation a permis de piloter **21 000 mouvements de véhicules** en quelques semaines, sans développement lourd.
-* **Préparation vs. réalité** : malgré une anticipation poussée, la qualité finale dépendait encore de la **fiabilité du tracking GPS** (coupures réseau, pertes de signal) et de la **completude des métadonnées** envoyées par chaque transporteur.
+* **Préparation vs. réalité** : malgré une anticipation poussée, la qualité finale dépendait encore de la **fiabilité du tracking GPS** (coupures réseau, pertes de signal) et de la **complétude des métadonnées** envoyées par chaque transporteur.
 * **Limites actuelles** : absence, sur certaines lignes affrétées en dernière minute, de flux normalisés (SIRI-VM/ET). Des mises à jour manuelles ont parfois été nécessaires pour éviter des décalages d’horaires.
 
 > **Leçon clé** : quand l’enjeu est la logistique temps réel (ici, la gestion de délégations olympiques), la donnée autocar ne sert pas seulement à informer le public ; elle devient un **levier de régulation opérationnelle**, à condition d’être fiable, normalisée et partagée sans friction entre tous les acteurs.
@@ -498,29 +562,29 @@ Voici une petite vidéo pour visualiser ce qui a été réalisé, [ainsi qu'un p
 </div>
 
 ---
-
-#### Des services d'autocar plus performants grâce aux données temsp réel des autres services de transport ?
+<a name="des-services-dautocar-plus-performants-grace-aux-donnees"></a>
+#### Des services d'autocar plus performants grâce aux données temps réel des autres services de transport ?
 Je n'ai pas identifié d'exemple à ce stade, mais il me semble que les services d'autocar pourraient bénéficier d'une meilleure exploitation des données temps réel des autres services de transport, notamment ceux qui sont plus capacitaires (aérien, TGV, TER), au moins à deux niveaux :
-- **Approche statistique et saisonnière** : Sur le modèle d'Aérobus, pourquoi ne pas adapter la fréquence de services d'autocars en fonction de la connaissance historique des fréquences et taux de remplissage des autres modes de transport, mais aussi de donénes prévisionnelles actualisées fréquemment. Ce que fait l'aéroport de Beauvais de manière intégrée avec son opérateur Aérobus pourrait être répliqué ailleurs (cec qui demande plus de coopération et de données) ;
+- **Approche statistique et saisonnière** : Sur le modèle d'Aérobus, pourquoi ne pas adapter la fréquence de services d'autocars en fonction de la connaissance historique des fréquences et taux de remplissage des autres modes de transport, mais aussi de données prévisionnelles actualisées fréquemment. Ce que fait l'aéroport de Beauvais de manière intégrée avec son opérateur Aérobus pourrait être répliqué ailleurs (ce qui demande plus de coopération et de données) ;
 - **Approche opérationnelle** : exploiter la connaissance de la circulation et des perturbations des autres modes de transport pour adapter certains services. À quoi bon faire circuler un car à vide parce que le TER qui l'alimente en voyageurs a du retard. Parfois une adaptation de 5-10mn de l'horaire de circulation serait bénéfique (je sais, cela ouvre plein d'autres problèmes de gouvernance et d'organisation).
 Les autocars bénéficieraient aussi d'une meilleure connaissance des perturbations planifiées du système routier (travaux, évènements, arrêtés de fermeture d'une voie). C'est un besoin qui a été largement souligné lors de notre session de travail, et qui renvoie aux travaux de la [startup d'Etat Dialog](https://beta.gouv.fr/startups/dialogue.html) qui aide les collectivités locales à numériser leurs règles de circulation et les arrêtés affectant la circulation (voir aussi notre [fiche wiki sur l'intérêt d'un tel commun](https://wiki.lafabriquedesmobilites.fr/wiki/DiaLog)).
 
 ---
 
-
+<a name="etranger-donne-ressource-strategique"></a>
 #### À l’étranger, la donnée temps réel devient une ressource stratégique
 
 Les usages de la donnée temps réel dépassent largement la seule information aux voyageurs. Dans plusieurs pays, elle alimente désormais des systèmes d’archivage structuré, permettant d’analyser la régularité, la performance opérationnelle ou l’affluence réelle des services. Ces cas d’usage sont tout aussi prometteurs — voire plus — en matière d’amélioration continue et de pilotage stratégique des réseaux d’autocars.
-En Angleterre, le BODS, que j'ai présenté précédemment, ne se contente pas d'imposer aux opérateurs la diffusion de la position des véhicules en temps réel : [il fournit un outil, "Analyse Bus Open Data Service"](https://www.rtig.org.uk/abod), pour analyser ces données, évaluer la performance des services, les possibilités d'amélioration. [Le media spécialisé RouteONE, dans son article de 2024](https://www.route-one.net/features/bus-open-data-service-good-and-bad-but-it-is-here-to-say/) sur le dispositif, relève que cette analyse de performance offre de nouvelles possibilités de contrôle de la performance des services aus régulateurs, mais que c'est aussi une opportunité pour les opérateurs d'autocar de connaître la manière dont les régulateurs évaluent leur service, et d'accéder à des données et des analyses dont ils ne disposent pas forcément.
+En Angleterre, le BODS, que j'ai présenté précédemment, ne se contente pas d'imposer aux opérateurs la diffusion de la position des véhicules en temps réel : [il fournit un outil, "Analyse Bus Open Data Service"](https://www.rtig.org.uk/abod), pour analyser ces données, évaluer la performance des services, les possibilités d'amélioration. [Le media spécialisé RouteONE, dans son article de 2024](https://www.route-one.net/features/bus-open-data-service-good-and-bad-but-it-is-here-to-say/) sur le dispositif, relève que cette analyse de performance offre de nouvelles possibilités de contrôle de la performance des services aux régulateurs, mais que c'est aussi une opportunité pour les opérateurs d'autocar de connaître la manière dont les régulateurs évaluent leur service, et d'accéder à des données et des analyses dont ils ne disposent pas forcément.
 Ce qui se fait en Angleterre depuis 5 ans pourrait arriver en Europe continentale dans les années qui viennent. En effet, la Commission Européenne souhaite faire évoluer les exigences de publication de données pour inclure des données d'évaluation des services (retards, conditions de circulation, éventuellement fréquentation, etc). Le projet de révision de la directive MMTIS de 2023 prévoyait de publier l'historique des données de circulation des services de transport. Cette révision n'a pas encore été adoptée, mais des normes sont développées pour répondre à cette future obligation (lire le projet [Transit ITS Data Exchange (TIDES) Data Specification Suite](https://tides-transit.org/main/)).
 La Suisse propose déjà des choses intéressantes en la matière, avec une page qui fournit les [services réellement réalisés à une date donnée](https://data.opentransportdata.swiss/fr/dataset/istdaten) (passage des véhicules, horaires effectifs, etc) ainsi qu'une historisation des GTFS et NeTEx sur de longues années sur une [page d'archive](https://archive.opentransportdata.swiss/).
-En Allemagne, l'approche est un peu différente, davantage "industrielle", comme je l'évoquais précédemment, et moins Open Data. [Le Land de Rhénanie a ainsi construit et financé une plateforme de données très riche](https://wir.gorheinland.com/vernetzte-mobilitaet/multimodale-datendrehscheibe-nrw/) qui collecte de la donnée temps et consolide des indicateurs d'exploitation. Cette donnée est accessible uniquement aux opérateurs de transport, aux collectivités locales et à certaines associations sélectionnées. En revanche, cette plateforme est financée depuis début 2025 directemetn par ses utilisateurs. C'est donc un exemple d'infrastructure commune financée par ses bénéficiaires, dont le modèle mériterrait d'être approfondi. Cette infrastructure prévoit une mise à disposition gratuite de certaines données pour des bénéficiaires autorisés, selon la politique des producteurs de données.
+En Allemagne, l'approche est un peu différente, davantage "industrielle", comme je l'évoquais précédemment, et moins Open Data. [Le Land de Rhénanie a ainsi construit et financé une plateforme de données très riche](https://wir.gorheinland.com/vernetzte-mobilitaet/multimodale-datendrehscheibe-nrw/) qui collecte de la donnée temps et consolide des indicateurs d'exploitation. Cette donnée est accessible uniquement aux opérateurs de transport, aux collectivités locales et à certaines associations sélectionnées. En revanche, cette plateforme est financée depuis début 2025 directement par ses utilisateurs. C'est donc un exemple d'infrastructure commune financée par ses bénéficiaires, dont le modèle mériterait d'être approfondi. Cette infrastructure prévoit une mise à disposition gratuite de certaines données pour des bénéficiaires autorisés, selon la politique des producteurs de données.
 ![Quelle couverture en capteurs de comptage (APC) faut-il pour obtenir des résultats fiables ?](/contenu/articles/2025/images/ecosysteme_Data_Rheinland.png)
 ![Quelle couverture en capteurs de comptage (APC) faut-il pour obtenir des résultats fiables ?](/contenu/articles/2025/images/Datahub_NRW.png)
 *Source : [GO Rheinland](https://wir.gorheinland.com/vernetzte-mobilitaet/multimodale-datendrehscheibe-nrw/)*
 
 ---
-
+<a name="vers-une-federation-des-donnees-dautocar-en-temps-reel"></a>
 ## Vers une fédération des données d'autocar en temps réel ?
 
 La question de l’organisation des référentiels et de l’accès aux données dynamiques ne concerne pas uniquement le transport par autocar. Mais ce mode — **géographiquement dispersé, opéré par une pluralité d’acteurs, fortement intermodal** — se prête particulièrement bien à des expérimentations innovantes.
