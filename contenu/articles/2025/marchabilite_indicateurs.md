@@ -11,6 +11,10 @@ author: Marguerite Grandjean
 Comment évaluer le potentiel de marche d'un territoire, la capacité d'un territoire à attirer les piétons ? 
 
 Le 17 juin 2025, la FabMob a animé, pour le compte de l'ADEME et en partenariat avec le Cerema et le Réseau Vélo et Marche, un atelier d'1h30 sur le thème des indicateurs de marchabilité. 
+
+Cet atelier faisait partie, dans le cadre du programme ID-Marche (la partie marche du Plan Vélo et Marche 2023-2027 lancé par le Ministère des Transports), de la série de webinaires organisée autour de [l'appel à projet "Marche du quotidien"](https://www.ademe.fr/presse/communique-national/appel-a-projets-marche-du-quotidien-lademe-annonce-les-laureats-de-ledition-2024/) porté par l'ADEME, aidant les collectivités à développer la marche sur leur territoire, et de la [e-communauté "Mobilités piétonnes" (accès nécessitant une inscription)](https://www.expertises-territoires.fr/jcms/pl1_22045/fr/mobilites-pietonnes) orchestrée par le Cerema et le Réseau Vélo et Marche, réunissant tous les acteurs de la marche.
+Après un bref cadrage pour poser la définition et les enjeux de la marchabilité, nous avons travaillé par sous-groupes sur [un tableau Miro collaboratif](https://miro.com/app/board/uXjVIwIl2WI=/). Une synthèse rapide a été donnée en fin d'atelier ainsi qu'une conclusion avec les ressources clés à connaître. [Vous trouverez le replay vidéo ici](https://www.youtube.com/watch?v=RBZsEQlc2H8&ab_channel=LaFabriquedesMobilit%C3%A9s).
+
 L'idée était inspirée d'un atelier animé par Marion Torterotot et Sylvaine Le Noxaïc lors de la [Journée des données d'accessibilité du 13 mars 2025](https://wiki.lafabriquedesmobilites.fr/wiki/Journ%C3%A9e_des_donn%C3%A9es_d%27accessibilit%C3%A9). 
 Il s'agissait d'introduire le sujet de la "marchabilité", et de faire travailler les participant.e.s sur les façons de la diagnostiquer, la mesurer, à travers des indicateurs (critères) et des mesures (chiffres). 
 
@@ -72,8 +76,9 @@ La subdivision s'est révélée pertinente puisque les collectivités (ou assimi
 
 Les groupes ont travaillé sur post-its sur l'outil Miro. Nous avons rassemblé les idées (post-its) par thématique. Les participant.e.s ont ensuite été invités à voter sur les indicateurs et mesures qu'ils jugeaient les plus pertinents.
 
-Ci-dessous vous pouvez accéder aux détails sur le Miro : 
-[intégration Miro]
+Ci-dessous vous pouvez accéder aux détails sur [le Miro](https://miro.com/app/board/uXjVIwIl2WI=/) : 
+
+<iframe src="https://miro.com/app/board/uXjVIwIl2WI=/" style="width: 100%; height: 500px;" />
 
 **D'après les votes, l'ensemble des participant.e.s à l'atelier a convergé vers 4 indicateurs principaux** : 
 - **vitesse des véhicules** (9 votes)
