@@ -10,7 +10,7 @@ author: Marguerite Grandjean
 
 Comment évaluer le potentiel de marche d'un territoire, la capacité d'un territoire à attirer les piétons ? 
 
-Le 17 juin 2025, la FabMob a animé, pour le compte de l'ADEME et en partenariat avec le Cerema et le Réseau Vélo et Marche, un atelier d'1h30 sur le thème des indicateurs de marchabilité. 
+Le 17 juin 2025, la FabMob a animé, pour le compte de l'ADEME et en partenariat avec le Cerema et le Réseau Vélo et Marche, un atelier d'1h30 sur le thème des indicateurs de marchabilité qui a réuni une quarantaine de participant.e.s, collectivités, bureaux d'études et associations.
 
 Cet atelier faisait partie, dans le cadre du programme ID-Marche (la partie marche du Plan Vélo et Marche 2023-2027 lancé par le Ministère des Transports), de la série de webinaires organisée autour de [l'appel à projet "Marche du quotidien"](https://www.ademe.fr/presse/communique-national/appel-a-projets-marche-du-quotidien-lademe-annonce-les-laureats-de-ledition-2024/) porté par l'ADEME, aidant les collectivités à développer la marche sur leur territoire, et de la [e-communauté "Mobilités piétonnes" (accès nécessitant une inscription)](https://www.expertises-territoires.fr/jcms/pl1_22045/fr/mobilites-pietonnes) orchestrée par le Cerema et le Réseau Vélo et Marche, réunissant tous les acteurs de la marche.
 Après un bref cadrage pour poser la définition et les enjeux de la marchabilité, nous avons travaillé par sous-groupes sur [un tableau Miro collaboratif](https://miro.com/app/board/uXjVIwIl2WI=/). Une synthèse rapide a été donnée en fin d'atelier ainsi qu'une conclusion avec les ressources clés à connaître. [Vous trouverez le replay vidéo ici](https://www.youtube.com/watch?v=RBZsEQlc2H8&ab_channel=LaFabriquedesMobilit%C3%A9s).
@@ -56,7 +56,7 @@ Les résultats à l'échelle de ce petit atelier confortent nos observations dep
 
 Lors de l'atelier, les participant.e.s ont évoqué le besoin de clarifier les indicateurs pertinents et les difficultés à le faire, [comme cela nous avait été remonté par Thierry du Crest, coordinateur interministériel au vélo et à la marche, dès le début 2024](https://lafabriquedesmobilites.fr/blog/retour_cycle_Marche_et_Numerique).
 
-La Région Sud témoigne : ils sont en quête d'indicateurs généraux comme ce qui peut exister pour le vélo. Mesurer x km de pistes cyclables permet de dire que ça évolue. Obtenir des critères de ce type sera plus difficile pour la marche, au vu des besoins différents : informations très pointues au sein des collectivités, et à un niveau plus méso, besoin de suivi des politiques de marche. Il existe un enjeu de visibiliser le besoin et de monter en compétence sur le sujet. 
+Plusieurs collectivités témoignent être en quête d'indicateurs pour la marche, comme ce qui peut exister pour le vélo. Par exemple, le nombre de kilomètres de pistes cyclables constitue un indicateur assez simple d’utilisation à plusieurs échelles de suivi : il peut être utilisé pour les aménagements locaux à l’échelle des communs, tout en étant comparable dans le temps et entre territoires pour un suivi et un pilotage plus global. De tels indicateurs sont-ils applicables pour la pratique de la marche, assez distincte de celle du vélo ? Ou faut-il plusieurs indicateurs différents pour plusieurs échelles de suivi ? Il existe un enjeu de visibiliser le besoin et de monter en compétence sur le sujet.
 
 Une agglomération de taille moyenne (dont nous tairons le nom!) a partagé son expérience : lors de l'élaboration de son schéma directeur mobilités actives, peu d'indicateurs pour mesurer ont été utilisés, et même au-delà des mesures, peu d'idées ont été envisagées à part éviter le stationnement sur trottoir, développer les parvis des écoles, faire attention à bien prendre en compte les gros sujets (confort, largeur) à réfection des aménagements. 
 
@@ -81,10 +81,10 @@ Ci-dessous vous pouvez accéder aux détails sur [le Miro](https://miro.com/app/
 <iframe src="https://miro.com/app/board/uXjVIwIl2WI=/" style="width: 100%; height: 500px;" />
 
 **D'après les votes, l'ensemble des participant.e.s à l'atelier a convergé vers 4 indicateurs principaux** : 
-- **vitesse des véhicules** (9 votes)
-- **accessibilité PMR** (6 votes)
-- **sécurité et sentiment de sécurité** (6 votes)
-- **confort, plaisir de marcher, environnement agréable et diversifié** (6 votes)
+- **vitesse des véhicules** (35% des votes)
+- **accessibilité PMR** (17% des votes)
+- **sécurité et sentiment de sécurité** (17% des votes)
+- **confort, plaisir de marcher, environnement agréable et diversifié** (17% des votes)
 
 **Côté mesures (chiffrages plus précis)**, ont été mises en avant diverses mesures : 
 - taux de cheminement sur l’ensemble de la voirie : nombre de kms réalisable à pied
@@ -168,7 +168,7 @@ Pour aller plus loin, nous recommandons quelques ressources clés sur la marchab
 
 L'atelier nous pousse à conclure sur 2 constats clés : 
 
-<b>1.</b> De nombreux travaux, notamment anglo-saxons, ont réfléchi au sujet complexe des indicateurs de marche, et modélisé des indicateurs suivant différentes méthodes (cf. paragraphe "ressources" ci-dessus). Pour autant, en France en tout cas, **il n'y a pas encore de consensus mature autour d'indicateurs clairs permettant le pilotage local ou national de politiques de marche (ou d'implantations privées, commerces ou habitats)** comme cela peut exister pour le vélo ou les TC. Comme le dit la Région Sud : "pour le vélo, x km de pistes cyclables permet de dire que ça évolue. Il existe un enjeu de visibiliser le besoin et de monter en compétence sur le sujet."
+<b>1.</b> De nombreux travaux, notamment anglo-saxons, ont réfléchi au sujet complexe des indicateurs de marche, et modélisé des indicateurs suivant différentes méthodes (cf. paragraphe "ressources" ci-dessus). Pour autant, en France en tout cas, **il n'y a pas encore de consensus mature autour d'indicateurs clairs permettant le pilotage local ou national de politiques de marche (ou d'implantations privées, commerces ou habitats)** comme cela peut exister pour le vélo ou les TC.
 **Un exemple : dans le Hub des données de mobilité durable créé par le CGDD / Ecolab, on peut trouver des indicateurs dédiés au vélo et aux TC, mais aucun ne concerne la marche !** 
 
 On peut recenser 3 niveaux d'indicateurs de suivi : 
