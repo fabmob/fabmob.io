@@ -1,6 +1,6 @@
 ---
 titre: "[Parole d'adhérent] La Fabrique de la Logistique"
-date: 2025-03-03
+date: 2025-05-03
 image: "images/Logo aplus couleur.jpg"
 
 résumé: "Entretien avec l'association La Fabrique de la Logistique, adhérente à la FabMob"
