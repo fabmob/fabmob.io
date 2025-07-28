@@ -1,5 +1,5 @@
 ---
-titre: "[Parole d'adhérent] La Fabrique de la Logistique"
+titre: "[Parole d'adhérent] A + C'est Mieux"
 date: 2025-05-03
 image: "/images/Logo aplus couleur.jpg"
 
