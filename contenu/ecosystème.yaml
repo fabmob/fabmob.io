@@ -1,12 +1,8 @@
 L'équipe:
   - nom: Julie Braka
-    rôle: Directrice de de projet 
+    rôle: Directrice de projet 
     image: /images/nous/julie.resized.jpg
     linkedin: https://www.linkedin.com/in/juliebraka
-  - nom: Ghislain Delabie
-    rôle: Directeur projets
-    image: /images/nous/ghislain.jpg
-    linkedin: https://www.linkedin.com/in/ghislaindelabie
   - nom: Alex Bourreau
     rôle: Responsable technique 
     image: /images/nous/alex.png
@@ -68,6 +64,10 @@ Le conseil d'administration:
 
 
 Coopérateurs:
+  - nom: Ghislain Delabie
+    rôle: Expert Mobilité
+    image: /images/nous/ghislain.jpg
+    linkedin: https://www.linkedin.com/in/ghislaindelabie
   - nom: Sonia Nazef
     rôle: Office manager
     image: /images/cooperateurs/sonia_nazef.png
