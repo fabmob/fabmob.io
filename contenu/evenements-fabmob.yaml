@@ -1,50 +1,69 @@
+- date: 2025-10-30
+  title: "Webinaire - Webinaire Outils au service des standards (date à définir)"
+  description: Présentation d'outils facilitant la prise en main des standards de mobilité
+  
+- date: 2025-09-29T09:30:00
+  title: "Webinaire - Tendances de standardisation, travaux actuels de la commission de normalisation CN03"
+  description: Présentation des travaux actuels et à venir des différents groupes de travail de la CN03 (information voyageurs, billettique, stationnement, etc.)
+
+- date: 2025-09-05T09:30:00
+  title: Webinaire - Données de qualité et services intégrés dans les transports. Comment sont construits les standards et les normes ?
+  description: Présentation et retours d’expérience sur le fonctionnement pratique des groupes de standardisation, en France et en Europe.
+  picture: /images/illustrations_evenements/2025-09-05-webinaire-donnees-qualite-et-services-integres-dans-les-transports.png
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-donnees-de-qualite-et-services-integres-dans-les-transports
+
+- date: 2025-07-07T09:00:00
+  title: Webinaire Standards - Autopartage
+  description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'autopartage.
+  picture: /images/illustrations_evenements/2025-07-07-webinaire-standards-autopartage.png
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Standardisation_de_la_donn%C3%A9e_d%E2%80%99autopartage,_un_%C3%A9tat_des_lieux
+
+- date: 2025-06-17
+  title: Webinaire - Indicateurs de marchabilité
+  description: Un webinaire intéractif, proposé avec le soutien de l'ADEME, pour réflechir ensemble aux indicateurs pour mesurer la marchabilité des territoires.
+  picture: /images/illustrations_evenements/2025-06-17-webinaire-indicateurs-marchabilite.png
+  url: /blog/marchabilite_indicateurs
+
+- date: 2025-06-25
+  title: Meetup open Transport 35
+  description: Retour du meetup Open Transport après 2 ans d'absence
+  picture: https://wiki.lafabriquedesmobilites.fr/images/fabmob/3/3f/Vignette_Meetup_open_transport%283%29.png
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Meetup_open_Transport_35
+
+- date: 2025-06-24
+  title: Cocktail d'été FabMob
+  description: Cet évènement sera l'occasion de présenter les grandes actions de l'association et de ses membre au cours de ce premier semestre, ainsi que les perspectives de l'association. Ces présentations seront suivies d'un moment convivial autour d'un cocktail.
+  picture: /images/illustrations_evenements/2025-06-24-cocktail-ete.png
+  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/cocktail-de-l-ete-2025-de-la-fabmob
+
+- date: 2025-05-23T09:00:00
+  title: Webinaire - Information multimodale dans les gares routières et dans la poche des voyageurs, améliorer l'expérience des services de car
+  description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'information voyageur en gares routières.
+  picture: /images/illustrations_evenements/2025-05-23-webinaire-standards-gares-routieres.png
+  url: /blog/info_voyageurs_autocar
+
+- date: 2025-05-12T09:00:00
+  title: "Webinaire - De GTFS à NeTEx : quel avenir pour les standards de l'information voyageur"
+  description: Un webinaire proposé avec le soutien de la DGITM, pour décortiquer les cas d'usages qui peuvent justifier un investissement dans l'évolution des SI vers NeTEx/SIRI, et les bonnes pratiques pour mener un tel projet.
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Webinaire_De_GTFS_%C3%A0_NeTEX
+  picture: /images/illustrations_evenements/2025-05-12-webinaire-standards-gtfs-netex.png
+
 - date: 2025-04-15T09:00:00
   title: "Webinaire - IA dans la Mobilité : Générative, Prédictive, et Opérationnelle"
   description: Un webinaire proposé avec le soutien de la DGITM, pour établir un panorama des différents usages de l'IA dans la mobilité en 2025.
   url: https://www.youtube.com/watch?v=caBqibcuFSE
   picture: /images/illustrations_evenements/2025-04-15-webinaire-IA.png
 
-- date: 2025-05-12T09:00:00
-  title: "Webinaire - De GTFS à NeTEx : quel avenir pour les standards de l'information voyageur"
-  description: Un webinaire proposé avec le soutien de la DGITM, pour décortiquer les cas d'usages qui peuvent justifier un investissement dans l'évolution des SI vers NeTEx/SIRI, et les bonnes pratiques pour mener un tel projet.
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/de-gtfs-a-netex-quel-avenir-pour-les-standards-de-l-information-voyageur
-  picture: /images/illustrations_evenements/2025-05-12-webinaire-standards-gtfs-netex.png
-
-- date: 2025-05-23T09:00:00
-  title: Webinaire - Information multimodale dans les gares routières et dans la poche des voyageurs, améliorer l'expérience des services de car
-  description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'information voyageur en gares routières.
-  picture: /images/illustrations_evenements/2025-05-23-webinaire-standards-gares-routieres.png
-
-- date: 2025-06-10
-  title: Webinaire Standards - Transport en commun, distribution et vente (OSDM, SDBTR)
-  description: Un webinaire proposé avec le soutien de la DGITM sur la thématique de la standardisation des processus de distribution et vente de billets pour les transports en commun.
-  picture: /images/illustrations_evenements/2025-06-10-webinaire-standards-TC.png
-
-- date: 2025-06-17
-  title: Webinaire - Indicateurs de marchabilité
-  description: Un webinaire intéractif, proposé avec le soutien de l'ADEME, pour réflechir ensemble aux indicateurs pour mesurer la marchabilité des territoires.
-  picture: /images/illustrations_evenements/2025-06-17-webinaire-indicateurs-marchabilite.png
-
-- date: 2025-06-24
-  title: Cocktail d'été FabMob
-  description: Cet évènement sera l'occasion de présenter les grandes actions de l'association et de ses membre au cours de ce premier semestre, ainsi que les perspectives de l'association. Ces présentations seront suivies d'un moment convivial autour d'un cocktail.
-  picture: /images/illustrations_evenements/2025-06-24-cocktail-ete.png
-
-- date: 2025-07-07
-  title: Webinaire Standards - Autopartage
-  description: Un webinaire proposé avec le soutien de la DGITM, pour découvrir les démarches de standardisation appliquées à l'autopartage.
-  picture: /images/illustrations_evenements/2025-07-07-webinaire-standards-autopartage.png
-
 - date: 2025-02-04
   title: Webinaire Mécénat
   description: L'association La Fabrique des Mobilités a été reconnue d'intérêt général en novembre 2024. 
     Venez découvrir les nouvelles possibilités de collaboration avec vous que ce statut ouvre ! 
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-mecenat-via-la-fabmob
+  url: https://www.youtube.com/watch?v=r8iu9wYBV6E
   picture: https://cdn.helloasso.com/img/photos/evenements/croppedimage-f0634ac1d706450783843c5c83cf6627.png?resize=fit:500:360
 
 - date: 2024-12-19
   title: Webinaire Restitution Baromètre des MAS 2024
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-restitution-barometre-des-mas-2024
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Barom%C3%A8tre_des_standards_de_la_mobilit%C3%A9_2024
   description: La Fabrique des Mobilités en partenariat avec la DGITM a organisé la seconde édition du Baromètre des MAS, 2 ans après la première édition.
     Venez découvrir les résultats 2024 et les évolutions d'adoption des standards depuis 2022.
   picture: https://cdn.helloasso.com/img/photos/evenements/croppedimage-aa6f4d053aea432d84fd1b9025c964e0.png?resize=fit:500:360
@@ -58,20 +77,20 @@
 
 - date: 2024-10-17
   title: Webinaire Panoramax
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-panoramax
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Webinaire_-_Panoramax,_une_insfrastructure_num%C3%A9rique_pour_d%C3%A9passer_Google_StreetView_%3F
   description: La Fabrique des Mobilités organise, en partenariat avec la DGTIM, un cycle de webinaire sur la thématique "Numérique & Mobilité". Pour cette première édition, nous avons choisi de présenter Panoramax, la ressource numérique développée par l'IGN & OpenStreetMap permettant la mise en commun et l'utilisation de photos de terrain.
   picture: https://cdn.helloasso.com/img/photos/vignette%20panoramax%205%20-3e44bd19e75e4557ba456cb7bf635ff8.png
 
 - date: 2024-11-13
   title: Webinaire Keyple
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/webinaire-keyple-et-opensource
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Webinaire_:_L%27exp%C3%A9rience_Keyple_au_service_des_utilisateurs_du_standard_Calypso
   description: Outil d’implémentation Open Source d’un standard - L’expérience de Keyple au service des utilisateurs du standard Calypso
   picture: https://cdn.helloasso.com/img/photos/vignette%20keyple%202%202%20-36ef748ea41349d3b6af940e1bcf7ea5.png
 
 - date: 2024-08-30
   title: Comment déployer un système MaaS sur un territoire ?
   description: Quelques débats d'actualité tirés de la formation ENPC - FabMob
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/comment-deployer-un-systeme-maas-sur-un-territoire
+  url: https://www.youtube.com/watch?v=htvN_E7vmD4
   picture: https://cdn.helloasso.com/img/photos/webinaire%20vignette%20maas-5d9879f843634955be3e5b0fc23e5851.png
 
 - date: 2024-07-02
@@ -83,6 +102,6 @@
 - date: 2024-06-18
   title: Numérique et Mobilité
   description: La Fabrique des mobilités organise un événement de restitution des différents travaux qu'elle a menés ces derniers mois sur les infrastructures numériques de mobilité, la marche et les espaces publics.
-  url: https://www.helloasso.com/associations/la-fabrique-des-mobilites/evenements/planification-ecologique-marche-espaces-publics-et-infras-numeriques
+  url: https://wiki.lafabriquedesmobilites.fr/wiki/Ev%C3%A9nement_Num%C3%A9rique_%26_Mobilit%C3%A9
   picture: https://cdn.helloasso.com/img/photos/numerique%20mobilite-f178d4799fee4fa4a8329c2ad26f8690.png
 
