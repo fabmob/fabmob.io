@@ -126,8 +126,46 @@ Partenaires:
   - nom : GART
     image : /images/partenaires/gart2022-logo.png
     siteweb : https://www.gart.org/   
-    
-     
+  - nom : Make.org
+    image : /images/partenaires/Logo_make.org.png
+    siteweb : https://make.org/FR     
+  - nom : Centre Hospitalier de Niort
+    image : /images/partenaires/660px-Header-logo-CHN.svg.png
+    siteweb : https://www.ch-niort.fr/   
+  - nom : Commune des Mureaux
+    image : /images/partenaires/Logo_les_mureaux.jpg
+    siteweb : https://www.lesmureaux.fr/      
+  - nom : Communauté de Communes des 7 Vallées
+    image : /images/partenaires/7valles.jpg
+    siteweb : https://7vallees.fr/      
+  - nom : Ville de Loos-en-Gohelle
+    image : /images/partenaires/Loos-en-Gohelle_Logo.png
+    siteweb : https://loos-en-gohelle.fr/        
+  - nom : Ville de Tressin
+    image : /images/partenaires/Ville_de_tressin.jpg
+    siteweb : https://www.mairie-tressin.fr/    
+  - nom : Le Mans Métropole
+    image : /images/partenaires/LE_MANS_Métropole_Logo_V_RVB_BLANC.jpg
+    siteweb : https://www.lemansmetropole.fr/   
+  - nom : Communauté d'Agglomération du Grand Avignon
+    image : /images/partenaires/Nouveau_logo_grand_avignon.jpg
+    siteweb : https://www.grandavignon.fr/fr/
+  - nom : Communauté de Communes du Briançonnais
+    image : /images/partenaires/Logo_CCB_gris_transparent.png
+    siteweb : https://www.ccbrianconnais.fr/  
+  - nom : Communauté de Communes du Clunisois
+    image : /images/partenaires/Logo2017_CC_Clunisois.png
+    siteweb : https://enclunisois.fr/    
+  - nom : Commune du Teil
+    image : /images/partenaires/Le_Teil.jpg
+    siteweb : https://www.mairie-le-teil.fr/
+  - nom : Communauté de Communes du Grand Pic Saint-Loup
+    image : /images/partenaires/Logo_CCGPSL.jpeg
+    siteweb : https://grandpicsaintloup.fr/  
+  - nom : Communes de la Chapelle-Thouarault
+    image : /images/partenaires/1_l1_Blason_ville_fr_La_Chapelle_Thouarault_35.png
+    siteweb : https://www.lachapellethouarault.fr/accueil/ 
+
     
 Adherents:
   - nom : Kisio
