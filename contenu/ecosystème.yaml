@@ -79,11 +79,8 @@ Coopérateurs:
   - nom: Charles Waubant
     rôle: Consultant mobilité
     image: /images/cooperateurs/charles_waubant.png
-    linkedin: "#"
-  - nom: Olivier Maffre
-    rôle: Consultant mobilité
-    image: /images/cooperateurs/olivier_maffre.png
-    linkedin: https://www.linkedin.com/in/omaffre/
+    linkedin: https://www.linkedin.com/in/charleswaubant/
+
 Partenaires:
   - nom : Ademe
     siteweb : https://www.ademe.fr/
