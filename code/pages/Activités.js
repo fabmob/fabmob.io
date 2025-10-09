@@ -1,6 +1,8 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Nav2 from 'Components/Nav2'
+import pages from 'Code/getContent.js'
+import Page from '../Page'
 import Communs from './Communs'
 import Publications from './Publications'
 import Événéments from './Événements'
@@ -45,12 +47,17 @@ export default () => (
 				<Route path="/activités/événements">
 					<Événéments />
 				</Route>
+				<Route path="/activités/:id">
+					<Page articles={pages} />
+				</Route>
 			</Switch>
 		</div>
 	</div>
 )
+
 export const navData = {
 	'/activités/communs': 'Nos communs',
 	'/activités/publications': 'Nos publications',
-	'/activités/événements': 'Nos événements'
+	'/activités/événements': 'Nos événements',
+	'/activités/prestations': 'Nos prestations'
 }
