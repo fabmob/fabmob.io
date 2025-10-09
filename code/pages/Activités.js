@@ -59,5 +59,5 @@ export const navData = {
 	'/activités/communs': 'Nos communs',
 	'/activités/publications': 'Nos publications',
 	'/activités/événements': 'Nos événements',
-	'/activités/offre_services': 'Nos offres de services'
+	'/activités/prestations': 'Nos prestations'
 }

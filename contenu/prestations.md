@@ -1,9 +1,9 @@
 ---
-titre: Services FabMob
-description: Offres de services proposés par l'équipe de La Fabrique des Mobilités
+titre: Prestations FabMob
+description: La FabMob met à votre service les compétences de son équipe en événementiel et en valorisation des données pour des prestations ponctuelles. 
 ---
 
-# Offre de services FabMob
+# Prestations FabMob
 
 La FabMob met à votre service les compétences de son équipe en événementiel et en valorisation des données pour des prestations ponctuelles. 
 
@@ -50,7 +50,19 @@ Notre équipe peut animer plusieurs ateliers sur un ou plusieurs jours d'événe
 
 **Références :**
 - Atelier de rencontre des lauréats Marche du quotidien de l'ADEME, septembre 2025 
-- Jeu "[Tarot de la mobilité](https://wiki.lafabriquedesmobilites.fr/wiki/Atelier_%22Design_Fiction%22_Mobilit%C3%A9_Domicile-Travail)", septembre 2023
+
+### Animation du jeu "Tarot de la mobilité"
+
+En 2023, la FabMob a conçu et animé un jeu de cartes sur la prospective des mobilités que nous avons intitulé "le Tarot de la mobilité".
+L'objectif ? Construire collectivement plusieurs scénarios d'avenir possibles pour la mobilité domicile-travail d'un territoire, à l'horizon 2040. 
+Fondé sur une méthode classique de prospective, le jeu de cartes décrit des "variables" (thématiques clés qui caractérisent le sujet) et d' "hypothèses" (plusieurs possibilités distinctes d'évolution sur chaque variable).
+
+L'équipe FabMob peut animer un atelier générique ou un atelier territorial, et peut adapter les cartes ou simplement animer le jeu. 
+- Adaptation du contenu des cartes (recherches & rédaction)
+- Animation du jeu en présentiel ou en visio 
+
+**Références :**
+- Jeu "[Tarot de la mobilité](https://wiki.lafabriquedesmobilites.fr/wiki/Atelier_%22Design_Fiction%22_Mobilit%C3%A9_Domicile-Travail)", animé à Caen-la-Mer, septembre 2023
 
 ### Organisation d'événements 
 
@@ -65,8 +77,6 @@ Nous maîtrisons aussi bien le volet logistique que le volet contenu, pour une p
 **Références :**
 - [Journée Nationale de l'autopartage, 300 personnes, 1 journée, mars 2024](https://wiki.lafabriquedesmobilites.fr/wiki/Journ%C3%A9e_Nationale_de_l%27autopartage_-_Edition_2)
 - [Hackathon "Titre de Transport de demain"](https://wiki.lafabriquedesmobilites.fr/wiki/Hackathon_%22Titre_de_Transport_de_demain%22), février 2023 
-
-Tarif indicatif (hors frais de bouche, selon durée, lieu et nombre de participants): 10 à 20 000 €
 
 ### Conférences et keynotes 
 
@@ -85,16 +95,30 @@ Nos sujets de prédilection :
 ## Valorisation de données 
 
 Grâce à ses expériences passées (DataJO, Tracemob, 30VELI), la FabMob vous propose de créer de la valeur à partir de vos données sous-utilisées.
-Forts de nos références autour des traces de mobilités, nous savons exploiter les sources de données innovantes (smartphones, GPS, capteurs) pour en extraire des indicateurs d'observation de la mobilité durable et de son évolution.
+Nous sommes spécialisés dans les sources de données dynamiques, i.e. les traces de mobilité (smartphones, GPS, capteurs) et dans l'extraction d'indicateurs d'observation de la mobilité durable et de son évolution.
 
-Nous accompagnons nos partenaires en plusieurs étapes:
-- Audit des données existantes, de leur format et de leur valorisation possible
-- Intégration avec des sources ouvertes, et les grands communs de la mobilité (OpenStreetMap, par exemple)
-- Conception d'outils (publiés en open source) pour les traiter, agréger et transformer.
-- Identification des besoins des acteurs qui consulteront les rendus (grand public, territoires)
-- Conception d'interfaces de visualisation dynamiques et interactives
-- Relais et communication de la démarche le long du projet.
+### Identification des gisements de données 
+
+Besoin de mieux cerner les gisements de données générés par votre activité, qui seraient pertinents en mobilité ? 
+
+Nous pouvons vous accompagner : 
+- Identification chez le partenaire des secteurs ou activités où des gisements de données pertinentes pourraient se trouver
+- Audit des formats de données disponibles 
+- Identification de valorisations possibles côté mobilité (ex. indicateurs, ...)
+
+### Interfaces de visualisation
+
+Besoin de communiquer sur vos activités, de montrer les conséquences positives de votre activité, de donner à voir les impacts ? 
+Les interfaces de data-visualisation dynamiques et interactives sont des objets de communication ou de sensibilisation facilement lisibles et partageables.
+Nous savons générer rapidement des dataviz simples et pertinentes, et nous pouvons les relayer à notre écosystème : 
+- Traitement des données (traitement, agrégation, transformation) via des outils que nous publierons en open source
+- Intégration des données existantes avec des sources ouvertes (ex. fond de carte OpenStreetMap)
+- Conception des interfaces de visualisation 
+- Communication de la data-visualisation et de la démarche auprès de nos réseaux
 
 **Références :**
-- [http://jo.fabmob.io](http://jo.fabmob.io) : mobilité pendant les JO, mis à jour quotidiennement
+- [http://jo.fabmob.io](http://jo.fabmob.io) : mobilité pendant les JO, mis à jour quotidiennement, avec Moovance 
 - [http://30veli.fabmob.io](http://30veli.fabmob.io) : partage d'expériences de test de VELI, croisement GPS et questionnaires
+
+**Pour plus d'informations, contactez-nous sur contact@fabmob.io**. 
+
