@@ -337,7 +337,7 @@ const Tarifs = () => {
 				<p>La FabMob est reconnue d’intérêt général depuis novembre 2024 au titre de ses activités d’innovation ouverte envers la mobilité durable.</p>
 				<p>A ce titre, toute organisation soumise à l’impôt sur le revenu (IR) ou sur les sociétés (IS) est éligible à une <b>réduction d’impôt de 60% sur le montant de leur adhésion</b>. Cette réduction d’impôt est applicable à la fin de l’année fiscale. Elle est à justifier auprès de l’administration fiscale par un reçu fiscal, émis par la FabMob.</p>
 				<p>Cette réduction est valable pour toute organisation quel que soit son statut. En pratique, cependant, seules les entreprises de 11 personnes et plus sont soumises à l’impôt parmi nos adhérents.</p>
-				<p>* Nous contacter pour découvrir les avantages d'une adhésion de soutien pour les petites entreprises.</p>
+				<p>* Pour bénéficier du "codev startup".</p>
 			</div>
 			<div
 				css={`
