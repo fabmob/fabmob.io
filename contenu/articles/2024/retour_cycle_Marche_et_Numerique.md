@@ -77,7 +77,7 @@ Pourtant, jusqu'à la période Covid, la marche et le piéton étaient relativem
     - le CEREMA, qui consacre depuis 20 ans [de très nombreuses ressources à la marche](https://app.klaxoon.com/participate/board/MXM4DEM), publie en 2020 le [Guide des aménagements provisoires pour les piétons](https://www.cerema.fr/fr/actualites/deconfinement-mobilite-guide-amenagements-provisoires) ;
     - La FUB lance en 2021 l'Académie Des Mobilités Actives (ADMA) qui [publie ses travaux en 2023](https://www.mobilites-actives.fr/etudes-techniques) ; 
     - l'ADEME publie fin 2022 un rapport pédagogique consacré à remettre le piéton au coeur de l'espace public [A pied d'oeuvre](https://librairie.ademe.fr/urbanisme-et-batiment/5998-a-pied-d-oeuvre-mettre-les-pietons-au-coeur-de-la-fabrique-des-espaces-publics.html) ; 
-    - d'autres publications se multiplient : la [Fondation Jean Jaurès](https://www.jean-jaures.org/publication/comprendre-le-pieton-et-son-avenir-dans-lespace-public/) en 2023 ainsi qu'un [webinaire intéressant](https://www.youtube.com/watch?v=0Q_BRgsrGxE&t=1972s&ab_channel=FondationJean-Jaur%C3%A8s), [l'agence d'urbanisme de l'aire toulonnaise et du Var](https://audat.org/publications/marchabilite-nous-sommes-tous-pietons/) publie une initiation au sujet en mai 2024... 
+    - d'autres publications se multiplient : la [Fondation Jean Jaurès](https://www.jean-jaures.org/publication/comprendre-le-pieton-et-son-avenir-dans-lespace-public/) en 2023 ainsi qu'un [webinaire intéressant](https://www.youtube.com/watch?v=0Q_BRgsrGxE&t=1972s&ab_channel=FondationJean-Jaur%C3%A8s), [l'agence d'urbanisme de l'aire toulonnaise et du Var](https://audat.org/marchabilite-nous-sommes-tous-pietons/) publie une initiation au sujet en mai 2024... 
 
 Le plus souvent, la marche n'est pas encore considérée tout à fait à part entière, mais fait plutôt partie de l'ensemble plus large (et plus vague) de "mobilités actives" ou "mobilités douces". C'est d'ailleurs le nom des intitulés de poste que l'on peut retrouver chez les opérateurs de transport public. Ceux-ci  s'intéressent pourtant au piéton et à la marche [depuis fort longtemps](https://www.cerema.fr/fr/centre-ressources/boutique/marche-au-coeur-mobilites), bien conscients des enjeux de flux en station, d'accès aux transports et d'intermodalité. 
 
@@ -133,7 +133,7 @@ Certains indicateurs sont déjà bien établis, avec des standards qui détaille
 
 
 ![Modèle conceptuel du standard CNIG](/contenu/articles/2024/images/standard_cnig.png "Modèle conceptuel du standard CNIG")
-*Modèle conceptuel du standard CNIG. Source : [Présentation du standard CNIG lors du webinaire "Loi d'orientation des mobilités et données d'accessibilité", 9 décembre 2021](https://www.geopal.org/upload/gedit/1/WEBINAIRE_LOI_ACCESSIBILITES/03-Presentation-Standard-CNIG-accessibilite.pdf)
+*Modèle conceptuel du standard CNIG. Source : [Présentation du standard CNIG lors du webinaire "Loi d'orientation des mobilités et données d'accessibilité", 9 décembre 2021](https://www.geopal.org/upload/gedit/1/WEBINAIRE_LOI_ACCESSIBILITES/03-Presentation-Standard-CNIG-accessibilite.pdf)*
 
 Au-delà de l'accessibilité, la **"marchabilité"** d'un espace (le degré de confort et d'incitation à la marche des espaces) fait l'objet de nombreux travaux internationaux depuis une vingtaine d'années, et les collectivités utilisent leurs propres proxys, sans consensus établi autour d'indicateurs principaux. 
 L'une des principales difficultés à laquelle se heurte ce domaine est la difficulté à créer un score (une gradation, une notion d'environnement favorable ou non à la marche) suffisamment indicatif tout en étant utilisable sur différents territoires. 
@@ -217,7 +217,7 @@ Au cours de notre exploration les acteurs n'ont pas manqué de rappeler que les 
 
 > "Tout ne passera pas par le numérique, car il y a encore un besoin important d'humain, d'accompagnement." Marie-France Vayssière, Keolis 
 
-En outre, pour tout ce qui concerne l'information piéton, **le numérique doit impérativement s'articuler avec l'environnement physique.** Développer des outils de cartographie, d'itinéraires ou de ne pourra faciliter ou inciter à la marche que si l'environnement physique le permet (découverte de beaux paysages, offre de transport en commun...), et si ces outils sont pensés en articulation avec les aménagements physiques, notamment **la signalétique et le balisage**. 
+En outre, pour tout ce qui concerne l'information piéton, **le numérique doit impérativement s'articuler avec l'environnement physique.** Développer des outils de cartographie ou d'itinéraires ne pourra faciliter ou inciter à la marche que si l'environnement physique le permet (découverte de beaux paysages, offre de transport en commun...), et si ces outils sont pensés en articulation avec les aménagements physiques, notamment **la signalétique et le balisage**. 
 
 <div id='usages'/>  
 
@@ -257,7 +257,7 @@ Doit-on en faire un commun numérique ?
 
 ## Conclusion et prochaines étapes 
 
-Cette exploration a permis d'identifier quelques pistes où le numérique peut être utile au bénéficiaire final de la marche : le piéton. Données et logiciels peuvent être mis à profit pour développer des politiques en faveur de la marche en informant les choix d'aménagements. Des applications mobiles individuelles peuvent faciliter l'accès à l'information, faciliter les cheminements, ou inciter à marcher. 
+Cette exploration a permis d'identifier quelques pistes où le numérique peut être utile au bénéficiaire final de la marche : le piéton. Données et logiciels peuvent être mis à profit pour développer des politiques en faveur de la marche en informant sur les choix d'aménagements. Des applications mobiles individuelles peuvent faciliter l'accès à l'information, faciliter les cheminements, ou inciter à marcher. 
 
 Une prochaine étape à laquelle nous réfléchissons consiste à interroger les collectivités sur leur usage de données pour informer leurs politiques de marche, de façon à caractériser leurs besoins et leurs pratiques de façon très concrète. 
 
