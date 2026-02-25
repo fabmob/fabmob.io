@@ -1,6 +1,6 @@
 ---
 titre: "6 indicateurs nationaux pour suivre le développement de la marche (et 2 méthodes locales)"
-date: 2026-11-25
+date: 2026-02-25
 image: "/contenu/articles/2026/images/article_6_indicateurs_nationaux_marche.png"
 
 résumé: "Notre proposition d'indicateurs pertinents de marchabilité"
