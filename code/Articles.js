@@ -6,6 +6,7 @@ import { couleurImaginaires, coverImageURL, imageResizer } from './Article'
 import { Newsletter } from './pages/Événements'
 
 const yearsAndYears = [
+	'2026',
 	'2025',
 	'2024',
 	'2023',

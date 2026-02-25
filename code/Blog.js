@@ -49,7 +49,7 @@ export default ({}) => (
 						<Articles />
 					</Route>
 					<Route path="/blog/">
-						<Articles year="2025" />
+						<Articles year="2026" />
 					</Route>
 				</Switch>
 			</Suspense>
