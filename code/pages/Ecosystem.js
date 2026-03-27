@@ -78,20 +78,21 @@ let Présentation = ({ filter, location }) => (
 						text-transform: uppercase;
 					}
 				`}>
-				<Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>Équipe</Surligne> : <span>Équipe</span>}</Link>
-				<Link to="/à-propos/nous/conseiladministration">{location.pathname ===  "/à-propos/nous/conseiladministration" ? <Surligne>Conseil d'administration</Surligne> : <span>Conseil d'administration</span>}</Link>
-				<Link to="/à-propos/nous/cooperateurs">{location.pathname ===  "/à-propos/nous/cooperateurs" ? <Surligne>Coopérateurs</Surligne> : <span>Coopérateurs</span>}</Link>
+				{/* <Link to="/à-propos/nous">{location.pathname ===  "/à-propos/nous" ? <Surligne>Équipe</Surligne> : <span>Équipe</span>}</Link> */}
+				<Link to="/à-propos/nous/conseiladministration"><Surligne>Conseil d'administration</Surligne></Link>
+				{/* <Link to="/à-propos/nous/cooperateurs">{location.pathname ===  "/à-propos/nous/cooperateurs" ? <Surligne>Coopérateurs</Surligne> : <span>Coopérateurs</span>}</Link> */}
 			</div>
 			<Switch>
 				<Route exact path="/à-propos/nous">
-					<Members data={ecosystème["L'équipe"]} />
+					{/* <Members data={ecosystème["L'équipe"]} /> */}
+					<Members data={ecosystème["Le conseil d'administration"]} />
 				</Route>
 				<Route exact path="/à-propos/nous/conseiladministration">
 					<Members data={ecosystème["Le conseil d'administration"]} />
 				</Route>
-				<Route exact path="/à-propos/nous/cooperateurs">
+				{/* <Route exact path="/à-propos/nous/cooperateurs">
 					<Members data={ecosystème["Coopérateurs"]} />
-				</Route>
+				</Route> */}
 				{/* <Route exact path="/à-propos/nous/adherents">
 					<Adhérents />
 				</Route> */}
@@ -103,8 +104,8 @@ let Présentation = ({ filter, location }) => (
 
 const Members = ({ data }) => (
 	<div css="display:flex; justify-content: left;flex-wrap: wrap">
-		{shuffle(data).map(({ nom, image, rôle, linkedin, structure, lienstructure }) => (
-			<aside>
+		{shuffle(data).map(({ nom, image, rôle, linkedin, structure, lienstructure }, index) => (
+			<aside key={index}>
 				{linkedin 
 					? <a href={linkedin} target="_blank"><img src={image} title={nom} /></a>
 					:<img src={image} title={nom} />
