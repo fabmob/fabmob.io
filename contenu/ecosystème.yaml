@@ -12,52 +12,43 @@ L'équipe:
     image: /images/nous/marguerite.jpeg
     linkedin: https://www.linkedin.com/in/margueritegrandjean
 Le conseil d'administration: 
-  - nom: Philippe Bihouix
-    rôle: Président
-    image: /images/nous/AREP-Philippe Bihouix.jpg
-    linkedin: https://www.linkedin.com/in/philippe-bihouix-141a13240/
-    structure: AREP
-    lienstructure: https://www.arep.fr/
-  - nom: Sigrid Claviéras
-    rôle: Trésorière
-    image: /images/nous/sigrid.PNG
-    linkedin: https://www.linkedin.com/in/sigridclavieras/
-    structure: UTP
-    lienstructure: https://www.utp.fr/
+  - nom: Justyna Swat
+    image: /images/nous/Justyna Swat.jpeg
+    linkedin: https://www.linkedin.com/in/justyna-swat-39abb014/
+    structure: TinyLabs
+    lienstructure: https://tinylabs.one/
+  - nom: Nicolas Le Douarec
+    image: /images/nous/portrait NLD 2020.png
+    linkedin: https://www.linkedin.com/in/nicledouarec/
+    structure: AVELI
+    lienstructure: https://www.aveli.org/
   - nom: Bertrand Billoud
     rôle: Membre
     image: /images/nous/Bertrand Billoud.jpeg
     linkedin: https://www.linkedin.com/in/bertrand-billoud-7059981/
     structure: SNCF
     lienstructure: https://www.sncf.fr/
-  - nom: Erik Grab
-    rôle: Membre
-    image: /images/nous/erik.resized.jpg
-    linkedin: https://www.linkedin.com/in/erik-grab-553283132
-    structure: Michelin
-    lienstructure: https://www.michelin.fr/
-  - nom: Hélène Jacquemin
-    rôle: Membre
-    image: /images/nous/Helene_jacquemin_resized.jpg
-    linkedin: https://www.linkedin.com/in/heleneboniface/
-    structure: In'VD
-    lienstructure: https://invd.fr/
-  - nom: Marguerite Grandjean
-    rôle: Membre 
-    image: /images/nous/marguerite.jpeg
-    linkedin: https://www.linkedin.com/in/margueritegrandjean/
-    structure: Fabmob
-    lienstructure: https://fabmob.io/
-  - nom: Laure Wagner
-    rôle: Membre 
-    image: /images/nous/Laure Wagner.jpeg
-    linkedin: https://www.linkedin.com/in/laurewagner/
-    structure: 1km à Pied
-    lienstructure: https://www.1kmapied.com/    
-  - nom: Maxime Siret
-    rôle: Membre 
-    image: /images/nous/Maxime_siret.jpg
-    linkedin: https://www.linkedin.com/in/maximesiret/?originalSubdomain=fr
+  - nom: Isabelle de Robert
+    image: /images/nous/Isabelle de robert.jpg
+    linkedin: https://www.linkedin.com/in/isabelle-de-robert-4644122b/
+    structure: Mobility Data
+    lienstructure: https://mobilitydata.org/
+  - nom: Carmen Blanchard
+    image: /images/nous/Carmen Blanchard.jpg
+    linkedin: https://www.linkedin.com/in/carmen-blanchard/
+    structure: Avatar Mobility
+    lienstructure: https://avatarmobilite.com/
+  - nom: Frédérick Petit
+    image: /images/nous/Fréd petit.jpeg
+    linkedin: https://www.linkedin.com/in/frederick-petit-bb8573/
+    structure: SMMAG
+    lienstructure: https://smmag.fr/
+  - nom: Clémentine Petin
+    image: /images/nous/Photo Clémentine.jpg
+    linkedin: https://www.linkedin.com/in/cl%C3%A9mentine-petin-1809/
+  - nom: Stéphane Pignal
+    image: /images/nous/Stéphane pignal.jpeg
+    linkedin: https://www.linkedin.com/in/stephanepignal/
     structure: intrapreneur beta.gouv
     lienstructure: https://transport.data.gouv.fr/ 
 
