@@ -16,3 +16,11 @@ Contact : `contact@fabmob.io`
 ## Données personnelles
 
 Nous recueillons des statistiques anonymes sur l'utilisation du site, que nous utilisons dans le seul but d'améliorer le service, conformément aux recommandations de la CNIL et au règlement RGPD. Ce sont les seules données qui quittent votre navigateur.
+
+## Noms de domaine de confiance
+
+Les noms de domaines suivants sont la propriété de la Fabrique des Mobilités et sont susceptibles d'être utilisés par ses membres :
+
+* fabmob.org
+* fabmob.io
+* lafabriquedesmobilites.fr
