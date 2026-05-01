@@ -1,6 +1,7 @@
 ## Mentions légales
 
 Nom de l’association : La Fabrique des Mobilités.
+association loi de 1901, reconnue d'intérêt général, immatriculée au RNA sous l'identifiant W751242402
 
 Adresse : 3 passage saint-pierre Amelot 75011 PARIS.
 
